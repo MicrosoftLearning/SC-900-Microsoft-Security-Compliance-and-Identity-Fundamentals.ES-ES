@@ -1,12 +1,17 @@
 ---
 Demo:
-    title: 'Configuración de usuario en Azure Active Directory'
-    module: 'Módulo 2, lección 1: Describir las funcionalidades de las soluciones de administración de identidades y acceso de Microsoft: Explorar los servicios y tipos de identidad de Azure AD'
+  title: Azure Active Directory user settings
+  module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
+ms.openlocfilehash: 755c16992ea1b9a626850507dbebf270dbe7c0de
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894195"
 ---
+# <a name="demo-azure-active-directory-user-settings"></a>Demostración: Azure Active Directory user settings
 
-# Demo: Configuración de usuario en Azure Active Directory
-
-### Escenario de la demo
+### <a name="demo-scenario"></a>Escenario de la demo
 
 En esta demostración, accederá a Azure Active Directory y recorrerá las distintas configuraciones para un usuario.
 
@@ -36,10 +41,10 @@ En esta demostración, accederá a Azure Active Directory y recorrerá las disti
 
 1. En el panel de navegación izquierdo, seleccione **Inicios de sesión**  Aquí puede ver la actividad de inicio de sesión de este usuario.  Es posible que no vea nada para este usuario, ya que todavía no ha iniciado sesión.
 
-1. Seleccione la **X** en la esquina superior derecha de la página. Volverá a la lista de usuarios.  Antes de cerrar la lista de usuarios, puede destacar que la MFA se muestra en la parte superior de la página  Seleccione **Autenticación multifactor**.  Se abre una nueva ventana del explorador.  Aquí puede seleccionar en masa las MFA para los usuarios.  Esta es una forma de habilitar la MFA para los usuarios.  En realidad, mostraremos más sobre la MFA en el contexto del acceso condicional que aporta un control más pormenorizado de la MFA.  Cierre la pestaña del explorador para la autenticación multifactor.
+1. Seleccione la **X** en la esquina superior derecha de la página. Volverá a la lista de usuarios.  Antes de cerrar la lista de usuarios, puede destacar que la MFA se muestra en la parte superior de la página  Seleccione **Multi-Factor Authentication**.  Se abre una nueva ventana del explorador.  Aquí puede seleccionar en masa las MFA para los usuarios.  Esta es una forma de habilitar la MFA para los usuarios.  En realidad, mostraremos más sobre la MFA en el contexto del acceso condicional que aporta un control más pormenorizado de la MFA.  Cierre la pestaña del explorador para la autenticación multifactor.
 
 1. Seleccione la **X** en la esquina superior derecha de la página. Esto le devolverá a la página principal del inquilino de Contoso.
 
-### Revisión
+### <a name="review"></a>Revisar
 
 En esta demostración, ha mostrado la configuración de un usuario existente, incluidos los grupos a los que se puede asignar el usuario, la disponibilidad de roles y la asignación de licencias de usuario.
