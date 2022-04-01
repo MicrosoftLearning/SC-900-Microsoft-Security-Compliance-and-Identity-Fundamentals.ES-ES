@@ -1,25 +1,30 @@
 ---
 lab:
-    title: 'Explorar el Portal de confianza de servicios'
-    module: 'Módulo 4, lección 1: Describir las funcionalidades de las soluciones de cumplimiento de Microsoft. Describir las funcionalidades de administración de cumplimiento en Microsoft'
+  title: Explore the Service Trust Portal
+  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities in Microsoft'
+ms.openlocfilehash: 11c5c8116200c89ae00e9df34f3c7a0d0da1cd54
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894177"
 ---
+# <a name="lab-explore-the-service-trust-portal"></a>Laboratorio: Explore the Service Trust Portal
 
-# Laboratorio: Explorar el Portal de confianza de servicios
-
-## Escenario del laboratorio
+## <a name="lab-scenario"></a>Escenario del laboratorio
 
 En este laboratorio, explorará las características y el contenido disponible en el Portal de confianza de servicios. También visitará el Centro de confianza y navegará hasta los seis principios clave de la privacidad.
 
 **Tiempo estimado**: 10-15 minutos.
 
 
-#### Tarea 1: En esta tarea explorará el Portal de confianza de servicios y los diferentes tipos de contenido disponibles, y aprenderá a acceder a los informes y a guardar informes en su biblioteca 
+#### <a name="task-1-in-this-task-you-will-explore-the-service-trust-portal-and-the-different-types-of-content-available-you-will-learn-how-to-access-reports-and-how-to-save-reports-to-your-library"></a>Tarea 1: En esta tarea explorará el Portal de confianza de servicios y los diferentes tipos de contenido disponibles, y aprenderá a acceder a los informes y a guardar informes en su biblioteca 
 
-1. Abra Microsoft Edge.
+1. Abrir Microsoft Edge.
 
-1. En la barra de direcciones, escriba **https://aka.ms/STP**.  Esto le llevará a la página de aterrizaje del Portal de confianza de servicios. El Portal de confianza de servicios contiene detalles sobre la implementación de controles y procesos de Microsoft que protegen nuestros servicios en la nube y los datos de los clientes que contienen. 
+1. En la barra de direcciones, escriba **https://aka.ms/STP** .  Esto le llevará a la página de aterrizaje del Portal de confianza de servicios. El Portal de confianza de servicios contiene detalles sobre la implementación de controles y procesos de Microsoft que protegen nuestros servicios en la nube y los datos de los clientes que contienen. 
 
-1. Para acceder a algunos de los recursos del Portal de confianza de servicios, debe iniciar sesión como usuario autenticado con su cuenta de Servicios en la nube de Microsoft y revisar y aceptar las condiciones del acuerdo de confidencialidad de Microsoft para materiales de cumplimiento. En la esquina superior derecha de la página de aterrizaje del Portal de confianza de servicios verá la opción Iniciar sesión. **Inicie sesión** con sus credenciales de administrador y, si se le pide, seleccione **Acepto** para aceptar el acuerdo de confidencialidad de Microsoft para materiales de cumplimiento.
+1. Para acceder a algunos de los recursos del Portal de confianza de servicios, debe iniciar sesión como usuario autenticado con su cuenta de Servicios en la nube de Microsoft y revisar y aceptar las condiciones del acuerdo de confidencialidad de Microsoft para materiales de cumplimiento. En la esquina superior derecha de la página de aterrizaje del Portal de confianza de servicios, verá la opción Iniciar sesión.  **Inicie sesión** con sus credenciales de administrador y, si se le solicita, seleccione **Aceptar** para aceptar las condiciones del acuerdo de confidencialidad de Microsoft para materiales de cumplimiento.
 
 1. Desplácese hacia abajo por la página y observe los vínculos a Informes de auditoría, Documentos y recursos, etc.  Seleccione **Ver todos los informes de auditoría**.
 
@@ -41,7 +46,7 @@ En este laboratorio, explorará las características y el contenido disponible e
 
 1. Puede seleccionar diferentes categorías,  como Informes de evaluación GRC, Guías de cumplimiento, etc.  Como en la tarea anterior, puede filtrar la lista de documentos y puede seleccionar si desea descargar o guardar los documentos en su biblioteca.
 
-#### Tarea 2: En esta tarea visitará el Centro de confianza y navegará hasta los seis principios clave de la privacidad de Microsoft
+#### <a name="task-2-in-this-task-you-will-visit-the-trust-center-and-navigate-to-microsofts-six-key-privacy-principles"></a>Tarea 2: En esta tarea visitará el Centro de confianza y navegará hasta los seis principios clave de la privacidad de Microsoft
 
 1. En la parte superior de la página del Portal de confianza de servicios, seleccione **Centro de confianza** y luego seleccione **Inicio**. Esto abrirá una nueva pestaña del explorador que le llevará al Centro de confianza, donde encontrará más información sobre la seguridad, el cumplimiento y la privacidad en Microsoft Cloud.
 
@@ -55,6 +60,6 @@ En este laboratorio, explorará las características y el contenido disponible e
 
 1. Cierre las ventanas del explorador para salir del Portal de confianza de servicios y del Centro de confianza.
 
-#### Revisión
+#### <a name="review"></a>Revisar
 
 En este laboratorio ha explorado algunas de las opciones disponibles en el Portal de confianza de servicios y ha aprendido a acceder a los informes y a usar Mi biblioteca para guardar documentos con el fin de revisarlos en el futuro.  Además, ha visitado el Centro de confianza para acceder y consultar los principios de la privacidad de Microsoft.

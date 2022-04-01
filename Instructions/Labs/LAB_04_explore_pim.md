@@ -1,24 +1,28 @@
 ---
 lab:
-    title: 'Explorar el gobierno de identidades en Azure AD con Privileged Identity Management.'
-    module: 'Módulo 2, lección 4: Describir las funcionalidades de protección y gobierno de identidades de Azure AD: Describir Azure AD Identity Protection.'
+  title: 'Explorar el gobierno de identidades en Azure AD con Privileged Identity Management. '
+  module: 'Module 2 Lesson 4: Describe the identity protection and governance capabilities of Azure AD: Describe Azure Identity Protection.'
+ms.openlocfilehash: 1bbe93105312be8b5a22c078d42def2a6daefc6b
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894244"
 ---
+# <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>Laboratorio: Explorar el gobierno de identidades en Azure AD con Privileged Identity Management.
 
-
-# Laboratorio: Explorar el gobierno de identidades en Azure AD con Privileged Identity Management.
-
-## Escenario del laboratorio
+## <a name="lab-scenario"></a>Escenario del laboratorio
 En este laboratorio, explorará algunas de las funcionalidades básicas de Privileged Identity Management (PIM). PIM requiere Azure AD Premium P2.  En este laboratorio, como administrador, configurará uno de sus usuarios, Diego Siciliani, con un rol de administrador de usuarios de Azure AD, a través de Priviledged ID Management (PIM).   Gracias a los privilegios de administrador de usuarios, Diego podrá crear usuarios y grupos, administrar licencias y mucho más.  Tanto el administrador como el usuario, Diego, deben tener configurada la licencia de Azure AD Premium P2.
 
-**Tiempo estimado**: 30-45 minutos
+**Tiempo estimado**: 30-45 minutos
 
-#### Tarea 1: En esta tarea, como administrador, restablecerá la contraseña del usuario Diego Siciliani. Este paso es necesario para poder iniciar sesión como el usuario en las siguientes tareas.
+#### <a name="task-1-in-this-task-you-as-the-admin-will-reset-the-password-for-the-user-diego-siciliani-this-step-is-needed-so-you-can-initially-sign-in-as-the-user-in-subsequent-tasks"></a>Tarea 1: En esta tarea, como administrador, restablecerá la contraseña del usuario Diego Siciliani. Este paso es necesario para poder iniciar sesión como el usuario en las siguientes tareas.
 
-1. Abra Microsoft Edge.  En la barra de direcciones, escriba **portal.azure.com**.
+1. Abrir Microsoft Edge.  En la barra de direcciones, escriba **portal.azure.com**.
 
 2. Inicie sesión con sus credenciales de administrador.
-    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es su id. de inquilino único proporcionado por su proveedor de servicios de hospedaje de laboratorios) y luego seleccione **Siguiente**.
-    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
+    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
+    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Haga clic en **Iniciar sesión**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
 
 3. Seleccione **Azure Active Directory**.  
@@ -40,7 +44,7 @@ En este laboratorio, explorará algunas de las funcionalidades básicas de Privi
 11. Mantenga abierta la ventana del navegador, la usará en la siguientes tareas.
 
 
-#### Tarea 2: En esta tarea, como administrador, asignará a Diego un rol de Azure AD en Privileged Identity Management.
+#### <a name="task-2-in-this-task-you-as-the-admin-will-assign-diego-an-azure-ad-role-in-privileged-identity-management"></a>Tarea 2: En esta tarea, como administrador, asignará a Diego un rol de Azure AD en Privileged Identity Management.
 
 1. Vaya a la pestaña abierta del navegador etiquetada como Contoso – Microsoft Azure.   Si ha cerrado la pestaña del navegador, abra Microsoft Edge, en la barra de direcciones, escriba portal.azure.com, inicie sesión con sus credenciales de administrador y seleccione Azure Active Directory.  
 
@@ -50,7 +54,7 @@ En este laboratorio, explorará algunas de las funcionalidades básicas de Privi
 
 4. Ahora está en la ventana Inicio rápido de Privileged Identity Management.  Seleccione **Administrar Acceso**.
 
-5. Ahora está en la página Roles de Contoso.  En la barra de búsqueda de la parte superior de la página, escriba **usuario**.  En los resultados de la búsqueda, seleccione **Administrador de usuarios**.
+5. Ahora está en la página Roles de Contoso.  En la barra de búsqueda de la parte superior de la página, escriba **usuario**.  En los resultados de la búsqueda, seleccione  **Administrador de usuarios**.
 
 6. En la parte superior de la página, seleccione **+ Asignaciones**.
 
@@ -76,18 +80,18 @@ En este laboratorio, explorará algunas de las funcionalidades básicas de Privi
 
 17. En la parte superior de la página, seleccione **Configuración**.
 
-18. En los Detalles de configuración de rol para el Administrador de usuarios, observe las diferentes opciones.  Observe que la configuración de "Requerir justificación en las activaciones" está establecida en sí, y "Durante la activación, requerir Azure MFA" también está establecida en sí.  Verá ambas cosas en la siguiente tarea cuando Diego active el rol.  Observe también que "Se requiere aprobación para activar" está configurado como No. Deje la configuración con los valores predeterminados.  Cierre la página con la **X** de la esquina superior derecha de la pantalla.
+18. En los Detalles de configuración de rol para el Administrador de usuarios, observe las diferentes opciones.  Observe que la configuración de "Requerir justificación en las activaciones" está establecida en sí, y "Durante la activación, requerir Azure MFA" también está establecida en sí.  Verá ambas cosas en la siguiente tarea cuando Diego active el rol.  Tenga en cuenta también que "Solicitud de aprobación para activar" está establecido en No.  Deje toda la configuración en sus valores predeterminados.  Cierre la página con la **X** de la esquina superior derecha de la pantalla.
 
 19. Para cerrar la sesión seleccione el icono de usuario junto a la dirección de correo electrónico en la esquina superior derecha de la pantalla y seleccione **Cerrar sesión**. A continuación, cierre todas las ventanas del navegador.
 
 
-#### Tarea 3: Tarea 3:  En esta tarea, iniciará sesión en Azure Portal como Diego Siciliani, para acceder a la funcionalidad Privileged Identity Management de Azure Active Directory para activar su asignación como Administrador de usuarios.  Una vez activada, realizará algunos cambios de configuración en un usuario existente. Nota: Para esta tarea necesitará tener acceso a un dispositivo móvil al que tenga acceso inmediato y donde pueda recibir mensajes de texto.
+#### <a name="task-3-task-3--in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>Tarea 3: Tarea 3:  En esta tarea, iniciará sesión en Azure Portal como Diego Siciliani, para acceder a la funcionalidad Privileged Identity Management de Azure Active Directory para activar su asignación como Administrador de usuarios.  Una vez activada, realizará algunos cambios de configuración en un usuario existente. Nota: Para esta tarea necesitará tener acceso a un dispositivo móvil al que tenga acceso inmediato y donde pueda recibir mensajes de texto.
 
-1. Abra Microsoft Edge.  En la barra de direcciones del explorador, escriba **portal.azure.com**.
+1. Abrir Microsoft Edge.  En la barra de direcciones del explorador, escriba **portal.azure.com**.
 
 1. Inicie sesión como Diego Siciliani.
-    1. En la ventana Inicio de sesión escriba **DiegoS@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es su ID de inquilino única ofrecida por su proveedor de hospedaje de laboratorio) y luego seleccione **Siguiente**.
-    1. Escriba la contraseña temporal que anotó en la tarea anterior y seleccione **Iniciar sesión**. Seleccione **Iniciar sesión**.
+    1. En la ventana de inicio de sesión, escriba **DiegoS@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
+    1. Escriba la contraseña temporal que anotó en la tarea anterior y seleccione **Iniciar sesión**.  Haga clic en **Iniciar sesión**.
     1. Como la contraseña que escribió era temporal, deberá actualizarla ahora. Escriba la contraseña actual.  En los campos de nueva contraseña y confirmar contraseña, escriba **SC900-Lab**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
 
@@ -105,12 +109,12 @@ En este laboratorio, explorará algunas de las funcionalidades básicas de Privi
 1. Se le solicitará que escriba un número de teléfono que le gustaría utilizar. Asegúrese de que el código de país o región de su número de teléfono sea correcto.  Escriba su número de teléfono, asegúrese de que esté seleccionada la opción **Enviarme un código por mensaje de texto** y luego seleccione **Siguiente**.
 1. Escriba el código de seis dígitos que recibió y seleccione **Siguiente**. 
 1. Verá una notificación que dice que el teléfono se ha registrado correctamente. Seleccione **Siguiente** y luego **Listo**.
-1. Se le preguntará si desea mantener la sesión iniciada. Seleccione **Sí**.
+1. Se le preguntará si quiere mantener la sesión iniciada.  Seleccione **Sí**.
 1. Aparecerá la ventana Activar el administrador de usuarios.  Se le solicitará que escriba el motivo de la activación.  En el cuadro que aparece, escriba el motivo que desee (máximo 500 caracteres) y luego seleccione **Activar**.
 1. Verá el estado (tres etapas del progreso), mientras se procesa la activación.
-1. Una vez completada la activación, volverá a la página de roles de Azure AD, Mis roles, | donde verá una notificación que confirma la activación del rol.  Seleccione **Haga clic aquí** para ver sus roles activos.  Si observa que la hora de finalización es diferente a la configurada, seleccione la tecla de actualización en la parte superior de la página (puede tardar unos minutos en actualizarse). 
+1. Una vez completada la activación, volverá a abrirse la página Mis roles | Roles de Azure AD, donde verá una notificación que indica que acaba de activar un rol.  Seleccione **Haga clic aquí** para ver sus roles activos.  Si observa que la hora de finalización es diferente a la configurada, seleccione la tecla de actualización en la parte superior de la página (puede tardar unos minutos en actualizarse). 
 1. Cierre la ventana con la **X** de la esquina superior derecha de la pantalla.
-1. Cierre el Privileged Identity Management | Cierre la ventana de inicio rápido con la **X** de la esquina superior derecha de la pantalla.
+1. Para cerrar la ventana Privileged Identity Management | Inicio rápido, seleccione la **X** en la esquina superior derecha de la pantalla.
 1. Cierre la ventana Gobierno de identidades con la **X** de la esquina superior derecha de la pantalla.
 1. Ahora debería estar en la página Contoso Azure Active Directory.  Como administrador de usuarios de Azure AD puede crear usuarios y grupos, administrar licencias y mucho más.   En el panel de navegación izquierdo, seleccione **Usuarios**.
 1. En la lista de usuarios, seleccione **Bianca Pisani**.
@@ -122,5 +126,5 @@ En este laboratorio, explorará algunas de las funcionalidades básicas de Privi
 1. Para cerrar la sesión seleccione el icono de usuario junto a la dirección de correo electrónico en la esquina superior derecha de la pantalla y seleccione **Cerrar sesión**. A continuación, cierre todas las ventanas del navegador.
 1. La duración del rol de administrador de usuarios está limitada al tiempo configurado.
 
-#### Revisión
+#### <a name="review"></a>Revisar
 En este laboratorio exploró la PIM.  Como administrador, configuró el usuario de Diego con privilegios de administrador de usuarios durante un tiempo determinado.  Luego, como Diego, aprendió el proceso de activación de los privilegios de administrador de usuarios y la configuración de los usuarios.  Recuerde que la PIM requiere una licencia de Azure AD Premium P2.

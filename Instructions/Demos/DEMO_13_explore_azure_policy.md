@@ -1,24 +1,28 @@
 ---
 Demo:
-    title: 'Azure Policy'
-    module: 'Módulo 4, lección 5: Describir las funcionalidades de las soluciones de cumplimiento de Microsoft. Describir Azure Policy'
+  title: Azure Policy
+  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
+ms.openlocfilehash: 898e2d2ae228baf6acbffd7301fcbdf4a6a2dba5
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894301"
 ---
+# <a name="demo-azure-policy"></a>Demostración: Azure Policy
 
+### <a name="demo-scenario"></a>Escenario de la demo
+En esta demostración, recorrerá el proceso de configuración de una directiva de Azure y el impacto de la misma.
 
-# Demo: Azure Policy
+#### <a name="demo-part-1-create-a-policy-to-require-a-tag-on-a-resource-group-shows-steps-to-create-a-policy-from-a-template"></a>Demo, parte 1: Crear una directiva para exigir una etiqueta en un grupo de recursos (se muestran los pasos para crear una directiva a partir de una plantilla)
 
-### Escenario de la demo
-En esta demo, recorrerá el proceso de configuración de una directiva de Azure y el impacto de la misma.
-
-#### Demo, parte 1: Crear una directiva para exigir una etiqueta en un grupo de recursos (se muestran los pasos para crear una directiva a partir de una plantilla)
-
-1. Abra Microsoft Edge. En la barra de direcciones, escriba **portal.microsoft.com**.  Ya debería haber iniciado la sesión, si no, debe hacerlo con sus credenciales de administrador.
+1. Abrir Microsoft Edge. En la barra de direcciones, escriba **portal.microsoft.com**.  Ya debería haber iniciado la sesión, si no, debe hacerlo con sus credenciales de administrador.
 
 1. En el cuadro de búsqueda, en la barra azul de la parte superior de la página junto a donde pone Microsoft Azure, escriba **directiva** y seleccione **Directiva** en los resultados de la búsqueda.
 
 1. Ahora está en la vista de información general de la página Directiva. Observe la información disponible en el panel.
 
-1. Desde el panel de navegación de la izquierda, en Creación, seleccione **Asignaciones**.  Observará que ya existe una asignación de directiva, seleccione **Predeterminada de ASC**.  Revise el campo de la descripción. NOTA: El campo de descripción hace referencia a Azure Security Center, que se renombró como Microsoft Defender for Cloud.  Vuelva a la página de Asignaciones de directivas al seleccionar la **X** en la esquina superior derecha de la página.
+1. Desde el panel de navegación de la izquierda, en Creación, seleccione **Asignaciones**.  Observará que ya existe una asignación de directiva, seleccione **Predeterminada de ASC**.  Revise el campo de descripción. NOTA: El campo de descripción hace referencia a Azure Security Center que se ha cambiado de nombre a Microsoft Defender for Cloud.  Vuelva a la página de Asignaciones de directivas seleccionando la **X** en la esquina superior derecha de la página.
 
 1. En la parte superior de la página, seleccione **Asignar directiva**.
 
@@ -38,11 +42,11 @@ En esta demo, recorrerá el proceso de configuración de una directiva de Azure 
 
 1. Revise la asignación de la directiva y luego seleccione Crear.  Si no ve inmediatamente la directiva, seleccione **Actualizar**. Nota: La directiva puede tardar hasta 30 minutos en surtir efecto.
 
-1. Puede salir de la página de Asignaciones de directivas al seleccionar la **X** en la esquina superior derecha de la página.
+1. Puede salir de la página de Asignaciones de directivas seleccionando la **X** en la esquina superior derecha de la página.
 
 1. Ahora se encuentra en la página principal de los servicios Azure.  Mantenga esta página abierta, la necesitará para la siguiente tarea.
 
-#### Demo, parte 2:  Muestre el impacto de la directiva creando un grupo de recursos sin etiqueta, y luego arréglelo para que tenga una etiqueta.
+#### <a name="demo-part-2--show-the-impact-of-the-policy-by-creating-a-resource-group-without-a-tag-then-fix-it-to-have-a-tag"></a>Demo, parte 2:  Muestre el impacto de la directiva creando un grupo de recursos sin etiqueta, y luego arréglelo para que tenga una etiqueta.
 
 1. En la parte superior de la página, debajo de donde pone Servicios de Azure, seleccione **Grupos de recursos**. Si no ve la opción en la lista, escriba Grupos de recursos en la barra de búsqueda y selecciónela desde allí.
 
@@ -64,12 +68,12 @@ En esta demo, recorrerá el proceso de configuración de una directiva de Azure 
 
 1. En la ventana Crear un grupo de recursos, seleccione **<Anterior**.
 
-1. Ha vuelto a la página Etiquetas para Crear un grupo de recursos.  En el campo Nombre escriba Ambiente y, en el campo Valor, escriba **SC900-Labs**. Después, seleccione **Siguiente: Revisar y crear >**.
+1. Ha vuelto a la página Etiquetas para Crear un grupo de recursos.  En el campo Nombre escriba Ambiente y, en el campo Valor, escriba **SC900-Labs**. Después, seleccione **Siguiente: Revisar y crear >** .
 
 1. Compruebe la etiqueta y seleccione **Crear**.
 
 1. Podrá ver el grupo de recursos en la lista.  Como la etiqueta se aportó en el grupo de recursos, se ha cumplido la condición incluida como parte de la directiva de Azure.  El grupo de recursos es compatible con la directiva.
 
-#### Revisión
+#### <a name="review"></a>Revisar
 
 En esta demostración, ha mostrado el proceso de configuración de una directiva de Azure y el impacto de la misma.

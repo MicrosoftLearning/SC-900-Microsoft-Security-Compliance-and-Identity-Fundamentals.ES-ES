@@ -1,20 +1,24 @@
 ---
 Demo:
-    title: 'Explorar el Centro de cumplimiento de Microsoft 365 y el Administrador de cumplimiento'
-    module: 'Módulo 4, lección 1: Describir las funcionalidades de las soluciones de cumplimiento de Microsoft. Describir las funcionalidades de administración de cumplimiento en Microsoft'
+  title: "'Explorar el Centro de cumplimiento de Microsoft 365 y el Administrador de cumplimiento'"
+  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities in Microsoft'
+ms.openlocfilehash: 1a1b11d8ff967f2c18af43eb77e1d74add032556
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894309"
 ---
+# <a name="demo-explore-the-microsoft-365-compliance-center--compliance-manager"></a>Demostración: 'Explorar el Centro de cumplimiento de Microsoft 365 y el Administrador de cumplimiento'
 
-
-# Demo: Explorar el Centro de cumplimiento de Microsoft 365 y el Administrador de cumplimiento
-
-## Escenario de la demo
+## <a name="demo-scenario"></a>Escenario de la demo
 En esta demo hará un recorrido por la página principal del Centro de cumplimiento de Microsoft 365 y explorará las diferentes formas en las que las funcionalidades del Administrador de cumplimento pueden ayudar a las organizaciones a mejorar su posición de cumplimiento.
 
-## Instrucciones
+## <a name="instructions"></a>Instrucciones
 
-#### Demo, parte 1: Explorar la página principal del Centro de cumplimiento de Microsoft 365 y mostrar cómo personalizar la vista de tarjeta y el panel de navegación
+#### <a name="demo-part-1-show-the-microsoft-365-compliance-center-home-page-and-how-to-customize-the-card-view-and-the-navigation-panel"></a>Demo, parte 1: Explorar la página principal del Centro de cumplimiento de Microsoft 365 y mostrar cómo personalizar la vista de tarjeta y el panel de navegación
 
-1. Abra Microsoft Edge. En la barra de direcciones, escriba **admin.microsoft.com**. Con esto debería haber iniciado sesión como administrador.  Si no lo ha hecho, inicie sesión con sus credenciales de administrador.
+1. Abrir Microsoft Edge. En la barra de direcciones, escriba **admin.microsoft.com**. Con esto debería haber iniciado sesión como administrador.  Si no lo ha hecho, inicie sesión con sus credenciales de administrador.
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft 365, seleccione **Mostrar todo**.
 
@@ -30,7 +34,7 @@ En esta demo hará un recorrido por la página principal del Centro de cumplimie
 
 1. Para agregar tarjetas, seleccione **+ Agregar tarjetas**.  Se abre la ventana Agregar tarjetas a la página principal.  Sitúe el cursor del ratón sobre la tarjeta del Catálogo de soluciones que aparece en esta ventana y arrástrela a la ubicación de su pantalla principal en la que desea situarla.
 
-1. En el panel de navegación izquierdo de la página principal del Centro de cumplimiento de Microsoft 365, observe los elementos que aparecen debajo de Soluciones.  Si únicamente se muestra el Catálogo, seleccione **[...Mostrar todo]** en el panel de navegación izquierdo.  Observe que todas las soluciones adicionales aparecen debajo de la sección Soluciones.  
+1. En el panel de navegación izquierdo de la página principal del Centro de cumplimiento de Microsoft 365, observe los elementos que aparecen debajo de Soluciones.  Si únicamente se muestra el Catálogo, seleccione **Mostrar todo** en el panel de navegación izquierdo.  Observe que todas las soluciones adicionales aparecen debajo de la sección Soluciones.  
 
 1. Como administrador de cumplimiento, es posible que haya un conjunto de soluciones que administre para su organización y que desee mostrar siempre en la lista del panel de navegación.  Para personalizar sus preferencias, seleccione **Personalizar la navegación**.  
 
@@ -38,7 +42,7 @@ En esta demo hará un recorrido por la página principal del Centro de cumplimie
 
 1. Deje abierta la pestaña del explorador.
 
-#### Demo, parte 2: Obtenga información sobre la postura de cumplimiento de su organización mediante el Administrador de cumplimiento
+#### <a name="demo-part-2-learn-about-your-organizations-compliance-posture-through-compliance-manager"></a>Demo, parte 2: Obtenga información sobre la postura de cumplimiento de su organización mediante el Administrador de cumplimiento
 
 1. En el panel de navegación izquierdo del Centro de cumplimiento de Microsoft 365, seleccione **Administrador de cumplimiento**.  Como alternativa, puede seleccionar Administrador de cumplimiento desde la barra de título de la tarjeta Administrador de cumplimiento.
 
@@ -64,5 +68,5 @@ En esta demo hará un recorrido por la página principal del Centro de cumplimie
 
 1. En el panel de navegación izquierdo, seleccione **Inicio** para volver a la página principal del Centro de cumplimiento de Microsoft 365.  Mantenga esta página del explorador abierta para la siguiente demo tecnológica.
 
-#### Revisión
+#### <a name="review"></a>Revisar
 En esta demo ha realizado un recorrido por la página principal del Centro de cumplimiento de Microsoft 365 y ha hecho una demostración de las formas en las que las funcionalidades del Administrador de cumplimento pueden ayudar a las organizaciones a mejorar su posición de cumplimiento.

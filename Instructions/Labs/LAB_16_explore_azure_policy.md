@@ -1,37 +1,41 @@
 ---
 lab:
-    title: 'Explorar Azure Policy'
-    module: 'Módulo 4, lección 5: Describir las funcionalidades de las soluciones de cumplimiento de Microsoft. Describir Azure Policy'
+  title: Explorar Azure Policy
+  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
+ms.openlocfilehash: b202e4b7dadc2fdadec4ac2df7aa6bcee7400b6b
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894189"
 ---
+# <a name="lab-explore-azure-policy"></a>Laboratorio: Explorar Azure Policy
+
+## <a name="lab-scenario"></a>Escenario del laboratorio
+Azure Policy ayuda a aplicar los estándares de la organización y a evaluar el cumplimiento a escala. Para evaluar los recursos de Azure, Azure Policy compara las propiedades de esos recursos con las reglas de negocio. En este laboratorio, empezará por explorar la página de aterrizaje de Azure Policy. Después de llevar a cabo una exploración inicial de la página Azure Policy, creará una directiva y comprobará su impacto.
 
 
-# Laboratorio: Explorar Azure Policy
+**Tiempo estimado**: 20-25 minutos
 
-## Escenario del laboratorio
-Azure Policy ayuda a aplicar los estándares de la organización y a evaluar el cumplimiento a gran escala. Para evaluar los recursos de Azure, Azure Policy compara las propiedades de esos recursos con las reglas de negocio. En este laboratorio, empezará por explorar la página de aterrizaje de Azure Policy. Después de llevar a cabo una exploración inicial de la página Azure Policy, creará una directiva y comprobará su impacto.
+#### <a name="task-1-briefly-explore-the-azure-policy-page"></a>Tarea 1: Explorar brevemente la página Azure Policy
 
-
-**Tiempo estimado**: 20-25 minutos.
-
-#### Tarea 1: Explorar brevemente la página Azure Policy
-
-1. Abra Microsoft Edge. En la barra de direcciones, escriba **portal.microsoft.com**.
+1. Abrir Microsoft Edge. En la barra de direcciones, escriba **portal.microsoft.com**.
 
 1. Inicie sesión con sus credenciales de administrador.
-    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es su id. de inquilino único proporcionado por su proveedor de servicios de hospedaje de laboratorios) y luego seleccione **Siguiente**.
+    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es el id. de inquilino único proporcionado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
     
-    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
+    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Haga clic en **Iniciar sesión**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
 
 1. Ahora se encuentra en Azure Portal.  En el cuadro de búsqueda, en la barra azul de la parte superior de la página junto a donde pone Microsoft Azure, escriba **directiva** y seleccione **Directiva** en los resultados de la búsqueda. Esto abrirá la página principal de Directiva, que muestra una vista de panel.  El ámbito para el cual está viendo la información aplica el Pase para Azure que está utilizando como parte de este laboratorio.   Observe la información disponible en el panel.
 
-1. Hay un elemento llamado Predeterminada de ASC (ASC se refiere a Azure Security Center que ahora se llama Microsoft Defender for Cloud) cuyo ámbito es Pase para Azure: Patrocinio.   Seleccione **Predeterminada de ASC**.
+1. Hay un elemento, denominado Valor predeterminado de ASC (ASC hace referencia a Azure Security Center, que ahora se denomina Microsoft Defender for Cloud), cuyo ámbito es Pase para Azure: Patrocinio.   Seleccione **Predeterminada de ASC**.
 
-1. En la parte superior de la página, debajo de Essentials, puede ver el nombre, la descripción y otro tipo de información esencial.  Lea la descripción (mantenga el puntero del ratón sobre la descripción). NOTA: El campo de descripción hace referencia a Azure Security Center, que se renombró como Microsoft Defender for Cloud.
+1. En la parte superior de la página, debajo de Essentials, puede ver el nombre, la descripción y otro tipo de información esencial.  Lea la descripción (mantenga el puntero del ratón sobre la descripción). NOTA: El campo de descripción hace referencia a Azure Security Center que se ha cambiado de nombre a Microsoft Defender for Cloud.
 
 1. Observe que la información que muestra el panel se actualiza para reflejar el elemento seleccionado, la definición de iniciativa predeterminada de ASC.  Recuerde que una definición de iniciativa es una colección de definiciones de directiva personalizadas para alcanzar un único objetivo general. La información se puede ver por grupo, directivas, recursos no compatibles o eventos.
 
-1. Para salir de la página de ASC y volver a la página principal de directivas, seleccione la **X** de la esquina superior derecha de la ventana.
+1. Seleccione la **X** en la esquina superior derecha de la ventana para salir de la página de ASC y volver a la página principal de la directiva.
 
 1. En el panel de navegación izquierdo, seleccione **Introducción**.  Aquí puede ver las diferentes opciones, incluida la opción de examinar las directivas integradas y asignar directivas a gran escala; puede crear definiciones de directiva personalizadas para su ambiente, recomendar asignaciones de directiva, y mucho más.
 
@@ -49,7 +53,7 @@ Azure Policy ayuda a aplicar los estándares de la organización y a evaluar el
 
 1. Deje esta pestaña del explorador (Directiva: Microsoft Azure) abierta para la siguiente tarea.
 
-#### Tarea 2:  En esta tarea, creará una asignación de directiva básica para requerir una etiqueta en los grupos de recursos
+#### <a name="task-2--in-this-task-you-will-create-a-basic-policy-assignment-to-require-a-tag-on-resource-groups"></a>Tarea 2:  En esta tarea, creará una asignación de directiva básica para requerir una etiqueta en los grupos de recursos
 
 1. Abra la pestaña del explorador Directiva: Microsoft Azure.
 
@@ -75,7 +79,7 @@ Azure Policy ayuda a aplicar los estándares de la organización y a evaluar el
 
 1. Ahora se encuentra en la página principal de los servicios Azure.  Mantenga esta página abierta, la necesitará para la siguiente tarea.
 
-#### Tarea 3:  En esta tarea, comprobará el impacto de la asignación de una directiva de Azure Policy. Para ello, creará un grupo de recursos sin etiqueta en Azure y luego aprenderá a actualizarlo para incluir una etiqueta.  Nota: La directiva creada en la tarea anterior puede tardar hasta 30 minutos en entrar en vigor, aunque el proceso suele ser más rápido
+#### <a name="task-3--in-this-task-you-will-see-the-impact-of-the-azure-policy-assignment-by-creating-a-resource-group-in-azure-that-does-not-have-a-tag-then-you-will-see-update-the-resource-group-to-include-a-tag--note-it-may-take-up-to-30-minutes-for-the-policy-created-in-the-previous-task-to-take-effect-but-it-usually-happens-faster"></a>Tarea 3:  En esta tarea, comprobará el impacto de la asignación de una directiva de Azure Policy. Para ello, creará un grupo de recursos sin etiqueta en Azure y luego aprenderá a actualizarlo para incluir una etiqueta.  Nota: La directiva creada en la tarea anterior puede tardar hasta 30 minutos en entrar en vigor, aunque el proceso suele ser más rápido
 
 1. Abra la pestaña del explorador Inicio: Microsoft Azure.
 
@@ -87,7 +91,7 @@ Azure Policy ayuda a aplicar los estándares de la organización y a evaluar el
 
 1. En el campo Grupo de recursos, escriba, **SC900-Labs**.
 
-1. Deje la configuración de la región por defecto y seleccione **Siguiente: Etiquetas**.
+1. Deje la configuración predeterminada de la región y seleccione **Siguiente: Etiquetas**.
 
 1. Deje vacíos los campos Nombre y Valor de la etiqueta.  NO LOS RELLENE. Luego, seleccione **Revisar y crear**.
 
@@ -99,7 +103,7 @@ Azure Policy ayuda a aplicar los estándares de la organización y a evaluar el
 
 1. En la ventana Crear un grupo de recursos, seleccione **<Anterior**.
 
-1. Ha vuelto a la página Etiquetas para Crear un grupo de recursos.  En el campo Nombre escriba Ambiente y, en el campo Valor, escriba **SC900-Labs**. Después, seleccione **Siguiente: Revisar y crear >**.
+1. Ha vuelto a la página Etiquetas para Crear un grupo de recursos.  En el campo Nombre escriba Entorno y, en el campo Valor, escriba **SC900-Labs**. Después, seleccione **Siguiente: Revisar y crear >** .
 
 1. Compruebe la etiqueta y seleccione **Crear**.
 
@@ -113,6 +117,6 @@ Azure Policy ayuda a aplicar los estándares de la organización y a evaluar el
     1. Se le pedirá que confirme que desea eliminar la asignación.  Seleccione Sí.
 
 
-#### Revisión
+#### <a name="review"></a>Revisar
 
 En este laboratorio ha realizado un recorrido por la página de aterrizaje de Azure Policy. Después de llevar a cabo una exploración inicial de la página, se ha familiarizado con el proceso de creación de una directiva y ha tenido la oportunidad de comprobar su impacto.

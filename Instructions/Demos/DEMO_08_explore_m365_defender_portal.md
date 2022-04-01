@@ -1,18 +1,22 @@
 ---
 Demo:
-    title: 'El portal de Microsoft 365 Defender'
-    module: 'Módulo 3, lección 5: Describir las funcionalidades de las soluciones de seguridad de Microsoft. Describir las funcionalidades de administración de seguridad de Microsoft 365'
+  title: The Microsoft 365 Defender portal
+  module: 'Module 3 Lesson 5: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Microsoft 365'
+ms.openlocfilehash: 48d70c8773c76e590a6e18ae6173f7240dca2b79
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894324"
 ---
+# <a name="demo-the-microsoft-365-defender-portal"></a>Demostración: The Microsoft 365 Defender portal
 
-
-# Demo: El portal de Microsoft 365 Defender
-
-### Escenario de la demo
+### <a name="demo-scenario"></a>Escenario de la demo
 En esta demo mostrará el portal de Microsoft 365 Defender. Para ello, realizará un recorrido por el contenido mostrado en la página de aterrizaje. También examinará las opciones del panel de navegación que ofrecen un acceso rápido a una funcionalidad integrada en la solución de detección y respuesta ampliadas (XDR) de Microsoft: Microsoft Defender para punto de conexión, y Microsoft Defender para Office 365 (correo electrónico y colaboración).  Por último, hará una demostración de cómo Puntuación de seguridad de Microsoft puede ayudar a una organización a mejorar su posición de seguridad.
 
-#### Demo, parte 1:  Explorar la página de aterrizaje de Microsoft 365 Defender
+#### <a name="demo-part-1--explore-the-microsoft-365-defender-landing-page"></a>Demo, parte 1:  Explorar la página de aterrizaje de Microsoft 365 Defender
 
-1. Abra Microsoft Edge. En la barra de direcciones, escriba **admin.microsoft.com**.  Con esto debería haber iniciado sesión como administrador.  Si no lo ha hecho, inicie sesión con sus credenciales de administrador.
+1. Abrir Microsoft Edge. En la barra de direcciones, escriba **admin.microsoft.com**.  Con esto debería haber iniciado sesión como administrador.  Si no lo ha hecho, inicie sesión con sus credenciales de administrador.
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft 365, seleccione **Mostrar todo**.
 
@@ -32,11 +36,11 @@ En esta demo mostrará el portal de Microsoft 365 Defender. Para ello, realiza
 
 1. Si selecciona el título de una tarjeta, obtendrá información adicional sobre ese tema. Profundizará en esto en la próxima tarea.  Mantenga la ventana del explorador abierta.
 
-#### Demo, parte 2: En esta parte de la demo, hará una demostración de cómo Puntuación de seguridad de Microsoft puede ayudar a una organización a mejorar su posición de seguridad
+#### <a name="demo-part-2-in-this-part-of-the-demo-you-will-show-how-microsoft-secure-score-can-help-an-organization-improve-its-security-posture"></a>Demo, parte 2: En esta parte de la demo, hará una demostración de cómo Puntuación de seguridad de Microsoft puede ayudar a una organización a mejorar su posición de seguridad
 
 1. Vaya a la página principal del portal de Microsoft 365 Defender y seleccione **Puntuación de seguridad de Microsoft** en la barra de título de la tarjeta (el texto se volverá azul).  Otra opción para hacerlo es seleccionar **Puntuación de seguridad** en el panel de navegación izquierdo.
 
-1. Se abrirá la página Puntuación de seguridad de Microsoft en la pestaña Información general.  Puntuación de seguridad de Microsoft es una medición de la posición de seguridad de una organización. La Puntuación de seguridad de su organización se muestra en forma de porcentaje y desglosada por categoría junto al número de puntos que ha alcanzado del número total de puntos posibles. Seleccione la opción **Incluir** que aparece junto a las palabras "Su Puntuación de seguridad". Puede decidir si desea que la vista de su puntuación incluya la puntuación alcanzable, la puntuación planeada y la puntuación de su licencia actual.
+1. Se abrirá la página Puntuación de seguridad de Microsoft en la pestaña Información general.  Puntuación de seguridad de Microsoft es una medición de la posición de seguridad de una organización. La Puntuación de seguridad de su organización se muestra en forma de porcentaje y desglosada por categoría junto al número de puntos que ha alcanzado del número total de puntos posibles. Seleccione **Incluir**, que se encuentra junto a Su puntuación de seguridad. Puede elegir la vista de la puntuación para incluir la puntuación factible, la puntuación planeada y la puntuación de licencia actual.
 
 1. La página Información general también incluye las principales acciones de mejora, una comparación de puntuaciones, el historial y recursos adicionales.
 
@@ -52,6 +56,6 @@ En esta demo mostrará el portal de Microsoft 365 Defender. Para ello, realiza
 
 1. Cierre la página del explorador.
 
-#### Revisión
+#### <a name="review"></a>Revisar
 
 En esta demo ha examinado el portal de Microsoft 365 Defender. Para ello, ha realizado un recorrido por el contenido mostrado en la página de aterrizaje, ha explorado las opciones del panel de navegación que ofrecen un acceso rápido a una funcionalidad integrada en la solución de detección y respuesta ampliadas (XDR) de Microsoft, Microsoft Defender para punto de conexión y Microsoft Defender para Office 365 (correo electrónico y colaboración).  Por último, ha realizado una demostración de cómo Puntuación de seguridad de Microsoft puede ayudar a una organización a mejorar su posición de seguridad.

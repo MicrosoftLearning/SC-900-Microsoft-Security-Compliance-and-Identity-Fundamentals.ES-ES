@@ -1,13 +1,17 @@
 ---
 Demo:
-    title: 'Acceso condicional de Azure Active Directory'
-    module: 'Módulo 2, lección 3: Describir las funcionalidades de las soluciones de administración de identidades y acceso de Microsoft: Explorar las funcionalidades de administración de acceso de Azure AD'
+  title: Acceso condicional de Azure Active Directory
+  module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
+ms.openlocfilehash: b3fd1d1f73c7f807c7a72b258762579bdf0184ac
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894388"
 ---
+# <a name="demo-azure-active-directory-conditional-access"></a>Demostración: Azure Active Directory Conditional Access
 
-
-# Demo: Acceso condicional de Azure Active Directory
-
-### Escenario de la demo
+### <a name="demo-scenario"></a>Escenario de la demo
 En esta demo hará un recorrido por las diferentes opciones disponibles para una directiva de acceso condicional.
 
 1. Vaya a la pestaña de **Microsoft Azure: Contoso** que hay abierta en su explorador. Si anteriormente había cerrado la pestaña, abra una página del explorador y, en la barra de direcciones, escriba portal.azure.com y seleccione Azure Active Directory. Debería haber iniciado sesión como administrador en Azure Portal; si no es así, vuelva a iniciar sesión.
@@ -27,7 +31,7 @@ En esta demo hará un recorrido por las diferentes opciones disponibles para una
         1. Seleccione y comenta la configuración disponible para la pestaña Incluir. Debajo de la pestaña **Incluir**, seleccione **Seleccionar aplicaciones**.  Observe la ventana que se abre y en la que puede seleccionar aplicaciones de una lista.  No seleccione nada. Para cerrar esta ventana, seleccione la **X** en la esquina superior derecha de la ventana. Vuelva a seleccionar **Ninguno** para quitar el error.
         1. Luego seleccione y comente la configuración disponible en la **pestaña Excluir**.  Aquí puede volver a seleccionar aplicaciones específicas para excluirlas.
     1. **Condiciones**: mantenga el puntero sobre el icono de información que hay junto a "Condiciones" y haga hincapié en que esta opción establece cuándo se aplicará la directiva. Seleccione **0 condiciones seleccionadas**. Aborde las diferentes “señales” que se enumeran en la lista.   Seleccione algunas de las opciones. Para ello, seleccione primero el icono de información para definir qué es y luego seleccione **No configurado** para que el elemento específico muestre las diferentes opciones.
-        1. **Riesgo de usuario**: un riesgo de usuario representa la probabilidad de que una identidad o cuenta determinada esté en peligro. Estos riesgos se calculan sin conexión mediante los orígenes externos e internos de inteligencia sobre amenazas de Microsoft.
+        1. **Riesgo de usuario**: un riesgo de usuario representa la probabilidad de que una identidad o cuenta determinada esté en peligro. Los riesgos se calculan sin conexión, usando orígenes de inteligencia sobre amenazas internos y externos de Microsoft.
         1. **Riesgo de inicio de sesión**: un riesgo de inicio de sesión representa la probabilidad de que el propietario de la identidad no haya autorizado una solicitud de autenticación determinada. Los ejemplos pueden incluir el inicio de sesión desde una dirección IP anónima, un viaje atípico, etc.
         1. **Plataforma del dispositivo**: la plataforma desde la que inicia sesión el usuario; por ejemplo, 'iOS’.
         1. **Ubicación**: la ubicación (determinada mediante el intervalo de direcciones IP) desde la que el usuario inicia sesión.
@@ -43,6 +47,6 @@ En esta demo hará un recorrido por las diferentes opciones disponibles para una
 
 1. Mantenga la página del explorador abierta para la siguiente demo.
 
-### Revisión
+### <a name="review"></a>Revisar
 
 En esta demo ha realizado un recorrido por las diferentes opciones disponibles para una directiva de acceso condicional.
