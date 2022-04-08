@@ -2,12 +2,12 @@
 lab:
   title: 'Explorar el gobierno de identidades en Azure AD con Privileged Identity Management. '
   module: 'Module 2 Lesson 4: Describe the identity protection and governance capabilities of Azure AD: Describe Azure Identity Protection.'
-ms.openlocfilehash: 1bbe93105312be8b5a22c078d42def2a6daefc6b
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: a291567279c9ffd6ba9b47154390dc8c418b1527
+ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894244"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "141489240"
 ---
 # <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>Laboratorio: Explorar el gobierno de identidades en Azure AD con Privileged Identity Management.
 
@@ -21,7 +21,7 @@ En este laboratorio, explorará algunas de las funcionalidades básicas de Privi
 1. Abrir Microsoft Edge.  En la barra de direcciones, escriba **portal.azure.com**.
 
 2. Inicie sesión con sus credenciales de administrador.
-    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
+    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es el id. de inquilino único proporcionado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
     1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Haga clic en **Iniciar sesión**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
 
@@ -50,9 +50,9 @@ En este laboratorio, explorará algunas de las funcionalidades básicas de Privi
 
 2. En el panel de navegación izquierdo, seleccione **Gobierno de identidades**.
 
-3. En la ventana principal, asegúrese de que la opción **Introducción** esté subrayada y seleccione **Administrar asignaciones de roles**, en la parte central derecha de la pantalla.  También puede seleccionar **Roles de Azure AD** en el panel de navegación izquierdo, en Privileged Identity Management.
+3. En el panel de navegación izquierdo, en Privileged Identity Management, seleccione **Roles de Azure AD**.
 
-4. Ahora está en la ventana Inicio rápido de Privileged Identity Management.  Seleccione **Administrar Acceso**.
+4. Ahora está en la ventana Inicio rápido de Privileged Identity Management.  Seleccione **Administrar**.
 
 5. Ahora está en la página Roles de Contoso.  En la barra de búsqueda de la parte superior de la página, escriba **usuario**.  En los resultados de la búsqueda, seleccione  **Administrador de usuarios**.
 
@@ -85,7 +85,7 @@ En este laboratorio, explorará algunas de las funcionalidades básicas de Privi
 19. Para cerrar la sesión seleccione el icono de usuario junto a la dirección de correo electrónico en la esquina superior derecha de la pantalla y seleccione **Cerrar sesión**. A continuación, cierre todas las ventanas del navegador.
 
 
-#### <a name="task-3-task-3--in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>Tarea 3: Tarea 3:  En esta tarea, iniciará sesión en Azure Portal como Diego Siciliani, para acceder a la funcionalidad Privileged Identity Management de Azure Active Directory para activar su asignación como Administrador de usuarios.  Una vez activada, realizará algunos cambios de configuración en un usuario existente. Nota: Para esta tarea necesitará tener acceso a un dispositivo móvil al que tenga acceso inmediato y donde pueda recibir mensajes de texto.
+#### <a name="task-3-in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>Tarea 3: En esta tarea, iniciará sesión en Azure Portal como Diego Siciliani, para acceder a la funcionalidad Privileged Identity Management de Azure Active Directory para activar su asignación como Administrador de usuarios.  Una vez activada, realizará algunos cambios de configuración en un usuario existente. Nota: Para esta tarea necesitará tener acceso a un dispositivo móvil al que tenga acceso inmediato y donde pueda recibir mensajes de texto.
 
 1. Abrir Microsoft Edge.  En la barra de direcciones del explorador, escriba **portal.azure.com**.
 
