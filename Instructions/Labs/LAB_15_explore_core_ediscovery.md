@@ -1,13 +1,13 @@
 ---
 lab:
   title: Explorar el flujo de trabajo de Core eDiscovery
-  module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft 365'
-ms.openlocfilehash: cb7b0e4c2d7b2ac980e829f24ebbdbb31965e2b8
-ms.sourcegitcommit: 965f24bd5f74be6d0841bf526259a5651af4fdf5
+  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft 365'
+ms.openlocfilehash: 0754237aa892e9fe31ad2eea0811642bce929fe8
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "139253912"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614379"
 ---
 # <a name="lab-explore-the-core-ediscovery-workflow"></a>Laboratorio: Explorar el flujo de trabajo de Core eDiscovery
 
@@ -24,7 +24,7 @@ En este laboratorio le guiaremos a través de los pasos necesarios para configur
 1. Inicie sesión con sus credenciales de administrador.
     1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
     
-    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
+    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Haga clic en **Iniciar sesión**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**. Esto le llevará a la página del Centro de administración de Microsoft 365.
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft 365, seleccione **Mostrar todo**.

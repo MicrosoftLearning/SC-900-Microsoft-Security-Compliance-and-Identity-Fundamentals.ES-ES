@@ -1,13 +1,13 @@
 ---
 lab:
   title: Explorar la administración de riesgos internos en Microsoft 365
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft 365'
-ms.openlocfilehash: df300750e4be2647bcdddcb42fa1d3a3c7a7c2ec
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft 365'
+ms.openlocfilehash: 2fb0e58f92070ce375d27b44bf298a7748db3f40
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894190"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614391"
 ---
 # <a name="lab-explore-insider-risk-management-in-microsoft-365"></a>Laboratorio: Explorar la administración de riesgos internos en Microsoft 365
 
@@ -22,7 +22,7 @@ En este laboratorio, se familiarizará con el proceso de configurar una directiv
 1. Abrir Microsoft Edge. En la barra de direcciones, escriba **admin.microsoft.com**.
 
 1. Inicie sesión con sus credenciales de administrador.
-    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es el id. de inquilino único proporcionado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
+    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
     
     1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Haga clic en **Iniciar sesión**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**. Esto le llevará a la página del Centro de administración de Microsoft 365.

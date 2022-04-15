@@ -1,13 +1,13 @@
 ---
 Demo:
   title: Azure Policy
-  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 898e2d2ae228baf6acbffd7301fcbdf4a6a2dba5
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
+ms.openlocfilehash: 502bc783d6de1a8c4454df90550aac24d0c16d22
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894301"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614187"
 ---
 # <a name="demo-azure-policy"></a>Demostración: Azure Policy
 
@@ -56,7 +56,7 @@ En esta demostración, recorrerá el proceso de configuración de una directiva 
 
 1. En el campo Grupo de recursos, escriba, **SC900-Labs**.
 
-1. Deje la configuración de la región por defecto y seleccione **Siguiente: Etiquetas**.
+1. Deje la configuración predeterminada de la región y seleccione **Siguiente: Etiquetas**.
 
 1. Deje vacíos los campos Nombre y Valor de la etiqueta.  NO LOS RELLENE. Luego, seleccione **Revisar y crear**.
 
@@ -68,7 +68,7 @@ En esta demostración, recorrerá el proceso de configuración de una directiva 
 
 1. En la ventana Crear un grupo de recursos, seleccione **<Anterior**.
 
-1. Ha vuelto a la página Etiquetas para Crear un grupo de recursos.  En el campo Nombre escriba Ambiente y, en el campo Valor, escriba **SC900-Labs**. Después, seleccione **Siguiente: Revisar y crear >** .
+1. Ha vuelto a la página Etiquetas para Crear un grupo de recursos.  En el campo Nombre escriba Entorno y, en el campo Valor, escriba **SC900-Labs**. Después, seleccione **Siguiente: Revisar y crear >** .
 
 1. Compruebe la etiqueta y seleccione **Crear**.
 

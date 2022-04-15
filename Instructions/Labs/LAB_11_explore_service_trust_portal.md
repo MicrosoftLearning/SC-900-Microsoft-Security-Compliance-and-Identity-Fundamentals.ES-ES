@@ -1,13 +1,13 @@
 ---
 lab:
   title: Explore the Service Trust Portal
-  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities in Microsoft'
-ms.openlocfilehash: 11c5c8116200c89ae00e9df34f3c7a0d0da1cd54
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
+ms.openlocfilehash: e26a0d4eaaaabba7027215db53c3ebd0ccb0ad6c
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894177"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614199"
 ---
 # <a name="lab-explore-the-service-trust-portal"></a>Laboratorio: Explore the Service Trust Portal
 

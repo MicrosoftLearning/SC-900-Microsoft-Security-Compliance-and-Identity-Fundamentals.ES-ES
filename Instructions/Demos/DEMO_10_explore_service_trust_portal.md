@@ -1,13 +1,13 @@
 ---
 Demo:
   title: Portal de confianza de servicios
-  module: 'Module 1 Lesson 2: Describe Microsoft security and compliance principles: Explore the Service Trust Portal'
-ms.openlocfilehash: 2b8f3d9100a31e1a1412b8749c2673b60cb65e21
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
+ms.openlocfilehash: 587f823b993a7ac3046af9494b90883f22a01c8a
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894316"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614403"
 ---
 # <a name="demo-service-trust-portal"></a>Demostración: Portal de confianza de servicios
 
@@ -21,7 +21,7 @@ En esta demo, mostrará las funciones y el contenido disponible del Portal de co
 
 1. En la barra de direcciones, escriba **https://aka.ms/STP** .  Esto le llevará a la página de aterrizaje del Portal de confianza de servicios. El Portal de confianza de servicios contiene detalles sobre la implementación de controles y procesos de Microsoft que protegen nuestros servicios en la nube y los datos de los clientes que contienen. 
 
-1. Para acceder a algunos de los recursos del Portal de confianza de servicios, debe iniciar sesión como usuario autenticado con su cuenta de Servicios en la nube de Microsoft y revisar y aceptar las condiciones del acuerdo de confidencialidad de Microsoft para materiales de cumplimiento. En la esquina superior derecha de la página de aterrizaje de Service Trust Portal, verá la opción Iniciar sesión.  **Inicie sesión** con sus credenciales de administrador y, si se le solicita, seleccione **Aceptar** para aceptar las condiciones del acuerdo de confidencialidad de Microsoft para materiales de cumplimiento.
+1. Para acceder a algunos de los recursos del Portal de confianza de servicios, debe iniciar sesión como usuario autenticado con su cuenta de Servicios en la nube de Microsoft y revisar y aceptar las condiciones del acuerdo de confidencialidad de Microsoft para materiales de cumplimiento. En la esquina superior derecha de la página de aterrizaje del Portal de confianza de servicios, verá la opción Iniciar sesión.  **Inicie sesión** con sus credenciales de administrador y, si se le solicita, seleccione **Aceptar** para aceptar las condiciones del acuerdo de confidencialidad de Microsoft para materiales de cumplimiento.
 
 1. Desplácese hacia abajo por la página y observe los vínculos a Informes de auditoría, Documentos y recursos, etc.  Seleccione **Ver todos los informes de auditoría**.
 
