@@ -1,13 +1,13 @@
 ---
 Demo:
   title: Etiquetas de confidencialidad en Microsoft 365
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
-ms.openlocfilehash: 00da5f8577c31a02d1afb9afcfe8e84e89c07fa9
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
+ms.openlocfilehash: 489021addff2c867ace4460708f5c880c8ae3e4f
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894308"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614235"
 ---
 # <a name="demo-sensitivity-labels-in-microsoft-365"></a>Demostración: Etiquetas de confidencialidad en Microsoft 365
 
@@ -32,7 +32,7 @@ En esta demo hará una demostración de las funcionalidades de las etiquetas de 
 
 1. En el panel de navegación izquierdo, debajo de Soluciones, seleccione **Information Protection**.
 
-1. En el cuadro de información amarillo, indique que su organización no ha activado la capacidad de procesar el contenido de los archivos en línea de Office a los que se les ha aplicado etiquetas de confidencialidad cifradas y que se han almacenado en OneDrive y SharePoint.  Seleccione Activar ahora.  Una vez hecho esto, es posible que la configuración tarde unos minutos en propagarse por el sistema.
+1. En el cuadro de información amarillo se indica que su organización no ha activado la capacidad de procesar el contenido de los archivos en línea de Office a los que se les ha aplicado etiquetas de confidencialidad cifradas y que se han almacenado en OneDrive y SharePoint.  Seleccione Activar ahora.  Una vez hecho esto, es posible que la configuración tarde unos minutos en propagarse por el sistema.
 
 1. Compruebe que la pestaña **Etiquetas** esté seleccionada (subrayada) en la parte superior de la página.
 

@@ -1,13 +1,13 @@
 ---
 lab:
   title: Explorar Azure Policy
-  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: b202e4b7dadc2fdadec4ac2df7aa6bcee7400b6b
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
+ms.openlocfilehash: a9e9e273544eeb2d42ba0094a83f4ff1f4d61b7d
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894189"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614427"
 ---
 # <a name="lab-explore-azure-policy"></a>Laboratorio: Explorar Azure Policy
 
@@ -22,7 +22,7 @@ Azure Policy ayuda a aplicar los estándares de la organización y a evaluar el 
 1. Abrir Microsoft Edge. En la barra de direcciones, escriba **portal.microsoft.com**.
 
 1. Inicie sesión con sus credenciales de administrador.
-    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es el id. de inquilino único proporcionado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
+    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
     
     1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Haga clic en **Iniciar sesión**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
@@ -33,7 +33,7 @@ Azure Policy ayuda a aplicar los estándares de la organización y a evaluar el 
 
 1. En la parte superior de la página, debajo de Essentials, puede ver el nombre, la descripción y otro tipo de información esencial.  Lea la descripción (mantenga el puntero del ratón sobre la descripción). NOTA: El campo de descripción hace referencia a Azure Security Center que se ha cambiado de nombre a Microsoft Defender for Cloud.
 
-1. Observe que la información que muestra el panel se actualiza para reflejar el elemento seleccionado, la definición de iniciativa predeterminada de ASC.  Recuerde que una definición de iniciativa es una colección de definiciones de directiva personalizadas para alcanzar un único objetivo general. La información se puede ver por grupo, directivas, recursos no compatibles o eventos.
+1. Observe que la información que muestra el panel se actualiza para reflejar el elemento seleccionado, el valor predeterminado de ASC. Este valor predeterminado es la definición de la iniciativa Azure Security Benchmark.  Recuerde que una definición de iniciativa es una colección de definiciones de directiva personalizadas para alcanzar un único objetivo general. La información se puede ver por grupo, directivas, recursos no compatibles o eventos.
 
 1. Seleccione la **X** en la esquina superior derecha de la ventana para salir de la página de ASC y volver a la página principal de la directiva.
 
@@ -69,7 +69,9 @@ Azure Policy ayuda a aplicar los estándares de la organización y a evaluar el 
 
 1. Tenga en cuenta el nombre de la asignación por defecto.  Mantenga el nombre como está y en el fondo de la página, seleccione **Siguiente**.
 
-1. En el campo Nombre de etiqueta, escriba **Ambiente** y luego seleccione **Siguiente**.  
+1. En el campo Nombre de etiqueta, escriba **Ambiente** y luego seleccione **Siguiente**. 
+
+1. Deje la configuración de corrección predeterminada, ya que luego seleccionarán **Siguiente**. 
 
 1. En el mensaje de no cumplimiento, escriba **Se requiere una etiqueta de entorno**, luego seleccione **Siguiente**. Nota: Este mensaje aparecerá como motivo de no cumplimiento para los grupos de recursos que se crearon antes de la asignación de la directiva y no tienen una etiqueta Entorno.  Para los grupos de recursos creados después de la directiva, se denegará la creación del grupo de recursos si no hay ninguna etiqueta de entorno.
 
@@ -97,11 +99,13 @@ Azure Policy ayuda a aplicar los estándares de la organización y a evaluar el 
 
 1. Verá una validación superada (el nombre y el valor de la etiqueta no son campos obligatorios en el asistente), luego seleccione **Crear**.
 
-1. Verá un mensaje de error en la parte superior de la pantalla, "Error al crear el grupo de recursos. Ver detalles del error".  Seleccione **Ver detalles del error**. La condición que forma parte de la directiva de Azure no se ha cumplido, por lo que se bloqueó la creación del grupo de recursos por falta de cumplimiento. Nota: Si no ve el mensaje de error y se creó el grupo de recursos, es porque la directiva todavía no ha surtido efecto.  Vaya a la página Directivas y consulte la directiva que creó en la tarea anterior y una vez que la directiva surta efecto, verá que el recurso no es compatible.  La página de detalles incluirá el mensaje de falta de cumplimiento.
+1. Verá un mensaje de error en la parte superior de la pantalla, "Error al crear el grupo de recursos. Ver detalles del error".  Seleccione **Ver detalles del error**. La condición que forma parte de la directiva de Azure no se ha cumplido, por lo que se bloqueó la creación del grupo de recursos por falta de cumplimiento. 
+
+    Nota: Si no ve el mensaje de error y se creó el grupo de recursos, es porque la directiva todavía no ha surtido efecto.  Vaya a la página Directivas y consulte la directiva que creó en la tarea anterior y una vez que la directiva surta efecto, verá que el recurso no es compatible.  La página de detalles incluirá el mensaje de falta de cumplimiento. Si recibe el error, los pasos siguientes muestran cómo corregir la implementación.
 
 1. El resumen del error muestra el tipo de error, "La directiva desautorizó el recurso SC900-Labs".  Cierre esta ventana con la **X** en la esquina superior izquierda de la pantalla.
 
-1. En la ventana Crear un grupo de recursos, seleccione **<Anterior**.
+1. En la ventana "Crear un grupo de recursos", seleccione **Anterior**.
 
 1. Ha vuelto a la página Etiquetas para Crear un grupo de recursos.  En el campo Nombre escriba Entorno y, en el campo Valor, escriba **SC900-Labs**. Después, seleccione **Siguiente: Revisar y crear >** .
 

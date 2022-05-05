@@ -2,12 +2,12 @@
 lab:
   title: Explore Azure Network Security Groups (NSGs)
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 6921230c178c08c8a6868de49f2f0673a72127fc
-ms.sourcegitcommit: 3a5280632c212b689353f3b2b0ee7c1f494ff855
+ms.openlocfilehash: b140c437202af133f02d8e615795a97f634aca96
+ms.sourcegitcommit: 89f5fbd1e9c70e30108daa8fbeb65ebd9947bf1a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "138019276"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "141605429"
 ---
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>Laboratorio: Explorar los grupos de seguridad de red de Azure (NSG).
 
@@ -27,19 +27,20 @@ En este laboratorio. Explorará la función de los grupos de seguridad de red en
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
 1. En la esquina superior izquierda de la pantalla, junto a las palabras Microsoft Azure, seleccione el icono Mostrar el menú del portal (las tres líneas horizontales, también denominadas icono de hamburguesa) y luego seleccione **Todos los servicios**.  
 1. En la ventana principal, en Destacado, seleccione Máquinas virtuales.  Si no ve Máquinas virtuales en la lista, escríbalo en la barra de búsqueda y luego selecciónelo en los resultados.
-1. En la parte superior izquierda de la página, seleccione **+Crear** y luego seleccione **+Máquina virtual**.
+1. En la parte superior izquierda de la página, seleccione **+Crear** y, luego, **Azure Virtual Machine**.
 1. En la pestaña Datos básicos, complete la siguiente información (si alguno de los campos no aparece en esta lista, deje la configuración predeterminada):
     1. Suscripción: compruebe que la configuración predeterminada sea Pase para Azure – Patrocinio.
 
     1. Grupo de recursos: seleccione **Crear nuevo**. Luego, en el campo Nombre, escriba **LabsSC900** y seleccione **Aceptar**.
     1. Nombre de las máquinas virtuales: escriba **SC900-WinVM**.
-    1. Imagen: en el menú desplegable, seleccione **Windows 10 Pro, versión 20H2 - Gen 1**.
-    1. Tamaño: seleccione **Ver todos los tamaños** en el menú desplegable y, a continuación, **B2**. Luego, pulse **Seleccionar** en la parte inferior de la página.
-    1. Nombre de usuario:  Introduzca el nombre de usuario que quiera.  Apúntelo, ya que lo necesitará para acceder a la máquina virtual.
-    1. Contraseña:  Escriba una contraseña de su elección.  Apúntela, ya que la necesitará para acceder a la máquina virtual.
-    1. Puertos de entrada públicos: seleccione **Ninguno**.
-    1. Licencias: seleccione **Confirmo que dispongo de una licencia válida de Windows 10 con derechos de hospedaje multiinquilino** para que aparezca una marca de verificación en el cuadro.
-    1. Seleccione **Siguiente: Discos**. 
+    1. Región: si el campo de región no se rellena previamente, seleccione la región más cercana a la ubicación.
+    3. Imagen: en el menú desplegable, seleccione **Windows 10 Pro, versión 20H2 - Gen 1**.
+    4. Tamaño: seleccione **Ver todos los tamaños** en el menú desplegable y, a continuación, **B2**. Luego, pulse **Seleccionar** en la parte inferior de la página.
+    5. Nombre de usuario:  Introduzca el nombre de usuario que quiera.  Apúntelo, ya que lo necesitará para acceder a la máquina virtual.
+    6. Contraseña:  Escriba una contraseña de su elección.  Apúntela, ya que la necesitará para acceder a la máquina virtual.
+    7. Puertos de entrada públicos: seleccione **Ninguno**.
+    8. Licencias: seleccione **Confirmo que dispongo de una licencia válida de Windows 10 con derechos de hospedaje multiinquilino** para que aparezca una marca de verificación en el cuadro.
+    9. Seleccione **Siguiente: Discos**. 
 1. Ahora está en la pestaña Discos para configurar la VM.  Deje el resto de los valores predeterminados y seleccione **Siguiente: Redes >** .
 1. Ahora se encuentra en la pestaña Redes para configurar la máquina virtual.  Complete la siguiente información (si alguno de los campos no aparece en esta lista, deje la configuración predeterminada):
     1. Grupo de seguridad de red de NIC: seleccione **Ninguno**.  Nota: El motivo por el que selecciona Ninguno en este paso es porque queremos guiarle a través de los pasos de configuración de un NSG desde cero, que trataremos en las tareas posteriores.
