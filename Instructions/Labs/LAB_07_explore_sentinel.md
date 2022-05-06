@@ -2,21 +2,24 @@
 lab:
   title: Exploración de Microsoft Sentinel
   module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 28c73a721cd595b41e63a235498b00552acdac82
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 857d7f5ad5e0a9136d298c32cd47063a83e454e7
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614343"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557163"
 ---
-# <a name="lab-explore-microsoft-sentinel"></a>Laboratorio: Exploración de Microsoft Sentinel 
+# <a name="lab-explore-microsoft-sentinel"></a>Laboratorio: Exploración de Microsoft Sentinel
 
 ## <a name="lab-scenario"></a>Escenario del laboratorio
+
 En este laboratorio se le guiará a través del proceso de creación de una instancia de Microsoft Sentinel.  Además, configurará los permisos para garantizar el acceso a los recursos que se implementarán para admitir Microsoft Sentinel.  Una vez finalizada esta configuración básica, recorrerá los pasos para conectar Microsoft Sentinel a los orígenes de datos, configurar un libro y realizar un breve tutorial de algunas de las funcionalidades clave disponibles en Microsoft Sentinel.  
 
 **Tiempo estimado**: 45-60 minutos
 
-#### <a name="task-1--create-an-microsoft-sentinel-instance"></a>Tarea 1:  Creación de una instancia de Microsoft Sentinel
+### <a name="task-1"></a>Tarea 1
+
+Creación de una instancia de Microsoft Sentinel
 
 1. Abra la pestaña del explorador **Inicio: Microsoft Azure**.  Si anteriormente había cerrado la pestaña, abra una página del explorador y, en la barra de direcciones, escriba portal.azure.com y vuelva a iniciar sesión.
 
@@ -43,11 +46,13 @@ En este laboratorio se le guiará a través del proceso de creación de una inst
 
 1. Deje esta página abierta, porque la utilizará en la siguiente tarea.
 
-#### <a name="task-2--with-the-microsoft-sentinel-instance-created-you-will-want-to-make-sure-that-you-have-the-necessary-access-to-the-resources-that-get-deployed-to-support-microsoft-sentinel"></a>Tarea 2:  Una vez creada la instancia de Microsoft Sentinel, deberá asegurarse de que tiene el acceso necesario a los recursos que se implementan para admitir Microsoft Sentinel.  
+### <a name="task-2"></a>Tarea 2
+
+Una vez creada la instancia de Microsoft Sentinel, deberá asegurarse de que tiene el acceso necesario a los recursos que se implementan para admitir Microsoft Sentinel.
 
 1. En el cuadro de búsqueda, en la barra azul de la parte superior de la página junto a donde pone Microsoft Azure, escriba **grupos de recursos** y seleccione **Grupos de recursos** en los resultados de búsqueda. La asignación del rol a nivel de grupo de recursos garantizará que el rol se aplique a todos los recursos que se implementan para admitir Microsoft Sentinel.
 
-1. En la página Grupos de recursos, seleccione el grupo de recursos que creó con Microsoft Sentinel, **SC900-Sentinel-RG**. 
+1. En la página Grupos de recursos, seleccione el grupo de recursos que creó con Microsoft Sentinel, **SC900-Sentinel-RG**.
 
 1. En la página SC900-Sentinel-RG, seleccione **Control de acceso (IAM)** en el panel de navegación izquierdo.
 
@@ -55,14 +60,16 @@ En este laboratorio se le guiará a través del proceso de creación de una inst
 
     1. En la página Control de acceso, seleccione **+Agregar** y después seleccione **Agregar asignación de roles**.
 
-    1. Se abre la ventana Agregar asignación de roles.  En el cuadro de búsqueda, seleccione **Microsoft Sentinel** para ver los 4 roles asociados a Microsoft Sentinel. 
+    1. Se abre la ventana Agregar asignación de roles.  En el cuadro de búsqueda, seleccione **Microsoft Sentinel** para ver los 4 roles asociados a Microsoft Sentinel.
     1. En cualquiera de los roles enumerados, seleccione **ver** para ver los detalles de ese rol.  El procedimiento recomendado es asignar los privilegios mínimos necesarios para el rol.  
 
     1. Para cerrar la ventana, seleccione la **X** en la esquina superior derecha de la ventana.
 
 1. En la página de control de acceso, seleccione la **X** en la esquina superior derecha de la ventana para cerrarla.
 
-#### <a name="task-3--in-this-task-you-will-walk-through-the-process-of-connecting-microsoft-sentinel-to-your-data-source-to-begin-to-collect-data"></a>Tarea 3:  En esta tarea, se le guiará a través del proceso de conexión de Microsoft Sentinel a su origen de datos para empezar a recopilar datos.
+### <a name="task-3"></a>Tarea 3
+
+En esta tarea, se le guiará a través del proceso de conexión de Microsoft Sentinel a su origen de datos para empezar a recopilar datos.
 
 1. En el cuadro de búsqueda, en la barra azul de la parte superior de la página junto a Microsoft Azure, escriba **Microsoft Sentinel** y seleccione **Microsoft Sentinel** en los resultados de búsqueda.
 
@@ -84,7 +91,9 @@ En este laboratorio se le guiará a través del proceso de creación de una inst
 
 1. Deje esta página abierta, porque la utilizará en la siguiente tarea.
 
-#### <a name="task-4--in-this-task-you-will-walk-through-the-process-of-setting-up-a-workbook-for-office-365-to-visualize-and-monitor-your-data"></a>Tarea 4:  En esta tarea, recorrerá el proceso de configurar un libro para Office 365, para visualizar y supervisar los datos.
+### <a name="task-4"></a>Tarea 4
+
+En esta tarea, recorrerá el proceso de configurar un libro para Office 365, para visualizar y supervisar los datos.
 
 1. En el panel de navegación izquierdo, seleccione **Libros**.
 
@@ -96,7 +105,9 @@ En este laboratorio se le guiará a través del proceso de creación de una inst
 
 1. Seleccione **Microsoft Sentinel** en la esquina superior izquierda de la página Libros, encima de la palabra Libros. Volverá a la página de información general.
 
-#### <a name="task-5--in-this-task-you-will-walk-through-some-of-the-options-available-in-sentinel"></a>Tarea 5:  En esta tarea, recorrerá algunas de las opciones disponibles en Sentinel.
+### <a name="task-5"></a>Tarea 5
+
+En esta tarea, recorrerá algunas de las opciones disponibles en Sentinel.
 
 1. En el panel de navegación izquierdo, seleccione **Búsqueda**.  En la pestaña **Consultas**, que está seleccionada (subrayada), seleccione cualquier consulta de la lista.  Una vez seleccionada una consulta, anote la información proporcionada sobre esa consulta, incluido el código de la consulta, así como la opción para ejecutar la consulta y ver los resultados.  No seleccione nada.
 
@@ -114,7 +125,9 @@ En este laboratorio se le guiará a través del proceso de creación de una inst
 
 1. En la esquina superior izquierda de la ventana, justo debajo de la barra azul, seleccione **Inicio** para volver a la página principal del Azure Portal.
 
-#### <a name="task-6-microsoft-sentinel-is-billed-based-on-the-volume-of-data-ingested-for-analysis-in-microsoft-sentinel-although-the-amount-of-data-ingested-as-a-result-of-this-lab-is-minimal-it-is-recommended-that-you-delete-the-microsoft-sentinel-resource-group-when-you-are-done-exploring-the-capabilities-of-microsoft-sentinel"></a>Tarea 6: Microsoft Sentinel se factura en función del volumen de datos ingeridos para el análisis en Microsoft Sentinel. Aunque la cantidad de datos ingeridos como resultado de este laboratorio es mínima, se recomienda que elimine el grupo de recursos de Microsoft Sentinel cuando haya terminado de explorar las funcionalidades de Microsoft Sentinel.
+### <a name="task-6"></a>Tarea 6
+
+Microsoft Sentinel se factura en función del volumen de datos ingeridos para el análisis en Microsoft Sentinel. Aunque la cantidad de datos ingeridos como resultado de este laboratorio es mínima, se recomienda que elimine el grupo de recursos de Microsoft Sentinel cuando haya terminado de explorar las funcionalidades de Microsoft Sentinel.
 
 1. En la esquina superior izquierda de la página Microsoft Sentinel, encima de las palabras Microsoft Sentinel, seleccione **Todos los servicios**.
 
@@ -124,8 +137,8 @@ En este laboratorio se le guiará a través del proceso de creación de una inst
 
 4. En la parte superior central de la página, seleccione **Eliminar grupo de recursos**.  Revise la advertencia.  Escriba el nombre del grupo de recursos, **Grupo de recursos:SC900**, y luego seleccione **Eliminar** en la parte inferior de la página.  Eliminar el grupo llevará varios minutos.
 
-5. Una vez que haya comprobado que el grupo de recursos se ha eliminado, cierre la página del explorador. 
+5. Una vez que haya comprobado que el grupo de recursos se ha eliminado, cierre la página del explorador.
 
-#### <a name="review"></a>Revisar
+### <a name="review"></a>Revisar
 
 En esta demostración, ha seguido los pasos para conectar Microsoft Sentinel a orígenes de datos, ha configurado un libro y ha recorrido varias opciones disponibles en Microsoft Sentinel.

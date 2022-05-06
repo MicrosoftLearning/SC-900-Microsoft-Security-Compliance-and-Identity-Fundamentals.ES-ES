@@ -1,21 +1,22 @@
 ---
 Pre-Demo Setup:
   title: Configuración de la demostración
-ms.openlocfilehash: b44b5fe0c5f01e8cb2364dc426c2ec3a2b1e7029
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 32b79bd8e8beaad0db6363b04084545cc0e1591e
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894184"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557259"
 ---
 # <a name="pre-demo-setup"></a>Configuración de la demo previa
 
-### <a name="setup-part-1---redeem-azure-pass"></a>Configuración, parte 1: Canjear Pase para Azure
+## <a name="setup-part-1---redeem-azure-pass"></a>Configuración, parte 1: Canjear Pase para Azure
+
 En esta tarea de configuración, canjeará su Pase para Azure con las mismas credenciales que las de su inquilino de Microsoft 365.  Esto hará que la experiencia no se interrumpa al moverse entre Microsoft 365 y Azure.
 
 1. Si tiene alguna ventana del explorador abierta, se recomienda que las cierre.
 
-1. Haga clic con el botón derecho en el icono de Microsoft Edge y seleccione **Nueva ventana InPrivate** para abrir una nueva sesión InPrivate del explorador. Otros 
+1. Haga clic con el botón derecho en el icono de Microsoft Edge y seleccione **Nueva ventana InPrivate** para abrir una nueva sesión InPrivate del explorador.
 
 1. En la barra de direcciones, escriba **www.microsoftazurepass.com**.  
 
@@ -33,12 +34,13 @@ En esta tarea de configuración, canjeará su Pase para Azure con las mismas cre
 1. Deje abierta la pestaña del explorador con la página principal de Azure Portal, a la que volverá en la siguiente demostración.
 
 ### <a name="setup-part-2---enable-microsoft-365-audit-log"></a>Configuración, parte 2: Habilitar el registro de auditoría de Microsoft 365
+
 En esta tarea de configuración, habilitará la funcionalidad Registro de auditoría de Microsoft 365.  Aunque la documentación indica que el registro de auditoría está habilitado de manera predeterminada, la mayoría de los inquilinos del laboratorio no tienen habilitada esta función y pueden pasar varias horas hasta que surta efecto.  Habilitar esta función resulta útil, ya que Microsoft 365 utiliza los registros de auditoría para conseguir información sobre los usuarios y las actividades identificadas en las directivas y los análisis.
 
 1. Abrir Microsoft Edge. En la barra de direcciones, escriba **admin.microsoft.com**.
 
 1. Inicie sesión con sus credenciales de administrador.
-    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es el id. de inquilino único proporcionado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
+    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
     1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Haga clic en **Iniciar sesión**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**. Esto le llevará a la página del Centro de administración de Microsoft 365.
 
@@ -59,5 +61,3 @@ En esta tarea de configuración, habilitará la funcionalidad Registro de audito
 ### <a name="review"></a>Revisar
 
 En esta configuración, ha canjeado su Pase para Azure con las mismas credenciales que las de su inquilino de Microsoft 365.  También ha habilitado la funcionalidad Informe de auditoría de Microsoft 365.
-
-

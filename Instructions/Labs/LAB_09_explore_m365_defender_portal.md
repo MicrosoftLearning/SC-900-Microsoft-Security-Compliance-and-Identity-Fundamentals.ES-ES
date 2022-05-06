@@ -2,28 +2,30 @@
 lab:
   title: Explorar el portal de Microsoft 365 Defender
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: c3b666c86b361f7d33c6ae7f3639b7b015d8fa30
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: dafab309af48617209f70b79ad5843d23eecd448
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614415"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557151"
 ---
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>Laboratorio: Explorar el portal de Microsoft 365 Defender
 
 ## <a name="lab-scenario"></a>Escenario del laboratorio
-En este laboratorio explorará el portal de Microsoft 365 Defender. Para ello, realizará un recorrido por el contenido mostrado en la página de aterrizaje. También examinará las opciones del panel de navegación que ofrecen un acceso rápido a una funcionalidad integrada en la solución de detección y respuesta ampliadas (XDR) de Microsoft: Microsoft Defender para punto de conexión, y Microsoft Defender para Office 365 (correo electrónico y colaboración).  Por último, también descubrirá cómo puede Puntuación de seguridad de Microsoft contribuir a mejorar la posición de seguridad de una organización.
 
+En este laboratorio explorará el portal de Microsoft 365 Defender. Para ello, realizará un recorrido por el contenido mostrado en la página de aterrizaje. También examinará las opciones del panel de navegación que ofrecen un acceso rápido a una funcionalidad integrada en la solución de detección y respuesta ampliadas (XDR) de Microsoft: Microsoft Defender para punto de conexión, y Microsoft Defender para Office 365 (correo electrónico y colaboración).  Por último, también descubrirá cómo puede Puntuación de seguridad de Microsoft contribuir a mejorar la posición de seguridad de una organización.
 
 **Tiempo estimado**: 10-15 minutos.
 
-#### <a name="task-1--explore-the-microsoft-365-defender-landing-page"></a>Tarea 1:  Explorar la página de aterrizaje de Microsoft 365 Defender
+### <a name="task-1"></a>Tarea 1
+
+Explorar la página de aterrizaje de Microsoft 365 Defender
 
 1. Abrir Microsoft Edge. En la barra de direcciones, escriba **admin.microsoft.com**.
 
 1. Inicie sesión con sus credenciales de administrador.
     1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
-   
+
     1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Haga clic en **Iniciar sesión**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**. Esto le llevará a la página del Centro de administración de Microsoft 365.
 
@@ -43,7 +45,9 @@ En este laboratorio explorará el portal de Microsoft 365 Defender. Para ello,
 
 1. Si selecciona el título de una tarjeta, obtendrá información adicional sobre ese tema. Profundizará en esto en la próxima tarea.  Mantenga la ventana del explorador abierta.
 
-#### <a name="task-2-in-this-task-you-will-explore-how-microsoft-secure-score-can-help-an-organization-improve-its-security-posture"></a>Tarea 2: En esta tarea, descubrirá cómo puede Puntuación de seguridad de Microsoft contribuir a mejorar la posición de seguridad de una organización
+### <a name="task-2"></a>Tarea 2
+
+En esta tarea, descubrirá cómo puede Puntuación de seguridad de Microsoft contribuir a mejorar la posición de seguridad de una organización
 
 1. Vaya a la página principal del portal de Microsoft 365 Defender y seleccione **Puntuación de seguridad de Microsoft** en la barra de título de la tarjeta (el texto se volverá azul).  Otra opción para hacerlo es seleccionar **Puntuación de seguridad** en el panel de navegación izquierdo.
 
@@ -63,5 +67,6 @@ En este laboratorio explorará el portal de Microsoft 365 Defender. Para ello,
 
 1. Cierre la página del explorador.
 
-#### <a name="review"></a>Revisar
+### <a name="review"></a>Revisar
+
 En este laboratorio ha examinado el portal de Microsoft 365 Defender. Para ello, ha realizado un recorrido por el contenido mostrado en la página de aterrizaje y ha explorado las opciones del panel de navegación que ofrecen un acceso rápido a una funcionalidad integrada en la solución de detección y respuesta ampliadas (XDR) de Microsoft, Microsoft Defender para punto de conexión y Microsoft Defender para Office 365 (correo electrónico y colaboración).  Por último, ha descubierto cómo puede Puntuación de seguridad de Microsoft contribuir a mejorar la posición de seguridad de una organización.

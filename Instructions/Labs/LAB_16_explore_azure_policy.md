@@ -2,28 +2,30 @@
 lab:
   title: Explorar Azure Policy
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: a9e9e273544eeb2d42ba0094a83f4ff1f4d61b7d
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 23e8f4f8417367a16cbd41496428918ca219fa40
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614427"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557534"
 ---
 # <a name="lab-explore-azure-policy"></a>Laboratorio: Explorar Azure Policy
 
 ## <a name="lab-scenario"></a>Escenario del laboratorio
-Azure Policy ayuda a aplicar los estándares de la organización y a evaluar el cumplimiento a escala. Para evaluar los recursos de Azure, Azure Policy compara las propiedades de esos recursos con las reglas de negocio. En este laboratorio, empezará por explorar la página de aterrizaje de Azure Policy. Después de llevar a cabo una exploración inicial de la página Azure Policy, creará una directiva y comprobará su impacto.
 
+Azure Policy ayuda a aplicar los estándares de la organización y a evaluar el cumplimiento a escala. Para evaluar los recursos de Azure, Azure Policy compara las propiedades de esos recursos con las reglas de negocio. En este laboratorio, empezará por explorar la página de aterrizaje de Azure Policy. Después de llevar a cabo una exploración inicial de la página Azure Policy, creará una directiva y comprobará su impacto.
 
 **Tiempo estimado**: 20-25 minutos
 
-#### <a name="task-1-briefly-explore-the-azure-policy-page"></a>Tarea 1: Explorar brevemente la página Azure Policy
+### <a name="task-1"></a>Tarea 1
+
+Explorar brevemente la página Azure Policy
 
 1. Abrir Microsoft Edge. En la barra de direcciones, escriba **portal.microsoft.com**.
 
 1. Inicie sesión con sus credenciales de administrador.
     1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
-    
+
     1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Haga clic en **Iniciar sesión**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
 
@@ -53,7 +55,9 @@ Azure Policy ayuda a aplicar los estándares de la organización y a evaluar el 
 
 1. Deje esta pestaña del explorador (Directiva: Microsoft Azure) abierta para la siguiente tarea.
 
-#### <a name="task-2--in-this-task-you-will-create-a-basic-policy-assignment-to-require-a-tag-on-resource-groups"></a>Tarea 2:  En esta tarea, creará una asignación de directiva básica para requerir una etiqueta en los grupos de recursos
+### <a name="task-2"></a>Tarea 2
+
+En esta tarea, creará una asignación de directiva básica para requerir una etiqueta en los grupos de recursos
 
 1. Abra la pestaña del explorador Directiva: Microsoft Azure.
 
@@ -69,9 +73,9 @@ Azure Policy ayuda a aplicar los estándares de la organización y a evaluar el 
 
 1. Tenga en cuenta el nombre de la asignación por defecto.  Mantenga el nombre como está y en el fondo de la página, seleccione **Siguiente**.
 
-1. En el campo Nombre de etiqueta, escriba **Ambiente** y luego seleccione **Siguiente**. 
+1. En el campo Nombre de etiqueta, escriba **Ambiente** y luego seleccione **Siguiente**.
 
-1. Deje la configuración de corrección predeterminada, ya que luego seleccionarán **Siguiente**. 
+1. Deje la configuración de corrección predeterminada, ya que luego seleccionarán **Siguiente**.
 
 1. En el mensaje de no cumplimiento, escriba **Se requiere una etiqueta de entorno**, luego seleccione **Siguiente**. Nota: Este mensaje aparecerá como motivo de no cumplimiento para los grupos de recursos que se crearon antes de la asignación de la directiva y no tienen una etiqueta Entorno.  Para los grupos de recursos creados después de la directiva, se denegará la creación del grupo de recursos si no hay ninguna etiqueta de entorno.
 
@@ -81,7 +85,9 @@ Azure Policy ayuda a aplicar los estándares de la organización y a evaluar el 
 
 1. Ahora se encuentra en la página principal de los servicios Azure.  Mantenga esta página abierta, la necesitará para la siguiente tarea.
 
-#### <a name="task-3--in-this-task-you-will-see-the-impact-of-the-azure-policy-assignment-by-creating-a-resource-group-in-azure-that-does-not-have-a-tag-then-you-will-see-update-the-resource-group-to-include-a-tag--note-it-may-take-up-to-30-minutes-for-the-policy-created-in-the-previous-task-to-take-effect-but-it-usually-happens-faster"></a>Tarea 3:  En esta tarea, comprobará el impacto de la asignación de una directiva de Azure Policy. Para ello, creará un grupo de recursos sin etiqueta en Azure y luego aprenderá a actualizarlo para incluir una etiqueta.  Nota: La directiva creada en la tarea anterior puede tardar hasta 30 minutos en entrar en vigor, aunque el proceso suele ser más rápido
+### <a name="task-3"></a>Tarea 3
+
+En esta tarea, comprobará el impacto de la asignación de una directiva de Azure Policy. Para ello, creará un grupo de recursos sin etiqueta en Azure y luego aprenderá a actualizarlo para incluir una etiqueta.  Nota: La directiva creada en la tarea anterior puede tardar hasta 30 minutos en entrar en vigor, aunque el proceso suele ser más rápido
 
 1. Abra la pestaña del explorador Inicio: Microsoft Azure.
 
@@ -99,7 +105,7 @@ Azure Policy ayuda a aplicar los estándares de la organización y a evaluar el 
 
 1. Verá una validación superada (el nombre y el valor de la etiqueta no son campos obligatorios en el asistente), luego seleccione **Crear**.
 
-1. Verá un mensaje de error en la parte superior de la pantalla, "Error al crear el grupo de recursos. Ver detalles del error".  Seleccione **Ver detalles del error**. La condición que forma parte de la directiva de Azure no se ha cumplido, por lo que se bloqueó la creación del grupo de recursos por falta de cumplimiento. 
+1. Verá un mensaje de error en la parte superior de la pantalla, "Error al crear el grupo de recursos. Ver detalles del error".  Seleccione **Ver detalles del error**. La condición que forma parte de la directiva de Azure no se ha cumplido, por lo que se bloqueó la creación del grupo de recursos por falta de cumplimiento.
 
     Nota: Si no ve el mensaje de error y se creó el grupo de recursos, es porque la directiva todavía no ha surtido efecto.  Vaya a la página Directivas y consulte la directiva que creó en la tarea anterior y una vez que la directiva surta efecto, verá que el recurso no es compatible.  La página de detalles incluirá el mensaje de falta de cumplimiento. Si recibe el error, los pasos siguientes muestran cómo corregir la implementación.
 
@@ -115,12 +121,11 @@ Azure Policy ayuda a aplicar los estándares de la organización y a evaluar el 
 
 1. Antes de salir, quite la directiva de Azure Policy.
     1. En la esquina superior izquierda de la página, seleccione Inicio para volver a la página principal de Azure.
-    
+
     1. Debajo de las palabras Servicios de Azure, seleccione Azure Policy.
     1. En medio de la página verá una lista de las asignaciones de directiva/iniciativa de Azure Policy.  Seleccione el icono de puntos suspensivos que aparece junto a la asignación de directiva Requerir una etiqueta en los grupos de recursos y luego seleccione Eliminar asignación.
     1. Se le pedirá que confirme que desea eliminar la asignación.  Seleccione Sí.
 
-
-#### <a name="review"></a>Revisar
+### <a name="review"></a>Revisar
 
 En este laboratorio ha realizado un recorrido por la página de aterrizaje de Azure Policy. Después de llevar a cabo una exploración inicial de la página, se ha familiarizado con el proceso de creación de una directiva y ha tenido la oportunidad de comprobar su impacto.

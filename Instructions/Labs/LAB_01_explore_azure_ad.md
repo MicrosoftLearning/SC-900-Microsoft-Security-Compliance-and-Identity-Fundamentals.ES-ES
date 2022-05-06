@@ -2,12 +2,12 @@
 lab:
   title: Explorar Azure Active Directory
   module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: 075b7123b5d7e17b7e30dfcacf9f90ef97a67f83
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: ca6ea1f2fc67ad1c09a108079eada6c8a9ebd89c
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894253"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557295"
 ---
 # <a name="lab-explore-azure-active-directory"></a>Laboratorio: Explorar Azure Active Directory
 
@@ -15,17 +15,17 @@ ms.locfileid: "137894253"
 
 En este laboratorio accederá a Azure Active Directory.  Además, creará un usuario y establecerá la configuración, que incluye agregar licencias.  
 
-
-
 **Tiempo estimado**: 10-15 minutos.
 
-#### <a name="task-1--as-a-subscriber-to-microsoft-365-you-are-already-using-azure-ad--in-this-task-you-will-walk-through-accessing-azure-ad-through-the-microsoft-365-admin-portal-and-through-the-azure-portal"></a>Tarea 1:  Como es suscriptor de Microsoft 365, ya utiliza Azure AD.  En esta tarea, aprenderá cómo acceder a Azure AD a través del portal de administración de Microsoft 365 y a través de Azure Portal.
+### <a name="task-1"></a>Tarea 1
+
+Como es suscriptor de Microsoft 365, ya utiliza Azure AD.  En esta tarea, aprenderá cómo acceder a Azure AD a través del portal de administración de Microsoft 365 y a través de Azure Portal.
 
 1. Abrir Microsoft Edge.
 
 2. En la barra de direcciones escriba **admin.microsoft.com** para acceder al Centro de administración de Microsoft 365.
 
-3. Inicie sesión con sus credenciales de administrador. 
+3. Inicie sesión con sus credenciales de administrador.
     1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
     1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Haga clic en **Iniciar sesión**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
@@ -44,8 +44,9 @@ En este laboratorio accederá a Azure Active Directory.  Además, creará un usu
 
 10. Mantenga esta página del navegador abierta para la siguiente tarea.
 
+### <a name="task-2"></a>Tarea 2
 
-#### <a name="task-2--in-this-task-youll-learn-how-to-create-a-new-user-in-azure-active-directory-and-explore-some-of-services-that-can-be-managed-at-the-user-level"></a>Tarea 2:  En esta tarea, aprenderá cómo crear un nuevo usuario en Azure Active Directory y explorará algunos de los servicios que se pueden administrar como usuario.
+En esta tarea, aprenderá cómo crear un nuevo usuario en Azure Active Directory y explorará algunos de los servicios que se pueden administrar como usuario.
 
 1. Vaya a la pestaña de Microsoft Azure: Contoso que hay abierta en su explorador. Si anteriormente había cerrado la pestaña, abra una página del explorador y, en la barra de direcciones, escriba portal.azure.com y seleccione Azure Active Directory.  Debería haber iniciado sesión como administrador en Azure Portal; si no es así, vuelva a iniciar sesión.
 
@@ -109,7 +110,9 @@ En este laboratorio accederá a Azure Active Directory.  Además, creará un usu
 
 20. Para cerrar sesión de todas las pestañas del navegador, haga clic en el icono de usuario junto a la dirección de correo electrónico en la esquina superior derecha de la pantalla. A continuación, cierre todas las ventanas del navegador.
 
-#### <a name="task-3--in-this-task-you-will-sign-in-as-sara-perez-for-the-first-time"></a>Tarea 3:  En esta tarea, iniciará sesión como Sara Pérez por primera vez.
+### <a name="task-3"></a>Tarea 3
+
+En esta tarea, iniciará sesión como Sara Pérez por primera vez.
 
 1. Abrir Microsoft Edge.
 
@@ -127,9 +130,6 @@ En este laboratorio accederá a Azure Active Directory.  Además, creará un usu
 
 8. Para **Cerrar sesión** de todas las pestañas del navegador, haga clic en el icono de usuario junto a la dirección de correo electrónico en la esquina superior derecha de la pantalla. A continuación, cierre todas las ventanas del navegador.
 
+### <a name="review"></a>Revisar
 
-
-#### <a name="review"></a>Revisar
 En este laboratorio, empezó su exploración inicial de Azure AD. Dado que los suscriptores de Microsoft 365 utilizan automáticamente Azure AD, comprobó que puede acceder a las características y servicios de Azure AD a través del portal de administración de Microsoft 365 o a través de Azure Portal.  Sea cual sea el método que prefiera para llegar al mismo lugar.  También aprendió el proceso de creación de un nuevo usuario y las configuraciones diferentes que se pueden establecer, incluidos los grupos a los que se puede asignar el usuario, la disponibilidad de roles y la asignación de licencias de usuario.
-
-
