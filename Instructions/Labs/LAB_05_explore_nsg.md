@@ -2,23 +2,26 @@
 lab:
   title: Explore Azure Network Security Groups (NSGs)
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: b140c437202af133f02d8e615795a97f634aca96
-ms.sourcegitcommit: 89f5fbd1e9c70e30108daa8fbeb65ebd9947bf1a
+ms.openlocfilehash: 71472d6f2cbb946d75ff8e6bc2da2afa87af96aa
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "141605429"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557511"
 ---
-# <a name="lab-explore-azure-network-security-groups-nsgs"></a>Laboratorio: Explorar los grupos de seguridad de red de Azure (NSG).
+# <a name="lab-explore-azure-network-security-groups-nsgs"></a>Laboratorio: Explore Azure Network Security Groups (NSGs)
 
 ## <a name="lab-scenario"></a>Escenario del laboratorio
+
 En este laboratorio. Explorará la función de los grupos de seguridad de red en Azure.  Para ello, creará la VM sin ningún grupo de seguridad de red (NSG).  Sin ningún NSG que filtre el tráfico, todos los puertos de la VM están expuestos a la Internet pública.  A continuación, aprenderá el proceso de crear un NSG y de asignar la interfaz de la VM a ese NSG.  Una vez configurada, probará la conexión a la máquina virtual mediante las reglas predeterminadas del grupo de seguridad de red y las reglas que va a crear.
   
-
 **Tiempo estimado**: 15-20 minutos
 
-#### <a name="task-1--in-this-task-you-will-create-a-windows-10-virtual-machine"></a>Tarea 1:  En esta tarea, creará una máquina virtual de Windows 10.    
-1.  Abrir Microsoft Edge.  En la barra de direcciones, escriba **portal.azure.com**.
+### <a name="task-1"></a>Tarea 1
+
+En esta tarea, creará una máquina virtual de Windows 10.
+
+1. Abrir Microsoft Edge.  En la barra de direcciones, escriba **portal.azure.com**.
 
 1. Inicie sesión con sus credenciales de administrador.
     1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
@@ -34,13 +37,13 @@ En este laboratorio. Explorará la función de los grupos de seguridad de red en
     1. Grupo de recursos: seleccione **Crear nuevo**. Luego, en el campo Nombre, escriba **LabsSC900** y seleccione **Aceptar**.
     1. Nombre de las máquinas virtuales: escriba **SC900-WinVM**.
     1. Región: si el campo de región no se rellena previamente, seleccione la región más cercana a la ubicación.
-    3. Imagen: en el menú desplegable, seleccione **Windows 10 Pro, versión 20H2 - Gen 1**.
-    4. Tamaño: seleccione **Ver todos los tamaños** en el menú desplegable y, a continuación, **B2**. Luego, pulse **Seleccionar** en la parte inferior de la página.
-    5. Nombre de usuario:  Introduzca el nombre de usuario que quiera.  Apúntelo, ya que lo necesitará para acceder a la máquina virtual.
-    6. Contraseña:  Escriba una contraseña de su elección.  Apúntela, ya que la necesitará para acceder a la máquina virtual.
-    7. Puertos de entrada públicos: seleccione **Ninguno**.
-    8. Licencias: seleccione **Confirmo que dispongo de una licencia válida de Windows 10 con derechos de hospedaje multiinquilino** para que aparezca una marca de verificación en el cuadro.
-    9. Seleccione **Siguiente: Discos**. 
+    1. Imagen: en el menú desplegable, seleccione **Windows 10 Pro, versión 20H2 - Gen 1**.
+    1. Tamaño: seleccione **Ver todos los tamaños** en el menú desplegable y, a continuación, **B2**. Luego, pulse **Seleccionar** en la parte inferior de la página.
+    1. Nombre de usuario:  Introduzca el nombre de usuario que quiera.  Apúntelo, ya que lo necesitará para acceder a la máquina virtual.
+    1. Contraseña:  Escriba una contraseña de su elección.  Apúntela, ya que la necesitará para acceder a la máquina virtual.
+    1. Puertos de entrada públicos: seleccione **Ninguno**.
+    1. Licencias: seleccione **Confirmo que dispongo de una licencia válida de Windows 10 con derechos de hospedaje multiinquilino** para que aparezca una marca de verificación en el cuadro.
+    1. Seleccione **Siguiente: Discos**.
 1. Ahora está en la pestaña Discos para configurar la VM.  Deje el resto de los valores predeterminados y seleccione **Siguiente: Redes >** .
 1. Ahora se encuentra en la pestaña Redes para configurar la máquina virtual.  Complete la siguiente información (si alguno de los campos no aparece en esta lista, deje la configuración predeterminada):
     1. Grupo de seguridad de red de NIC: seleccione **Ninguno**.  Nota: El motivo por el que selecciona Ninguno en este paso es porque queremos guiarle a través de los pasos de configuración de un NSG desde cero, que trataremos en las tareas posteriores.
@@ -52,17 +55,19 @@ En este laboratorio. Explorará la función de los grupos de seguridad de red en
 1. Revise la configuración de su máquina virtual.  Algunos puntos que se deben tener en cuenta: Esta máquina virtual tiene una dirección IP pública y no cuenta con ningún grupo de seguridad de red NIC.  Desde el punto de vista de la seguridad, esto deja expuesta a la VM.  Abordaremos este problema en una de las siguientes tareas. Seleccione Crear.  La implementación de la máquina virtual puede tardar varios minutos en completarse.
 1. Anote el nombre de la interfaz de red, **sc900-winvmXXX** (el XXX será específico de la interfaz de red de su máquina virtual).
 1. Una vez finalizada la implementación, seleccione **Ir al recurso**.
-1. Ahora se encuentra en la página de SC900-VMWin.  Anote la dirección IP pública. 
+1. Ahora se encuentra en la página de SC900-VMWin.  Anote la dirección IP pública.
 1. En la parte superior de la página, seleccione **Conectar** y luego, en el menú desplegable, seleccione **RDP**.
-1. Compruebe que la dirección IP está configurada en Dirección IP pública, deje el número de puerto predeterminado y seleccione **Descargar archivo DRP**. 
-1. Abra el archivo descargado y seleccione **Conectar**. 
+1. Compruebe que la dirección IP está configurada en Dirección IP pública, deje el número de puerto predeterminado y seleccione **Descargar archivo DRP**.
+1. Abra el archivo descargado y seleccione **Conectar**.
 1. A continuación, se le pedirán las credenciales.  Escriba el nombre de usuario y la contraseña que ha usado al crear la máquina virtual.
 1. Se abrirá la ventana Conexión a Escritorio remoto con el mensaje: No se puede comprobar la identidad del equipo remoto.  ¿Desea conectarse de todos modos?  Seleccione **Sí**.
-1. Se ha conectado a la máquina virtual de Windows que acaba de crear. Siga las indicaciones para completar la configuración de Windows. Aunque se ha conectado a la máquina virtual a través de RDP y de uno de los puertos RDP más utilizados, todos los puertos de esta máquina virtual están abiertos y no hay nada que filtre el tráfico. 
+1. Se ha conectado a la máquina virtual de Windows que acaba de crear. Siga las indicaciones para completar la configuración de Windows. Aunque se ha conectado a la máquina virtual a través de RDP y de uno de los puertos RDP más utilizados, todos los puertos de esta máquina virtual están abiertos y no hay nada que filtre el tráfico.
 1. Cierre la conexión al escritorio remoto. Para ello, seleccione la **X** en la parte superior central de la página donde se muestra la dirección IP.  Una ventana emergente indicará que su sesión remota va a desconectarse. Seleccione **Aceptar**.
 1. Ha vuelto a la página SC900-VMWin en Azure Portal.  Deje esta pestaña del explorador abierta para la siguiente tarea.
 
-#### <a name="task-2--create-a-network-security-group-and-assign-the-network-interface-of-the-vm-to-that-nsg"></a>Tarea 2:  Crear un grupo de seguridad de red y asignar la interfaz de red de la VM a ese NSG.
+### <a name="task-2"></a>Tarea 2
+
+Crear un grupo de seguridad de red y asignar la interfaz de red de la VM a ese NSG.
 
 1. Abra la pestaña SC900-VMWin: Microsoft Azure en su explorador.
 
@@ -90,7 +95,9 @@ En este laboratorio. Explorará la función de los grupos de seguridad de red en
 1. Abra el archivo descargado y seleccione **Conectar**.
 1. Tras unos segundos en los que tratará de conectarse, verá un mensaje de error que le indicará que el escritorio remoto no puede conectarse al equipo remoto.  Seleccione **Aceptar**.
 
-#### <a name="task-3-in-this-task-you-will-create-a-nsg-rule-to-allow-inbound-traffic-using-rdp-on-port-3389--you-will-then-test-that-rule-by-attempting-to-connect-to-the-vm-using-rdp"></a>Tarea 3: en esta tarea, creará una regla NSG para permitir el tráfico entrante mediante RDP en el puerto 3389.  Luego probará esa regla e intentará conectarse a la VM mediante RDP. 
+### <a name="task-3"></a>Tarea 3
+
+En esta tarea, creará una regla NSG para permitir el tráfico entrante mediante RDP en el puerto 3389.  Luego probará esa regla e intentará conectarse a la VM mediante RDP.
 
 1. Abra la pestaña SC900-VMWin: Microsoft Azure en su explorador.
 
@@ -115,10 +122,12 @@ En este laboratorio. Explorará la función de los grupos de seguridad de red en
 1. Ahora está conectado a la VM. En este caso pudo conectarse a la VM porque la regla de tráfico de entrada que creó permite el tráfico de entrada a la VM mediante RDP.
 1. Mantenga la VM abierta, la utilizará en la siguiente tarea.
 
-#### <a name="task-4--the-default-outbound-rules-for-nsg-allow-outbound-internet-traffic-so-you-will-validate-that-you-can-connect-to-the-internet--you-will-then-go-through-the-process-of-creating-a-custom-outbound-rule-to-block-outgoing-internet-traffic-and-test-that-rule"></a>Tarea 4:  Las reglas de salida predeterminadas del NSG permiten el tráfico de salida de Internet, así que validará que puede conectarse a Internet.  A continuación, aprenderá el proceso de creación de una regla de salida personalizada para bloquear el tráfico saliente de Internet y probará esa regla.
+### <a name="task-4"></a>Tarea 4
+
+Las reglas de salida predeterminadas del NSG permiten el tráfico de salida de Internet, así que validará que puede conectarse a Internet.  A continuación, aprenderá el proceso de creación de una regla de salida personalizada para bloquear el tráfico saliente de Internet y probará esa regla.
 
 1. En la VM, seleccione **Edge** para abrir el navegador.  
-1. Escriba **https://www.bing.com** en la barra de direcciones del navegador y confirme que pueda conectarse al motor de búsqueda.
+1. Escriba **www.bing.com** en la barra de direcciones del navegador y confirme que puede conectarse al motor de búsqueda.
 1. Cierre el navegador en su VM, pero mantenga la VM abierta, porque la utilizará en los siguientes pasos.
 1. Vuelva a Azure Portal, abra la pestaña SC900-VMWin: Microsoft Azure en su navegador.
 1. En el panel de navegación izquierdo, debajo de Configuración, seleccione **Redes**.
@@ -138,11 +147,13 @@ En este laboratorio. Explorará la función de los grupos de seguridad de red en
 1. Seleccione **Agregar**.
 1. Una vez que haya aprovisionado la regla, esta aparecerá en la lista de reglas de salida.  Aunque aparezca en la lista, tardará unos minutos en surtir efecto (espere unos minutos antes de continuar con los siguientes pasos).  
 1. Vuelva a su VM.
-1. Abra el explorador Edge en la máquina virtual y escriba **https://www.bing.com** .  La página no debería mostrarse.  Nota: Si puede conectarse a Internet y ha comprobado que todos los parámetros de la regla de salida están configurados correctamente, puede que sea porque la regla tarda unos minutos en surtir efecto.  Cierre el navegador, espere unos minutos y vuelva a intentarlo.
+1. Abra el navegador Edge en su máquina virtual y entre en **www.bing.com**. La página no debería mostrarse.  Nota: Si puede conectarse a Internet y ha comprobado que todos los parámetros de la regla de salida están configurados correctamente, puede que sea porque la regla tarda unos minutos en surtir efecto.  Cierre el navegador, espere unos minutos y vuelva a intentarlo.
 1. Cierre la conexión al escritorio remoto. Para ello, seleccione la **X** en la parte superior central de la página donde se muestra la dirección IP.  Una ventana emergente indicará que su sesión remota va a desconectarse. Seleccione **Aceptar**.
 1. En esta tarea configuró correctamente una regla de salida en su NSG para bloquear el tráfico saliente de Internet.
 
-#### <a name="task-5--important-in-this-task-you-will-delete-the-resource-group-and-all-the-resources-it-contains---this-is-important-to-avoid-additional-charges"></a>Tarea 5:  IMPORTANTE: En esta tarea eliminará el grupo de recursos y todos los recursos que contiene.   Esto es importante para evitar cargos adicionales.
+### <a name="task-5"></a>Tarea 5
+
+**IMPORTANTE**: En esta tarea eliminará el grupo de recursos y todos los recursos que contiene.   Esto es importante para evitar cargos adicionales.
 
 1. Abra la pestaña SC900-VMWin: Microsoft Azure en su explorador.
 
@@ -153,6 +164,6 @@ En este laboratorio. Explorará la función de los grupos de seguridad de red en
 1. En la ventana que se abrirá, escriba el nombre del grupo de recursos, **LabsSC900** para confirmar la eliminación del grupo de recursos y de todos sus recursos, y luego seleccione **Eliminar** en la parte inferior de la página.
 1. Eliminar todos los recursos y el grupo de recursos puede llevar varios minutos.
 
-#### <a name="review"></a>Revisar
+### <a name="review"></a>Revisar
 
 En este laboratorio aprendió el proceso de configuración de una VM con y sin grupo de seguridad de red (NSG) y vio el impacto de las reglas NSG predeterminadas.  También aprendió el proceso de creación de normas del NSG.

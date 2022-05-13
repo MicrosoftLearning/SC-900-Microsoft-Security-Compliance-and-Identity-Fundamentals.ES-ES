@@ -1,42 +1,43 @@
 ---
 lab:
-  title: Explorar las etiquetas de confidencialidad en Microsoft 365
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
-ms.openlocfilehash: ab8d44cf92697deb200bf968a1865d328025984b
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+  title: Explorar las etiquetas de confidencialidad en Microsoft Purview
+  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
+ms.openlocfilehash: 3d69459ebcd4ffa34bd71997ea86a8aeae4d0774
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614451"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557595"
 ---
-# <a name="lab-explore-sensitivity-labels-in-microsoft-365"></a>Laboratorio: Explorar las etiquetas de confidencialidad en Microsoft 365
+# <a name="lab-explore-sensitivity-labels-in-microsoft-purview"></a>Laboratorio: Explorar las etiquetas de confidencialidad en Microsoft Purview
 
 ## <a name="lab-scenario"></a>Escenario del laboratorio
-En esta laboratorio explorará las funcionalidades de las etiquetas de confidencialidad.  Realizará un recorrido por la configuración de las etiquetas de confidencialidad existentes creadas previamente y por la directiva correspondiente para publicar la etiqueta.   Después aprenderá a aplicar una etiqueta y comprobará el impacto que tiene esta desde la perspectiva de un usuario.
 
+En esta laboratorio explorará las funcionalidades de las etiquetas de confidencialidad.  Realizará un recorrido por la configuración de las etiquetas de confidencialidad existentes creadas previamente y por la directiva correspondiente para publicar la etiqueta.   Después aprenderá a aplicar una etiqueta y comprobará el impacto que tiene esta desde la perspectiva de un usuario.
 
 **Tiempo estimado**: 20-25 minutos
 
-#### <a name="task-1-in-this-task-you-will-gain-an-understanding-of-what-sensitivity-labels-can-do-by-going-through-the-settings-for-an-existing-sensitivity-label-that-have-been-created-and-the-corresponding-policy-to-publish-the-label"></a>Tarea 1: En esta tarea descubrirá las posibilidades que ofrecen las etiquetas de confidencialidad. Para ello, realizará un recorrido por las opciones de configuración de una etiqueta de confidencialidad existente creada previamente y la directiva correspondiente para publicarla
+### <a name="task-1"></a>Tarea 1
+
+En esta tarea descubrirá las posibilidades que ofrecen las etiquetas de confidencialidad. Para ello, realizará un recorrido por las opciones de configuración de una etiqueta de confidencialidad existente creada previamente y la directiva correspondiente para publicarla
 
 1. Abrir Microsoft Edge. En la barra de direcciones, escriba **admin.microsoft.com**.
 
 1. Inicie sesión con sus credenciales de administrador.
     1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
-    
+
     1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Haga clic en **Iniciar sesión**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**. Esto le llevará a la página del Centro de administración de Microsoft 365.
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft 365, seleccione **Mostrar todo**.
 
-1. En Centros de administración, seleccione **Cumplimiento**.  Se abrirá una nueva página del explorador con la página principal del Centro de cumplimiento de Microsoft 365.  
+1. En Centros de administración, seleccione **Cumplimiento**.  Se abrirá una nueva página del explorador con la página principal del portal de cumplimiento de Microsoft Purview.  
 
 1. En el panel de navegación izquierdo, debajo de Soluciones, seleccione **Information Protection**.
 
 1. Seleccione la pestaña **Etiquetas** en la parte superior de la página.
 
-1. Aparece un cuadro de información amarillo que indica que su organización no ha activado la capacidad de procesar el contenido de los archivos en línea de Office a los que se les ha aplicado etiquetas de confidencialidad cifradas y que se han almacenado en OneDrive y SharePoint.  Seleccione Activar ahora.  Una vez hecho esto, es posible que la configuración tarde unos minutos en propagarse por el sistema.
-
+1. Aparece un cuadro de información amarillo que indica que su organización no ha activado la capacidad de procesar el contenido de los archivos en línea de Office a los que se les ha aplicado etiquetas de confidencialidad cifradas y que se han almacenado en OneDrive y SharePoint.  Seleccione **Activar ahora**.  Una vez hecho esto, es posible que la configuración tarde unos minutos en propagarse por el sistema.** **
 
 1. Observe que ya hay etiquetas creadas en el centro de la página.  Seleccione **Finanzas: Confidencial**.  Se abrirá una ventana que proporciona información sobre esta etiqueta.  Observe que esta etiqueta está configurada para admitir tanto el cifrado como el marcado de contenido.  Seleccione Modificar etiqueta en la parte superior de la página para ver algunas de las opciones de configuración básicas.
 
@@ -52,9 +53,9 @@ En esta laboratorio explorará las funcionalidades de las etiquetas de confidenc
 
 1. Ahora se encuentra en la ventana Etiquetado automático de archivos y correos.  Lea la descripción del etiquetado automático en la parte superior de la página y el cuadro de información que aparece debajo.  Tome nota también de que esta etiqueta está configurada en Etiquetado automático para determinadas condiciones específicas. No cambie la configuración.  Seleccione **Siguiente** en la parte inferior de la página.
 
-1. La siguiente ventana define la configuración de protección de los equipos, grupos y sitios a los que se les ha aplicado esta etiqueta. Esta opción no está habilitada. Seleccione **Siguiente** en la parte inferior de la página. 
+1. La siguiente ventana define la configuración de protección de los equipos, grupos y sitios a los que se les ha aplicado esta etiqueta. Esta opción no está habilitada. Seleccione **Siguiente** en la parte inferior de la página.
 
-1. La siguiente ventana es una característica en versión preliminar para aplicar automáticamente esta etiqueta a las columnas de las bases de datos de Azure (como SQL, Synapse, etc.) que contienen los tipos de información confidencial que ha elegido.  Esta característica no está habilitada. Seleccione **Cancelar** en la parte inferior de la página para salir del asistente de configuración de etiquetas y volver a la página Information Protection. 
+1. La siguiente ventana es una característica en versión preliminar para aplicar automáticamente esta etiqueta a las columnas de las bases de datos de Azure (como SQL, Synapse, etc.) que contienen los tipos de información confidencial que ha elegido.  Esta característica no está habilitada. Seleccione **Cancelar** en la parte inferior de la página para salir del asistente de configuración de etiquetas y volver a la página Information Protection.
 
 1. En la parte superior de la página Information Protection, seleccione **Directivas de etiquetas**.  Las etiquetas de confidencialidad se pueden publicar mediante directivas de etiquetas.  
 
@@ -75,31 +76,31 @@ En esta laboratorio explorará las funcionalidades de las etiquetas de confidenc
 
 1. En la página Information protection, seleccione Etiquetado automático.  Observe que no hay ninguna directiva de etiquetado automático configurada.  No cambie la configuración.  Si se está preguntando por qué no hay ninguna directiva aquí, dado que las etiquetas están configuradas en Etiquetado automático de archivos y correos, vuelva a los pasos en los que examinó la configuración de las etiquetas y revise la descripción y los cuadros de información relacionados con el etiquetado automático de archivos y correos.  Sugerencia:  En la pestaña Etiquetado automático del laboratorio Sensibilidad, aparece el siguiente mensaje:  "Debe crear una directiva de etiquetado automático para aplicar automáticamente esta etiqueta a archivos que ya se han guardado (en SharePoint y OneDrive) o a correos que ya han sido procesados mediante Exchange".
 
-1. En el panel de navegación izquierdo, seleccione Inicio para volver al Centro de cumplimiento de Microsoft 365.
+1. En el panel de navegación izquierdo, seleccione Inicio para volver al Portal de cumplimiento de Microsoft Purview.
 
 1. Deje esta página abierta. La utilizará en la siguiente tarea.
 
+### <a name="task-2"></a>Tarea 2
 
-#### <a name="task-2--in-this-task-you-will-go-through-the-process-of-applying-a-label-from-the-perspective-of-the-user-in-this-case-the-user-is-the-admin-and-view-the-content-marking-that-is-generated-by-the-label"></a>Tarea 2:  En esta tarea, se familiarizará con el proceso de aplicar una etiqueta desde la perspectiva del usuario (en este caso el usuario es el administrador) y ver el marcado de contenido generado por la etiqueta
+En esta tarea, se familiarizará con el proceso de aplicar una etiqueta desde la perspectiva del usuario (en este caso el usuario es el administrador) y ver el marcado de contenido generado por la etiqueta
 
-1. En primer lugar, asegúrese de tener configurado Office en la máquina virtual (VM) del laboratorio.  Para ello, seleccione la pestaña **Centro de administración de Microsoft 365** que está abierta en el explorador.  Si había cerrado la pestaña, abra otra y escriba **admin.microsoft.com**.
-    1. En el panel de navegación de la izquierda, seleccione **Facturación** para ver todas las opciones y, luego, seleccione **Sus productos**.
-    1. En la página Sus productos, seleccione la **evaluación gratuita de Microsoft 365 E5**.
-    1. En la página de la evaluación gratuita de Microsoft 365 E5, seleccione **Descargar e instalar software** y siga las instrucciones que aparecen en la página.
+1. En la página principal del Centro de cumplimiento de Microsoft 365, seleccione el **icono del iniciador de aplicaciones**, junto a Contoso Electronics. **Haga clic con el botón derecho en el icono de Word** y seleccione **Abrir en una nueva pestaña**.  
 
-1. En la esquina inferior izquierda de la VM del laboratorio, seleccione el icono de Windows, seleccione **Word** y, luego, **Documento en blanco**.  Se abrirá un documento de Word nuevo con la versión de escritorio de Word.
+1. Seleccione **+ Nuevo documento en blanco** y luego escriba algo de texto en la página.  En la barra azul de la parte superior de la página, seleccione la flecha hacia abajo que hay junto a las palabras DocumentoXX: Guardado y, en el cuadro Nombre de archivo, escriba **Etiqueta:Prueba**.
 
-1. En la barra de menús superior, seleccione **Confidencialidad**. En el menú desplegable, seleccione **Finanzas: Confidencial**.
+1. En la barra de menús de la parte superior, seleccione **Sensibilidad**. Si no ve inmediatamente esta opción, actualice la página. En el menú desplegable, seleccione **Finanzas: Confidencial**.
 
-1. Observe que el documento incluye la marca de agua.  La marca de agua aparecerá en un texto gris claro pequeño, que se mostrará verticalmente en la página. 
+1. En la barra de menús de la parte superior, seleccione **Vista** y luego **Vista de lectura**.
 
-1. Guarde el archivo de Word.
+1. Observe que el documento incluye la marca de agua.  
 
 1. Cierre las pestañas de Microsoft Word que hay abiertas en su explorador para salir de Word.
 
-#### <a name="task-3-optional-in-addition-to-content-marking-the-label-protection-setting-was-set-for-encryption-per-the-permissions-that-were-configured-with-this-label-members-of-the-finance-group-can-co-author-documents-with-this-label-applied-and-users-in-the-contoso-tenant-can-view--in-this-task-you-will-send-this-document-to-an-email-address-to-which-you-have-access-ie-a-personal-email-address-and-that-is-not-part-of-the-wwlxzzzzonmicrosoftcom-domain-and-see-what-happens-when-you-try-to-open-the-attachment"></a>Tarea 3 (opcional): Además del marcado de contenido, se ha configurado el cifrado en las opciones de configuración de la protección de etiquetas. Debido a los permisos que se han configurado con esta etiqueta, los miembros del grupo Finanzas pueden trabajar en coautoría en los documentos a los que se les ha aplicado esta etiqueta, y los usuarios de la cuenta empresarial de Contoso pueden verlos.  En esta tarea enviará este documento a una dirección de correo electrónico a la que tenga acceso (p. ej., una dirección de correo electrónico personal) y que no forme parte del dominio WWLxZZZZ.OnMicrosoft.com, y verá lo que ocurre cuando intenta abrir los datos adjuntos  
+### <a name="task-3-optional"></a>Tarea 3 (opcional)
 
-1. En la página principal del Centro de cumplimiento de Microsoft 365, seleccione el **icono del iniciador de aplicaciones**, junto a Contoso Electronics. **Haga clic con el botón derecho en el icono de Outlook** y seleccione **Abrir en una nueva pestaña**.
+Además del marcado de contenido, se ha configurado el cifrado en las opciones de configuración de la protección de etiquetas. Debido a los permisos que se han configurado con esta etiqueta, los miembros del grupo Finanzas pueden trabajar en coautoría en los documentos a los que se les ha aplicado esta etiqueta, y los usuarios de la cuenta empresarial de Contoso pueden verlos.  En esta tarea enviará este documento a una dirección de correo electrónico a la que tenga acceso (p. ej., una dirección de correo electrónico personal) y que no forme parte del dominio WWLxZZZZ.OnMicrosoft.com, y verá lo que ocurre cuando intenta abrir los datos adjuntos
+
+1. En la página principal del Portal de cumplimiento de Microsoft Purview, seleccione el **icono del iniciador de aplicaciones**, junto a Contoso Electronics. **Haga clic con el botón derecho en el icono de Outlook** y seleccione **Abrir en una nueva pestaña**.
 
 1. Seleccione **Nuevo mensaje** en la esquina superior izquierda de la pantalla.  Escriba una dirección de correo electrónico a la que tenga acceso y que no forme parte del dominio WWLxZZZZ.OnMicrosoft.com, y escriba **Prueba** en la línea de asunto.
 
@@ -113,6 +114,6 @@ En esta laboratorio explorará las funcionalidades de las etiquetas de confidenc
 
 1. Cierre las pestañas abiertas del explorador.
 
+### <a name="review"></a>Revisar
 
-#### <a name="review"></a>Revisar
 En esta laboratorio explorará las funcionalidades de las etiquetas de confidencialidad.  Realizará un recorrido por la configuración de las etiquetas de confidencialidad creadas previamente y por la directiva correspondiente para publicar la etiqueta.   Después aprenderá a aplicar una etiqueta y comprobará el impacto que tiene esta desde la perspectiva de un usuario.

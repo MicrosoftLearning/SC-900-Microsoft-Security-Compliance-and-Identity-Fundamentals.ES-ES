@@ -2,19 +2,20 @@
 Demo:
   title: 'Microsoft Defender for Cloud Apps '
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: f653c14f8383ef3c5823d9c4626e7d6c3a693df8
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 5ab8489c487f8eb80354f18cf83b896f8ba4793f
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894325"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557186"
 ---
 # <a name="demo-microsoft-defender-for-cloud-apps"></a>Demostración: Microsoft Defender for Cloud Apps
 
-### <a name="demo-scenario"></a>Escenario de la demo
+## <a name="demo-scenario"></a>Escenario de la demo
+
 En esta demo, hará una demostración de las funcionalidades de Microsoft Defender for Cloud Apps.  Ayudará al estudiante a realizar un recorrido por la información que se muestra en el panel de Cloud Discovery y las funcionalidades disponibles para investigar los resultados y controlar el impacto en su organización a través de directivas.  Nota:  Las organizaciones deben tener una licencia para usar Microsoft Defender for Cloud Apps, que es un servicio de suscripción basado en usuarios.  
 
-#### <a name="demo-part-1-explore-cloud-discovery"></a>Demo, parte 1: Explorar Cloud Discovery
+### <a name="demo-part-1-explore-cloud-discovery"></a>Demo, parte 1: Explorar Cloud Discovery
 
 1. Abrir Microsoft Edge. En la barra de direcciones, escriba **admin.microsoft.com**.  Con esto debería haber iniciado sesión como administrador.  Si no lo ha hecho, inicie sesión con sus credenciales de administrador.
 
@@ -54,7 +55,9 @@ En esta demo, hará una demostración de las funcionalidades de Microsoft Defend
 
 1. Deje esta página abierta, porque la utilizará en la siguiente tarea.
 
-#### <a name="demo-part-2-explore-ways-in-which-you-can-investigate-the-recorded-activities"></a>Demo, parte 2: Explorar las formas de investigar las actividades registradas
+### <a name="demo-part-2"></a>Demo, parte 2
+
+Explorar las formas de investigar las actividades registradas
 
 1. En el panel de navegación izquierdo, debajo de la opción **Investigar**, seleccione **Registro de actividad**.  Aquí podrá ver todas las actividades de las aplicaciones que ha conectado.   Dado que ya ha conectado el conector de Office 365, debería poder ver algún dato. Después de conectar Cloud App Security con una aplicación mediante el conector de aplicaciones, Cloud App Security examina todas las actividades que se han producido (el período de tiempo de examen retroactivo varía según la aplicación) y después se actualiza constantemente con nuevas actividades.  
 
@@ -66,8 +69,9 @@ En esta demo, hará una demostración de las funcionalidades de Microsoft Defend
 
 1. Deje esta página abierta, porque la utilizará en la siguiente tarea.
 
+### <a name="demo-part-3"></a>Demo, parte 3
 
-#### <a name="demo-part-3-in-this-task-you-will-explore-the-policies-and-alerts-pages-in-microsoft-defender-for-cloud-apps"></a>Demo, parte 3: En esta tarea, explorará las páginas Directivas y Alertas en Microsoft Defender for Cloud Apps.
+En esta tarea, explorará las páginas Directivas y Alertas en Microsoft Defender for Cloud Apps.
 
 1. En el panel de navegación izquierdo, debajo de la opción Control, seleccione **Directivas**.  Las directivas mostradas proporcionan información sobre el número de alertas generadas por la directiva, la gravedad, etc. Al seleccionar cualquier elemento de línea, se ofrece información más detallada sobre la directiva. Seleccione un elemento de la lista., p. ej., **Inicio de sesión de riesgo**.  
 
@@ -75,5 +79,6 @@ En esta demo, hará una demostración de las funcionalidades de Microsoft Defend
 
 1. Cierre la ventana del explorador.
 
-#### <a name="review"></a>Revisar
+### <a name="review"></a>Revisar
+
 En esta demo, hizo una demostración de las funcionalidades de Microsoft Defender for Cloud Apps.  Ha hecho un recorrido por la información que se muestra en el panel de Cloud Discovery y las funcionalidades disponibles para investigar los resultados y controlar el impacto en su organización a través de directivas.

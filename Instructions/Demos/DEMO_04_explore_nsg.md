@@ -2,20 +2,21 @@
 Demo:
   title: Grupos de seguridad de red (NSG) de Azure
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 878316bb32c23e57550dddda1312af270a2fe078
-ms.sourcegitcommit: 3a5280632c212b689353f3b2b0ee7c1f494ff855
+ms.openlocfilehash: dc653f2a9e6ee450b5693ad7bfbfe2208d5a7ea3
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "138019288"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557535"
 ---
 # <a name="demo-azure-network-security-groups-nsgs"></a>Demostración: Grupos de seguridad de red (NSG) de Azure
 
-### <a name="demo-scenario"></a>Escenario de la demo
+## <a name="demo-scenario"></a>Escenario de la demo
+
 En esta demo, hará una demostración de la funcionalidad de un grupo de seguridad de red (NSG) en Azure.  Para ello, creará una máquina virtual (VM) sin ningún grupo de seguridad de red como parte de la configuración previa a la demo. También creará un grupo de seguridad de red sin ninguna interfaz o subred asociada.  Como parte de la demo, explicará el funcionamiento de las reglas de entrada y salida del grupo. Después, realizará el proceso de asignación de la interfaz de la máquina virtual al grupo que ha creado.  Una vez configurada, probará la conexión a la máquina virtual mediante las reglas predeterminadas del grupo de seguridad de red y las reglas que va a crear.
   
+### <a name="pre-demo-setup-part-1"></a>Configuración previa a la demostración, parte 1
 
-#### <a name="pre-demo-setup-part-1"></a>Configuración previa a la demostración, parte 1
  Se recomienda a los instructores que realicen este proceso **ANTES** de la clase, ya que crear una máquina virtual puede llevar varios minutos. En esta configuración, creará una máquina virtual de Windows 10.
 
 1. Abra la pestaña **Inicio: Microsoft Azure** en su explorador.  Si anteriormente había cerrado la pestaña, abra una página del explorador y, en la barra de direcciones, escriba portal.azure.com y vuelva a iniciar sesión.
@@ -34,7 +35,7 @@ En esta demo, hará una demostración de la funcionalidad de un grupo de segurid
     1. **Tamaño**: seleccione **Ver todos los tamaños** en el menú desplegable y, a continuación, **B2**. Luego, pulse **Seleccionar** en la parte inferior de la página.
     1. **Nombre de usuario**:  Introduzca el nombre de usuario que quiera.  Apunte este dato, ya que lo necesitará para acceder a la máquina virtual.
     1. **Contraseña**:  Escriba una contraseña de su elección.  Apunte este dato, ya que lo necesitará para acceder a la máquina virtual.
-    1. **Puertos de entrada públicos**: puede dejar la configuración predeterminada (no importa lo que seleccione aquí, ya que la configuración de red reemplazará lo que haya hecho).
+    1. **Puertos de entrada públicos**: puede dejar la configuración predeterminada (no importa lo que seleccione, ya que la configuración de red reemplazará los ajustes que configure aquí).
     1. **Licencias**: seleccione **Confirmo que dispongo de una licencia válida de Windows 10 con derechos de hospedaje multiinquilino** para que aparezca una marca de verificación en el cuadro.
     1. Seleccione **Siguiente: Discos**.
 
@@ -62,7 +63,8 @@ En esta demo, hará una demostración de la funcionalidad de un grupo de segurid
 
 1. Ha vuelto a la página SC900-VMWin en Azure Portal.  Deje esta pestaña del explorador abierta para la siguiente tarea.
 
-#### <a name="pre-demo-setup-part-2"></a>Configuración previa a la demostración, parte 2
+### <a name="pre-demo-setup-part-2"></a>Configuración previa a la demostración, parte 2
+
 Cree un grupo de seguridad de red, pero no asigne la interfaz de red de la máquina virtual a ese grupo.  
 
 1. Abra la pestaña SC900-VMWin: Microsoft Azure en su explorador.
@@ -80,8 +82,9 @@ Cree un grupo de seguridad de red, pero no asigne la interfaz de red de la máqu
 
 1. Cuando se complete la implementación, seleccione **Ir al recurso** y asegúrese de que todo está configurado correctamente.  Debería haber 3 reglas de entrada y 3 reglas de salida predeterminadas, y no debería haber subredes ni interfaces asociadas al grupo de seguridad de red.  Vuelva a la página **Inicio** de Azure Portal.  
 
-#### <a name="demo"></a>Demostración
-Explore la configuración de un grupo de seguridad de red.  En este caso, hará un recorrido por un grupo de seguridad de red existente (el que ha creado en la configuración anterior) que aún no ha sido asignado a la interfaz de una máquina virtual. Después, explicará cuál es el proceso para asociar una interfaz al grupo y crear las reglas de entrada y salida.
+### <a name="demo"></a>Demostración
+
+Explore la configuración de un grupo de seguridad de red.  En este caso, hará un recorrido por un grupo de seguridad de red existente (el que ha creado en la configuración anterior) que aún no ha sido asignado a la interfaz de una máquina virtual. A continuación, explicará cuál es el proceso para asociar una interfaz al grupo y crear las reglas de entrada y salida.
 
 1. Abra la pestaña del explorador **Inicio: Microsoft Azure**.  Si anteriormente había cerrado la pestaña, abra una página del explorador y, en la barra de direcciones, escriba portal.azure.com y vuelva a iniciar sesión.
 
@@ -143,13 +146,14 @@ Explore la configuración de un grupo de seguridad de red.  En este caso, hará 
 
 1. Ahora pruebe la regla de salida del grupo de seguridad de red.
     1. Abra el explorador Edge en la máquina virtual.
-    1. Escriba **https://www.bing.com** . La página no debería mostrarse. Nota: Si puede conectarse a Internet y ha comprobado que todos los parámetros de la regla de salida están configurados correctamente, puede que sea porque la regla tarda unos minutos en surtir efecto. Espere unos minutos y pruebe otra vez.
+    1. Escriba **www.bing.com**. La página no debería mostrarse. Nota: Si puede conectarse a Internet y ha comprobado que todos los parámetros de la regla de salida están configurados correctamente, puede que sea porque la regla tarda unos minutos en surtir efecto. Espere unos minutos y pruebe otra vez.
 
 1. Cierre la conexión al escritorio remoto. Para ello, seleccione la **X** en la parte superior central de la página donde se muestra la dirección IP. Una ventana emergente indicará que su sesión remota va a desconectarse. Seleccione **Aceptar**.
 
 1. Vuelva a la página principal de Azure Portal. Para ello, seleccione **Microsoft Azure** en la barra azul de la parte superior de la página.
 
-#### <a name="tear-down"></a>Desmontaje
+### <a name="tear-down"></a>Desmontaje
+
 **IMPORTANTE**: En esta tarea eliminará el grupo de recursos y todos los recursos que contiene.   Esto es importante para evitar cargos adicionales.
 
 1. Abra la pestaña SC900-VMWin: Microsoft Azure en su explorador.

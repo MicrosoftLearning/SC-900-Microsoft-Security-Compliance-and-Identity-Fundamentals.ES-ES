@@ -2,19 +2,22 @@
 Demo:
   title: Azure Policy
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 502bc783d6de1a8c4454df90550aac24d0c16d22
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: d336b34711cbfd458d25cf7692bea27ad34f86ab
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614187"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557139"
 ---
 # <a name="demo-azure-policy"></a>Demostración: Azure Policy
 
-### <a name="demo-scenario"></a>Escenario de la demo
+## <a name="demo-scenario"></a>Escenario de la demo
+
 En esta demostración, recorrerá el proceso de configuración de una directiva de Azure y el impacto de la misma.
 
-#### <a name="demo-part-1-create-a-policy-to-require-a-tag-on-a-resource-group-shows-steps-to-create-a-policy-from-a-template"></a>Demo, parte 1: Crear una directiva para exigir una etiqueta en un grupo de recursos (se muestran los pasos para crear una directiva a partir de una plantilla)
+### <a name="demo-part-1"></a>Demo, parte 1
+
+Crear una directiva para exigir una etiqueta en un grupo de recursos (se muestran los pasos para crear una directiva a partir de una plantilla)
 
 1. Abrir Microsoft Edge. En la barra de direcciones, escriba **portal.microsoft.com**.  Ya debería haber iniciado la sesión, si no, debe hacerlo con sus credenciales de administrador.
 
@@ -46,7 +49,9 @@ En esta demostración, recorrerá el proceso de configuración de una directiva 
 
 1. Ahora se encuentra en la página principal de los servicios Azure.  Mantenga esta página abierta, la necesitará para la siguiente tarea.
 
-#### <a name="demo-part-2--show-the-impact-of-the-policy-by-creating-a-resource-group-without-a-tag-then-fix-it-to-have-a-tag"></a>Demo, parte 2:  Muestre el impacto de la directiva creando un grupo de recursos sin etiqueta, y luego arréglelo para que tenga una etiqueta.
+### <a name="demo-part-2"></a>Demo, parte 2
+
+Muestre el impacto de la directiva creando un grupo de recursos sin etiqueta, y luego arréglelo para que tenga una etiqueta.
 
 1. En la parte superior de la página, debajo de donde pone Servicios de Azure, seleccione **Grupos de recursos**. Si no ve la opción en la lista, escriba Grupos de recursos en la barra de búsqueda y selecciónela desde allí.
 
@@ -74,6 +79,6 @@ En esta demostración, recorrerá el proceso de configuración de una directiva 
 
 1. Podrá ver el grupo de recursos en la lista.  Como la etiqueta se aportó en el grupo de recursos, se ha cumplido la condición incluida como parte de la directiva de Azure.  El grupo de recursos es compatible con la directiva.
 
-#### <a name="review"></a>Revisar
+### <a name="review"></a>Revisar
 
 En esta demostración, ha mostrado el proceso de configuración de una directiva de Azure y el impacto de la misma.

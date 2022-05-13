@@ -1,28 +1,29 @@
 ---
 Demo:
-  title: "'Explorar el Centro de cumplimiento de Microsoft 365 y el Administrador de cumplimiento'"
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft 365'
-ms.openlocfilehash: 32c4783d9a909bfd8099750b994ab5a05718c198
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+  title: Explorar el Portal de cumplimiento de Microsoft Purview y el Administrador de cumplimiento
+  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
+ms.openlocfilehash: 7c0b3e5a3153e48ddb3a7e7cca991c9df6a89bdf
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614211"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557247"
 ---
-# <a name="demo-explore-the-microsoft-365-compliance-center--compliance-manager"></a>Demostración: 'Explorar el Centro de cumplimiento de Microsoft 365 y el Administrador de cumplimiento'
+# <a name="demo-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>Demostración: Explorar el Portal de cumplimiento de Microsoft Purview y el Administrador de cumplimiento
 
 ## <a name="demo-scenario"></a>Escenario de la demo
-En esta demo hará un recorrido por la página principal del Centro de cumplimiento de Microsoft 365 y explorará las diferentes formas en las que las funcionalidades del Administrador de cumplimento pueden ayudar a las organizaciones a mejorar su posición de cumplimiento.
 
-## <a name="instructions"></a>Instrucciones
+En esta demo hará un recorrido por la página principal del Portal de cumplimiento de Microsoft Purview y explorará las diferentes formas en las que las funcionalidades del Administrador de cumplimento pueden ayudar a las organizaciones a mejorar su posición de cumplimiento.
 
-#### <a name="demo-part-1-show-the-microsoft-365-compliance-center-home-page-and-how-to-customize-the-card-view-and-the-navigation-panel"></a>Demo, parte 1: Explorar la página principal del Centro de cumplimiento de Microsoft 365 y mostrar cómo personalizar la vista de tarjeta y el panel de navegación
+### <a name="demo-part-1"></a>Demo, parte 1
+
+Explorar la página principal del Portal de cumplimiento de Microsoft Purview y mostrar cómo personalizar la vista de tarjeta y el panel de navegación
 
 1. Abrir Microsoft Edge. En la barra de direcciones, escriba **admin.microsoft.com**. Con esto debería haber iniciado sesión como administrador.  Si no lo ha hecho, inicie sesión con sus credenciales de administrador.
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft 365, seleccione **Mostrar todo**.
 
-1. En Centros de administración, seleccione **Cumplimiento**.  Se abrirá una nueva página del explorador con la página principal del Centro de cumplimiento de Microsoft 365.  
+1. En Centros de administración, seleccione **Cumplimiento**.  Se abrirá una nueva página del explorador con la página principal del portal de cumplimiento de Microsoft Purview.  
 
 1. La sección de tarjetas de la página principal le muestra de un vistazo la posición de cumplimiento de su organización, las soluciones disponibles para esta, y mucho más.
 
@@ -34,7 +35,7 @@ En esta demo hará un recorrido por la página principal del Centro de cumplimie
 
 1. Para agregar tarjetas, seleccione **+ Agregar tarjetas**.  Se abre la ventana Agregar tarjetas a la página principal.  Sitúe el cursor del ratón sobre la tarjeta del Catálogo de soluciones que aparece en esta ventana y arrástrela a la ubicación de su pantalla principal en la que desea situarla.
 
-1. En el panel de navegación izquierdo de la página principal del Centro de cumplimiento de Microsoft 365, observe los elementos que aparecen debajo de Soluciones.  Si únicamente se muestra el Catálogo, seleccione **Mostrar todo** en el panel de navegación izquierdo.  Observe que todas las soluciones adicionales aparecen debajo de la sección Soluciones.  
+1. En el panel de navegación izquierdo de la página principal del Portal de cumplimiento de Microsoft Purview, observe los elementos que aparecen debajo de Soluciones.  Si únicamente se muestra el Catálogo, seleccione **Mostrar todo** en el panel de navegación izquierdo.  Observe que todas las soluciones adicionales aparecen debajo de la sección Soluciones.  
 
 1. Como administrador de cumplimiento, es posible que haya un conjunto de soluciones que administre para su organización y que desee mostrar siempre en la lista del panel de navegación.  Para personalizar sus preferencias, seleccione **Personalizar la navegación**.  
 
@@ -42,9 +43,11 @@ En esta demo hará un recorrido por la página principal del Centro de cumplimie
 
 1. Deje abierta la pestaña del explorador.
 
-#### <a name="demo-part-2-learn-about-your-organizations-compliance-posture-through-compliance-manager"></a>Demo, parte 2: Obtenga información sobre la postura de cumplimiento de su organización mediante el Administrador de cumplimiento
+### <a name="demo-part-2"></a>Demo, parte 2
 
-1. En el panel de navegación izquierdo del Centro de cumplimiento de Microsoft 365, seleccione **Administrador de cumplimiento**.  Como alternativa, puede seleccionar Administrador de cumplimiento desde la barra de título de la tarjeta Administrador de cumplimiento.
+Obtenga información sobre la postura de cumplimiento de su organización mediante el Administrador de cumplimiento
+
+1. En el panel de navegación izquierdo del Portal de cumplimiento de Microsoft Purview, seleccione **Administrador de cumplimiento**.  Como alternativa, puede seleccionar Administrador de cumplimiento desde la barra de título de la tarjeta Administrador de cumplimiento.
 
 1. En la parte superior de la página Administrador de cumplimiento, asegúrese de que la opción **Información general** está seleccionada (subrayada). Desplácese hacia abajo para ver toda la información disponible en la página.  Entre la información de esta página se incluye su puntuación de cumplimiento, la cual se muestra en forma de porcentaje y en base a los puntos y los puntos administrados por Microsoft que ha obtenido.   Verá las acciones de mejora clave, las soluciones que afectan a su puntuación y un desglose de la puntuación de cumplimiento por categorías o evaluaciones.
 
@@ -66,7 +69,8 @@ En esta demo hará un recorrido por la página principal del Centro de cumplimie
 
 1. En la lista de plantillas incluidas, seleccione **ISO/IEC27001:2013**. En la parte superior derecha de la página, seleccione **+ Crear evaluación**.  Observe que en lado izquierdo de la pantalla aparecen solo dos pasos para crear una evaluación a partir de la plantilla.  Seleccione Cancelar en la parte inferior de la página.
 
-1. En el panel de navegación izquierdo, seleccione **Inicio** para volver a la página principal del Centro de cumplimiento de Microsoft 365.  Mantenga esta página del explorador abierta para la siguiente demo tecnológica.
+1. En el panel de navegación izquierdo, seleccione **Inicio** para volver a la página principal del Portal de cumplimiento de Microsoft Purview.  Mantenga esta página del explorador abierta para la siguiente demo tecnológica.
 
-#### <a name="review"></a>Revisar
-En esta demo ha realizado un recorrido por la página principal del Centro de cumplimiento de Microsoft 365 y ha hecho una demostración de las formas en las que las funcionalidades del Administrador de cumplimento pueden ayudar a las organizaciones a mejorar su posición de cumplimiento.
+### <a name="review"></a>Revisar
+
+En esta demo realizó un recorrido por la página principal del Portal de cumplimiento de Microsoft Purview y explorará las diferentes formas en las que las funcionalidades del Administrador de cumplimento pueden ayudar a las organizaciones a mejorar su posición de cumplimiento.
