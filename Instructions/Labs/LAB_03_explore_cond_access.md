@@ -1,13 +1,13 @@
 ---
 lab:
-  title: Explorar la administración de accesos en Azure AD con Conditional
+  title: Explorar la administración de accesos en Azure AD con acceso condicional
   module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: 14cd1839bb4f8b883592cc000e4bded63b8e1002
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 23b0cfcc4c26a2f8561ae1793a176e94e064f627
+ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894237"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "141489264"
 ---
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional"></a>Laboratorio: Explorar la administración de accesos en Azure AD con Conditional
 
@@ -21,7 +21,7 @@ En este laboratorio explorará el acceso condicional MFA, desde la perspectiva d
 1. Abrir Microsoft Edge.  En la barra de direcciones, escriba **portal.azure.com**.
 
 2. Inicie sesión con sus credenciales de administrador.
-    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
+    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es el id. de inquilino único proporcionado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
     1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Haga clic en **Iniciar sesión**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
 

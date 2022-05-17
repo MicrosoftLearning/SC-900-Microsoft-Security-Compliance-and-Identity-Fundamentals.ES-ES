@@ -2,12 +2,12 @@
 lab:
   title: Explorar la autenticación de Azure AD con el autoservicio de restablecimiento de contraseña de Azure AD
   module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 7a9ae15dda8636c3323afacc0f92fc630485cc64
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: ceaf7c5695abc9b7a7c179f6e5a1580b22af3016
+ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894252"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "141489276"
 ---
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Laboratorio: Explorar la autenticación de Azure AD con el autoservicio de restablecimiento de contraseña de Azure AD
 
@@ -65,7 +65,7 @@ En este laboratorio, como administrador, aprenderá el proceso para habilitar el
 
 2. En el panel de navegación izquierdo, seleccione **Restablecer contraseña**.  
 
-3. Se mostrarán las propiedades para el autoservicio de restablecimiento de contraseñas.  Asegúrese de que el **autoservicio de restablecimiento** está **seleccionado** para el grupo que aparece en la lista, el **SSPRSecurityUsers**.  Coloque el cursor sobre el icono de información junto a "seleccionar grupo" y observe lo que dice: "Defina el grupo de usuarios a los que se permite restablecer sus propias contraseñas". Debe incluir usuarios en el grupo. No puede seleccionar usuarios de forma individual.  Además, si cambia el grupo, el grupo que seleccione reemplazará al grupo que aparezca en la lista en ese momento.  Por lo tanto, se recomienda que simplemente agregue los usuarios al grupo del SSPR.  Por último, observe el cuadro de información azul: "Esta configuración solo se aplica a los usuarios finales de su organización. Los administradores siempre están habilitados para el autoservicio de restablecimiento de contraseña y deben utilizar dos métodos de autenticación para restablecer su contraseña".
+3. Se mostrarán las propiedades para el autoservicio de restablecimiento de contraseñas.  Asegúrese de que el **autoservicio de restablecimiento** está **seleccionado** para el grupo que aparece en la lista, el **SSPRSecurityGroupUsers**.  Coloque el cursor sobre el icono de información junto a "seleccionar grupo" y observe lo que dice: "Defina el grupo de usuarios a los que se permite restablecer sus propias contraseñas". Debe incluir usuarios en el grupo. No puede seleccionar usuarios de forma individual.  Además, si cambia el grupo, el grupo que seleccione reemplazará al grupo que aparezca en la lista en ese momento.  Por lo tanto, se recomienda que simplemente agregue los usuarios al grupo del SSPR.  Por último, observe el cuadro de información azul: "Esta configuración solo se aplica a los usuarios finales de su organización. Los administradores siempre están habilitados para el autoservicio de restablecimiento de contraseña y deben utilizar dos métodos de autenticación para restablecer su contraseña".
 
 5. En el panel de navegación izquierdo de restablecimiento de contraseña, seleccione **Métodos de autenticación**.
 
@@ -99,7 +99,7 @@ En este laboratorio, como administrador, aprenderá el proceso para habilitar el
 
 4. Como no ha iniciado sesión previamente como Adele Vance, se le solicitará que restablezca su contraseña.  Escriba su contraseña antigua.  Como contraseña nueva escriba **SC900-Lab**. Escriba **SC -900** en el campo para confirmar la contraseña.  Haga clic en **Iniciar sesión**.  Nota: Utilizamos esta contraseña solo porque es práctica para el laboratorio. Como procedimiento recomendado, normalmente se utiliza una contraseña más segura.
 
-5. Aparecerá una ventana emergente que indica que se requiere más información.  Esto se debe a que, como miembro del grupo SSPRSecurityUsers, la configuración requiere que sus miembros se registren cuando inician sesión.  Haga clic en el botón **Siguiente**.  Nota:  Una alternativa a que los usuarios hagan el registro por sí mismos es que los administradores configuren directamente los métodos de autenticación cuando agregan a un usuario. Esto requiere que los administradores conozcan y establezcan los números de teléfono y las direcciones de correo electrónico que utilizan los usuarios para realizar el autoservicio de restablecimiento de contraseña, y para restablecer la contraseña de un usuario.
+5. Aparecerá una ventana emergente que indica que se requiere más información.  Esto se debe a que, como miembro del grupo SSPRSecurityGroupUsers, la configuración requiere que sus miembros se registren cuando inician sesión.  Haga clic en el botón **Siguiente**.  Nota:  Una alternativa a que los usuarios hagan el registro por sí mismos es que los administradores configuren directamente los métodos de autenticación cuando agregan a un usuario. Esto requiere que los administradores conozcan y establezcan los números de teléfono y las direcciones de correo electrónico que utilizan los usuarios para realizar el autoservicio de restablecimiento de contraseña, y para restablecer la contraseña de un usuario.
 
 6. Se abrirá la página "Garantizar la seguridad de la cuenta".  La ventana que aparece es para el método de autenticación por teléfono, si no tiene un dispositivo móvil con usted que pueda recibir mensajes de texto, pase al siguiente paso.  Se le solicita que escriba un número de teléfono. Asegúrese de que la opción **Enviarme un código por mensaje de texto** esté activada.   Escriba un número de teléfono donde pueda recibir un código de texto y seleccione el **botón Siguiente**.  Se abrirá una nueva ventana que indica que se acaba de enviar un código al teléfono que escribió.  Escriba el código que recibió y seleccione **Siguiente**. Se abrirá una ventana de confirmación que muestra su método de inicio de sesión predeterminado.  Seleccione **Listo**.  
 
@@ -144,7 +144,7 @@ En este laboratorio, como administrador, aprenderá el proceso para habilitar el
 2. En la barra de direcciones escriba **portal.azure.com** 
 
 3. Inicie sesión con sus credenciales de administrador.
-    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
+    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es el id. de inquilino único proporcionado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
     1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Haga clic en **Iniciar sesión**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
 
