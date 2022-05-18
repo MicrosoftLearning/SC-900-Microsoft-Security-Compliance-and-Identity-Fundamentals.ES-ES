@@ -2,12 +2,12 @@
 lab:
   title: Explorar la autenticación de Azure AD con el autoservicio de restablecimiento de contraseña de Azure AD
   module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: ceaf7c5695abc9b7a7c179f6e5a1580b22af3016
-ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
+ms.openlocfilehash: 6e9bcabdacc0e7c7f4c821c9a2fe018341055799
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "141489276"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557475"
 ---
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Laboratorio: Explorar la autenticación de Azure AD con el autoservicio de restablecimiento de contraseña de Azure AD
 
@@ -17,8 +17,9 @@ En este laboratorio, como administrador, aprenderá el proceso para habilitar el
 
 **Tiempo estimado**: 15-20 minutos
 
+### <a name="task-1"></a>Tarea 1
 
-#### <a name="task-1--in-this-task-you-as-the-admin-will-add-an-existing-user-adele-vance-into-the-ssprsecurityusers-group--also-you-will-also-need-to-do-a-reset-of-the-users-password-so-that-you-can-do-a-first-time-login-as-the-user-and-register-for-sspr"></a>Tarea 1:  En esta tarea, como administrador, agregará un usuario existente, Adele Vance, al grupo SSPRSecurityUsers.  También deberá restablecer la contraseña del usuario para que pueda iniciar sesión por primera vez, como usuario, y registrarse en el SSPR.
+En esta tarea, como administrador, agregará un usuario existente, Adele Vance, al grupo SSPRSecurityUsers.  También deberá restablecer la contraseña del usuario para que pueda iniciar sesión por primera vez, como usuario, y registrarse en el SSPR.
 
 1. Abrir Microsoft Edge.
 
@@ -59,35 +60,38 @@ En este laboratorio, como administrador, aprenderá el proceso para habilitar el
 
 18. Mantenga abierta la ventana Contoso Overview, la usará en la siguiente tarea.
 
-#### <a name="task-2-in-this-task-you-as-the-admin-will-learn-how-to-configure-password-reset-for-users-including-configuration-of-the-types-of-authentication-methods-to-use"></a>Tarea 2: En esta tarea, como administrador, aprenderá a configurar el restablecimiento de contraseña para los usuarios, incluida la configuración de los tipos de métodos de autenticación a utilizar.
+### <a name="task-2"></a>Tarea 2
+
+En esta tarea, como administrador, aprenderá a configurar el restablecimiento de contraseña para los usuarios, como la configuración de los tipos de métodos de autenticación a utilizar
 
 1. Vaya a la pestaña de Microsoft Azure: Contoso que hay abierta en su explorador. Si anteriormente había cerrado la pestaña, abra una página del explorador y, en la barra de direcciones, escriba portal.azure.com y seleccione Azure Active Directory.  Debería haber iniciado sesión como administrador en Azure Portal; si no es así, vuelva a iniciar sesión.
 
-2. En el panel de navegación izquierdo, seleccione **Restablecer contraseña**.  
+1. En el panel de navegación izquierdo, seleccione **Restablecer contraseña**.  
 
-3. Se mostrarán las propiedades para el autoservicio de restablecimiento de contraseñas.  Asegúrese de que el **autoservicio de restablecimiento** está **seleccionado** para el grupo que aparece en la lista, el **SSPRSecurityGroupUsers**.  Coloque el cursor sobre el icono de información junto a "seleccionar grupo" y observe lo que dice: "Defina el grupo de usuarios a los que se permite restablecer sus propias contraseñas". Debe incluir usuarios en el grupo. No puede seleccionar usuarios de forma individual.  Además, si cambia el grupo, el grupo que seleccione reemplazará al grupo que aparezca en la lista en ese momento.  Por lo tanto, se recomienda que simplemente agregue los usuarios al grupo del SSPR.  Por último, observe el cuadro de información azul: "Esta configuración solo se aplica a los usuarios finales de su organización. Los administradores siempre están habilitados para el autoservicio de restablecimiento de contraseña y deben utilizar dos métodos de autenticación para restablecer su contraseña".
+1. Se mostrarán las propiedades para el autoservicio de restablecimiento de contraseñas.  Asegúrese de que el **autoservicio de restablecimiento** está **seleccionado** para el grupo que aparece en la lista, el **SSPRSecurityGroupUsers**.  Coloque el cursor sobre el icono de información junto a "seleccionar grupo" y observe lo que dice: "Defina el grupo de usuarios a los que se permite restablecer sus propias contraseñas". Debe incluir usuarios en el grupo. No puede seleccionar usuarios de forma individual.  Además, si cambia el grupo, el grupo que seleccione reemplazará al grupo que aparezca en la lista en ese momento.  Por lo tanto, se recomienda que simplemente agregue los usuarios al grupo del SSPR.  Por último, observe el cuadro de información azul: "Esta configuración solo se aplica a los usuarios finales de su organización. Los administradores siempre están habilitados para el autoservicio de restablecimiento de contraseña y deben utilizar dos métodos de autenticación para restablecer su contraseña".
 
-5. En el panel de navegación izquierdo de restablecimiento de contraseña, seleccione **Métodos de autenticación**.
+1. En el panel de navegación izquierdo de restablecimiento de contraseña, seleccione **Métodos de autenticación**.
 
-6. En Número de métodos requeridos para el restablecimiento, seleccione **1**. Observe el cuadro de información de la pantalla.
+1. En Número de métodos requeridos para el restablecimiento, seleccione **1**. Observe el cuadro de información de la pantalla.
 
-7. Observe los diferentes métodos disponibles para los usuarios.  **Correo electrónico** y **Teléfono móvil (solo SMS)** ya deberían estar marcados; si no es así, selecciónelos.
+1. Observe los diferentes métodos disponibles para los usuarios.  **Correo electrónico** y **Teléfono móvil (solo SMS)** ya deberían estar marcados; si no es así, selecciónelos.
 
-8. En el panel de navegación izquierdo de restablecimiento de contraseña, seleccione **Registro**.  
+1. En el panel de navegación izquierdo de restablecimiento de contraseña, seleccione **Registro**.  
 
-9. Asegúrese de que la opción Exigir a los usuarios que se registren al iniciar sesión esté establecida a **Sí**.  Deje el Número de días antes de que se solicite a los usuarios que vuelvan a confirmar su información de autenticación, en el valor predeterminado 180.   Observe el cuadro de información de la página.
+1. Asegúrese de que la opción Exigir a los usuarios que se registren al iniciar sesión esté establecida a **Sí**.  Deje el Número de días antes de que se solicite a los usuarios que vuelvan a confirmar su información de autenticación, en el valor predeterminado 180.   Observe el cuadro de información de la página.
 
-10. En el panel de navegación izquierdo de restablecimiento de contraseña, seleccione **Notificaciones**.  
+1. En el panel de navegación izquierdo de restablecimiento de contraseña, seleccione **Notificaciones**.  
 
-11. Asegúrese de que la opción Notificar a los usuarios los restablecimientos de contraseña esté establecida a **Sí**.  Deje la configuración Notificar a todos los administradores cuando otros administradores restablezcan su contraseña en No.
+1. Asegúrese de que la opción Notificar a los usuarios los restablecimientos de contraseña esté establecida a **Sí**.  Deje la configuración Notificar a todos los administradores cuando otros administradores restablezcan su contraseña en No.
 
-12. Observe que el panel de navegación de Restablecimiento de contraseña también incluye opciones para ver registros de auditorías y Uso e información.
+1. Observe que el panel de navegación de Restablecimiento de contraseña también incluye opciones para ver registros de auditorías y Uso e información.
 
-13. Para **Cerrar sesión** de todas las pestañas del navegador, haga clic en el icono de usuario junto a la dirección de correo electrónico en la esquina superior derecha de la pantalla. A continuación, cierre todas las ventanas del navegador.
+1. Para **Cerrar sesión** de todas las pestañas del navegador, haga clic en el icono de usuario junto a la dirección de correo electrónico en la esquina superior derecha de la pantalla. A continuación, cierre todas las ventanas del navegador.
 
+### <a name="task-3"></a>Tarea 3
 
-#### <a name="task-3--in-this-task-you-as-user-adele-vance-will-go-through-the-registration-process-for-self-service-password-reset--this-task-requires-that-you-have-access-to-a-mobile-device-where-you-can-receive-text-messages-or-a-personal-email-account-that-you-can-access"></a>Tarea 3:  En esta tarea, como el usuario Adele Vance, aprenderá el proceso de registro para el autoservicio de restablecimiento de contraseña.  Esta tarea requiere que tenga acceso a un dispositivo móvil donde pueda recibir mensajes de texto o una cuenta de correo electrónico personal a la que pueda acceder.
- 
+En esta tarea, como el usuario Adele Vance, aprenderá el proceso de registro para el autoservicio de restablecimiento de contraseña.  Esta tarea requiere que tenga acceso a un dispositivo móvil donde pueda recibir mensajes de texto o una cuenta de correo electrónico personal a la que pueda acceder
+
 1. Abrir Microsoft Edge.
 
 2. En la barra de direcciones escriba **login.microsoftonline.com**.
@@ -107,23 +111,25 @@ En este laboratorio, como administrador, aprenderá el proceso para habilitar el
 
 8. Ahora puede completar el inicio de sesión.  Debe estar en la página de aterrizaje de Azure Portal.  Si su tiempo de inicio de sesión expira, simplemente vuelva a escribir la contraseña, SC900-Lab.
 
-9. Cierre sesión en Azure Portal y cierre la ventana del explorador. 
+9. Cierre sesión en Azure Portal y cierre la ventana del explorador.
 
-#### <a name="task-4-optional-in-this-task-you-as-user-adele-vance-will-go-through-the-process-of-resetting-your-password"></a>Tarea 4 (opcional): En esta tarea, como el usuario Adele Vance, aprenderá el proceso de restablecimiento de su contraseña.
+### <a name="task-4-optional"></a>Tarea 4 (opcional)
+
+En esta tarea, como el usuario Adele Vance, aprenderá a restablecer la contraseña
 
 1. Abrir Microsoft Edge.
 
-2. En la barra de direcciones escriba login.microsoftonline.com.
+2. En la barra de direcciones escriba **login.microsoftonline.com**.
 
 3. Inicie sesión como Adele Vance, escriba el correo electrónico **AdeleV@WWLxZZZZ.onmicrosoft.com** (ZZZZZZ es su identificador de inquilino único proporcionado por su proveedor de hospedaje de laboratorio) y seleccione el botón **Siguiente**. Quizás se abra una ventana para elegir una cuenta, si es así, seleccione la cuenta de Adele Vance.
 
-4. En la ventana Escribir contraseña, seleccione **He olvidado mi contraseña**. 
+4. En la ventana Escribir contraseña, seleccione **He olvidado mi contraseña**.
 
 5. Se abrirá la ventana Volver a su cuenta.   Compruebe que el correo electrónico de Adele Vance, AdeleV@WWLxZZZZ.onmicrosoft.com, se muestra en el cuadro de correo electrónico o nombre de usuario.  Si no es así, escríbalo.  
 
 6. En el cuadro vacío, escriba los caracteres que aparecen en la imagen o las palabras del audio. Cuando los haya escrito, seleccione **Siguiente**.
 
-7. La pantalla muestra Volver a su cuenta y Verificación, paso 1 > elegir una contraseña nueva. Deje el valor predeterminado **Enviar mensaje de texto a mi teléfono móvil.**  Se le solicitará que escriba su número de teléfono.  Cuando lo haya escrito, seleccione el **botón Texto**.  Si durante el registro seleccionó el correo electrónico, la ventana Volver a su cuenta indicará que recibirá un correo electrónico con un código de verificación en su dirección de correo electrónico alternativa.  Seleccione **Correo electrónico**. 
+7. La pantalla muestra Volver a su cuenta y Verificación, paso 1 > elegir una contraseña nueva. Deje el valor predeterminado **Enviar mensaje de texto a mi teléfono móvil.**  Se le solicitará que escriba su número de teléfono.  Cuando lo haya escrito, seleccione el **botón Texto**.  Si durante el registro seleccionó el correo electrónico, la ventana Volver a su cuenta indicará que recibirá un correo electrónico con un código de verificación en su dirección de correo electrónico alternativa.  Seleccione **Correo electrónico**.
 
 8. Escriba el código de verificación y presione **Siguiente**.
 
@@ -137,14 +143,16 @@ En este laboratorio, como administrador, aprenderá el proceso para habilitar el
 
 13. Para cerrar la sesión seleccione el icono de usuario junto a la dirección de correo electrónico en la esquina superior derecha de la pantalla y seleccione **Cerrar sesión**. A continuación, cierre todas las ventanas del navegador
 
-#### <a name="task-5-optional--in-this-task-you-as-the-administrator-will-briefly-view-the-audit-logs-and-the-usage--insights-data-associated-with-password-reset"></a>Tarea 5 (opcional):  En esta tarea, como administrador, verá brevemente los registros de auditoría y los datos de uso e información asociados al restablecimiento de contraseñas.
+### <a name="task-5-optional"></a>Tarea 5 (opcional)
+
+En esta tarea, como administrador, verá brevemente los registros de auditoría, así como los datos de uso e información asociados al restablecimiento de contraseñas
 
 1. Abrir Microsoft Edge.
 
-2. En la barra de direcciones escriba **portal.azure.com** 
+2. En la barra de direcciones escriba **portal.azure.com**
 
 3. Inicie sesión con sus credenciales de administrador.
-    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es el id. de inquilino único proporcionado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
+    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
     1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Haga clic en **Iniciar sesión**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
 
@@ -164,6 +172,6 @@ En este laboratorio, como administrador, aprenderá el proceso para habilitar el
 
 11. Cierre las pestañas abiertas del explorador.
 
+### <a name="review"></a>Revisar
 
-#### <a name="review"></a>Revisar
 En este laboratorio, como administrador, aprendió el proceso para habilitar el autoservicio de restablecimiento de contraseña. Cuando habilitó el SSPR, asumió el rol de un usuario y pasó por el proceso de registrarse en el SSPR y también de restablecer su contraseña.  Por último, como administrador, aprendió dónde acceder a los registros de auditoría y a los datos de uso e información del SSPR.
