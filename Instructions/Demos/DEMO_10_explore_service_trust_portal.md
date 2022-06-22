@@ -2,18 +2,18 @@
 Demo:
   title: Portal de confianza de servicios
   module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: 79190b5422352e204adad1f0799789181d2d4408
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 1921bf877f96a8c4a3fae0b3966977bbc38588a5
+ms.sourcegitcommit: 3fc607e4e989a09272e21c41f83f15757b243a8f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557498"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "146381245"
 ---
 # <a name="demo-service-trust-portal"></a>Demostración: Portal de confianza de servicios
 
 ## <a name="demo-scenario"></a>Escenario de la demo
 
-En esta demo, mostrará las funciones y el contenido disponible del Portal de confianza de servicios. También se incluyen como una opción para mostrar los pasos para acceder a los seis principios clave de privacidad mediante el Centro de confianza.
+En esta demo, mostrará las funciones y el contenido disponible del Portal de confianza de servicios. También se incluye navegar por el Centro de confianza para ver información sobre la privacidad en Microsoft.
 
 ### <a name="demo-part-1"></a>Demo, parte 1
 
@@ -47,20 +47,14 @@ En esta parte, guiará al alumno a través de los diferentes tipos de contenido 
 
 ### <a name="demo-part-2-optional"></a>Demo, parte 2 (opcional)
 
-En esta parte de la demo, mostrará el Centro de confianza y navegará a través de los seis principios clave de privacidad de Microsoft.
+En esta parte de la demostración, mostrará el Centro de confianza y navegará a la información que describe la privacidad en Microsoft.
 
-1. En la parte superior de la página del Portal de confianza de servicios, seleccione **Centro de confianza** y luego seleccione **Inicio**. Esto abrirá una nueva pestaña del explorador que le llevará al Centro de confianza, donde encontrará más información sobre la seguridad, el cumplimiento y la privacidad en Microsoft Cloud.
+1. En la parte superior de la página del Portal de confianza de servicios, seleccione **Centro de confianza** y luego seleccione **Inicio**. Esto abrirá una nueva pestaña del explorador que le llevará al Centro de confianza, donde encontrará más información, incluida la información sobre privacidad y mucho más.  
 
-1. En la parte superior de la página, seleccione **Privacidad** y luego seleccione **Recursos**.
-
-1. Seleccione **Recursos de privacidad adicionales**.
-
-1. Seleccione **Privacidad de Microsoft**.
-
-1. Revise los seis principios clave de la privacidad.
+1. Verá información sobre nuestro compromiso (de Microsoft) con usted.  Desde aquí, seleccione **Más información sobre la privacidad de Microsoft**.  Desplácese por la página y explore los distintos vínculos para obtener más información sobre la privacidad en Microsoft.
 
 1. Cierre las ventanas del explorador para salir del Portal de confianza de servicios y del Centro de confianza.
 
 ### <a name="review"></a>Revisar
 
-En esta demo ha explorado algunas de las opciones disponibles en el Portal de confianza de servicios, ha aprendido a acceder a los informes de auditoría de Microsoft Cloud Service y ha aprendido también a usar Mi biblioteca para guardar documentos para revisarlos en el futuro.  Además, ha visitado el Centro de confianza para acceder y consultar los principios de la privacidad de Microsoft.
+En esta demo ha explorado algunas de las opciones disponibles en el Portal de confianza de servicios, ha aprendido a acceder a los informes de auditoría de Microsoft Cloud Service y ha aprendido también a usar Mi biblioteca para guardar documentos para revisarlos en el futuro.  Además, ha visitado el Centro de confianza para acceder a información sobre la privacidad en Microsoft y revisarla.
