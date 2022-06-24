@@ -2,12 +2,12 @@
 Demo:
   title: Azure Policy
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: d336b34711cbfd458d25cf7692bea27ad34f86ab
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 1916af2407c9f493b0c305828eb75d9810901859
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557139"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542680"
 ---
 # <a name="demo-azure-policy"></a>Demostración: Azure Policy
 
@@ -19,7 +19,7 @@ En esta demostración, recorrerá el proceso de configuración de una directiva 
 
 Crear una directiva para exigir una etiqueta en un grupo de recursos (se muestran los pasos para crear una directiva a partir de una plantilla)
 
-1. Abrir Microsoft Edge. En la barra de direcciones, escriba **portal.microsoft.com**.  Ya debería haber iniciado la sesión, si no, debe hacerlo con sus credenciales de administrador.
+1. Abrir Microsoft Edge. En la barra de direcciones, escriba **portal.azure.com**.  Ya debería haber iniciado la sesión, si no, debe hacerlo con sus credenciales de administrador.
 
 1. En el cuadro de búsqueda, en la barra azul de la parte superior de la página junto a donde pone Microsoft Azure, escriba **directiva** y seleccione **Directiva** en los resultados de la búsqueda.
 

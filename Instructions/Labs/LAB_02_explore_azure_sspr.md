@@ -2,12 +2,12 @@
 lab:
   title: Explorar la autenticación de Azure AD con el autoservicio de restablecimiento de contraseña de Azure AD
   module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 6e9bcabdacc0e7c7f4c821c9a2fe018341055799
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: f1bd0a494cc5486e13a03cf1e8829d38a28451ab
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557475"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542663"
 ---
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Laboratorio: Explorar la autenticación de Azure AD con el autoservicio de restablecimiento de contraseña de Azure AD
 
@@ -97,7 +97,7 @@ En esta tarea, como el usuario Adele Vance, aprenderá el proceso de registro pa
 2. En la barra de direcciones escriba **login.microsoftonline.com**.
 
 3. Inicie sesión como Adele Vance.
-    1. En la ventana de inicio de sesión, escriba **AdedleV@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
+    1. En la ventana de inicio de sesión, escriba **AdeleV@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
     1. Escriba la contraseña que anotó en la tarea anterior. Haga clic en **Iniciar sesión**.
     1. Si se le pregunta si quiere mantener la sesión iniciada, seleccione **Sí**
 
