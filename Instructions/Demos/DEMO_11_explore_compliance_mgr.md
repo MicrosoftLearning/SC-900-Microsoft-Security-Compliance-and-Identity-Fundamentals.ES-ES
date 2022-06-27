@@ -2,12 +2,12 @@
 Demo:
   title: Explorar el Portal de cumplimiento de Microsoft Purview y el Administrador de cumplimiento
   module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
-ms.openlocfilehash: 7c0b3e5a3153e48ddb3a7e7cca991c9df6a89bdf
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 3ba29f7d6969a64d594f93c012304bb9e3237582
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557247"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542620"
 ---
 # <a name="demo-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>Demostración: Explorar el Portal de cumplimiento de Microsoft Purview y el Administrador de cumplimiento
 
@@ -69,7 +69,7 @@ Obtenga información sobre la postura de cumplimiento de su organización median
 
 1. En la lista de plantillas incluidas, seleccione **ISO/IEC27001:2013**. En la parte superior derecha de la página, seleccione **+ Crear evaluación**.  Observe que en lado izquierdo de la pantalla aparecen solo dos pasos para crear una evaluación a partir de la plantilla.  Seleccione Cancelar en la parte inferior de la página.
 
-1. En el panel de navegación izquierdo, seleccione **Inicio** para volver a la página principal del Portal de cumplimiento de Microsoft Purview.  Mantenga esta página del explorador abierta para la siguiente demo tecnológica.
+1. En el panel de navegación izquierdo, seleccione **Inicio** para volver a la página principal del Portal de cumplimiento de Microsoft Purview.  Mantenga esta página del explorador abierta para la siguiente demostración tecnológica.
 
 ### <a name="review"></a>Revisar
 

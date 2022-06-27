@@ -1,18 +1,19 @@
 ---
 Pre-Demo Setup:
   title: Configuración de la demostración
-ms.openlocfilehash: 32b79bd8e8beaad0db6363b04084545cc0e1591e
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: ecb20fc5819b9557f966c924bbb69a32a6b588e2
+ms.sourcegitcommit: 36aae92c28418fa89da73bd283833356bf87bff9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557259"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "146458329"
 ---
-# <a name="pre-demo-setup"></a>Configuración de la demo previa
+## <a name="pre-demo-setup"></a>Configuración de la demo previa
+Esta configuración consta de dos tareas independientes.  La primera tarea se aplica y solo se recomienda si el entorno de laboratorio incluye el uso de un pase para Azure. La segunda tarea se centra en habilitar el registro de auditoría de Microsoft y se aplica y se recomienda, independientemente de si el entorno usa o no un pase para Azure.
 
-## <a name="setup-part-1---redeem-azure-pass"></a>Configuración, parte 1: Canjear Pase para Azure
+### <a name="setup-part-1---redeem-azure-pass"></a>Configuración, parte 1: Canjear Pase para Azure
 
-En esta tarea de configuración, canjeará su Pase para Azure con las mismas credenciales que las de su inquilino de Microsoft 365.  Esto hará que la experiencia no se interrumpa al moverse entre Microsoft 365 y Azure.
+Esta tarea se aplica y solo se recomienda si el entorno de demostración que usa incluye un pase para Azure. En esta tarea, canjeará su pase para Azure mediante las mismas credenciales que su inquilino de Microsoft 365.  Esto hará que la experiencia no se interrumpa al moverse entre Microsoft 365 y Azure.
 
 1. Si tiene alguna ventana del explorador abierta, se recomienda que las cierre.
 

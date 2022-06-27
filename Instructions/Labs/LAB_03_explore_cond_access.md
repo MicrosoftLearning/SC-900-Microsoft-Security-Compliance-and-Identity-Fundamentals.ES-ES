@@ -2,12 +2,12 @@
 lab:
   title: Explorar la administración de accesos en Azure AD con acceso condicional
   module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: 3fa6f805883950e85e28fc591c14664db3083bc4
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c8e9f8eb6e0d3609adc7ed5ea7f4d18ebfa33c4b
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557283"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542608"
 ---
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional"></a>Laboratorio: Explorar la administración de accesos en Azure AD con Conditional
 
@@ -28,7 +28,7 @@ En esta tarea, como administrador, restablecerá la contraseña del usuario Debr
     1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Haga clic en **Iniciar sesión**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
 
-3. Seleccione **Azure Active Directory**.  
+3. En la esquina superior izquierda de la pantalla, junto a las palabras Microsoft Azure, seleccione el icono Mostrar el menú del portal (las tres líneas horizontales, también denominadas icono de hamburguesa) y, luego, en el panel de navegación de la izquierda, en Favoritos, seleccione Azure Active Directory. Si no aparece en los favoritos, escriba Azure Active Directory en el cuadro de búsqueda y, a continuación, en la lista de resultados, seleccione **Azure Active Directory**.
 
 4. En el panel de navegación izquierdo, seleccione **Usuarios**.
 

@@ -2,12 +2,12 @@
 lab:
   title: Explore el flujo de trabajo de eDiscovery (Standard)
   module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
-ms.openlocfilehash: 60abb7856a80be94c8f1bd755f313a0d12616671
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: da37016799bb1343013c1ace901137646c0c856b
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557607"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542632"
 ---
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>Laboratorio: Explore el flujo de trabajo de eDiscovery (Standard)
 

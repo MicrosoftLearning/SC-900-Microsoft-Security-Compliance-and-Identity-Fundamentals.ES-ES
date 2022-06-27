@@ -2,12 +2,12 @@
 Demo:
   title: Microsoft Sentinel
   module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 242d971510a428170a0d531b1ddcdf422ed4f9c9
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 4840bb3463325745987f55c4ed7d7462491e9fce
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557331"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542668"
 ---
 # <a name="demo-microsoft-sentinel"></a>Demostración: Microsoft Sentinel
 
