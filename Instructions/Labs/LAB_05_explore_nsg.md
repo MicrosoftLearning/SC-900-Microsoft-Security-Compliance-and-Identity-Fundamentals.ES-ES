@@ -2,12 +2,12 @@
 lab:
   title: Explore Azure Network Security Groups (NSGs)
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 71472d6f2cbb946d75ff8e6bc2da2afa87af96aa
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 2d5add9ca1efd99cf7e5268a1125f97f20910a07
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557511"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146650094"
 ---
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>Laboratorio: Explore Azure Network Security Groups (NSGs)
 
@@ -151,9 +151,9 @@ Las reglas de salida predeterminadas del NSG permiten el tráfico de salida de I
 1. Cierre la conexión al escritorio remoto. Para ello, seleccione la **X** en la parte superior central de la página donde se muestra la dirección IP.  Una ventana emergente indicará que su sesión remota va a desconectarse. Seleccione **Aceptar**.
 1. En esta tarea configuró correctamente una regla de salida en su NSG para bloquear el tráfico saliente de Internet.
 
-### <a name="task-5"></a>Tarea 5
+### <a name="tear-down"></a>Desmontaje
 
-**IMPORTANTE**: En esta tarea eliminará el grupo de recursos y todos los recursos que contiene.   Esto es importante para evitar cargos adicionales.
+Las máquinas virtuales son un recurso facturado y, aunque el costo de ejecutar las máquinas virtuales en esta demostración es mínimo, se recomienda que al finalizar el curso elimine el grupo de recursos que contiene la máquina virtual y los recursos asociados.
 
 1. Abra la pestaña SC900-VMWin: Microsoft Azure en su explorador.
 
@@ -163,6 +163,7 @@ Las reglas de salida predeterminadas del NSG permiten el tráfico de salida de I
 1. En la parte superior central de la página LabsSC900, seleccione **Eliminar grupo de recursos**.
 1. En la ventana que se abrirá, escriba el nombre del grupo de recursos, **LabsSC900** para confirmar la eliminación del grupo de recursos y de todos sus recursos, y luego seleccione **Eliminar** en la parte inferior de la página.
 1. Eliminar todos los recursos y el grupo de recursos puede llevar varios minutos.
+1. Cierre todas las pestañas abiertas del explorador.
 
 ### <a name="review"></a>Revisar
 

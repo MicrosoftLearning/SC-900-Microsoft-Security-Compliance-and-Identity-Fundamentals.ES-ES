@@ -2,12 +2,12 @@
 lab:
   title: Exploración de Microsoft Sentinel
   module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 72d9f0c32e7c8f48b9c6fdb3468a000a9006b6ba
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: dfa993671d905ed8bad138376c8cd71b1aa23d85
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542584"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741872"
 ---
 # <a name="lab-explore-microsoft-sentinel"></a>Laboratorio: Exploración de Microsoft Sentinel
 
@@ -137,7 +137,7 @@ Microsoft Sentinel se factura en función del volumen de datos ingeridos para e
 
 4. En la parte superior central de la página, seleccione **Eliminar grupo de recursos**.  Revise la advertencia.  Escriba el nombre del grupo de recursos, **Grupo de recursos:SC900**, y luego seleccione **Eliminar** en la parte inferior de la página.  Eliminar el grupo llevará varios minutos.
 
-5. Una vez que haya comprobado que el grupo de recursos se ha eliminado, cierre la página del explorador.
+5. Cierre todas las pestañas abiertas del explorador.
 
 ### <a name="review"></a>Revisar
 

@@ -2,12 +2,12 @@
 Demo:
   title: Microsoft Sentinel
   module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 4840bb3463325745987f55c4ed7d7462491e9fce
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: 74c3f339580c0eed60eedfe1f19871fa115951fe
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542668"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146649998"
 ---
 # <a name="demo-microsoft-sentinel"></a>Demostración: Microsoft Sentinel
 
@@ -121,9 +121,9 @@ En esta parte de la demostración, mostrará algunas de las opciones disponibles
 
 1. En la esquina superior izquierda de la ventana, justo debajo de la barra azul, seleccione **Inicio** para volver a la página principal del Azure Portal.
 
-### <a name="task-6"></a>Tarea 6
+### <a name="post-course-delivery-tear-down"></a>Eliminación de la entrega después del curso
 
-Eliminación de la entrega después del curso. Microsoft Sentinel se factura en función del volumen de datos ingeridos para el análisis en Microsoft Sentinel. Aunque la cantidad de datos ingeridos como resultado de esta demostración es mínima, se recomienda que elimine el grupo de recursos de Microsoft Sentinel cuando haya terminado de explorar las funcionalidades de Microsoft Sentinel.
+Microsoft Sentinel se factura en función del volumen de datos ingeridos para el análisis en Microsoft Sentinel. Aunque la cantidad de datos ingeridos como resultado de esta demostración es mínima, se recomienda que elimine el grupo de recursos de Microsoft Sentinel cuando haya terminado con la entrega del curso.
 
 1. En la esquina superior izquierda de la página Microsoft Sentinel, encima de las palabras Microsoft Sentinel, seleccione **Todos los servicios**.
 

@@ -2,22 +2,31 @@
 Demo:
   title: Azure Active Directory user settings
   module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: eb1ffc50ce90922dced58726c39879edfc74fb5b
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 061dfa556f7e4e00d63c938b52097e0b641fed4f
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557187"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741896"
 ---
 # <a name="demo-azure-active-directory-user-settings"></a>Demostración: Azure Active Directory user settings
 
 ## <a name="demo-scenario"></a>Escenario de la demo
 
-En esta demostración, accederá a Azure Active Directory y recorrerá las distintas configuraciones para un usuario.
+En esta demostración, accederá a Azure Active Directory y recorrerá las distintas configuraciones para un usuario.  NOTA para el moderador:  Esta demostración accede a Azure AD a través del inquilino de Microsoft 365. Una opción alternativa que puede mostrarse a los alumnos consiste en acceder a Azure AD a través de Azure Portal. Hacerlo a través del portal de Microsoft 365 tiene la finalidad de mostrar que Microsoft 365 incluye acceso a Azure AD.
 
-1. Vaya a la pestaña **Inicio – Microsoft Azure** abierta en su explorador.  Si ha cerrado previamente la pestaña, abra Microsoft Edge y en la barra de direcciones escriba portal.azure.com e inicie sesión con las mismas credenciales de administrador que su inquilino de Microsoft 365.
+1. Abrir Microsoft Edge.
 
-1. La página de aterrizaje de Azure Portal muestra los servicios de Azure, seleccione **Azure Active Directory**. Si no aparece inmediatamente, en el cuadro de búsqueda al lado de Microsoft Azure, escriba Azure Active Directory.  También es interesante mostrar cómo acceder mediante el icono para mostrar el menú del portal (las tres líneas horizontales, también denominadas icono de hamburguesa, en la barra azul de la parte superior de la página) a la izquierda de Microsoft Azure.
+1. En la barra de direcciones escriba **admin.microsoft.com** para acceder al Centro de administración de Microsoft 365.
+
+1. Inicie sesión con sus credenciales de administrador.
+    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
+    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Haga clic en **Iniciar sesión**.
+    1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
+
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft 365, seleccione **Mostrar todo**.
+
+1. En Centros de administración, seleccione **Azure Active Directory** (es posible que deba desplazarse hacia abajo).  Se abrirá una nueva página del navegador con la página Mi panel del Centro de administración de Azure Active Directory. En las ventanas principales del panel, verá varios iconos, incluido el icono de identidad de la organización (Contoso, el inquilino y la edición de Azure AD), un icono para usuarios y grupos, y más.
 
 1. En el panel de navegación izquierdo, seleccione **Usuarios**. Verá que su inquilino ya está configurado con usuarios.
 

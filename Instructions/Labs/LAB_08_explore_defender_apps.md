@@ -2,12 +2,12 @@
 lab:
   title: 'Exploración de Microsoft Defender for Cloud Apps '
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: cdd0953cafd267114577b53eb7470cd65a4c2bc5
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c6b9e816596c74199123b21a9fcb07a5d33a725c
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557582"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146650070"
 ---
 # <a name="lab-explore-microsoft-defender-for-cloud-apps"></a>Laboratorio: Exploración de Microsoft Defender for Cloud Apps
 
@@ -79,7 +79,7 @@ En esta tarea, explorará las páginas Directivas y Alertas en Microsoft Defende
 
 1. En el panel de navegación izquierdo, seleccione **Alertas**.  Si hay alguna alerta en la lista, seleccione un elemento de la lista de alertas. Revise la información proporcionada.  En la parte superior derecha de la ventana, seleccione **Cerrar alerta** para ver las opciones para cerrar la alerta.  
 
-1. Cierre la ventana del explorador.
+1. Cierre todas las pestañas abiertas del explorador.
 
 ### <a name="review"></a>Revisar
 

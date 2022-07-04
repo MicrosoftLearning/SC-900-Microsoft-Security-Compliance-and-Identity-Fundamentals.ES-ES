@@ -2,12 +2,12 @@
 lab:
   title: Explorar Azure Policy
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 0a2ead44f5dc74a7684b8d78ea34c85767f8af92
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: f314612acb21c226e350ce9f6ab026cee2551378
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542596"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741920"
 ---
 # <a name="lab-explore-azure-policy"></a>Laboratorio: Explorar Azure Policy
 
@@ -125,6 +125,8 @@ En esta tarea, comprobará el impacto de la asignación de una directiva de Azur
     1. Debajo de las palabras Servicios de Azure, seleccione Azure Policy.
     1. En medio de la página verá una lista de las asignaciones de directiva/iniciativa de Azure Policy.  Seleccione el icono de puntos suspensivos que aparece junto a la asignación de directiva Requerir una etiqueta en los grupos de recursos y luego seleccione Eliminar asignación.
     1. Se le pedirá que confirme que desea eliminar la asignación.  Seleccione Sí.
+
+1. Cierre todas las pestañas abiertas del explorador.
 
 ### <a name="review"></a>Revisar
 

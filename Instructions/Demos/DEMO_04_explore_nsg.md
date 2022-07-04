@@ -2,12 +2,12 @@
 Demo:
   title: Grupos de seguridad de red (NSG) de Azure
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: dc653f2a9e6ee450b5693ad7bfbfe2208d5a7ea3
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: a136022cd3458d513011b10c408827d33fbc8caa
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557535"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741860"
 ---
 # <a name="demo-azure-network-security-groups-nsgs"></a>Demostración: Grupos de seguridad de red (NSG) de Azure
 
@@ -152,9 +152,9 @@ Explore la configuración de un grupo de seguridad de red.  En este caso, hará 
 
 1. Vuelva a la página principal de Azure Portal. Para ello, seleccione **Microsoft Azure** en la barra azul de la parte superior de la página.
 
-### <a name="tear-down"></a>Desmontaje
+### <a name="post-course-delivery-tear-down"></a>Eliminación de la entrega después del curso
 
-**IMPORTANTE**: En esta tarea eliminará el grupo de recursos y todos los recursos que contiene.   Esto es importante para evitar cargos adicionales.
+Las máquinas virtuales son un recurso facturado y, aunque el costo de ejecutar las máquinas virtuales en esta demostración es mínimo, se recomienda que al finalizar la entrega del curso elimine el grupo de recursos que contiene la máquina virtual y los recursos asociados.
 
 1. Abra la pestaña SC900-VMWin: Microsoft Azure en su explorador.
 

@@ -2,12 +2,12 @@
 lab:
   title: Explore el flujo de trabajo de eDiscovery (Standard)
   module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
-ms.openlocfilehash: da37016799bb1343013c1ace901137646c0c856b
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: 6fd36be7fb7844b59648f8b2470057eccad9b832
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542632"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146649974"
 ---
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>Laboratorio: Explore el flujo de trabajo de eDiscovery (Standard)
 
@@ -126,6 +126,8 @@ Ahora que la suspensión está lista, creará una consulta de búsqueda.  Una ve
     1. En el segundo campo, seleccione la ubicación en la que desea almacenar el archivo exportado y luego seleccione **Iniciar**.  Una vez que el proceso de descarga haya finalizado, seleccione **Cerrar** y cierre esta pestaña del explorador.
     1. Ha vuelto a la ventana "Suspensión de prueba: Búsqueda de ventas_Exportación".  Seleccione **Cerrar**.
     1. Revise la ubicación de su descarga para comprobar que ha finalizado correctamente.
+
+1. Cierre todas las pestañas abiertas del explorador.
 
 ### <a name="review"></a>Revisar
 

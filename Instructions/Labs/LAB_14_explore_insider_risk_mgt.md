@@ -2,12 +2,12 @@
 lab:
   title: Explorar la administración de riesgos internos en Microsoft Purview
   module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
-ms.openlocfilehash: c4179f11d7f88f4fe2f85bad379470cacbe2ab8c
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: b284151be19a0f9add77ef4c015520c7e4a7f363
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542644"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741884"
 ---
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>Laboratorio: Explorar la administración de riesgos internos en Microsoft Purview
 
@@ -115,6 +115,8 @@ En esta tarea se familiarizará con el proceso de creación de una directiva
 1. Ha vuelto a la pestaña Directivas de la página Administración de riesgos internos.  La directiva que acaba de crear aparecerá en la lista.  
 
 1. En la directiva que acaba de crear, el campo "Usuarios del ámbito" representa los usuarios a los que se les están signando puntuaciones de riesgo mediante la directiva.  A los usuarios se les asigna una puntuación de riesgo cuando la directiva se desencadena, por lo que el valor que se muestra es 0.  Un administrador puede configurar una directiva para empezar a asignar puntuaciones de riesgo a usuarios específicos en base a la actividad detectada por las directivas que ha seleccionado, y esa directiva puede omitir el requisito de detectar previamente un evento desencadenante.  Para hacerlo, seleccione el círculo vacío junto al nombre de la directiva para seleccionarla, y luego seleccione la opción **Empezar a puntuar la actividad de los usuarios** que aparece encima de la tabla de directivas.  Rellene todos los campos y luego seleccione la opción **Empezar a puntuar la actividad**.  Es posible que los usuarios tarden 24 horas en aparecer en la pestaña "Usuarios". Pasado ese tiempo, podrá seleccionar los usuarios de esa pestaña para revisar las actividades detectadas.  Seleccione **Cerrar** en la parte inferior de la ventana.
+
+1. Cierre todas las pestañas abiertas del explorador.
 
 ### <a name="review"></a>Revisar
 
