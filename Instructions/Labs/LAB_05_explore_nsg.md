@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Explore Azure Network Security Groups (NSGs)
-  module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 47f71fdf1587a240803bb508a902ce098253793d
-ms.sourcegitcommit: 07d6d5b9df44c747453e21a65bca524afbaf85ae
+ms.openlocfilehash: d2377516343cb85c279c1a2d6347c59f573d73c7
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2022
-ms.locfileid: "147695298"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892202"
 ---
+<a name="---"></a><!---
+---
+Laboratorio: Título: "Exploración de los grupos de seguridad de red (NSG) de Azure" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de las soluciones de seguridad de Microsoft; Módulo 1: Descripción de las funcionalidades de seguridad básicas en Azure; Unidad 6: Descripción de los grupos de seguridad de red de Azure"
+---
+--->
+
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>Laboratorio: Explore Azure Network Security Groups (NSGs)
+
+Este laboratorio está orientado al siguiente contenido de Learn:
+
+- Ruta de aprendizaje: Descripción de las funcionalidades de las soluciones de seguridad de Microsoft
+- Módulo: Descripción de las funcionalidades de seguridad básicas en Azure
+- Unidad: Descripción de los grupos de seguridad de red de Azure
 
 ## <a name="lab-scenario"></a>Escenario del laboratorio
 
@@ -51,7 +60,7 @@ En esta tarea, creará una máquina virtual de Windows 10.
 1. Una vez finalizada la implementación, seleccione **Ir al recurso**.
 1. Ahora se encuentra en la página de SC900-VMWin.
 1. En la parte superior de la página, seleccione **Conectar** y luego, en el menú desplegable, seleccione **RDP**.
-1. Tenga en cuenta que no se cumple el requisito previo del puerto.  Para permitir el cumplimiento del requisito previo, se debe configurar una regla de seguridad de red de entrada con el puerto de destino 3389, usado por RDP.  Lo hará en la siguiente tarea, cuando cree un grupo de seguridad de red.
+1. Tenga en cuenta que no se cumple el requisito previo del puerto.  Para cumplir el requisito previo, se debe configurar una regla de seguridad de red de entrada con el puerto de destino 3389, usado por RDP.  Lo hará en la siguiente tarea, cuando cree un grupo de seguridad de red.
 1. Deje esta pestaña del explorador abierta.
 
 ### <a name="task-2"></a>Tarea 2

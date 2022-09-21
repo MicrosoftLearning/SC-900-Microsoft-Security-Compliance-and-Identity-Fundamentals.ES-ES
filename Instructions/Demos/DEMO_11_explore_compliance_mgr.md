@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Explorar el Portal de cumplimiento de Microsoft Purview y el Administrador de cumplimiento
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
-ms.openlocfilehash: 3ba29f7d6969a64d594f93c012304bb9e3237582
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: 557b2974e32c920172be89f909225d30519b79a0
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542620"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892441"
 ---
+<a name="---"></a><!---
+---
+Demostración: Título: "Exploración del portal de cumplimiento y el administrador de cumplimiento de Microsoft Purview" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft; Módulo 2: Descripción de las funcionalidades de administración de cumplimiento en Microsoft Purview; Unidad 2: Descripción del portal de cumplimiento de Microsoft Purview"
+---
+--->
+
 # <a name="demo-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>Demostración: Explorar el Portal de cumplimiento de Microsoft Purview y el Administrador de cumplimiento
+
+Esta demostración está orientada al siguiente contenido de Learn:
+
+- Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft
+- Módulo: Descripción de las funcionalidades de administración de cumplimiento en Microsoft Purview
+- Unidad: Descripción del portal de cumplimiento de Microsoft Purview
 
 ## <a name="demo-scenario"></a>Escenario de la demo
 

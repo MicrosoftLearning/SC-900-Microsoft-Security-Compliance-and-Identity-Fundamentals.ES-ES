@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Acceso condicional de Azure Active Directory
-  module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: 9c981817c195e981ea69dc6bba5f168848d6d084
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c9d70711fdf9579ef2fdac491a59ceaf6a09547a
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557367"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892490"
 ---
-# <a name="demo-azure-active-directory-conditional-access"></a>Demostración: Azure Active Directory Conditional Access
+<a name="---"></a><!---
+---
+Demostración: Título: "Acceso condicional de Azure AD" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de Azure Active Directory (Azure AD), parte de Microsoft Entra" Módulo 3: "Descripción de las funcionalidades de administración de acceso de Azure AD" Unidad 2: "Descripción del acceso condicional en Azure AD"
+---
+--->
+
+# <a name="demo-azure-ad-conditional-access"></a>Demostración: Acceso condicional de Azure AD
+
+Esta demostración está orientada al siguiente contenido de Learn:
+
+- Ruta de aprendizaje: Descripción de las funcionalidades de Azure Active Directory (Azure AD), parte de Microsoft Entra
+- Módulo: Descripción de las funcionalidades de administración de acceso de Azure AD
+- Unidad: Descripción del acceso condicional en Azure AD
 
 ## <a name="demo-scenario"></a>Escenario de la demo
 

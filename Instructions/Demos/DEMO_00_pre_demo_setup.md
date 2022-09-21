@@ -1,15 +1,20 @@
 ---
-Pre-Demo Setup:
-  title: Configuración de la demostración
-ms.openlocfilehash: ecb20fc5819b9557f966c924bbb69a32a6b588e2
-ms.sourcegitcommit: 36aae92c28418fa89da73bd283833356bf87bff9
+ms.openlocfilehash: 153cab11947f866aea32e5d718f449c6b4d0f5b5
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "146458329"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892478"
 ---
+<a name="---"></a><!---
+---
+Configuración previa a la demostración: Título: "Configuración de la demostración"
+---
+--->
+
 ## <a name="pre-demo-setup"></a>Configuración de la demo previa
-Esta configuración consta de dos tareas independientes.  La primera tarea se aplica y solo se recomienda si el entorno de laboratorio incluye el uso de un pase para Azure. La segunda tarea se centra en habilitar el registro de auditoría de Microsoft y se aplica y se recomienda, independientemente de si el entorno usa o no un pase para Azure.
+
+Esta configuración consta de dos tareas independientes.  La primera tarea se aplica y se recomienda solo si el entorno de la demostración incluye el uso de un pase para Azure. La segunda tarea se centra en habilitar el registro de auditoría de Microsoft y se aplica y se recomienda, independientemente de si el entorno usa o no un pase para Azure.
 
 ### <a name="setup-part-1---redeem-azure-pass"></a>Configuración, parte 1: Canjear Pase para Azure
 

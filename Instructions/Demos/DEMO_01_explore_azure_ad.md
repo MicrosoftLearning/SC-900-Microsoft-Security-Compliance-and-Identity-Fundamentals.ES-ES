@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Azure Active Directory user settings
-  module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: 061dfa556f7e4e00d63c938b52097e0b641fed4f
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: c230a54bb7d4d9cd876aacd4e04185ce674a22db
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741896"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892190"
 ---
-# <a name="demo-azure-active-directory-user-settings"></a>Demostración: Azure Active Directory user settings
+<a name="---"></a><!---
+---
+Demostración: Título: "Exploración de la configuración de usuario de Azure AD" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de Azure Active Directory (Azure AD), parte de Microsoft Entra; Módulo 1: Descripción de los servicios básicos y los tipos de identidad de Azure AD; Unidad 4: Descripción de los tipos de identidad de Azure AD"
+---
+--->
+
+# <a name="demo-azure-ad-user-settings"></a>Demostración: Configuración de usuario de Azure AD
+
+Esta demostración está orientada al siguiente contenido de Learn:
+
+- Ruta de aprendizaje: Descripción de las funcionalidades de Azure Active Directory (Azure AD), parte de Microsoft Entra
+- Módulo: Descripción de los servicios básicos y los tipos de identidad de Azure AD
+- Unidad: Descripción de los tipos de identidad de Azure AD
 
 ## <a name="demo-scenario"></a>Escenario de la demo
 
