@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Explorar el Portal de cumplimiento de Microsoft Purview y el Administrador de cumplimiento
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
-ms.openlocfilehash: 4745dddb860e82ddc05e7c88deb0e0644046e0b5
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 8d3268c28c1dc2335f0554caf801abe11b6ae0d2
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557499"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892382"
 ---
+<a name="---"></a><!---
+---
+Laboratorio: Título: "Exploración del portal de cumplimiento y el administrador de cumplimiento de Microsoft Purview" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft; Módulo 2: Descripción de las funcionalidades de administración de cumplimiento en Microsoft Purview; Unidad 2: Descripción del portal de cumplimiento de Microsoft Purview"
+---
+--->
+
 # <a name="lab-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>Laboratorio: Explorar el Portal de cumplimiento de Microsoft Purview y el Administrador de cumplimiento
+
+Este laboratorio está orientado al siguiente contenido de Learn:
+
+- Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft
+- Módulo: Descripción de las funcionalidades de administración de cumplimiento en Microsoft Purview
+- Unidad: Descripción del portal de cumplimiento de Microsoft Purview
 
 ## <a name="lab-scenario"></a>Escenario del laboratorio
 
@@ -69,7 +78,7 @@ Obtenga información sobre la postura de cumplimiento de su organización median
 
 1. En la lista de plantillas incluidas, seleccione **ISO/IEC27001:2013**. En la parte superior derecha de la página, seleccione **+ Crear evaluación**.  Observe que en lado izquierdo de la pantalla aparecen solo dos pasos para crear una evaluación a partir de la plantilla.  Seleccione Cancelar en la parte inferior de la página.
 
-1. Cierre las pestañas abiertas del explorador.
+1. Cierre todas las pestañas abiertas del explorador.
 
 ### <a name="review"></a>Revisar
 

@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 'Exploración de Microsoft Defender for Cloud Apps '
-  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: cdd0953cafd267114577b53eb7470cd65a4c2bc5
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: ef5c993972dcff57836c8ac045a19903b8c15721
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557582"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892634"
 ---
+<a name="---"></a><!---
+---
+Laboratorio: Título: "Exploración de las aplicaciones de Microsoft Defender for Cloud" Módulo: "Ruta de aprendizaje: Descripción de las funcionalidades de las soluciones de seguridad de Microsoft; Módulo 4: Descripción de las funcionalidades de protección contra amenazas de Microsoft 365; Unidad 5: Descripción de las aplicaciones de Microsoft Defender for Cloud Apps"
+---
+--->
+
 # <a name="lab-explore-microsoft-defender-for-cloud-apps"></a>Laboratorio: Exploración de Microsoft Defender for Cloud Apps
+
+Este laboratorio está orientado al siguiente contenido de Learn:
+
+- Ruta de aprendizaje: Descripción de las funcionalidades de las soluciones de seguridad de Microsoft
+- Módulo: Descripción de las funcionalidades de protección contra amenazas de Microsoft 365
+- Unidad: Descripción de las aplicaciones de Microsoft Defender for Cloud
 
 ## <a name="lab-scenario"></a>Escenario del laboratorio
 
@@ -79,7 +88,7 @@ En esta tarea, explorará las páginas Directivas y Alertas en Microsoft Defende
 
 1. En el panel de navegación izquierdo, seleccione **Alertas**.  Si hay alguna alerta en la lista, seleccione un elemento de la lista de alertas. Revise la información proporcionada.  En la parte superior derecha de la ventana, seleccione **Cerrar alerta** para ver las opciones para cerrar la alerta.  
 
-1. Cierre la ventana del explorador.
+1. Cierre todas las pestañas abiertas del explorador.
 
 ### <a name="review"></a>Revisar
 

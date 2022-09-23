@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Autoservicio de restablecimiento de contraseña de Azure Active Directory
-  module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 819439157f86ba4a28255cf876e239f3960df8f4
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 56e48510b5cca7dc77cc8b8f658e1ac50e44c7b8
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557223"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892142"
 ---
-# <a name="demo-azure-active-directory-self-service-password-reset-sspr"></a>Demostración: Autoservicio de restablecimiento de contraseña de Azure Active Directory (SSPR)
+<a name="---"></a><!---
+---
+Demostración: Título: "Autoservicio de restablecimiento de contraseña (SSPR) de Azure AD" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de Azure Active Directory (Azure AD), parte de Microsoft Entra; Módulo 2: Descripción de las funcionalidades de autenticación de Azure AD; Unidad 4: Descripción del autoservicio de restablecimiento de contraseña en Azure AD"
+---
+--->
+
+# <a name="demo-azure-ad-self-service-password-reset-sspr"></a>Demostración: Autoservicio de restablecimiento de contraseña (SSPR) de Azure AD
+
+Esta demostración está orientada al siguiente contenido de Learn:
+
+- Ruta de aprendizaje: Descripción de las funcionalidades de Azure Active Directory (Azure AD), parte de Microsoft Entra
+- Módulo: Descripción de las funcionalidades de autenticación de Azure AD
+- Unidad: Descripción del autoservicio de restablecimiento de contraseña en Azure AD
 
 ## <a name="demo-scenario"></a>Escenario de la demo
 

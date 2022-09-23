@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Explore el flujo de trabajo de eDiscovery (Standard)
-  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
-ms.openlocfilehash: 60abb7856a80be94c8f1bd755f313a0d12616671
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 430bb5ab95d4abaa73eb4aa02372b21fdbb768df
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557607"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892670"
 ---
+<a name="---"></a><!---
+---
+Laboratorio: Título: "Exploración del flujo de trabajo de eDiscovery (estándar)" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft; Módulo 5: Descripción de las funcionalidades de eDiscovery y de auditoría de Microsoft Purview; Unidad 2: Descripción de las soluciones de eDiscovery en Microsoft 365"
+---
+--->
+
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>Laboratorio: Explore el flujo de trabajo de eDiscovery (Standard)
+
+Este laboratorio está orientado al siguiente contenido de Learn:
+
+- Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft
+- Módulo: Descripción de las funcionalidades de eDiscovery y de auditoría de Microsoft Purview
+- Unidad: Descripción de las soluciones de eDiscovery en Microsoft 365
 
 ## <a name="lab-scenario"></a>Escenario del laboratorio
 
@@ -126,6 +135,8 @@ Ahora que la suspensión está lista, creará una consulta de búsqueda.  Una ve
     1. En el segundo campo, seleccione la ubicación en la que desea almacenar el archivo exportado y luego seleccione **Iniciar**.  Una vez que el proceso de descarga haya finalizado, seleccione **Cerrar** y cierre esta pestaña del explorador.
     1. Ha vuelto a la ventana "Suspensión de prueba: Búsqueda de ventas_Exportación".  Seleccione **Cerrar**.
     1. Revise la ubicación de su descarga para comprobar que ha finalizado correctamente.
+
+1. Cierre todas las pestañas abiertas del explorador.
 
 ### <a name="review"></a>Revisar
 

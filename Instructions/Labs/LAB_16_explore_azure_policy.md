@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Explorar Azure Policy
-  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 23e8f4f8417367a16cbd41496428918ca219fa40
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 8e34065623722f1f249c4da363aa862e46e49b0b
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557534"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892154"
 ---
+<a name="---"></a><!---
+---
+Laboratorio: Título: "Exploración de Azure Policy" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft; Módulo 6: Descripción de las funcionalidades de gobernanza de recursos en Azure; Unidad 2: Descripción de Azure Policy"
+---
+--->
+
 # <a name="lab-explore-azure-policy"></a>Laboratorio: Explorar Azure Policy
+
+Este laboratorio está orientado al siguiente contenido de Learn:
+
+- Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft
+- Módulo: Descripción de las funcionalidades de gobernanza de recursos en Azure
+- Unidad: Descripción de Azure Policy
 
 ## <a name="lab-scenario"></a>Escenario del laboratorio
 
@@ -21,7 +30,7 @@ Azure Policy ayuda a aplicar los estándares de la organización y a evaluar el 
 
 Explorar brevemente la página Azure Policy
 
-1. Abrir Microsoft Edge. En la barra de direcciones, escriba **portal.microsoft.com**.
+1. Abrir Microsoft Edge. En la barra de direcciones, escriba **portal.azure.com**.
 
 1. Inicie sesión con sus credenciales de administrador.
     1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
@@ -125,6 +134,8 @@ En esta tarea, comprobará el impacto de la asignación de una directiva de Azur
     1. Debajo de las palabras Servicios de Azure, seleccione Azure Policy.
     1. En medio de la página verá una lista de las asignaciones de directiva/iniciativa de Azure Policy.  Seleccione el icono de puntos suspensivos que aparece junto a la asignación de directiva Requerir una etiqueta en los grupos de recursos y luego seleccione Eliminar asignación.
     1. Se le pedirá que confirme que desea eliminar la asignación.  Seleccione Sí.
+
+1. Cierre todas las pestañas abiertas del explorador.
 
 ### <a name="review"></a>Revisar
 

@@ -1,19 +1,26 @@
 ---
-Demo:
-  title: Portal de confianza de servicios
-  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: 79190b5422352e204adad1f0799789181d2d4408
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 38537f333f690a8526c5a62de40ca86ab9335b48
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557498"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892454"
 ---
+<a name="---"></a><!---
+---
+Demostración: Título: "Portal de confianza del servicio" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft; Módulo 1: Descripción de las funcionalidades de administración de cumplimiento en Microsoft; Unidad 2: Exploración del portal de confianza del servicio"
+---
+--->
+
 # <a name="demo-service-trust-portal"></a>Demostración: Portal de confianza de servicios
+
+Esta demostración está orientada al siguiente contenido de Learn:
+
+Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft Módulo: Descripción de las funcionalidades de administración de cumplimiento en Microsoft Unidad: Exploración del portal de confianza del servicio
 
 ## <a name="demo-scenario"></a>Escenario de la demo
 
-En esta demo, mostrará las funciones y el contenido disponible del Portal de confianza de servicios. También se incluyen como una opción para mostrar los pasos para acceder a los seis principios clave de privacidad mediante el Centro de confianza.
+En esta demo, mostrará las funciones y el contenido disponible del Portal de confianza de servicios. También se incluye navegar por el Centro de confianza para ver información sobre la privacidad en Microsoft.
 
 ### <a name="demo-part-1"></a>Demo, parte 1
 
@@ -47,20 +54,14 @@ En esta parte, guiará al alumno a través de los diferentes tipos de contenido 
 
 ### <a name="demo-part-2-optional"></a>Demo, parte 2 (opcional)
 
-En esta parte de la demo, mostrará el Centro de confianza y navegará a través de los seis principios clave de privacidad de Microsoft.
+En esta parte de la demostración, mostrará el Centro de confianza y navegará a la información que describe la privacidad en Microsoft.
 
-1. En la parte superior de la página del Portal de confianza de servicios, seleccione **Centro de confianza** y luego seleccione **Inicio**. Esto abrirá una nueva pestaña del explorador que le llevará al Centro de confianza, donde encontrará más información sobre la seguridad, el cumplimiento y la privacidad en Microsoft Cloud.
+1. En la parte superior de la página del Portal de confianza de servicios, seleccione **Centro de confianza** y luego seleccione **Inicio**. Esto abrirá una nueva pestaña del explorador que le llevará al Centro de confianza, donde encontrará más información, incluida la información sobre privacidad y mucho más.  
 
-1. En la parte superior de la página, seleccione **Privacidad** y luego seleccione **Recursos**.
-
-1. Seleccione **Recursos de privacidad adicionales**.
-
-1. Seleccione **Privacidad de Microsoft**.
-
-1. Revise los seis principios clave de la privacidad.
+1. Verá información sobre nuestro compromiso (de Microsoft) con usted.  Desde aquí, seleccione **Más información sobre la privacidad de Microsoft**.  Desplácese por la página y explore los distintos vínculos para obtener más información sobre la privacidad en Microsoft.
 
 1. Cierre las ventanas del explorador para salir del Portal de confianza de servicios y del Centro de confianza.
 
 ### <a name="review"></a>Revisar
 
-En esta demo ha explorado algunas de las opciones disponibles en el Portal de confianza de servicios, ha aprendido a acceder a los informes de auditoría de Microsoft Cloud Service y ha aprendido también a usar Mi biblioteca para guardar documentos para revisarlos en el futuro.  Además, ha visitado el Centro de confianza para acceder y consultar los principios de la privacidad de Microsoft.
+En esta demo ha explorado algunas de las opciones disponibles en el Portal de confianza de servicios, ha aprendido a acceder a los informes de auditoría de Microsoft Cloud Service y ha aprendido también a usar Mi biblioteca para guardar documentos para revisarlos en el futuro.  Además, ha visitado el Centro de confianza para acceder a información sobre la privacidad en Microsoft y revisarla.

@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Microsoft Sentinel
-  module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 242d971510a428170a0d531b1ddcdf422ed4f9c9
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 8d58cd38338d81136cf0b9b474137354269507e6
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557331"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892394"
 ---
+<a name="---"></a><!---
+---
+Demostración: Título: "Microsoft Sentinel" Ruta de aprendizaje/Módulo/Título: "Ruta de aprendizaje: Descripción de las funcionalidades de las soluciones de seguridad de Microsoft; Módulo 3: Descripción de las funcionalidades de seguridad de Microsoft Sentinel; Unidad 3: Descripción de cómo Microsoft Sentinel proporciona administración contra amenazas integrada"
+---
+--->
+
 # <a name="demo-microsoft-sentinel"></a>Demostración: Microsoft Sentinel
+
+Esta demostración está orientada al siguiente contenido de Learn:
+
+- Ruta de aprendizaje: Descripción de las funcionalidades de las soluciones de seguridad de Microsoft
+- Módulo: Descripción de las funcionalidades de seguridad de Microsoft Sentinel
+- Unidad: Descripción de cómo Microsoft Sentinel proporciona administración contra amenazas integrada
 
 ## <a name="demo-scenario"></a>Escenario de la demo
 
@@ -121,9 +130,9 @@ En esta parte de la demostración, mostrará algunas de las opciones disponibles
 
 1. En la esquina superior izquierda de la ventana, justo debajo de la barra azul, seleccione **Inicio** para volver a la página principal del Azure Portal.
 
-### <a name="task-6"></a>Tarea 6
+### <a name="post-course-delivery-tear-down"></a>Eliminación de la entrega después del curso
 
-Eliminación de la entrega después del curso. Microsoft Sentinel se factura en función del volumen de datos ingeridos para el análisis en Microsoft Sentinel. Aunque la cantidad de datos ingeridos como resultado de esta demostración es mínima, se recomienda que elimine el grupo de recursos de Microsoft Sentinel cuando haya terminado de explorar las funcionalidades de Microsoft Sentinel.
+Microsoft Sentinel se factura en función del volumen de datos ingeridos para el análisis en Microsoft Sentinel. Aunque la cantidad de datos ingeridos como resultado de esta demostración es mínima, se recomienda que elimine el grupo de recursos de Microsoft Sentinel cuando haya terminado con la entrega del curso.
 
 1. En la esquina superior izquierda de la página Microsoft Sentinel, encima de las palabras Microsoft Sentinel, seleccione **Todos los servicios**.
 

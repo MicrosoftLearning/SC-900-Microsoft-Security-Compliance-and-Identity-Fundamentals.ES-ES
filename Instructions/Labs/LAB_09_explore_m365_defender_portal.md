@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Explorar el portal de Microsoft 365 Defender
-  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: dafab309af48617209f70b79ad5843d23eecd448
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c22aadb543f4501b74be9a6d12da3af3b63b632f
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557151"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892682"
 ---
+<a name="---"></a><!---
+---
+Laboratorio: Título: "Exploración del portal de Microsoft 365 Defender" Módulo: "Ruta de aprendizaje: Descripción de las funcionalidades de las soluciones de seguridad de Microsoft; Módulo 4: Descripción de las funcionalidades de protección contra amenazas de Microsoft 365; Unidad 7: Descripción del portal de Microsoft 365 Defender"
+---
+--->
+
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>Laboratorio: Explorar el portal de Microsoft 365 Defender
+
+Este laboratorio está orientado al siguiente contenido de Learn:
+
+- Ruta de aprendizaje: Descripción de las funcionalidades de las soluciones de seguridad de Microsoft
+- Módulo: Descripción de las funcionalidades de protección contra amenazas de Microsoft 365
+- Unidad: Descripción del portal de Microsoft 365 Defender
 
 ## <a name="lab-scenario"></a>Escenario del laboratorio
 
@@ -65,7 +74,7 @@ En esta tarea, descubrirá cómo puede Puntuación de seguridad de Microsoft c
 
 1. En la parte superior de la página, seleccione **Métricas y tendencias**.  Observe la información disponible.  En la esquina superior derecha de la página, seleccione el **icono de calendario**.  Puede restringir la vista a un intervalo de fechas personalizado.  Para filtrar la vista por identidad, dispositivos o aplicaciones, seleccione el **icono de filtro**.  Cierre la ventana y seleccione **Inicio** en el panel de navegación izquierdo para volver a la página principal de Microsoft 365 Defender.
 
-1. Cierre la página del explorador.
+1. Cierre todas las pestañas abiertas del explorador.
 
 ### <a name="review"></a>Revisar
 

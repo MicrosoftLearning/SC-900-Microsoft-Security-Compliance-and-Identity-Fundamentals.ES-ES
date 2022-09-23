@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Explorar la administración de riesgos internos en Microsoft Purview
-  module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
-ms.openlocfilehash: 8bd1f517bfbc4f71fec1ab65dca93b7b95458832
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 553860b67fc7cc2b181e874e4c57fb4bc972822b
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557547"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892706"
 ---
+<a name="---"></a><!--->
+---
+Laboratorio: Título: "Exploración de la administración de riesgos internos en Microsoft Purview" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft; Módulo 4: Descripción de las funcionalidades de riesgo interno en Microsoft Purview; Unidad 2: Descripción de la administración de riesgos internos"
+---
+--->
+
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>Laboratorio: Explorar la administración de riesgos internos en Microsoft Purview
+
+Este laboratorio está orientado al siguiente contenido de Learn:
+
+- Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft
+- Módulo: Descripción de las funcionalidades de riesgo interno en Microsoft Purview
+- Unidad: Descripción de la administración de riesgos internos
 
 ## <a name="lab-scenario"></a>Escenario del laboratorio
 
@@ -35,7 +44,7 @@ En esta tarea, como administrador global, habilitará los permisos para la admin
 
 1. En el panel de navegación izquierdo del Portal de cumplimiento de Microsoft Purview, seleccione **Permisos**.
 
-1. En la página Permisos y roles, en Portal de cumplimiento, seleccione **Roles**.
+1. En la página de permisos y roles, donde se indica "Ver y administrar roles usados para realizar tareas específicas de la solución en el centro de cumplimiento", seleccione **Roles**.
 
 1. En el campo de búsqueda, escriba **Riesgo interno** y seleccione el icono de búsqueda (la lupa).  Observe los numerosos roles que aparecen.  Cada uno tiene un nivel de acceso diferente.  Seleccione **Administración de riesgos internos**.
 
@@ -115,6 +124,8 @@ En esta tarea se familiarizará con el proceso de creación de una directiva
 1. Ha vuelto a la pestaña Directivas de la página Administración de riesgos internos.  La directiva que acaba de crear aparecerá en la lista.  
 
 1. En la directiva que acaba de crear, el campo "Usuarios del ámbito" representa los usuarios a los que se les están signando puntuaciones de riesgo mediante la directiva.  A los usuarios se les asigna una puntuación de riesgo cuando la directiva se desencadena, por lo que el valor que se muestra es 0.  Un administrador puede configurar una directiva para empezar a asignar puntuaciones de riesgo a usuarios específicos en base a la actividad detectada por las directivas que ha seleccionado, y esa directiva puede omitir el requisito de detectar previamente un evento desencadenante.  Para hacerlo, seleccione el círculo vacío junto al nombre de la directiva para seleccionarla, y luego seleccione la opción **Empezar a puntuar la actividad de los usuarios** que aparece encima de la tabla de directivas.  Rellene todos los campos y luego seleccione la opción **Empezar a puntuar la actividad**.  Es posible que los usuarios tarden 24 horas en aparecer en la pestaña "Usuarios". Pasado ese tiempo, podrá seleccionar los usuarios de esa pestaña para revisar las actividades detectadas.  Seleccione **Cerrar** en la parte inferior de la ventana.
+
+1. Cierre todas las pestañas abiertas del explorador.
 
 ### <a name="review"></a>Revisar
 

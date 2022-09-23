@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Exploración de Microsoft Sentinel
-  module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 857d7f5ad5e0a9136d298c32cd47063a83e454e7
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 656e8003ac2a835d263b98cc25871f186ff2a0c8
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557163"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892662"
 ---
+<a name="---"></a><!---
+---
+Laboratorio: Título: "Exploración de Microsoft Sentinel" Ruta de aprendizaje/Módulo/Título: "Ruta de aprendizaje: Descripción de las funcionalidades de las soluciones de seguridad de Microsoft; Módulo 3: Descripción de las funcionalidades de seguridad de Microsoft Sentinel; Unidad 3: Descripción de cómo Microsoft Sentinel proporciona administración contra amenazas integrada"
+---
+--->
+
 # <a name="lab-explore-microsoft-sentinel"></a>Laboratorio: Exploración de Microsoft Sentinel
+
+Este laboratorio está orientado al siguiente contenido de Learn:
+
+- Ruta de aprendizaje: Descripción de las funcionalidades de las soluciones de seguridad de Microsoft
+- Módulo: Descripción de las funcionalidades de seguridad de Microsoft Sentinel
+- Unidad: Descripción de cómo Microsoft Sentinel proporciona administración contra amenazas integrada
 
 ## <a name="lab-scenario"></a>Escenario del laboratorio
 
@@ -137,7 +146,7 @@ Microsoft Sentinel se factura en función del volumen de datos ingeridos para e
 
 4. En la parte superior central de la página, seleccione **Eliminar grupo de recursos**.  Revise la advertencia.  Escriba el nombre del grupo de recursos, **Grupo de recursos:SC900**, y luego seleccione **Eliminar** en la parte inferior de la página.  Eliminar el grupo llevará varios minutos.
 
-5. Una vez que haya comprobado que el grupo de recursos se ha eliminado, cierre la página del explorador.
+5. Cierre todas las pestañas abiertas del explorador.
 
 ### <a name="review"></a>Revisar
 

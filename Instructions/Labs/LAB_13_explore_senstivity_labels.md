@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Explorar las etiquetas de confidencialidad en Microsoft Purview
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
-ms.openlocfilehash: 3d69459ebcd4ffa34bd71997ea86a8aeae4d0774
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 1bae467c426cba5deb30035c3679409b384637e0
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557595"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892669"
 ---
+<a name="---"></a><!---
+---
+Laboratorio: Título: "Exploración de las etiquetas de confidencialidad en Microsoft Purview" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft; Módulo 3: Descripción de la protección de la información y la administración del ciclo de vida de los datos en Microsoft Purview; Unidad 4: Descripción de las etiquetas de confidencialidad"
+---
+--->
+
 # <a name="lab-explore-sensitivity-labels-in-microsoft-purview"></a>Laboratorio: Explorar las etiquetas de confidencialidad en Microsoft Purview
+
+Este laboratorio está orientado al siguiente contenido de Learn:
+
+- Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft
+- Módulo: Descripción de la protección de la información y la administración del ciclo de vida de los datos en Microsoft Purview
+- Unidad: Descripción de las etiquetas de confidencialidad
 
 ## <a name="lab-scenario"></a>Escenario del laboratorio
 
@@ -88,7 +97,7 @@ En esta tarea, se familiarizará con el proceso de aplicar una etiqueta desde la
 
 1. Seleccione **+ Nuevo documento en blanco** y luego escriba algo de texto en la página.  En la barra azul de la parte superior de la página, seleccione la flecha hacia abajo que hay junto a las palabras DocumentoXX: Guardado y, en el cuadro Nombre de archivo, escriba **Etiqueta:Prueba**.
 
-1. En la barra de menús de la parte superior, seleccione **Sensibilidad**. Si no ve inmediatamente esta opción, actualice la página. En el menú desplegable, seleccione **Finanzas: Confidencial**.
+1. En la barra de menús de la parte superior, seleccione **Sensibilidad**. Si no ve inmediatamente esta opción, actualice la página. En el menú desplegable, seleccione **Finanzas: Confidencial**.  NOTA:  La opción de Confidencialidad puede tardar hasta 15 minutos en aparecer.
 
 1. En la barra de menús de la parte superior, seleccione **Vista** y luego **Vista de lectura**.
 
@@ -112,7 +121,7 @@ Además del marcado de contenido, se ha configurado el cifrado en las opciones d
 
 1. Con el explorador web de la máquina virtual del laboratorio, inicie sesión en la cuenta de correo electrónico a la que envió el documento.  Tenga en cuenta que es posible que el correo sea dirigido a su carpeta de correo no deseado.  Cuando intente abrir el archivo de Word adjunto, verá una notificación informándole de que no tiene permiso para abrir el documento.
 
-1. Cierre las pestañas abiertas del explorador.
+1. Cierre todas las pestañas abiertas del explorador.
 
 ### <a name="review"></a>Revisar
 

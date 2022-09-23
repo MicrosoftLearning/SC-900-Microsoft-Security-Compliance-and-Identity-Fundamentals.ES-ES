@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Azure Policy
-  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: d336b34711cbfd458d25cf7692bea27ad34f86ab
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 61ec82b1a7015371a60df61c5a6e5af39cdd9fd6
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557139"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892214"
 ---
+<a name="---"></a><!---
+---
+Demostración: Título: "Azure Policy" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft; Módulo 6: Descripción de las funcionalidades de gobernanza de recursos en Azure; Unidad 2: Descripción de Azure Policy"
+---
+--->
+
 # <a name="demo-azure-policy"></a>Demostración: Azure Policy
+
+Esta demostración está orientada al siguiente contenido de Learn:
+
+- Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft
+- Módulo: Descripción de las funcionalidades de gobernanza de recursos en Azure
+- Unidad: Descripción de Azure Policy
 
 ## <a name="demo-scenario"></a>Escenario de la demo
 
@@ -19,7 +28,7 @@ En esta demostración, recorrerá el proceso de configuración de una directiva 
 
 Crear una directiva para exigir una etiqueta en un grupo de recursos (se muestran los pasos para crear una directiva a partir de una plantilla)
 
-1. Abrir Microsoft Edge. En la barra de direcciones, escriba **portal.microsoft.com**.  Ya debería haber iniciado la sesión, si no, debe hacerlo con sus credenciales de administrador.
+1. Abrir Microsoft Edge. En la barra de direcciones, escriba **portal.azure.com**.  Ya debería haber iniciado la sesión, si no, debe hacerlo con sus credenciales de administrador.
 
 1. En el cuadro de búsqueda, en la barra azul de la parte superior de la página junto a donde pone Microsoft Azure, escriba **directiva** y seleccione **Directiva** en los resultados de la búsqueda.
 

@@ -1,19 +1,26 @@
 ---
-lab:
-  title: Explore the Service Trust Portal
-  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: ed176063b55689d34d9b764dce2ca0a8b33a50ad
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 7171b8c2d05da29c64594c5b6437d3106e320cee
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557211"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892694"
 ---
+<a name="---"></a><!---
+---
+Laboratorio: Título: "Exploración del portal de confianza del servicio" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft; Módulo 1: Descripción de las funcionalidades de administración de cumplimiento en Microsoft; Unidad 2: Exploración del portal de confianza del servicio"
+---
+--->
+
 # <a name="lab-explore-the-service-trust-portal"></a>Laboratorio: Explore the Service Trust Portal
+
+Este laboratorio está orientado al siguiente contenido de Learn:
+
+Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft Módulo: Descripción de las funcionalidades de administración de cumplimiento en Microsoft Unidad: Exploración del portal de confianza del servicio
 
 ## <a name="lab-scenario"></a>Escenario del laboratorio
 
-En este laboratorio, explorará las características y el contenido disponible en el Portal de confianza de servicios. También visitará el Centro de confianza y navegará hasta los seis principios clave de la privacidad.
+En este laboratorio, explorará las características y el contenido disponible en el Portal de confianza de servicios. También visitará el Centro de confianza para ver información sobre privacidad en Microsoft.
 
 **Tiempo estimado**: 10-15 minutos.
 
@@ -49,20 +56,14 @@ En esta tarea explorará el Portal de confianza de servicios y los diferente
 
 ### <a name="task-2"></a>Tarea 2
 
-En esta tarea visitará el Centro de confianza y navegará hasta los seis principios clave de la privacidad de Microsoft
+En esta tarea, visitará el Centro de confianza y navegará a la información que describe la privacidad en Microsoft.
 
-1. En la parte superior de la página del Portal de confianza de servicios, seleccione **Centro de confianza** y luego seleccione **Inicio**. Esto abrirá una nueva pestaña del explorador que le llevará al Centro de confianza, donde encontrará más información sobre la seguridad, el cumplimiento y la privacidad en Microsoft Cloud.
+1. En la parte superior de la página del Portal de confianza de servicios, seleccione **Centro de confianza** y luego seleccione **Inicio**. Esto abrirá una nueva pestaña del explorador que le llevará al Centro de confianza, donde encontrará más información, incluida la información sobre privacidad y mucho más.  
 
-1. En la parte superior de la página, seleccione **Privacidad** y luego seleccione **Recursos**.
+1. Verá información sobre nuestro compromiso (de Microsoft) con usted.  Desde aquí, seleccione **Más información sobre la privacidad de Microsoft**.  Desplácese por la página y explore los distintos vínculos para obtener más información sobre la privacidad en Microsoft.
 
-1. Seleccione **Recursos de privacidad adicionales**.
-
-1. Seleccione **Privacidad de Microsoft**.
-
-1. Revise los seis principios clave de la privacidad.
-
-1. Cierre las ventanas del explorador para salir del Portal de confianza de servicios y del Centro de confianza.
+1. Cierre todas las pestañas abiertas del explorador.
 
 ### <a name="review"></a>Revisar
 
-En este laboratorio ha explorado algunas de las opciones disponibles en el Portal de confianza de servicios y ha aprendido a acceder a los informes y a usar Mi biblioteca para guardar documentos con el fin de revisarlos en el futuro.  Además, ha visitado el Centro de confianza para acceder y consultar los principios de la privacidad de Microsoft.
+En este laboratorio ha explorado algunas de las opciones disponibles en el Portal de confianza de servicios y ha aprendido a acceder a los informes y a usar Mi biblioteca para guardar documentos con el fin de revisarlos en el futuro.  Además, ha visitado el Centro de confianza para acceder a información sobre la privacidad en Microsoft y revisarla.
