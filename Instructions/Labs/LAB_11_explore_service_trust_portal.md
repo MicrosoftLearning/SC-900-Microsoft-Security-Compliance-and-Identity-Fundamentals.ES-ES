@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 7171b8c2d05da29c64594c5b6437d3106e320cee
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
+ms.openlocfilehash: 068a2177077367a2be9400316e9c5fddbcc739c7
+ms.sourcegitcommit: cf0e185a6bd333ae09116c87c1d8445a8c02c5a2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892694"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "147965821"
 ---
 <a name="---"></a><!---
 ---
@@ -16,7 +16,9 @@ Laboratorio: Título: "Exploración del portal de confianza del servicio" Ruta d
 
 Este laboratorio está orientado al siguiente contenido de Learn:
 
-Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft Módulo: Descripción de las funcionalidades de administración de cumplimiento en Microsoft Unidad: Exploración del portal de confianza del servicio
+- Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft
+- Módulo: Descripción de las funcionalidades de administración de cumplimiento en Microsoft Purview
+- Explore the Service Trust Portal
 
 ## <a name="lab-scenario"></a>Escenario del laboratorio
 
@@ -30,37 +32,37 @@ En esta tarea explorará el Portal de confianza de servicios y los diferente
 
 1. Abrir Microsoft Edge.
 
-1. En la barra de direcciones, escriba **aka.ms/STP**.  Esto le llevará a la página de aterrizaje del Portal de confianza de servicios. El Portal de confianza de servicios contiene detalles sobre la implementación de controles y procesos de Microsoft que protegen nuestros servicios en la nube y los datos de los clientes que contienen.
+1. En la barra de direcciones, escriba **aka.ms/STP**. Esto le llevará a la página de aterrizaje del Portal de confianza de servicios. El Portal de confianza de servicios contiene detalles sobre la implementación de controles y procesos de Microsoft que protegen nuestros servicios en la nube y los datos de los clientes que contienen.
 
 1. Para acceder a algunos de los recursos del Portal de confianza de servicios, debe iniciar sesión como usuario autenticado con su cuenta de Servicios en la nube de Microsoft y revisar y aceptar las condiciones del acuerdo de confidencialidad de Microsoft para materiales de cumplimiento. En la esquina superior derecha de la página de aterrizaje del Portal de confianza de servicios, verá la opción Iniciar sesión.  **Inicie sesión** con sus credenciales de administrador y, si se le solicita, seleccione **Aceptar** para aceptar las condiciones del acuerdo de confidencialidad de Microsoft para materiales de cumplimiento.
 
-1. Desplácese hacia abajo por la página y observe los vínculos a Informes de auditoría, Documentos y recursos, etc.  Seleccione **Ver todos los informes de auditoría**.
+1. Desplácese hacia abajo en la página y observe las diferentes categorías de información disponibles. En la categoría Certificaciones, Reglamentos y Estándares, seleccione **ISO/IEC**.
 
-1. Desplácese hacia el centro de la página y verá la opción Informes de auditoría nuevos y archivados.  Puede seleccionar una gran variedad de categorías, incluidas Guías de cumplimiento, Informes y certificados de auditoría ENS, Preguntas más frecuentes, notas del producto y muchas más.
+1. Anote la descripción en la parte superior de la página y los documentos aplicables disponibles.  Seleccione los **puntos suspensivos** en el encabezado Más opciones para el primer documento de la lista.  Tenga en cuenta las distintas opciones.
 
-1. Seleccione **Informes ISO**.  Si no ve inmediatamente la opción Informes ISO, seleccione la flecha derecha hasta que vea la opción Informes ISO y luego selecciónela.
+1. Seleccione el icono de **puntos suspensivos (...) y luego seleccione Guardar en la biblioteca**.  Aparecerá una ventana en la que se le pedirá que reciba notificaciones. Seleccione **Sí**.
 
-1. Verá una larga lista de informes ISO disponibles, por lo que podrá filtrarlos según el intervalo de fechas, el Tipo de documento, el Servicio en la nube y los Sectores.  En este caso, busca los informes ISO disponibles para Azure DevOps.  Seleccione Servicio en la nube y, en el menú desplegable, seleccione Azure DevOps (también denominado VSTS).  El resultado serán dos documentos.
+1. Para comprobar que el documento se ha guardado, desplácese hasta la parte superior de la página y seleccione **Mi biblioteca**.  Para cualquier documento de la página Mi biblioteca, seleccione los puntos suspensivos para ver las opciones disponibles.
 
-1. Tiene la opción de descargar o Guardar en la biblioteca todos los documentos o documentos individuales.  En este caso, desea guardar solo el primer documento.  Seleccione el icono de **puntos suspensivos (...)** y luego seleccione **Guardar en la biblioteca**.  Se le pedirá que se suscriba al documento. Seleccione **Confirmar**.
+1. En la parte superior de la página Mi biblioteca, seleccione **Portal de confianza** de servicios para volver a la página principal del Portal de confianza de servicios.
 
-1. Es posible que aparezca una ventana emergente con la opción de recibir notificaciones por correo electrónico cuando los documentos guardados en su biblioteca se actualicen.  En este caso no necesita recibir ningún tipo de notificación sobre las actualizaciones, así que deje los valores predeterminados y seleccione **Guardar**.  El documento se guardará de todas formas en su biblioteca.
+1. En la página principal del Portal de confianza de servicios, desplácese hacia abajo hasta la categoría **Recursos regionales y del sector** .  Anote los iconos disponibles.  Seleccione **Servicios financieros**.  Desplácese hacia abajo para ver todas las regiones y países disponibles.  Seleccione el icono de cualquier país para ver los documentos aplicables.
 
-1. Ahora compruebe que el documento se encuentra realmente en su biblioteca. Desplácese hacia arriba para volver a la parte superior de la página.  En la navegación de la parte superior, seleccione **Mi biblioteca**.  Si no ve la opción Mi biblioteca, seleccione Más y luego Mi biblioteca.
+1. Para devolver la página principal del Portal de confianza de servicios, seleccione el vínculo **Portal de confianza** del servicio en la parte superior de la página.
 
-1. En la parte superior de la página del Portal de confianza de servicios, seleccione **Documentos de confianza** y observe las opciones. Explore la información disponible en cada uno de los vínculos que aparecen en Documentos de confianza. Si selecciona Informes de auditoría, se le dirigirá a la misma ubicación que exploró en la tarea anterior.  Explore la información disponible en cada uno de los vínculos.
+1. En la página principal del Portal de confianza de servicios, desplácese hacia abajo hasta la categoría **Recurso de su organización** . Seleccione **Recursos para su organización**.  Tenga en cuenta que los documentos enumerados aquí se basan en la suscripción y los permisos de su organización.
 
-1. En la parte superior de la página, seleccione **Sectores y regiones**.  Seleccione **Soluciones regionales**. Observe las regiones que aparecen en la lista.  Seleccione **Reino Unido**.  
-
-1. Puede seleccionar diferentes categorías,  como Informes de evaluación GRC, Guías de cumplimiento, etc.  Como en la tarea anterior, puede filtrar la lista de documentos y puede seleccionar si desea descargar o guardar los documentos en su biblioteca.
+1. Para devolver la página principal del Portal de confianza de servicios, seleccione el vínculo **Portal de confianza** del servicio en la parte superior de la página.
 
 ### <a name="task-2"></a>Tarea 2
 
 En esta tarea, visitará el Centro de confianza y navegará a la información que describe la privacidad en Microsoft.
 
-1. En la parte superior de la página del Portal de confianza de servicios, seleccione **Centro de confianza** y luego seleccione **Inicio**. Esto abrirá una nueva pestaña del explorador que le llevará al Centro de confianza, donde encontrará más información, incluida la información sobre privacidad y mucho más.  
+1. En la página principal del Portal de confianza de servicios, desplácese hacia abajo hasta la categoría **Informes, Notas del producto y Artefactos** . Seleccione **Privacidad y Protección de datos**.  
 
-1. Verá información sobre nuestro compromiso (de Microsoft) con usted.  Desde aquí, seleccione **Más información sobre la privacidad de Microsoft**.  Desplácese por la página y explore los distintos vínculos para obtener más información sobre la privacidad en Microsoft.
+1. Además de enumerar todos los documentos aplicables, hay una descripción de la categoría seguida de un vínculo a Más información.  Seleccione **Más información**
+
+1. Esto abrirá una nueva pestaña del explorador que le llevará al Centro de confianza, donde encontrará más información, incluida la información sobre privacidad y mucho más. Explore el contenido de esta página y navegue por distintos vínculos.
 
 1. Cierre todas las pestañas abiertas del explorador.
 
