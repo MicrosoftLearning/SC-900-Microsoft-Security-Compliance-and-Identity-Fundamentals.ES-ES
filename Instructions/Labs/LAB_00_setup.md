@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: cb7b2598e10bff208634a8181ded25b46a0064c2
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
+ms.openlocfilehash: 2c2c0be64f8f19dcae5ef6066bb7f8518057a6a3
+ms.sourcegitcommit: 7974f6f09e9b092b73c6f7aee26d636aaefe5bfa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892238"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "148010606"
 ---
 <a name="---"></a><!---
 ---
@@ -19,6 +19,8 @@ Laboratorio: Título: "Configuración"
 Este laboratorio de configuración consta de dos tareas independientes.  La primera tarea se aplica y solo se recomienda si el entorno de laboratorio incluye el uso de un pase para Azure. La segunda tarea se centra en habilitar el registro de auditoría de Microsoft y se aplica y se recomienda, independientemente de si el entorno usa o no un pase para Azure.
 
 **Tiempo estimado**: 5-10 minutos
+
+
 
 ### <a name="setup-part-1---redeem-azure-pass"></a>Configuración, parte 1: Canjear Pase para Azure
 
