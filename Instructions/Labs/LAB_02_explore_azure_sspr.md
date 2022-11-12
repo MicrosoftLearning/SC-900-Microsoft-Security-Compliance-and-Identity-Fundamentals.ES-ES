@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: b2e4d568e0d3b5d05cf4462183b977ba4e41c599
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
+ms.openlocfilehash: 24ec2a7dbaaefd938e78bdcb23489a1f5f10c95a
+ms.sourcegitcommit: 2db6494ae1734d32ac8d57874ef9f53e1fc9420c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892178"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "148118965"
 ---
 <a name="---"></a><!---
 ---
@@ -34,7 +34,7 @@ En esta tarea, como administrador, agregará un usuario existente, Adele Vance, 
 
 2. En la barra de direcciones, escriba **portal.azure.com** e inicie sesión con sus credenciales de administrador.
     1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
-    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Haga clic en **Iniciar sesión**.
+    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
 
 3. Seleccione **Azure Active Directory**.  
@@ -110,7 +110,7 @@ En esta tarea, como el usuario Adele Vance, aprenderá el proceso de registro pa
     1. Escriba la contraseña que anotó en la tarea anterior. Haga clic en **Iniciar sesión**.
     1. Si se le pregunta si quiere mantener la sesión iniciada, seleccione **Sí**
 
-4. Como no ha iniciado sesión previamente como Adele Vance, se le solicitará que restablezca su contraseña.  Escriba su contraseña antigua.  Como contraseña nueva escriba **SC900-Lab**. Escriba **SC -900** en el campo para confirmar la contraseña.  Haga clic en **Iniciar sesión**.  Nota: Utilizamos esta contraseña solo porque es práctica para el laboratorio. Como procedimiento recomendado, normalmente se utiliza una contraseña más segura.
+4. Como no ha iniciado sesión previamente como Adele Vance, se le solicitará que restablezca su contraseña.  Escriba su contraseña antigua.  Como contraseña nueva escriba **SC900-Lab**. Escriba **SC900-Lab** en el campo para confirmar la contraseña.  Haga clic en **Iniciar sesión**.  Nota: Utilizamos esta contraseña solo porque es práctica para el laboratorio. Como procedimiento recomendado, normalmente se utiliza una contraseña más segura.
 
 5. Aparecerá una ventana emergente que indica que se requiere más información.  Esto se debe a que, como miembro del grupo SSPRSecurityGroupUsers, la configuración requiere que sus miembros se registren cuando inician sesión.  Haga clic en el botón **Siguiente**.  Nota:  Una alternativa a que los usuarios hagan el registro por sí mismos es que los administradores configuren directamente los métodos de autenticación cuando agregan a un usuario. Esto requiere que los administradores conozcan y establezcan los números de teléfono y las direcciones de correo electrónico que utilizan los usuarios para realizar el autoservicio de restablecimiento de contraseña, y para restablecer la contraseña de un usuario.
 
@@ -148,7 +148,7 @@ En esta tarea, como el usuario Adele Vance, aprenderá a restablecer la contrase
 
 11. En el cuadro de información sobre la cuenta, seleccione **AdeleV@WWLxZZZZZZ.onmicrosoft.com** , escriba su contraseña nueva y, luego, seleccione el botón **Iniciar sesión**.  Si se le pregunta si desea mantener la sesión iniciada, seleccione **No**.
 
-12. Ahora debería estar en Azure Portal.
+12. Ahora debería estar en el Portal de Office.
 
 13. Para cerrar la sesión seleccione el icono de usuario junto a la dirección de correo electrónico en la esquina superior derecha de la pantalla y seleccione **Cerrar sesión**. A continuación, cierre todas las ventanas del navegador
 
@@ -162,7 +162,7 @@ En esta tarea, como administrador, verá brevemente los registros de auditoría,
 
 3. Inicie sesión con sus credenciales de administrador.
     1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
-    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Haga clic en **Iniciar sesión**.
+    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
 
 4. Seleccione **Azure Active Directory**.  
