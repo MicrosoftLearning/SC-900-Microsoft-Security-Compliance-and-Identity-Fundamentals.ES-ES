@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 57c3c2d1e24acc7efaab97162e443a664dd76965
-ms.sourcegitcommit: 804b98d288b1db2c11a5154b4ded954e87f5ae55
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "148119033"
----
 <a name="---"></a><!---
 ---
 Laboratorio: Título: "Configuración"
