@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 430bb5ab95d4abaa73eb4aa02372b21fdbb768df
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892670"
----
 <a name="---"></a><!---
 ---
 Laboratorio: Título: "Exploración del flujo de trabajo de eDiscovery (estándar)" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft; Módulo 5: Descripción de las funcionalidades de eDiscovery y de auditoría de Microsoft Purview; Unidad 2: Descripción de las soluciones de eDiscovery en Microsoft 365"
@@ -22,9 +14,9 @@ Este laboratorio está orientado al siguiente contenido de Learn:
 
 ## <a name="lab-scenario"></a>Escenario del laboratorio
 
-En este laboratorio le guiaremos a través de los pasos necesarios para configurar eDiscovery (Standard) y su flujo de trabajo. Para ello, creará una suspensión de eDiscovery y una consulta de búsqueda y luego exportará los resultados de la búsqueda.  Nota:  Para obtener una licencia de eDiscovery (Standard), es necesario disponer de la suscripción de organización y las licencias por usuario adecuadas. Si no sabe con seguridad cuáles son las licencias compatibles con eDiscovery (Standard), visite [Introducción a eDiscovery (Standard) en Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
+En este laboratorio, explorará los pasos necesarios para configurar eDiscovery, incluida la configuración de permisos de rol, la creación de un caso de eDiscovery, la creación de una suspensión de eDiscovery y la creación de una consulta de búsqueda.  Nota:  Para obtener una licencia de eDiscovery (Standard), es necesario disponer de la suscripción de organización y las licencias por usuario adecuadas. Si no sabe con seguridad cuáles son las licencias compatibles con eDiscovery (Standard), visite [Introducción a eDiscovery (Standard) en Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
 
-**Tiempo estimado**: 20-25 minutos
+**Tiempo estimado**: 25-30 minutos
 
 ### <a name="task-1"></a>Tarea 1
 
@@ -33,9 +25,9 @@ Para acceder a eDiscovery (Standard), o para que se le agregue como miembro de u
  Abrir Microsoft Edge. En la barra de direcciones, escriba **admin.microsoft.com**.
 
 1. Inicie sesión con sus credenciales de administrador.
-    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
+    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es el id. de inquilino único proporcionado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
 
-    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Haga clic en **Iniciar sesión**.
+    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**. Esto le llevará a la página del Centro de administración de Microsoft 365.
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft 365, seleccione **Mostrar todo**.
@@ -44,7 +36,7 @@ Para acceder a eDiscovery (Standard), o para que se le agregue como miembro de u
 
 1. En el panel de navegación izquierdo, seleccione **Permisos**.
 
-1. En la página Permisos y roles, en Portal de cumplimiento, seleccione **Roles**.
+1. En la página Permisos y roles, en Soluciones de Microsoft Purview, seleccione **Roles**.
 
 1. En el campo de búsqueda, escriba **eDiscovery** y seleccione el icono de búsqueda (la lupa).  Seleccione **Supervisor de eDiscovery**.
 
@@ -54,7 +46,7 @@ Para acceder a eDiscovery (Standard), o para que se le agregue como miembro de u
 
 1. Seleccione **+ Agregar** en la parte superior de la página.
 
-1. En la lista de nombres, seleccione **Megan Bowen**, **Administrador MOD** y luego seleccione **Agregar** y **Aceptar** en la parte inferior de la página.
+1. En la lista de nombres, seleccione **Administrador MOD** y **Megan Bowen**, luego seleccione **Agregar** y **Aceptar** en la parte inferior de la página.
 
 1. Compruebe que ha agregado los miembros correctos y luego seleccione **Guardar**.
 
@@ -82,7 +74,7 @@ En esta tarea, como administrador de eDiscovery (un administrador MOD es un admi
 
 ### <a name="task-3"></a>Tarea 3
 
-Ahora que ha creado un caso de eDiscovery (Standard), puede empezar a trabajar con él.  En esta tarea, creará una suspensión de eDiscovery para el caso que acaba de crear.  En concreto, creará una suspensión para el Buzón de Exchange de Adele Vance
+Ahora que ha creado un caso de eDiscovery (Standard), puede empezar a trabajar con él.  En esta tarea, creará una suspensión de eDiscovery para el caso que ha creado.  En concreto, creará una suspensión para el Buzón de Exchange de Adele Vance.
 
 1. Abra la pestaña eDiscovery (Standard) en su explorador.
 
@@ -90,13 +82,15 @@ Ahora que ha creado un caso de eDiscovery (Standard), puede empezar a trabajar 
 
 1. En la página principal del caso, seleccione **Suspensión** y luego seleccione **+Crear**.
 
-1. En el campo Nombre, escriba **Suspensión de prueba** y luego seleccione Siguiente.
+1. En el campo Nombre, escriba **Suspensión de prueba** y luego seleccione **Siguiente**.
 
-1. En la página Elegir ubicaciones, seleccione el interruptor que hay junto a **Buzones de correo de Exchange** para configurar el estado en **Activado** y, a continuación, **Elija usuarios, grupos o equipos**.  En el cuadro de búsqueda, escriba **Adele** y luego presione Entrar en su teclado. En los resultados de búsqueda, seleccione **Adele Vance** y luego Elegir y **Listo**.
+1. En la página Elegir ubicaciones, seleccione el interruptor que hay junto a **Buzones de correo de Exchange** para configurar el estado en **Activado**.  
+
+1. Ahora seleccione **Elegir usuarios, grupos o equipos**.  En el cuadro de búsqueda, escriba **Adele** y luego presione Entrar en su teclado. En los resultados de búsqueda, seleccione **Adele Vance** y luego **Listo**.
 
 1. En la página Elegir ubicaciones, seleccione **Siguiente**.  Para ahorrar tiempo en el laboratorio, no se incluirá ninguna otra ubicación en esta suspensión.
 
-1. La página Condiciones de la consulta le permite crear una suspensión basada en palabras clave o en el cumplimiento de condiciones específicas. Seleccione **+Condiciones** para ver las opciones disponibles.  Seleccione **Siguiente**. Si no se establece ninguna condición, la suspensión preservará todo el contenido de la ubicación especificada.
+1. La página Condiciones de la consulta le permite crear una suspensión basada en palabras clave o en el cumplimiento de condiciones específicas. Seleccione **+Agregar condición** para ver las opciones disponibles.  Seleccione **Siguiente**. Si no se establece ninguna condición, la suspensión preservará todo el contenido de la ubicación especificada.
 
 1. Revise su configuración y seleccione **Enviar**. Es posible que tarde un minuto. Luego, seleccione **Listo**.  La suspensión de prueba debería aparecer en la lista.  Si no aparece inmediatamente, seleccione **Actualizar**.
 
@@ -104,11 +98,11 @@ Ahora que ha creado un caso de eDiscovery (Standard), puede empezar a trabajar 
 
 ### <a name="task-4"></a>Tarea 4
 
-Ahora que la suspensión está lista, creará una consulta de búsqueda.  Una vez que la búsqueda haya finalizado, exportará y descargará los resultados para continuar la investigación en el futuro.   Nota:  Las búsquedas asociadas con un caso de eDiscovery (Standard) no aparecen en la página Búsqueda de contenido del Portal de cumplimiento de Microsoft Purview. Estás búsquedas aparecen únicamente en la página Búsquedas del caso de eDiscovery (Standard) asociado.
+Ahora que la suspensión está lista, creará una consulta de búsqueda.  Una vez completada la búsqueda, eDiscovery admite acciones, como exportar y descargar los resultados para una investigación futura.   Nota:  Las búsquedas asociadas con un caso de eDiscovery (Standard) no aparecen en la página Búsqueda de contenido del Portal de cumplimiento de Microsoft Purview. Estás búsquedas aparecen únicamente en la página Búsquedas del caso de eDiscovery (Standard) asociado.
 
 1. Abra la pestaña Caso de prueba SC900 en su explorador.
 
-1. En la página Suspensiones del caso, seleccione **Búsquedas**.
+1. En la página Caso de prueba SC900, seleccione  **Búsquedas**.
 
 1. En la página Búsqueda, seleccione **+ Nueva búsqueda**.
 
@@ -120,24 +114,12 @@ Ahora que la suspensión está lista, creará una consulta de búsqueda.  Una ve
 
 1. Revise su configuración y seleccione **Enviar**. Es posible que tarde un minuto. Luego, seleccione **Listo**.  La búsqueda debería aparecer en la lista.  Si no aparece inmediatamente, seleccione **Actualizar**.
 
-1. En la ventana Búsquedas, seleccione la búsqueda que acaba de crear, **Suspensión de prueba: Búsqueda de Ventas**.  Se abre una ventana con la pestaña Resumen seleccionada.  Una vez que la búsqueda haya finalizado, en el estado se mostrará el mensaje correspondiente.  Verá la pestaña Estadísticas de búsqueda (si no ve esta pestaña, es posible que la búsqueda no haya finalizado todavía y que tarde unos minutos en hacerlo).  Seleccione la pestaña **Estadísticas de búsqueda** y seleccione el menú desplegable junto a la opción Contenido de la búsqueda.  También puede ver más información sobre las opciones Informe de condiciones y Ubicaciones principales.  
+1. En la ventana Búsquedas, seleccione la búsqueda que ha creado, **Suspensión de prueba: Búsqueda de Ventas**.  Se abre una ventana con la pestaña Resumen seleccionada.  Una vez que la búsqueda haya finalizado, en el estado se mostrará el mensaje correspondiente.  Verá la pestaña Estadísticas de búsqueda (si no ve esta pestaña, es posible que la búsqueda no haya finalizado todavía y que tarde unos minutos en hacerlo).  Seleccione la pestaña **Estadísticas de búsqueda** y seleccione el menú desplegable junto a la opción Contenido de la búsqueda.  También puede ver más información sobre las opciones Informe de condiciones y Ubicaciones principales.  
 
-1. En la parte inferior de la página, seleccione **Acciones**.  Observe las opciones disponibles y luego seleccione **Exportar resultados**.
-
-    1. En la ventana Exportar resultados, deje los valores predeterminados y seleccione **Exportar** en la parte inferior de la página. Volverá automáticamente a la ventana "Suspensión de prueba: Búsqueda de Ventas". Seleccione **Cerrar** en la parte inferior de la página.
-
-    1. En la página Caso de prueba SC900, seleccione **Exportaciones** en la parte superior de la página.
-    1. Seleccione **Suspensión de prueba: Búsqueda de ventas_Exportación**.
-    1. En la ventana que se abre, "Suspensión de prueba: Búsqueda de ventas_Exportación", verá una clave de exportación. Seleccione **Copiar al Portapapeles**.
-    1. Seleccione **Descargar resultados** en la parte superior de la ventana. Se abrirá una nueva página del explorador y se mostrará una ventana emergente con un mensaje en el que se le preguntará si desea abrir este archivo. Seleccione **Abrir**.
-    1. Si esta es la primera vez que descarga el contenido de una búsqueda, se le pedirá que instale la Herramienta de exportación de eDiscovery para Microsoft Office 365.  Seleccione **Instalar**.
-    1. Una vez que la instalación haya finalizado, se abrirá la ventana Herramienta de exportación de eDiscovery.  Pegue la clave de exportación que ha copiado a su Portapapeles en el primer campo. Péguela ahora (presione Control + V en su teclado o haga clic con el botón derecho de su ratón y seleccione Pegar).
-    1. En el segundo campo, seleccione la ubicación en la que desea almacenar el archivo exportado y luego seleccione **Iniciar**.  Una vez que el proceso de descarga haya finalizado, seleccione **Cerrar** y cierre esta pestaña del explorador.
-    1. Ha vuelto a la ventana "Suspensión de prueba: Búsqueda de ventas_Exportación".  Seleccione **Cerrar**.
-    1. Revise la ubicación de su descarga para comprobar que ha finalizado correctamente.
+1. En la parte inferior de la página, seleccione **Acciones**.  Tenga en cuenta las opciones disponibles que incluyen opciones de exportación (las opciones de exportación no se pueden seleccionar desde dentro de la plataforma de laboratorio proporcionada por el host de laboratorio autorizado, pero están disponibles en un entorno de producción y se consideran parte del flujo de trabajo estándar). Seleccione **Cerrar**.
 
 1. Cierre todas las pestañas abiertas del explorador.
 
 ### <a name="review"></a>Revisar
 
-En este laboratorio le hemos guiado a través de los pasos necesarios para empezar a trabajar con eDiscovery (Standard), incluida la configuración de los permisos de roles y la creación de un caso de eDiscovery.  Una vez creado el caso, ha realizado un recorrido por el flujo de trabajo de eDiscovery (Standard). Para ello, ha creado una suspensión de eDiscovery y una consulta de búsqueda, y luego ha exportado los resultados de la búsqueda para usarlos en futuras investigaciones.
+En este laboratorio le hemos guiado a través de los pasos necesarios para empezar a trabajar con eDiscovery (Standard), incluida la configuración de los permisos de roles y la creación de un caso de eDiscovery.  Una vez creado el caso, ha realizado un recorrido por los elementos del flujo de trabajo de eDiscovery (Standard). Para ello, ha creado una suspensión de eDiscovery y una consulta de búsqueda.

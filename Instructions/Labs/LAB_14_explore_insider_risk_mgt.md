@@ -1,12 +1,4 @@
----
-ms.openlocfilehash: 553860b67fc7cc2b181e874e4c57fb4bc972822b
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892706"
----
-<a name="---"></a><!--->
+<a name="---"></a><!---
 ---
 Laboratorio: Título: "Exploración de la administración de riesgos internos en Microsoft Purview" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft; Módulo 4: Descripción de las funcionalidades de riesgo interno en Microsoft Purview; Unidad 2: Descripción de la administración de riesgos internos"
 ---
@@ -22,9 +14,9 @@ Este laboratorio está orientado al siguiente contenido de Learn:
 
 ## <a name="lab-scenario"></a>Escenario del laboratorio
 
-En este laboratorio, se familiarizará con el proceso de configurar una directiva de riesgos internos y los requisitos básicos previos para configurar y usar directivas de Administración de riesgos internos.  Nota: Este laboratorio únicamente abordará los requisitos necesarios para configurar la Administración de riesgos internos y las opciones relativas a la creación de directivas.  Este laboratorio no incluye la tarea de desencadenar la directiva, ya que el número de eventos que tendrían que producirse para desencadenar una directiva queda fuera del ámbito de este ejercicio.
+En este laboratorio, se familiarizará con el proceso de configurar una directiva de riesgos internos y los requisitos básicos previos para configurar y usar directivas de Administración de riesgos internos.  Nota: Este laboratorio únicamente abordará los requisitos necesarios para configurar la Administración de riesgos internos y las opciones relativas a la creación de directivas.  Este laboratorio no incluye la tarea de desencadenar la directiva, ya que el número de eventos que tendrían que producirse para desencadenar una directiva y el tiempo requerido quedan fuera del ámbito de este ejercicio.
 
-**Tiempo estimado**: 25-30 minutos
+**Tiempo estimado**: 45-60 minutos
 
 ### <a name="task-1"></a>Tarea 1
 
@@ -33,9 +25,9 @@ En esta tarea, como administrador global, habilitará los permisos para la admin
 1. Abrir Microsoft Edge. En la barra de direcciones, escriba **admin.microsoft.com**.
 
 1. Inicie sesión con sus credenciales de administrador.
-    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
+    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es el id. de inquilino único proporcionado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
 
-    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Haga clic en **Iniciar sesión**.
+    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**. Esto le llevará a la página del Centro de administración de Microsoft 365.
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft 365, seleccione **Mostrar todo**.
@@ -44,21 +36,9 @@ En esta tarea, como administrador global, habilitará los permisos para la admin
 
 1. En el panel de navegación izquierdo del Portal de cumplimiento de Microsoft Purview, seleccione **Permisos**.
 
-1. En la página de permisos y roles, donde se indica "Ver y administrar roles usados para realizar tareas específicas de la solución en el centro de cumplimiento", seleccione **Roles**.
+1. En la página permisos y roles, en donde se indica, "Soluciones de Microsoft Purview" seleccione **Roles**.
 
-1. En el campo de búsqueda, escriba **Riesgo interno** y seleccione el icono de búsqueda (la lupa).  Observe los numerosos roles que aparecen.  Cada uno tiene un nivel de acceso diferente.  Seleccione **Administración de riesgos internos**.
-
-1. En la ventana que se abre, junto a la palabra Miembros, seleccione **Editar**.
-
-1. Para agregar miembros a este grupo de roles, seleccione **Elegir integrantes**.
-
-1. Seleccione **+ Agregar** en la parte superior de la página.
-
-1. En la lista de nombres, seleccione **Megan Bowen**, **Administrador MOD** y luego seleccione **Agregar** y **Aceptar** en la parte inferior de la página.
-
-1. Compruebe que ha agregado los miembros correctos y luego seleccione **Guardar**.
-
-1. En la parte inferior de la ventana Administración de riesgos internos, seleccione **Cerrar**.
+1. En el campo de búsqueda, escriba **Riesgo interno** y seleccione el icono de búsqueda (la lupa).  Observe los numerosos roles que aparecen.  Cada uno tiene un nivel de acceso diferente.  Seleccione **Administración de riesgos internos** y revise la descripción.  Desplácese hacia abajo hasta donde se muestran los miembros y observe que se muestran el administrador de MOD y Megan Bowen. En la parte inferior de la ventana, haga clic en **Cerrar**.
 
 1. En el panel de navegación izquierdo, seleccione **Inicio** para volver a la página del Portal de cumplimiento de Microsoft Purview.
 
@@ -88,11 +68,10 @@ En esta tarea explorará las opciones relativas a la solución Administración d
 
 1. En el panel de navegación izquierdo, debajo de Soluciones, seleccione **Administración de riesgos internos**.
 
-1. Antes de empezar a crear una directiva, es necesario configurar algunas opciones.  En la página Administración de riesgos internos, seleccione el **icono de engranaje de Configuración** en la esquina superior derecha de la página para acceder a la configuración de Riesgos internos.  
-    1. Compruebe que está en la pestaña **Privacidad**: en el caso de los usuarios que realizan actividades asignadas a sus directivas de riesgos internos, esta configuración determinará si se deben mostrar los nombres reales o usar versiones anónimas para ocultar su identidad.  Seleccione **No mostrar versiones anónimas de nombres de usuario** y luego seleccione **Guardar**.
-
-    1. Seleccione la pestaña **Indicadores de directiva**. una vez que se produce el evento desencadenante de una directiva, las actividades asignadas a los indicadores seleccionados se usan para determinar la puntuación de riesgo del usuario. Los indicadores de directiva seleccionados aquí se incluyen en las plantillas de directiva de riesgos internos.  Desplácese para ver todos los indicadores disponibles y cualquier tipo de información asociada. Debajo de **Indicadores de Office**, seleccione **Seleccionar todos** y **Guardar**.
-    1. Seleccione la pestaña **Plazos de la Directiva**. los plazos que seleccione aquí entrarán en vigor para un usuario cuando desencadenen una coincidencia con una directiva de riesgos internos.   La ventana Activación determina el tiempo que las directivas detectarán activamente la actividad de los usuarios, y se desencadena cuando un usuario realiza la primera actividad que coincide con una directiva. Detección de actividad pasada: determina la retroactividad de una directiva a la hora de detectar la actividad de los usuarios, y se desencadena cuando un usuario realiza la primera actividad que coincide con una directiva.  Deje los valores predeterminados.  Seleccione la pestaña **Detecciones inteligentes**.
+1. Antes de empezar a configurar una directiva, hay algunas opciones con las que un administrador debe estar familiarizado y configurarla según sea necesario para su organización. En la página Administración de riesgos internos, seleccione el **icono de engranaje de Configuración** en la esquina superior derecha de la ventana de administración de riesgos internos para acceder a la configuración de Riesgos internos.  
+    1. Compruebe que está en la pestaña **Privacidad**: en el caso de los usuarios que realizan actividades asignadas a sus directivas de riesgos internos, esta configuración determinará si se deben mostrar los nombres reales o usar versiones anónimas para ocultar su identidad.  Para este tutorial, puede dejar la configuración predeterminada.
+    1. Seleccione la pestaña **Indicadores de directiva**. una vez que se produce el evento desencadenante de una directiva, las actividades asignadas a los indicadores seleccionados se usan para determinar la puntuación de riesgo del usuario. Los indicadores de directiva seleccionados aquí se incluyen en las plantillas de directiva de riesgos internos.  Desplácese para ver todos los indicadores disponibles y cualquier tipo de información asociada. En **Indicadores de Office**, seleccione **Seleccionar todo** y, a continuación, seleccione **Guardar** en la parte inferior de la página (deberá desplazarse hacia abajo).
+    1. Seleccione la pestaña **Plazos de la Directiva**. los plazos que seleccione aquí entrarán en vigor para un usuario cuando desencadenen una coincidencia con una directiva de riesgos internos.   La ventana Activación determina el tiempo que las directivas detectarán activamente la actividad de los usuarios, y se desencadena cuando un usuario realiza la primera actividad que coincide con una directiva. Detección de actividad pasada: determina la retroactividad de una directiva a la hora de detectar la actividad de los usuarios, y se desencadena cuando un usuario realiza la primera actividad que coincide con una directiva.  Deje los valores predeterminados.
     1. Seleccione la pestaña **Detecciones inteligentes**. revise las opciones que aparecen aquí.  Observe las opciones de Configuración de dominios y su relación con los indicadores.
     1. Explore los otros elementos que aparecen en la configuración y observe que muchos de ellos están en versión preliminar.
 
@@ -102,28 +81,26 @@ En esta tarea explorará las opciones relativas a la solución Administración d
 
 ### <a name="task-4"></a>Tarea 4
 
-En esta tarea se familiarizará con el proceso de creación de una directiva
+En esta tarea, se familiarizará con la configuración para crear una directiva.  El objetivo es simplemente hacerse una idea de las distintas opciones y flexibilidad asociadas a la creación de una directiva.
 
 1. Debería encontrarse en la página Administración de riesgos internos.  Si aún no está en ella, abra la pestaña del explorador con la etiqueta **Administración de riesgos internos: Cumplimiento de Microsoft 365**.
 
 1. En la página de información general de Administración de riesgos internos, seleccione la pestaña **Directivas** y, luego, seleccione **+ Crear directiva**.  Configure cada una de las siguientes pestañas de Directiva.
 
-    1. Plantilla de directiva:  en la lista de categorías, seleccione **Pérdidas de datos** y luego **Pérdidas de datos generales**.  Observe que las plantillas de las categorías pueden tener requisitos previos adicionales.  Lea los detalles asociados a esta plantilla y luego seleccione **Siguiente**.
-
+    1. Plantilla de directiva: en la categoría Pérdidas de datos, seleccione **Pérdidas de datos**.  Lea los detalles asociados a esta plantilla. En los requisitos previos, la directiva DLP se muestra con una marca de verificación en un círculo verde para indicar que se cumple el requisito previo.  Hay una directiva DLP preconfigurada para este inquilino de laboratorio. Seleccione **Next** (Siguiente). 
     1. Nombre y descripción: escriba un nombre, **SC900-InsiderRiskPolicy** y, luego, seleccione **Siguiente**.
     1. Usuarios y grupos:  revise el cuadro de información.  Deje la configuración predeterminada, **Incluir todos los usuarios y grupos**.  Seleccione **Next** (Siguiente).
-    1. Contenido prioritario: lea la descripción. Seleccione **Quiero especificar sitios de SharePoint, etiquetas de confidencialidad o tipos de información confidencial como contenido prioritario** y luego seleccione **Siguiente**.
-        1. Sitio de SharePoint: para esta directiva de ejemplo, deje este campo en blanco y seleccione **Siguiente**.
-        1. Tipos de información confidencial: para esta directiva de ejemplo, deje este campo en blanco y luego seleccione **Siguiente**.
-        1. Etiquetas de confidencialidad: seleccione **+ Agregar o editar etiquetas de confidencialidad**.  Seleccione las etiquetas que aparecen en la siguiente lista:  **Finanzas Confidencial** y **Proyecto:Falcon\Extremadamente confidencial**, seleccione **Agregar** y luego **Siguiente**.
-    1. Desencadenadores: revise la información detallada.  La directiva se desencadena cuando el usuario realiza una actividad de filtración definida (seleccione los iconos de información de cada viñeta para obtener información más detallada) o se detecta una coincidencia con una directiva de Prevención de pérdida de datos (DLP) existente.  Dado que no ha configurado ninguna directiva DLP como parte de este ejercicio, seleccione **El usuario realiza una actividad de filtración**.  Observe que los indicadores de directiva que habilitó en la tarea anterior están activados.   Recuerde que estos indicadores solo se activarán una vez que la directiva se desencadene, y que cualquier actividad asignada a estos indicadores se usará para calcular la puntuación de riesgo del usuario. Seleccione **Next** (Siguiente).
-    1. Umbrales de indicador: aquí puede especificar umbrales predeterminados o personalizados asociados con los indicadores.  Recuerde que los indicadores solo se activan una vez que se produce el desencadenante de la directiva, por lo que estos umbrales no influyen en el momento en el que se desencadena esta. Seleccione **Especificar umbrales personalizados**. Al seleccionar esta opción, puede ver los valores predeterminados actuales. Deje los valores predeterminados y seleccione **Siguiente**.  
-    1. Indicadores: Observe que están seleccionados todos los indicadores de Office que seleccionó en la tarea anterior.  Desplácese por la página para ver otros indicadores de directiva disponibles y otros elementos que se seleccionan automáticamente.   La opción Detección de secuencias está habilitada.  La detección de una secuencia de actividades definida previamente sugiere un riesgo mayor.  Mantenga el mouse sobre el icono de información para obtener información detallada.  Estos elementos requieren seleccionar determinados indicadores e incorporar dispositivos.  Por motivos de simplicidad, y dado que no hemos incorporado dispositivos en este inquilino, desactive la opción **Seleccionar todo**.
+    1. Contenido para priorizar: según la descripción, se aumentan las puntuaciones de riesgo para cualquier actividad que contenga contenido de prioridad, lo que a su vez aumenta la posibilidad de generar una alerta de gravedad alta. Para simplificar, seleccione **No quiero priorizar el contenido en este momento** y, a continuación, seleccione **Siguiente**.
+    1. Decida si puntuar solo la actividad con contenido de prioridad: deje la configuración predeterminada **Obtener alertas para toda la actividad** y, a continuación, seleccione **Siguiente**.
+    1. Desencadenadores: el evento desencadenador determina cuándo comenzará una directiva a asignar puntuaciones de riesgo a la actividad de un usuario.  Puede elegir entre una directiva DLP existente o si el usuario realiza una actividad de filtración. Seleccione **Usuario coincide con una directiva de prevención de pérdida de datos (DLP)** y, a continuación, en la lista desplegable, seleccione **Datos financieros de EE. UU.** Seleccione **Next** (Siguiente).
+    1. Indicadores: tenga en cuenta que se seleccionan todos los indicadores de Office seleccionados en la tarea anterior (puede verlo si selecciona la tecla de flecha abajo junto a indicadores de Office) y, a continuación, seleccione **Siguiente**.
+    1. En la página Opciones de detección, deje todas las opciones predeterminadas, pero lea la descripción asociada a las distintas opciones y mantenga el puntero sobre el icono de información para obtener información más detallada sobre una configuración específica.  Seleccione **Next** (Siguiente).
+    1. En la página para Decidir si desea usar umbrales predeterminados o de indicador de cliente, deje el valor predeterminado **Umbrales predeterminados** y, a continuación, seleccione **Siguiente**.
     1. Para terminar, revise la configuración, seleccione **Enviar** y, luego, **Listo**.
 
-1. Ha vuelto a la pestaña Directivas de la página Administración de riesgos internos.  La directiva que acaba de crear aparecerá en la lista.  
+1. Ha vuelto a la pestaña Directivas de la página Administración de riesgos internos.  La directiva que ha creado aparecerá en la lista.  Si no la ve, seleccione el icono **Actualizar**.
 
-1. En la directiva que acaba de crear, el campo "Usuarios del ámbito" representa los usuarios a los que se les están signando puntuaciones de riesgo mediante la directiva.  A los usuarios se les asigna una puntuación de riesgo cuando la directiva se desencadena, por lo que el valor que se muestra es 0.  Un administrador puede configurar una directiva para empezar a asignar puntuaciones de riesgo a usuarios específicos en base a la actividad detectada por las directivas que ha seleccionado, y esa directiva puede omitir el requisito de detectar previamente un evento desencadenante.  Para hacerlo, seleccione el círculo vacío junto al nombre de la directiva para seleccionarla, y luego seleccione la opción **Empezar a puntuar la actividad de los usuarios** que aparece encima de la tabla de directivas.  Rellene todos los campos y luego seleccione la opción **Empezar a puntuar la actividad**.  Es posible que los usuarios tarden 24 horas en aparecer en la pestaña "Usuarios". Pasado ese tiempo, podrá seleccionar los usuarios de esa pestaña para revisar las actividades detectadas.  Seleccione **Cerrar** en la parte inferior de la ventana.
+1. Como administrador, puede empezar inmediatamente a asignar puntuaciones de riesgo a los usuarios en función de la actividad detectada por las directivas seleccionadas. Esto omite el requisito de que se detecte primero un evento desencadenador (como una coincidencia de directiva DLP).  Un administrador puede hacerlo seleccionando el cuadrado vacío junto al nombre de la directiva para seleccionarla, y luego seleccione la opción **Empezar a puntuar la actividad de los usuarios** que aparece encima de la tabla de directivas.  Se abre una nueva ventana que requiere que el administrador rellene los campos disponibles. Deje los campos vacíos, ya que no configurará esta opción, pero para obtener más información sobre por qué un administrador desea hacerlo, seleccione **¿Por qué haría esto?**  Cierre la ventana con la **X** de la esquina superior derecha de la ventana.
 
 1. Cierre todas las pestañas abiertas del explorador.
 
