@@ -25,7 +25,7 @@ En esta tarea, como administrador, agregará un usuario existente, Adele Vance, 
 1. Abrir Microsoft Edge.
 
 2. En la barra de direcciones, escriba **portal.azure.com** e inicie sesión con sus credenciales de administrador.
-    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
+    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es el id. de inquilino único proporcionado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
     1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
 
@@ -49,7 +49,7 @@ En esta tarea, como administrador, agregará un usuario existente, Adele Vance, 
 
 12. Seleccione **Adele Vance** de la lista de usuarios.
 
-13. Seleccione **Restablecer contraseña** en la parte superior de la página. Como no ha iniciado sesión previamente como Adele Vance, deberá restablecer la contraseña.
+13. Seleccione **Restablecer contraseña** en la parte superior de la página. Como no ha iniciado sesión previamente como Adele Vance, deberá restablecer la contraseña
 
 14. Cuando se abra la ventana de restablecimiento de contraseña, seleccione **Restablecer contraseña**.  IMPORTANTE: Anote la nueva contraseña, la necesitará en una tarea posterior para poder acceder como usuario.
 
@@ -69,7 +69,7 @@ En esta tarea, como administrador, aprenderá a configurar el restablecimiento d
 
 1. En el panel de navegación izquierdo, seleccione **Restablecer contraseña**.  
 
-1. Se mostrarán las propiedades para el autoservicio de restablecimiento de contraseñas.  Asegúrese de que el **autoservicio de restablecimiento** está **seleccionado** para el grupo que aparece en la lista, el **SSPRSecurityGroupUsers**.  Coloque el cursor sobre el icono de información junto a "seleccionar grupo" y observe lo que dice: "Defina el grupo de usuarios a los que se permite restablecer sus propias contraseñas". Debe incluir usuarios en el grupo. No puede seleccionar usuarios de forma individual.  Además, si cambia el grupo, el grupo que seleccione reemplazará al grupo que aparezca en la lista en ese momento.  Por lo tanto, se recomienda que simplemente agregue los usuarios al grupo del SSPR.  Por último, observe el cuadro de información azul: "Esta configuración solo se aplica a los usuarios finales de su organización. Los administradores siempre están habilitados para el autoservicio de restablecimiento de contraseña y deben utilizar dos métodos de autenticación para restablecer su contraseña".
+1. Se mostrarán las propiedades para el autoservicio de restablecimiento de contraseñas.  Asegúrese de que el **autoservicio de restablecimiento** está **seleccionado** para el grupo que aparece en la lista, el **SSPRSecurityGroupUsers**.  Coloque el cursor sobre el icono de información junto a "seleccionar grupo" y observe lo que dice: "Define el grupo de usuarios a los que se permite restablecer sus propias contraseñas". Debe incluir usuarios en el grupo. No puede seleccionar usuarios de forma individual.  Además, si cambia el grupo, el grupo que seleccione reemplazará al grupo que aparezca en la lista en ese momento.  Por lo tanto, se recomienda que agregue los usuarios al grupo del SSPR.  Por último, observe el cuadro de información azul: "Esta configuración solo se aplica a los usuarios finales de su organización. Los administradores siempre están habilitados para el autoservicio de restablecimiento de contraseña y deben utilizar dos métodos de autenticación para restablecer su contraseña".
 
 1. En el panel de navegación izquierdo de restablecimiento de contraseña, seleccione **Métodos de autenticación**.
 
@@ -98,17 +98,18 @@ En esta tarea, como el usuario Adele Vance, aprenderá el proceso de registro pa
 2. En la barra de direcciones escriba **login.microsoftonline.com**.
 
 3. Inicie sesión como Adele Vance.
-    1. En la ventana de inicio de sesión, escriba **AdeleV@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
+    1. En la ventana de inicio de sesión, escriba **AdeleV@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es el id. de inquilino único proporcionado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
     1. Escriba la contraseña que anotó en la tarea anterior. Haga clic en **Iniciar sesión**.
     1. Si se le pregunta si quiere mantener la sesión iniciada, seleccione **Sí**
 
-4. Como no ha iniciado sesión previamente como Adele Vance, se le solicitará que restablezca su contraseña.  Escriba su contraseña antigua.  Como contraseña nueva escriba **SC900-Lab**. Escriba **SC900-Lab** en el campo para confirmar la contraseña.  Haga clic en **Iniciar sesión**.  Nota: Utilizamos esta contraseña solo porque es práctica para el laboratorio. Como procedimiento recomendado, normalmente se utiliza una contraseña más segura.
+
+4. Como no ha iniciado sesión previamente como Adele Vance, se le solicitará que restablezca su contraseña.  Escriba su contraseña antigua.  Como contraseña nueva escriba **SC900-Lab**. Escriba **SC -900** en el campo para confirmar la contraseña.  Haga clic en **Iniciar sesión**.  Nota: Utilizamos esta contraseña solo porque es práctica para el laboratorio. Como procedimiento recomendado, normalmente se utiliza una contraseña más segura.
 
 5. Aparecerá una ventana emergente que indica que se requiere más información.  Esto se debe a que, como miembro del grupo SSPRSecurityGroupUsers, la configuración requiere que sus miembros se registren cuando inician sesión.  Haga clic en el botón **Siguiente**.  Nota:  Una alternativa a que los usuarios hagan el registro por sí mismos es que los administradores configuren directamente los métodos de autenticación cuando agregan a un usuario. Esto requiere que los administradores conozcan y establezcan los números de teléfono y las direcciones de correo electrónico que utilizan los usuarios para realizar el autoservicio de restablecimiento de contraseña, y para restablecer la contraseña de un usuario.
 
-6. Se abrirá la página "Garantizar la seguridad de la cuenta".  La ventana que aparece es para el método de autenticación por teléfono, si no tiene un dispositivo móvil con usted que pueda recibir mensajes de texto, pase al siguiente paso.  Se le solicita que escriba un número de teléfono. Asegúrese de que la opción **Enviarme un código por mensaje de texto** esté activada.   Escriba un número de teléfono donde pueda recibir un código de texto y seleccione el **botón Siguiente**.  Se abrirá una nueva ventana que indica que se acaba de enviar un código al teléfono que escribió.  Escriba el código que recibió y seleccione **Siguiente**. Se abrirá una ventana de confirmación que muestra su método de inicio de sesión predeterminado.  Seleccione **Listo**.  
+6. Se abrirá la página "Garantizar la seguridad de la cuenta".  La ventana que aparece es para el método de autenticación por teléfono, si no tiene un dispositivo móvil con usted que pueda recibir mensajes de texto, pase al siguiente paso.  Se le solicita que escriba un número de teléfono. Asegúrese de que la opción **Enviarme un código por mensaje de texto** esté activada.   Escriba un número de teléfono donde pueda recibir un código de texto y seleccione el **botón Siguiente**.  Se abrirá una nueva ventana que indica que se ha enviado un código al teléfono que escribió.  Escriba el código que recibió y seleccione **Siguiente**. Se abrirá una ventana de confirmación que muestra su método de inicio de sesión predeterminado.  Seleccione **Listo**.  
 
-7. Omita este paso si pudo configurar el SSPR con su número de teléfono móvil.  También puede configurar un método diferente como se muestra en la parte inferior izquierda de la ventana.  Si elige configurar un método diferente, seleccione **Quiero configurar otro método**, aparecerá una ventana emergente que le pregunta ¿Qué método quiere usar?  En el menú desplegable, seleccione su método preferido, **Correo electrónico**, y luego seleccione el botón **Confirmar**.  Escriba la dirección de correo electrónico que desea utilizar y seleccione **Siguiente**.  Se abrirá una nueva ventana que indica que se acaba de enviar un código al correo electrónico que escribió.  Acceda al correo electrónico para conseguir el código.  Escriba el código que recibió y seleccione **Siguiente**. Se abrirá una ventana de confirmación que muestra su método de inicio de sesión predeterminado.  Seleccione **Listo**.
+7. Omita este paso si pudo configurar el SSPR con su número de teléfono móvil.  También puede configurar un método diferente como se muestra en la parte inferior izquierda de la ventana.  Si elige configurar un método diferente, seleccione **Quiero configurar otro método**, aparecerá una ventana emergente que le pregunta ¿Qué método quiere usar?  En el menú desplegable, seleccione su método preferido, **Correo electrónico**, y luego seleccione el botón **Confirmar**.  Escriba la dirección de correo electrónico que desea utilizar y seleccione **Siguiente**.  Se abrirá una nueva ventana que indica que se ha enviado un código al correo electrónico que escribió.  Acceda al correo electrónico para conseguir el código.  Escriba el código que recibió y seleccione **Siguiente**. Se abrirá una ventana de confirmación que muestra su método de inicio de sesión predeterminado.  Seleccione **Listo**.
 
 8. Ahora puede completar el inicio de sesión.  Debe estar en la página de aterrizaje de Azure Portal.  Si su tiempo de inicio de sesión expira, simplemente vuelva a escribir la contraseña, SC900-Lab.
 
@@ -153,7 +154,7 @@ En esta tarea, como administrador, verá brevemente los registros de auditoría,
 2. En la barra de direcciones escriba **portal.azure.com**
 
 3. Inicie sesión con sus credenciales de administrador.
-    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
+    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es el id. de inquilino único proporcionado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
     1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
 

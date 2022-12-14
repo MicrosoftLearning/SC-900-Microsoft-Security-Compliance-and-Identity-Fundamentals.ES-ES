@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: e3ea450ebe43fa107a828166c32cfcac8d26e580
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892226"
----
 <a name="---"></a><!---
 ---
 Laboratorio: Título "Exploración de la gobernanza de identidades en Azure AD con Privileged Identity Management" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de Azure Active Directory (Azure AD), parte de Microsoft Entra; Módulo 4: Descripción de las funcionalidades de gobernanza y protección de identidades de Azure AD; Unidad 4: Descripción de las funcionalidades de Privileged Identity Management"
@@ -24,17 +16,17 @@ Este laboratorio está orientado al siguiente contenido de Learn:
 
 En este laboratorio, explorará algunas de las funcionalidades básicas de Privileged Identity Management (PIM). PIM requiere Azure AD Premium P2.  En este laboratorio, como administrador, configurará uno de sus usuarios, Diego Siciliani, con un rol de administrador de usuarios de Azure AD, a través de Priviledged ID Management (PIM).   Gracias a los privilegios de administrador de usuarios, Diego podrá crear usuarios y grupos, administrar licencias y mucho más.  Tanto el administrador como el usuario, Diego, deben tener configurada la licencia de Azure AD Premium P2.
 
-**Tiempo estimado**: 30-45 minutos
+**Tiempo estimado**: 45-60 minutos
 
 ### <a name="task-1"></a>Tarea 1
 
 En esta tarea, como administrador, restablecerá la contraseña del usuario Diego Siciliani. Este paso es necesario para poder iniciar sesión como el usuario en las siguientes tareas.
 
-1. Abrir Microsoft Edge.  En la barra de direcciones, escriba **portal.azure.com**.
+1. Abrir Microsoft Edge.  En la barra de direcciones escriba **portal.azure.com**.
 
 2. Inicie sesión con sus credenciales de administrador.
-    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
-    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Haga clic en **Iniciar sesión**.
+    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es el id. de inquilino único proporcionado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
+    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
 
 3. Seleccione **Azure Active Directory**.  
@@ -53,7 +45,7 @@ En esta tarea, como administrador, restablecerá la contraseña del usuario Dieg
 
 10. Cierre la ventana Todos los usuarios con la **X** de la esquina superior derecha de la página. Ahora debería estar en la página Contoso Azure Active Directory.
 
-11. Mantenga abierta la ventana del navegador, la usará en la siguientes tareas.
+11. Mantenga abierta la ventana del navegador, la necesitará en la siguiente tarea.
 
 ### <a name="task-2"></a>Tarea 2
 
@@ -87,9 +79,9 @@ En esta tarea, como administrador, asignará a Diego un rol de Azure AD en Privi
 
 14. En los campos Inicio de la asignación, mantenga la fecha y hora predeterminadas, que son la fecha de hoy y la hora actual.
 
-15. En los campos Fin de asignación, cambie la fecha por la de hoy (tenga en cuenta que la configuración predeterminada es de un año a partir de hoy, por lo que debe cambiar el año). En la hora, establezca la hora a dos horas más tarde de la hora actual.  Cuando establezca el campo de la hora para la hora de finalización de la Asignación, pulse el tabulador de su teclado y seleccione **Asignar** en la parte inferior de la página.  
+15. En los campos Fin de asignación, cambie la fecha por la de hoy (tenga en cuenta que la configuración predeterminada es de un año a partir de hoy, por lo que debe cambiar el año). En la hora, establezca la hora a dos horas más tarde de la hora actual. Cuando establezca el campo de la hora para la hora de finalización de la Asignación, pulse el tabulador de su teclado y seleccione **Asignar** en la parte inferior de la página.  
 
-16. Esto le llevará de vuelta a la ventana Asignaciones.  Tras unos segundos, debería ver Diego Siciliani en la tabla del Administrador de usuarios, junto con los detalles de la asignación.  Si después de unos segundos sigue sin ver la actualización, seleccione **Actualizar** en la parte superior de la página.
+16. Esto le llevará de vuelta a la ventana Asignaciones.  Tras unos segundos, debería ver Diego Siciliani en la tabla del Administrador de usuarios, junto con los detalles de la asignación. Si después de unos segundos sigue sin ver la actualización, seleccione **Actualizar** en la parte superior de la página.
 
 17. En la parte superior de la página, seleccione **Configuración**.
 
@@ -104,7 +96,7 @@ En esta tarea, iniciará sesión en Azure Portal como Diego Siciliani, para acce
 1. Abrir Microsoft Edge.  En la barra de direcciones del explorador, escriba **portal.azure.com**.
 
 1. Inicie sesión como Diego Siciliani.
-    1. En la ventana de inicio de sesión, escriba **DiegoS@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
+    1. En la ventana de inicio de sesión, escriba **DiegoS@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es el id. de inquilino único proporcionado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
     1. Escriba la contraseña temporal que anotó en la tarea anterior y seleccione **Iniciar sesión**.  Haga clic en **Iniciar sesión**.
     1. Como la contraseña que escribió era temporal, deberá actualizarla ahora. Escriba la contraseña actual.  En los campos de nueva contraseña y confirmar contraseña, escriba **SC900-Lab**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
@@ -126,7 +118,7 @@ En esta tarea, iniciará sesión en Azure Portal como Diego Siciliani, para acce
 1. Se le preguntará si quiere mantener la sesión iniciada.  Seleccione **Sí**.
 1. Aparecerá la ventana Activar el administrador de usuarios.  Se le solicitará que escriba el motivo de la activación.  En el cuadro que aparece, escriba el motivo que desee (máximo 500 caracteres) y luego seleccione **Activar**.
 1. Verá el estado (tres etapas del progreso), mientras se procesa la activación.
-1. Una vez completada la activación, volverá a abrirse la página Mis roles | Roles de Azure AD, donde verá una notificación que indica que acaba de activar un rol.  Seleccione **Haga clic aquí** para ver sus roles activos.  Si observa que la hora de finalización es diferente a la configurada, seleccione la tecla de actualización en la parte superior de la página (puede tardar unos minutos en actualizarse).
+1. Una vez completada la activación, volverá a abrirse la página Mis roles | Roles de Azure AD, donde verá una notificación que indica que ha activado un rol.  Seleccione **Haga clic aquí** para ver sus roles activos.  Si observa que la hora de finalización es diferente a la configurada, seleccione la tecla de actualización en la parte superior de la página (puede tardar unos minutos en actualizarse).
 1. Cierre la ventana con la **X** de la esquina superior derecha de la pantalla.
 1. Para cerrar la ventana Privileged Identity Management | Inicio rápido, seleccione la **X** en la esquina superior derecha de la pantalla.
 1. Cierre la ventana Gobierno de identidades con la **X** de la esquina superior derecha de la pantalla.

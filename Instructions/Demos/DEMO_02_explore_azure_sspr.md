@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 56e48510b5cca7dc77cc8b8f658e1ac50e44c7b8
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892142"
----
 <a name="---"></a><!---
 ---
 Demostración: Título: "Autoservicio de restablecimiento de contraseña (SSPR) de Azure AD" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de Azure Active Directory (Azure AD), parte de Microsoft Entra; Módulo 2: Descripción de las funcionalidades de autenticación de Azure AD; Unidad 4: Descripción del autoservicio de restablecimiento de contraseña en Azure AD"
@@ -30,7 +22,7 @@ En esta demo, hará un recorrido por las diferentes configuraciones asociadas a 
 
 1. La pestaña Propiedades aparecerá resaltada.  En la ventana Propiedades, observe que el SSPR puede habilitarse para Ninguno, Seleccionar o Todos.
     1. Ponga el cursor sobre el icono de información junto a las palabras "Autoservicio de restablecimiento de contraseña habilitado" y haga hincapié en que puede elegir "Seleccionado" para restringir el restablecimiento de la contraseña a un grupo limitado de usuarios, o bien seleccionar Ninguno o Todos.
-    1. Ponga su cursor sobre el icono de información que aparece junto al texto "Seleccionar grupo" y recalque que aquí es donde identifica al grupo de usuarios que tienen permiso para restablecer sus propias contraseñas.   Debe incluir usuarios en el grupo. No puede seleccionar usuarios de forma individual.  Además, si cambia el grupo, el grupo que seleccione reemplazará al grupo que aparezca en la lista en ese momento.  Por lo tanto, se recomienda que simplemente agregue los usuarios al grupo del SSPR.
+    1. Ponga su cursor sobre el icono de información que aparece junto al texto "Seleccionar grupo" y recalque que aquí es donde identifica al grupo de usuarios que tienen permiso para restablecer sus propias contraseñas.   Debe incluir usuarios en el grupo. No puede seleccionar usuarios de forma individual.  Además, si cambia el grupo, el grupo que seleccione reemplazará al grupo que aparezca en la lista en ese momento.  Por lo tanto, se recomienda que agregue los usuarios al grupo del SSPR.
     1. Observe el cuadro de información de color azul claro y señale su contenido a los estudiantes. Esta configuración solo se aplica a los usuarios finales de su organización. Los administradores siempre están habilitados para el autoservicio de restablecimiento de contraseña y deben utilizar dos métodos de autenticación para restablecer su contraseña.
 
 1. En el panel de navegación izquierdo de restablecimiento de contraseña, seleccione Métodos de autenticación.
