@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: ef5c993972dcff57836c8ac045a19903b8c15721
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892634"
----
 <a name="---"></a><!---
 ---
 Laboratorio: Título: "Exploración de las aplicaciones de Microsoft Defender for Cloud" Módulo: "Ruta de aprendizaje: Descripción de las funcionalidades de las soluciones de seguridad de Microsoft; Módulo 4: Descripción de las funcionalidades de protección contra amenazas de Microsoft 365; Unidad 5: Descripción de las aplicaciones de Microsoft Defender for Cloud Apps"
@@ -22,74 +14,83 @@ Este laboratorio está orientado al siguiente contenido de Learn:
 
 ## <a name="lab-scenario"></a>Escenario del laboratorio
 
-En este laboratorio explorará las funcionalidades de Microsoft Defender for Cloud Apps.  Realizará un recorrido por la información que se muestra en el panel de Cloud Discovery y las funcionalidades disponibles para investigar los resultados y controlar el impacto en su organización a través de directivas.  Nota:  Las organizaciones deben tener una licencia para usar Microsoft Defender for Cloud Apps, que es un servicio de suscripción basado en usuarios.
+En este laboratorio explorará las funcionalidades de las aplicaciones de Microsoft Defender for Cloud.  Realizará un recorrido por la información que se muestra en el panel de Cloud Discovery, el catálogo de aplicaciones en la nube, las funcionalidades disponibles para investigar los resultados y formas de controlar el impacto en su organización a través de directivas. Nota:  Las organizaciones deben tener una licencia para usar Microsoft Defender for Cloud Apps, que es un servicio de suscripción basado en usuarios.
 
 **Tiempo estimado**: 15-20 minutos
 
-### <a name="task-1"></a>Tarea 1
+### <a name="task-1---explore-cloud-discovery"></a>Tarea 1: Explorar Cloud Discovery
 
 Explorar Cloud Discovery
 
 1. Abrir Microsoft Edge. En la barra de direcciones, escriba **admin.microsoft.com**.
 
 1. Inicie sesión con sus credenciales de administrador.
-    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (la ZZZZZZ es el id. de inquilino único facilitado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
-    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Haga clic en **Iniciar sesión**.
+    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es el id. de inquilino único proporcionado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
+    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**. Esto le llevará a la página del Centro de administración de Microsoft 365.
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft 365, seleccione **Mostrar todo**.
 
 1. Debajo de Centros de administración, seleccione **Seguridad**.  Se abrirá una nueva página del explorador con la página principal del portal de Microsoft 365 Defender.  
 
-1. En la parte inferior del panel de navegación izquierdo de la página de Microsoft 365 Defender, seleccione **Más recursos**.
+1. Si esta es la primera vez que visita el portal de Microsoft 365 Defender, es posible que vea una ventana emergente para realizar un paseo introductorio.  Ciérrela.
 
-1. En la tarjeta de **Microsoft Defender for Cloud Apps**, seleccione **Abrir**.  Se abrirá una nueva página del explorador con el panel de Cloud App Security.  Observe las tarjetas de información que hay disponibles.  Es posible que las tarjetas no muestren información, dado que se trata del ambiente de una cuenta empresarial con un laboratorio preconfigurado que no se ha utilizado de forma activa.  
+1. En el panel de navegación izquierdo, seleccione **Aplicaciones** en la nube para expandir la lista y, a continuación, seleccione **Cloud Discovery**. Esto le lleva a la vista de Panel.  Observe la información disponible en el panel. En la vista del panel, puede seleccionar diferentes pestañas en la parte superior de la página.  
 
-1. En el panel de navegación izquierdo, seleccione **Descubrir** y luego seleccione **panel de Cloud Discovery** en el menú desplegable.  El panel incluye una descripción general de las aplicaciones detectadas, las categorías de aplicaciones, los niveles de riesgo, y mucho más.  
-    1. En la parte superior de la página de Cloud Discovery, seleccione la pestaña **Aplicaciones detectadas**  La ventana Aplicaciones detectadas ofrece una vista más detallada de las aplicaciones detectadas, incluyendo la puntuación de riesgo, el tráfico, el número de usuarios, y mucho más.
-        1. En uno de los elementos de la lista, seleccione los **puntos suspensivos** de la columna de acciones de la tabla.  Observe las diferentes opciones disponibles, incluida la capacidad de etiquetar una aplicación como autorizada o no autorizada.  Vuelva a seleccionar los puntos suspensivos para cerrar el cuadro Acciones.
-        1. Si selecciona un elemento de línea específico, se abrirá una página de detalles para esa aplicación.  Seleccione un elemento de la lista.  Explore las diferentes pestañas del elemento seleccionado en la parte superior de la página de detalles:  **Uso**, **Información, IP**, **Direcciones**, **Usuarios** y **Alertas**. Cuando haya terminado de explorar la página de detalles, vuelva a Aplicaciones detectadas. Para ello, seleccione la opción **Aplicaciones detectadas** en el panel de navegación de la izquierda.
-    1. En la parte superior de la página, seleccione la pestaña **Direcciones IP** (esto equivale a seleccionar Direcciones IP en el panel de navegación izquierdo).  Aquí encontrará datos como el número de transacciones, la cantidad de tráfico y el número de subidas, ordenados por dirección IP.  Observe que también puede filtrar por una dirección IP específica o exportar los datos para realizar un análisis más detallado.
-    1. En la parte superior de la página (o en el panel de navegación izquierdo), seleccione **Usuarios**.  Es el mismo tipo de información que obtiene al seleccionar Direcciones IP, solo que aquí aparece ordenada por usuarios individuales.  Aquí también puede filtrar por un usuario específico y exportar los datos para realizar un análisis más detallado.
+1. Seleccione **Aplicaciones detectadas**. La ventana Aplicaciones detectadas ofrece una vista más detallada de las aplicaciones detectadas, incluyendo la puntuación de riesgo, el tráfico, el número de usuarios, y mucho más.
+    1. En uno de los elementos de la lista, seleccione los **puntos suspensivos** de la columna de acciones de la tabla.  Observe las diferentes opciones disponibles, incluida la capacidad de etiquetar una aplicación como autorizada o no autorizada.  Vuelva a seleccionar los **puntos suspensivos** para cerrar el cuadro Acciones.
+    1. Si selecciona un elemento de línea específico, se abrirá una página de detalles para esa aplicación.  Seleccione un elemento de la lista y revise la información disponible en la página de información general.  Para el elemento seleccionado, seleccione la pestaña **Uso de aplicaciones en la nube** para ver información más detallada, como **Uso**, **Usuarios, IP**, **Direcciones** y **Alertas**. Cuando haya terminado de explorar la página de detalles, vuelva a la página de aplicaciones detectadas; para ello, seleccione **Cloud Discovery** en la ruta de navegación de la parte superior de la página.  Si selecciona Cloud Discovery en el panel de navegación izquierdo, volverá a la vista del panel.
+    1. En la parte superior de la página, seleccione la pestaña **Direcciones IP**.  Aquí encontrará datos, como el número de transacciones, la cantidad de tráfico y las cantidades de carga, por dirección IP.  Observe que también puede filtrar por una dirección IP específica o exportar los datos para realizar un análisis más detallado.
+    1. En la parte superior de la página, seleccione **Usuarios**.  Es el mismo tipo de información que obtiene al seleccionar Direcciones IP, solo que aquí aparece ordenada por usuarios individuales.  Aquí también puede filtrar por un usuario específico y exportar los datos para realizar un análisis más detallado.
 
-1. La información que se muestra en estas pestañas se basa en los informes de instantáneas de los registros de tráfico que carga manualmente desde sus firewalls y servidores proxy, o en los informes continuos que analizan todos los registros reenviados desde su red utilizando Cloud App Security.  Para ver dónde se configuran estas opciones, seleccione los **puntos suspensivos** verticales de la esquina superior derecha de la página.
-    1. Seleccione la primera opción, **Crear informe de instantáneas de Cloud Discovery**. Aquí es donde completaría los detalles requeridos y cargaría los registros de tráfico para generar y cargar un informe.  Seleccione **Salir**.  Los datos que ve sobre su inquilino de laboratorio proceden de un informe de instantáneas. Puede ver esta información en la esquina superior derecha de la pantalla.
-    1. Para ver la opción de los informes continuos, seleccione los **puntos suspensivos** en la esquina superior derecha de la página y, en el menú desplegable, seleccione **Configurar la carga automática**.  No hay orígenes de datos conectados, pero aquí es donde agregaría uno. Seleccione **Agregar origen de datos** y, después, en la ventana Agregar origen de datos, seleccione la flecha desplegable del campo Origen para ver los tipos de dispositivos que puede conectar como origen de datos.  Seleccione **Cancelar** para salir.
+1. La información proporcionada en la página de Cloud Discovery y las pestañas relacionadas se basa en los informes de instantáneas de los registros de tráfico que carga manualmente desde sus firewalls y servidores proxy, o en los informes continuos que analizan todos los registros reenviados desde su red utilizando Cloud App Security.  Para ver dónde se configuran estas opciones, seleccione **Acciones** en la esquina superior derecha de la página.
+    1. Seleccione la primera opción, **Crear informe de instantáneas de Cloud Discovery** y, a continuación, seleccione **Siguiente**. Aquí es donde completaría los detalles requeridos y cargaría los registros de tráfico para generar y cargar un informe.  Seleccione **Salir** y, si se le pide, seleccione **Salir** de nuevo.  Los datos que ve sobre su inquilino de laboratorio proceden de un informe de instantáneas. Puede ver esta información en la parte superior de la pantalla de Cloud Discovery.
+    1. Para ver la opción de los informes continuos, seleccione las **Acciones** en la esquina superior derecha de la página y, en el menú desplegable, seleccione **Configurar la carga automática**.  No hay orígenes de datos conectados, pero aquí es donde agregaría uno. Seleccione **Agregar origen de datos** y, después, seleccione la flecha desplegable del campo **Seleccionar dispositivo** para ver los tipos de dispositivos que puede conectar como origen de datos.  Seleccione **Cancelar** para salir. 
+    1. En el panel de navegación izquierdo, seleccione **Cloud Discovery** para volver a la página Cloud Discovery.
 
-1. Otro punto a mencionar es que puede conectar aplicaciones directamente mediante la configuración de conectores de aplicaciones que le darán una mayor visibilidad y control sobre sus aplicaciones en la nube. En la esquina superior izquierda de la pantalla, seleccione el **icono en forma de engranaje de configuración** y, en la lista desplegable, seleccione **Conectores de aplicaciones**.  
-    1. En la página Aplicaciones conectadas, Office 365 debería aparecer en la lista con el estado "Conectado".  Si Office 365 muestra un error de conexión, lo más probable es que se deba a que la opción Auditoría no está activada.
-    1. Seleccione **+Conectar una aplicación** y, en la lista desplegable, seleccione **Microsoft Azure**.  En la ventana emergente de Microsoft Azure, seleccione **Conectar Microsoft Azure**.  Se mostrará el estado "Conectado" e información sobre el examen de usuarios, datos y actividades.  Seleccione el botón **Cerrar**.
+1. Puede conectar aplicaciones directamente mediante la configuración de conectores de aplicaciones que le darán una mayor visibilidad y control sobre sus aplicaciones en la nube. En la esquina superior derecha de la pantalla, seleccione **Acciones** y, después, **Configuración de Cloud Discovery**.  En el lado izquierdo de la pantalla, en Aplicaciones conectadas, seleccione **Conectores de aplicaciones**.  
 
-1. Deje esta página abierta, porque la utilizará en la siguiente tarea.
-
-### <a name="task-2"></a>Tarea 2
-
-Explorar las formas de investigar las actividades registradas
-
-1. En el panel de navegación izquierdo, debajo de la opción Investigar, seleccione **Registro de actividad**.  Aquí podrá ver todas las actividades de las aplicaciones que ha conectado.   Dado que ya ha conectado el conector de Office 365, debería poder ver algún dato. Después de conectar Cloud App Security con una aplicación mediante el conector de aplicaciones, Cloud App Security examina todas las actividades que se han producido (el período de tiempo de examen retroactivo varía según la aplicación) y después se actualiza constantemente con nuevas actividades.  
-
-1. Seleccione la columna de actividad de cualquier elemento para mostrar información más detallada. En el extremo derecho del elemento seleccionado, seleccione los **puntos suspensivos** verticales.  Tenga en cuenta las distintas opciones.  Seleccione la columna de actividad del mismo elemento para contraer la vista detallada.
-
-1. Observe la opción para agregar una nueva directiva a partir de la búsqueda o exportar los datos para realizar un análisis más detallado que aparece en la parte superior de la página.  Seleccione **+Nueva directiva a partir de búsqueda**.  Tenga en cuenta que puede crear una directiva a partir de una plantilla, seleccionar la gravedad y la categoría de las directivas, crear filtros para ellas, crear alertas e incluso enviar las alertas a Power Automate.  Seleccione **Cancelar** para salir de la ventana de creación de directivas.
-
-1. En el panel de navegación izquierdo, seleccione y explore la opción **Archivos** y observe las opciones para filtrar datos, crear una directiva de archivos y exportar los datos.  
-
-1. En el panel de navegación izquierdo, seleccione y explore la opción **Usuario y cuentas**.  Observe las opciones para filtrar y exportar los datos.
-
-1. En el panel de navegación de la izquierda, seleccione **Configuración de seguridad**. En esta página encontrará evaluaciones de la configuración de seguridad para sus cuentas de Azure, Amazon Web Services (AWS) y Google Cloud Platform (GCP).
+    1. En la página Aplicaciones conectadas, seleccione *Office 365** en la lista para ver información detallada. Si Office 365 muestra un error de conexión, lo más probable es que se deba a que la opción Auditoría no está activada.  Si la auditoría está habilitada, vaya a los puntos suspensivos verticales en el lado derecho del elemento de línea y seleccione **Editar configuración**.  Para volver a conectarse, seleccione **Conectar Office 365** en la parte inferior de la página. La página debería mostrar ahora que Office 365 está conectado, seleccione **Listo**.  El estado se mostrará ahora con un signo de advertencia amarillo, lo que indica que no hay ningún estado reciente.  El estado tardará algún tiempo en actualizarse, ya que el período de tiempo de examen retroactivo es diferente en cada aplicación y es posible que los inquilinos de laboratorio experimenten retrasos más largos de lo normal.
+    1. Ahora configurará un nuevo conector de aplicaciones.  Seleccione **+Conectar una aplicación** y, en la lista desplegable, seleccione **Microsoft Azure**.  En la ventana emergente de Microsoft Azure, seleccione **Conectar Microsoft Azure** y, a continuación, seleccione **Listo**.  Verá un estado conectado (si no lo ve, actualice el explorador) e información sobre el examen de usuarios, datos y actividades.  Vuelva al panel de Cloud Discovery; para ello, seleccione **Cloud Discovery** en el panel de navegación izquierdo.
 
 1. Deje esta página abierta, porque la utilizará en la siguiente tarea.
 
-### <a name="task-3"></a>Tarea 3
+### <a name="task-part-2---explore-the-cloud-app-catalog"></a>Tarea, parte 2: Explorar el catálogo de aplicaciones en la nube
 
-En esta tarea, explorará las páginas Directivas y Alertas en Microsoft Defender for Cloud Apps.
+Cloud Discovery analiza los registros de tráfico en el catálogo de aplicaciones en la nube de Microsoft Defender for Cloud Apps de más de 31 000 aplicaciones en la nube. Las aplicaciones se clasifican y se puntúan en función de más de 80 factores de riesgo para proporcionar visibilidad continua al uso de la nube, Shadow IT y el riesgo que Shadow IT supone para su organización.  En esta tarea, explorará las funcionalidades del catálogo de aplicaciones en la nube.
 
-1. En el panel de navegación izquierdo, seleccione la tecla de flecha abajo situada junto a **Control** y, después, seleccione **Directivas**.  Las directivas mostradas proporcionan información sobre el número de alertas generadas por la directiva, la gravedad, etc. Al seleccionar cualquier elemento de línea, como **inicio de sesión de riesgo**, se ofrece la opción de editar la directiva. Seleccione **Cancelar** en la parte inferior de la página.
+1. En el panel de navegación izquierdo, seleccione **Catálogo de aplicaciones en la nube**.
 
-1. En el panel de navegación izquierdo, seleccione **Alertas**.  Si hay alguna alerta en la lista, seleccione un elemento de la lista de alertas. Revise la información proporcionada.  En la parte superior derecha de la ventana, seleccione **Cerrar alerta** para ver las opciones para cerrar la alerta.  
+1. El catálogo de aplicaciones de nube le permite elegir qué aplicaciones se ajustan a los requisitos de seguridad de la organización. Los administradores pueden realizar el filtrado básico de las aplicaciones como se muestra en la parte superior de la página, lo que incluye si la aplicación está autorizada, no autorizada o no tiene ninguna etiqueta, puntuación de riesgo, factor de riesgo de cumplimiento y factor de riesgo de seguridad.  Por ejemplo, el filtrado por factor de riesgo de cumplimiento le permite buscar estándares, certificaciones y cumplimiento específicos que la aplicación pueda cumplir. Por ejemplo, HIPAA, ISO 27001, SOC 2 y PCI-DSS. Seleccione **Factor de riesgo de cumplimiento** para ver las opciones disponibles.  Para filtrar aún más por puntuación de riesgo, mueva los controles deslizantes de la puntuación de riesgo en la parte superior de la página. Si ha movido el control deslizante, asegúrese de establecerlo para que el intervalo esté en 0 a 10.
 
-1. Cierre todas las pestañas abiertas del explorador.
+1. Los administradores también pueden buscar aplicaciones por categoría.  Por ejemplo, en el campo de búsqueda de categoría, escriba **Red social** y, a continuación, seleccione **Red social**.  Seleccione **Yammer** para obtener una vista detallada.  Al mantener el mouse sobre cualquier tema de una categoría determinada se mostrará un icono de información que puede seleccionar para obtener más información sobre ese tema.
+
+1. Deje esta página abierta, porque la utilizará en la siguiente tarea.
+
+### <a name="task-3---explore-the-activity-log-and-files"></a>Tarea 3: Explorar el registro de actividad y los archivos
+
+Explore las formas en las que puede investigar las actividades grabadas con el registro de actividad y los archivos.
+
+1. En el panel de navegación izquierdo, seleccione y explore la opción **Archivos** y anote las opciones para filtrar los datos por aplicación, propietario, nivel de acceso, tipo de archivo y directiva coincidente. Además, tenga en cuenta la opción de crear una nueva directiva a partir de la búsqueda y exportación de los datos.
+    1. Seleccione **+Nueva directiva a partir de búsqueda**.  Tenga en cuenta que puede crear una directiva a partir de una plantilla, seleccionar la gravedad y la categoría de las directivas, crear filtros para ellas, crear alertas e incluso enviar las alertas a Power Automate.  Seleccione **Cancelar** para salir de la ventana de creación de directivas y, a continuación, seleccione **Salir de la página**.
+
+1. En el panel de navegación izquierdo, seleccione **Registro de actividad**. Aquí podrá ver todas las actividades de las aplicaciones que ha conectado. Es posible que no vea ningún dato enumerado, ya que puede tardar varias horas en realizar exámenes retroactivos una vez habilitada la auditoría y los inquilinos de laboratorio pueden experimentar retrasos más largos que los normales. Observe las opciones de filtro disponibles y la opción para crear una directiva a partir de la búsqueda.
+
+1. Deje esta página abierta, porque la utilizará en la siguiente tarea.
+
+### <a name="task-4---explore-policies"></a>Tarea 4: Explorar las directivas
+
+En esta tarea, explorará las directivas en las aplicaciones de Microsoft Defender for Cloud.
+
+1. En el panel de navegación izquierdo, seleccione **Directivas** y, a continuación, seleccione **Administración de directivas**.  Las directivas mostradas proporcionan información sobre el número de alertas generadas por la directiva, la gravedad, etc. Al seleccionar cualquier elemento de línea, se ofrece información más detallada sobre la directiva. Seleccione un elemento de la lista., p. ej., **Inicio de sesión de riesgo**.
+
+    1. Tenga en cuenta que también puede crear una directiva. Seleccione **+ Crear directiva** para ver los tipos de directivas que puede crear.  Seleccione **Directiva de actividad** para ver las distintas opciones disponibles para crear la directiva.  Seleccione **Cancelar** para salir de la ventana de configuración.
+    1. Tenga en cuenta que también puede tener la opción de exportar información de directiva.
+
+1. En el panel de navegación izquierdo, seleccione **Plantillas de directiva**. Para crear una directiva a partir de una de las plantillas disponibles, seleccione **+** en el lado izquierdo del elemento de línea de plantilla.  Vea las distintas opciones de configuración de la directiva.  Seleccione **Cancelar** para salir de la página.
+
+1. Cierre la ventana del explorador.
 
 ### <a name="review"></a>Revisar
 
-En este laboratorio exploró las funcionalidades de Microsoft Defender for Cloud Apps.  Ha realizado un recorrido por la información que se muestra en el panel de Cloud Discovery y las funcionalidades disponibles para investigar los resultados y controlar el impacto en su organización a través de directivas.
+En este laboratorio exploró las funcionalidades de Microsoft Defender for Cloud Apps.  Ha realizado un recorrido por la información que se muestra en el panel de Cloud Discovery, el catálogo de aplicaciones en la nube, las funcionalidades disponibles para investigar los resultados y formas de controlar el impacto en su organización a través de directivas.
