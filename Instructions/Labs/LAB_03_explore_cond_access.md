@@ -87,15 +87,15 @@ En esta tarea, aprenderá el proceso de creación de una directiva de acceso con
 
 ### <a name="task-3"></a>Tarea 3
 
-En esta tarea verá el impacto de la directiva de acceso condicional, desde la perspectiva del usuario, Debra Berger. En primer lugar, iniciará sesión en una aplicación que no esté incluida en la directiva de acceso condicional.  Luego repetirá el proceso en una aplicación que esté incluida en la directiva de acceso condicional.  Recuerde que la directiva requiere que el usuario pase por MFA cuando accede a una aplicación de la administración de Microsoft Azure.  Para utilizar la MFA, el usuario debe registrar primero el método de autenticación que se utilizará para la MFA, por ejemplo, un código enviado a un dispositivo móvil o una aplicación de autenticación.
+En esta tarea verá el impacto de la directiva de acceso condicional, desde la perspectiva del usuario, Debra Berger. En primer lugar, iniciará sesión en una aplicación que no esté incluida en la directiva de acceso condicional (el portal de Microsoft 365 en login.microsoftonline.com).  Luego repetirá el proceso en una aplicación que esté incluida en la directiva de acceso condicional (Azure Portal en portal.azure.com).  Recuerde que la directiva requiere que el usuario pase por MFA cuando accede a una aplicación de la administración de Microsoft Azure.  Para utilizar la MFA, el usuario debe registrar primero el método de autenticación que se utilizará para la MFA, por ejemplo, un código enviado a un dispositivo móvil o una aplicación de autenticación.
 
-1. Inicie sesión como Debra Burger. 
-    1. En la ventana de inicio de sesión, escriba **DebraB@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es el id. de inquilino único proporcionado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
+1. Abrir Microsoft Edge.  En la barra de direcciones escriba **login.microsoftonline.com**.
+    1. Inicie sesión como **DebraB@WWLxZZZZZZ.onmicrosoft.com** , (donde ZZZZZZ es el identificador de inquilino único proporcionado por el proveedor de hospedaje del laboratorio) y después seleccione **Siguiente**.
     1. Escriba la contraseña que anotó en la tarea anterior. Haga clic en **Iniciar sesión**.
     1. Dado que, como administrador, restableció la contraseña, esta es temporal y, por tanto, deberá actualizarla (esto no es parte de la directiva de MFA). Escriba la contraseña actual y, a continuación, para la nueva contraseña, escriba **SC900-Lab** y, después, vuelva a escribir **SC900** para confirmar la contraseña.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.  Debería iniciar sesión correctamente en su cuenta de Microsoft 365. El MFA no era necesaria para esta solicitud, ya que no forma parte de la directiva.
 
-1. Ahora intentará iniciar sesión en una aplicación que cumpla con los criterios de la MFA. Abra una nueva pestaña en portal.Microsoft Microsoft Edge y, en la barra de direcciones, escriba **portal.azure.com**.
+1. Ahora intentará iniciar sesión en una aplicación que cumpla con los criterios de la MFA. Abra una nueva pestaña del explorador y escriba **portal.azure.com**.
 
 1. Verá una ventana que indica, Se necesita más información.  Seleccione **Next** (Siguiente).  Tenga en cuenta que esto iniciará el proceso de registro de la MFA, ya que es la primera vez que accede a la aplicación en la nube que se identificó en la directiva de acceso condicional.  Este proceso de registro solo es necesario una vez.   En lugar de que el usuario pase por el proceso de registro, una alternativa es que el administrador configure el método de autenticación a utilizar.
 
