@@ -84,9 +84,9 @@ En esta tarea, se familiarizará con el proceso de aplicar una etiqueta desde la
 
 1. En la página principal del Portal de cumplimiento de Microsoft Purview, seleccione el **icono del iniciador de aplicaciones**, junto a Contoso Electronics. Seleccione el **icono de Word**.  
 
-1. Seleccione **+ Nuevo documento en blanco** y luego escriba algo de texto en la página.  En la parte superior de la página, seleccione la flecha hacia abajo que hay junto a las palabras DocumentoXX: Guardado y, en el cuadro Nombre de archivo, escriba **Etiqueta:Prueba** y pulse **Entrar** en el teclado.
+1. En Crear nuevo, seleccione **Documento en blanco** y escriba algún texto en la página.  En la parte superior de la página, seleccione la flecha hacia abajo que hay junto a las palabras DocumentoXX: Guardado y, en el cuadro Nombre de archivo, escriba **Etiqueta:Prueba** y pulse **Entrar** en el teclado.
 
-1. En la barra de menús superior, seleccione **Icono de sensibilidad** (el icono situado a la derecha del icono de micrófono), si no ve inmediatamente esta opción, actualice la página. En el menú desplegable, seleccione **Finanzas: Confidencial**.  
+1. En la barra de menús superior, seleccione el **icono Confidencialidad**, situado a la derecha del icono Micrófono (en función del tamaño de la pantalla, es posible que tenga que seleccionar primero los puntos suspensivos y, después, Confidencialidad). En el menú desplegable, seleccione **Finanzas: Confidencial**.  NOTA: Si no ve la opción Confidencialidad, actualice la página. Al tratarse de un entorno de inquilino de laboratorio, puede haber retrasos más prolongados de lo normal (10-15 minutos).
 
 1. En la barra de menús de la parte superior, seleccione **Vista** y luego **Vista de lectura**.
 
@@ -100,13 +100,13 @@ Recuerde de la primera parte de la demostración que la etiqueta Finanzas: Confi
 
 1. En la página principal del Portal de cumplimiento de Microsoft Purview, seleccione el **icono del iniciador de aplicaciones**, junto a Contoso Electronics. Seleccione el **icono de Outlook**.
 
-1. Seleccione **Nuevo mensaje** en la esquina superior izquierda de la pantalla.  Escriba una dirección de correo electrónico a la que tenga acceso y que no forme parte del dominio WWLxZZZZ.OnMicrosoft.com, y escriba **Prueba** en la línea de asunto.
+1. Seleccione **Nuevo correo electrónico** en la esquina superior izquierda de la pantalla.  Escriba una dirección de correo electrónico a la que tenga acceso y que no forme parte del dominio WWLxZZZZ.OnMicrosoft.com, y escriba **Prueba** en la línea de asunto.
 
-1. Seleccione **Adjuntar**.
+1. Seleccione **Datos adjuntos** (icono de clip).
 
-1. Seleccione **Examinar las ubicaciones de la nube**.
+1. Seleccione **OneDrive**.
 
-1. Seleccione el documento que ha creado y al que ha aplicado la etiqueta **Etiqueta:Prueba** en la lista que se muestra. Seleccione **Siguiente** y **Adjuntar como una copia**.  Presione **Enviar**.
+1. Asegúrese de que esté seleccionada la pestaña **Reciente** del panel de navegación izquierdo.  Seleccione el documento que ha creado y al que ha aplicado la etiqueta **Etiqueta:Prueba** en la lista que se muestra. Seleccione **Siguiente** y **Adjuntar como una copia**.  Presione **Enviar**.
 
 1. Compruebe el correo electrónico al que ha enviado el documento.  Tenga en cuenta que es posible que el correo sea dirigido a su carpeta de correo no deseado.  El correo electrónico se envía correctamente, pero al intentar abrir el archivo de Word adjunto, que originalmente se etiquetó como Finanzas: Confidencial, verá una notificación de que no tiene permiso para abrir el documento.
 
