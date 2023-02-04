@@ -37,9 +37,11 @@ En esta tarea, creará una asignación de directiva básica para requerir una et
 
 1. Se empieza en la pestaña Aspectos básicos.
     1. En Ámbito, deje la configuración predeterminada. En este caso, el ámbito de la directiva es la suscripción de Azure proporcionada por el host de laboratorio autorizado (ALH).
-    1. En Definición de directiva, seleccione los **puntos suspensivos**.  Se aporta una lista de las definiciones de directiva disponibles.  En la barra de búsqueda, escriba **Requerir una etiqueta**. En los resultados de la búsqueda, seleccione **Exigir una etiqueta en un grupo de recursos** (es posible que deba desplazarse hacia abajo), y pulse **Seleccionar**.  Nota: El efecto de esta directiva es denegar la creación de cualquier nuevo grupo de recursos que no satisfaga el requisito.  
+    1. En Definición de directiva, seleccione los **puntos suspensivos**.  Se aporta una lista de las definiciones de directiva disponibles.  En la barra de búsqueda, escriba **Requerir una etiqueta**. En los resultados de la búsqueda, seleccione **Solicitar una etiqueta en los grupos de recursos** (es posible que deba desplazarse hacia abajo) y presione **Agregar**.  Nota: El efecto de esta directiva es denegar la creación de cualquier nuevo grupo de recursos que no satisfaga el requisito.  
     1. Tenga en cuenta el nombre de la asignación por defecto.  Mantenga el nombre tal como está.
-    1. Asegúrese de que el Cumplimiento de directivas esté establecido en **Habilitado** y seleccione **Siguiente**.
+    1. Asegúrese de que Cumplimiento de directivas esté **Habilitado**.
+
+1. Seleccione **Siguiente** **** dos veces para ir a la pestaña Parámetros (también puede seleccionar la pestaña directamente).
 
 1. Ahora se encuentra en la pestaña Parámetros. En el campo Nombre de etiqueta, escriba **Entorno** y, a continuación, seleccione **Siguiente**.
 
