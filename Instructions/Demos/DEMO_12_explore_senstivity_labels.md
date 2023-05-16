@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Demostración: Título: "Etiquetas de confidencialidad en Microsoft Purview" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft; Módulo 3: Descripción de la protección de la información y la administración del ciclo de vida de los datos en Microsoft Purview; Unidad 4: Descripción de las etiquetas de confidencialidad"
+demo:
+  title: 'Etiquetas de confidencialidad en Microsoft Purview'
+  module: 'Módulo 3: Descripción de la protección de la información y la administración del ciclo de vida de los datos en Microsoft Purview'
 ---
---->
+
 
 # <a name="demo-sensitivity-labels-in-microsoft-purview"></a>Demostración: Etiquetas de confidencialidad en Microsoft Purview
 

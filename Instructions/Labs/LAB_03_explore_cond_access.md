@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Laboratorio: Ruta de aprendizaje: "Descripción de las funcionalidades de Azure Active Directory (Azure AD), parte de Microsoft Entra" Módulo: "Descripción de las funcionalidades de administración de acceso de Azure AD" Unidad: "Descripción del acceso condicional en Azure AD"
+lab:
+  title: 'Descripción de las funcionalidades de administración de acceso de Azure AD'
+  module: 'Módulo: "Descripción de las funcionalidades de administración de acceso de Azure AD'
 ---
---->
+
 
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional-access"></a>Laboratorio: Explorar la administración de acceso en Azure AD con acceso condicional
 

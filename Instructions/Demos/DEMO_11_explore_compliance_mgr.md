@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Demostración: Título: "Exploración del portal de cumplimiento y el administrador de cumplimiento de Microsoft Purview" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft; Módulo 2: Descripción de las funcionalidades de administración de cumplimiento en Microsoft Purview; Unidad 2: Descripción del portal de cumplimiento de Microsoft Purview"
+demo:
+  title: 'Exploración del portal de cumplimiento y el administrador de cumplimiento de Microsoft Purview'
+  module: 'Módulo 2: Descripción de las funcionalidades de administración de cumplimiento en Microsoft Purview'
 ---
---->
+
 
 # <a name="demo-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>Demostración: Explorar el Portal de cumplimiento de Microsoft Purview y el Administrador de cumplimiento
 

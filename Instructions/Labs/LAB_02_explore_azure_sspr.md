@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Laboratorio: Título: "Exploración de la Autenticación de Azure AD con el autoservicio de restablecimiento de contraseña" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de Azure Active Directory (Azure AD), parte de Microsoft Entra; Módulo 2: Descripción de las funcionalidades de autenticación de Azure AD; Unidad 4: Descripción del autoservicio de restablecimiento de contraseña en Azure AD"
+lab:
+  title: 'Exploración de la Autenticación de Azure AD con el autoservicio de restablecimiento de contraseña'
+  module: 'Módulo 2: Descripción de las funcionalidades de autenticación de Azure AD'
 ---
---->
+
 
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>Laboratorio: Explorar la autenticación de Azure AD con el autoservicio de restablecimiento de contraseña de Azure AD
 

@@ -1,8 +1,8 @@
-<a name="---"></a><!---
 ---
-Demostración: Título: "Exploración de la configuración de usuario de Azure AD" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de Azure Active Directory (Azure AD), parte de Microsoft Entra; Módulo 1: Descripción de los servicios básicos y los tipos de identidad de Azure AD; Unidad 4: Descripción de los tipos de identidad de Azure AD"
+demo:
+  title: 'Exploración de la configuración de usuario de Azure AD'
+  module: 'Módulo 1: Descripción de los servicios básicos y los tipos de identidad de Azure AD'
 ---
---->
 
 # <a name="demo-azure-ad-user-settings"></a>Demostración: Configuración de usuario de Azure AD
 

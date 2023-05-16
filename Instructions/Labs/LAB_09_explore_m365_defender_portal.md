@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Laboratorio: Título: "Exploración del portal de Microsoft 365 Defender" Módulo: "Ruta de aprendizaje: Descripción de las funcionalidades de las soluciones de seguridad de Microsoft; Módulo 4: Descripción de las funcionalidades de protección contra amenazas de Microsoft 365; Unidad 7: Descripción del portal de Microsoft 365 Defender"
+lab:
+  title: 'Exploración del portal de Microsoft 365 Defender'
+  module: 'Módulo 4: Descripción de las funcionalidades de protección contra amenazas de Microsoft 365'
 ---
---->
+
 
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>Laboratorio: Explorar el portal de Microsoft 365 Defender
 

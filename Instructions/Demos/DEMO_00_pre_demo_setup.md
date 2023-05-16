@@ -1,8 +1,8 @@
-<a name="---"></a><!---
 ---
-Configuración previa a la demostración: Título: "Configuración de la demostración"
+demo:
+  title: 'Configuración de la demostración'
+  module: 'Configuración de la demostración'
 ---
---->
 
 ## <a name="pre-demo-setup"></a>Configuración de la demo previa
 

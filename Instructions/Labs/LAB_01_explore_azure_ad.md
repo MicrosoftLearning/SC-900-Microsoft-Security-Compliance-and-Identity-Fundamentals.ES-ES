@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Laboratorio: Título: "Exploración de Azure Active Directory" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de Azure Active Directory (Azure AD), parte de Microsoft Entra; Módulo 1: Descripción de los servicios básicos y los tipos de identidad de Azure AD; Unidad 4: Descripción de los tipos de identidad de Azure AD"
+lab:
+  title: 'Exploración de Azure Active Directory'
+  module: 'Módulo 1: Descripción de los servicios básicos y los tipos de identidad de Azure AD'
 ---
---->
+
 
 # <a name="lab-explore-azure-active-directory"></a>Laboratorio: Explorar Azure Active Directory
 

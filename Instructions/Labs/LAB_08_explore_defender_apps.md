@@ -1,8 +1,10 @@
-<a name="---"></a><!---
 ---
-Laboratorio: Título: "Exploración de las aplicaciones de Microsoft Defender for Cloud" Módulo: "Ruta de aprendizaje: Descripción de las funcionalidades de las soluciones de seguridad de Microsoft; Módulo 4: Descripción de las funcionalidades de protección contra amenazas de Microsoft 365; Unidad 5: Descripción de las aplicaciones de Microsoft Defender for Cloud Apps"
+lab:
+  title: 'Exploración de las aplicaciones de Microsoft Defender for Cloud'
+  module: 'Módulo 4: Descripción de las funcionalidades de protección contra amenazas de Microsoft 365'
 ---
---->
+
+
 
 # <a name="lab-explore-microsoft-defender-for-cloud-apps"></a>Laboratorio: Exploración de Microsoft Defender for Cloud Apps
 
