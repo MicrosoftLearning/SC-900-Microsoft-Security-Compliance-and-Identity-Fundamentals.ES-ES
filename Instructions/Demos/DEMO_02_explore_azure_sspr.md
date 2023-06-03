@@ -1,8 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Autoservicio de restablecimiento de contraseña (SSPR) de Azure AD'
-  module: 'Módulo 2: Descripción de las funcionalidades de autenticación de Azure AD'
+Demostración: Título: "Autoservicio de restablecimiento de contraseña (SSPR) de Azure AD" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de Azure Active Directory (Azure AD), parte de Microsoft Entra; Módulo 2: Descripción de las funcionalidades de autenticación de Azure AD; Unidad 4: Descripción del autoservicio de restablecimiento de contraseña en Azure AD"
 ---
+--->
 
 # <a name="demo-azure-ad-self-service-password-reset-sspr"></a>Demostración: Autoservicio de restablecimiento de contraseña (SSPR) de Azure AD
 

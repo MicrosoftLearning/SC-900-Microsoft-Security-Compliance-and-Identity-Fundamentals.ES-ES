@@ -1,8 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Exploración de Microsoft Sentinel'
-  module: 'Módulo 3: Descripción de las funcionalidades de seguridad de Microsoft Sentinel'
+Laboratorio: Título: "Exploración de Microsoft Sentinel" Ruta de aprendizaje/Módulo/Título: "Ruta de aprendizaje: Descripción de las funcionalidades de las soluciones de seguridad de Microsoft; Módulo 3: Descripción de las funcionalidades de seguridad de Microsoft Sentinel; Unidad 3: Descripción de cómo Microsoft Sentinel proporciona administración contra amenazas integrada"
 ---
+--->
 
 # <a name="lab-explore-microsoft-sentinel"></a>Laboratorio: Exploración de Microsoft Sentinel
 

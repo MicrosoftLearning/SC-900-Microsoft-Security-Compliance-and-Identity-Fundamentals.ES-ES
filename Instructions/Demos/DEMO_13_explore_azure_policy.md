@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Azure Policy'
-  module: 'Módulo 6: Descripción de las funcionalidades de gobernanza de recursos en Azure'
+Demostración: Título: "Azure Policy" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft; Módulo 6: Descripción de las funcionalidades de gobernanza de recursos en Azure; Unidad 2: Descripción de Azure Policy"
 ---
-
+--->
 
 # <a name="demo-azure-policy"></a>Demostración: Azure Policy
 

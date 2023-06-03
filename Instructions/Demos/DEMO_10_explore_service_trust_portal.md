@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Portal de confianza del servicio'
-  module: 'Módulo 1: Descripción de las funcionalidades de administración de cumplimiento en Microsoft'
+Demostración: Título: "Portal de confianza del servicio" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft; Módulo 1: Descripción de las funcionalidades de administración de cumplimiento en Microsoft; Unidad 2: Exploración del portal de confianza del servicio"
 ---
-
+--->
 
 # <a name="demo-service-trust-portal"></a>Demostración: Portal de confianza de servicios
 

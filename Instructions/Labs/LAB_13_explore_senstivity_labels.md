@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Exploración de las etiquetas de confidencialidad en Microsoft Purview'
-  module: 'Módulo 3: Descripción de la protección de la información y la administración del ciclo de vida de los datos en Microsoft Purview'
+Laboratorio: Título: "Exploración de las etiquetas de confidencialidad en Microsoft Purview" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft; Módulo 3: Descripción de la protección de la información y la administración del ciclo de vida de los datos en Microsoft Purview; Unidad 4: Descripción de las etiquetas de confidencialidad"
 ---
-
+--->
 
 # <a name="lab-explore-sensitivity-labels-in-microsoft-purview"></a>Laboratorio: Explorar las etiquetas de confidencialidad en Microsoft Purview
 
