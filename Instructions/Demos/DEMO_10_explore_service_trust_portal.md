@@ -1,22 +1,22 @@
-<a name="---"></a><!---
+<!---
 ---
-Demostración: Título: "Portal de confianza del servicio" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft; Módulo 1: Descripción de las funcionalidades de administración de cumplimiento en Microsoft; Unidad 2: Exploración del portal de confianza del servicio"
+Demostración: Título: "Portal de confianza del servicio" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft; Módulo 1: Descripción del Portal de confianza de servicios y las funcionalidades de privacidad de Microsoft; Unidad 2: Exploración del portal de confianza del servicio"
 ---
 --->
 
-# <a name="demo-service-trust-portal"></a>Demostración: Portal de confianza de servicios
+# Demostración: Portal de confianza de servicios
 
 Esta demostración está orientada al siguiente contenido de Learn:
 
 - Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft
-- Módulo: Descripción de las funcionalidades de administración de cumplimiento en Microsoft
+- Módulo: Descripción del Portal de confianza de servicios y las funcionalidades de privacidad de Microsoft
 - Laboratorio: Exploración del Portal de confianza de servicios
 
-## <a name="demo-scenario"></a>Escenario de la demo
+## Escenario de la demo
 
 En esta demostración, mostrará las características y el contenido disponible del Portal de confianza de servicios. También se incluye navegar por el Centro de confianza para ver información sobre la privacidad en Microsoft.
 
-### <a name="demo-part-1"></a>Demo, parte 1
+### Demo, parte 1
 
 En esta parte, guiará al alumno a través de los diferentes tipos de contenido disponibles en el Portal de confianza de servicios, y le enseñará a acceder a los informes y a guardarlos en la biblioteca.
 
@@ -40,11 +40,11 @@ En esta parte, guiará al alumno a través de los diferentes tipos de contenido 
 
 1. Para volver a la página principal del Portal de confianza de servicios, seleccione el vínculo **Portal de confianza de servicios** en la parte superior de la página.
 
-1. En la página principal del Portal de confianza de servicios, desplácese hacia abajo hasta la categoría **Recurso de la organización**. Seleccione **Recursos de la organización**.  Tenga en cuenta que los documentos que se muestran aquí se basan en la suscripción y los permisos de la organización.
+1. En la página principal del Portal de confianza de servicios, desplácese hacia abajo hasta la categoría **Recursos de la organización**. Seleccione **Recursos de la organización**.  Tenga en cuenta que los documentos que se muestran aquí se basan en la suscripción y los permisos de la organización.
 
 1. Para volver a la página principal del Portal de confianza de servicios, seleccione el vínculo **Portal de confianza de servicios** en la parte superior de la página.
 
-### <a name="demo-part-2-optional"></a>Demo, parte 2 (opcional)
+### Demo, parte 2 (opcional)
 
 En esta parte de la demostración, mostrará el Centro de confianza y navegará a la información que describe la privacidad en Microsoft.
 
@@ -54,8 +54,8 @@ En esta parte de la demostración, mostrará el Centro de confianza y navegará 
 
 1. Se abrirá una nueva pestaña del explorador al Centro de confianza de Microsoft, donde encontrará más información, incluida la información sobre privacidad y mucho más. Explore el contenido de esta página y navegue por los distintos vínculos.
 
-1. Cierre todas las pestañas abiertas del explorador.
+1. Cierre las pestañas del explorador abierto para el Portal de confianza de servicios y el Centro de confianza.
 
-### <a name="review"></a>Revisar
+### Revisar
 
 En esta demostración, ha explorado algunas de las opciones disponibles en el Portal de confianza de servicios y cómo usar la característica Mi biblioteca para guardar documentos con el fin de revisarlos en el futuro.  Además, ha visitado el Centro de confianza para acceder a información sobre la privacidad en Microsoft y revisarla.
