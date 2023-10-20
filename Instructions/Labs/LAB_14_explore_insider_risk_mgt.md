@@ -1,10 +1,10 @@
-<a name="---"></a><!---
+<!---
 ---
 Laboratorio: Título: "Exploración de la administración de riesgos internos en Microsoft Purview" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft; Módulo 4: Descripción de las funcionalidades de riesgo interno en Microsoft Purview; Unidad 2: Descripción de la administración de riesgos internos"
 ---
 --->
 
-# <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>Laboratorio: Explorar la administración de riesgos internos en Microsoft Purview
+# Laboratorio: Explorar la administración de riesgos internos en Microsoft Purview
 
 Este laboratorio está orientado al siguiente contenido de Learn:
 
@@ -12,39 +12,29 @@ Este laboratorio está orientado al siguiente contenido de Learn:
 - Módulo: Descripción de las funcionalidades de riesgo interno en Microsoft Purview
 - Unidad: Descripción de la administración de riesgos internos
 
-## <a name="lab-scenario"></a>Escenario del laboratorio
+## Escenario del laboratorio
 
 En este laboratorio, se familiarizará con el proceso de configurar una directiva de riesgos internos y los requisitos básicos previos para configurar y usar directivas de Administración de riesgos internos.  Nota: Este laboratorio únicamente abordará los requisitos necesarios para configurar la Administración de riesgos internos y las opciones relativas a la creación de directivas.  Este laboratorio no incluye la tarea de desencadenar la directiva, ya que el número de eventos que tendrían que producirse para desencadenar una directiva y el tiempo requerido quedan fuera del ámbito de este ejercicio.
 
 **Tiempo estimado**: 45-60 minutos
 
-### <a name="task-1"></a>Tarea 1
+### Tarea 1
 
 En esta tarea, como administrador global, habilitará los permisos para la administración de riesgos internos.  En concreto, agregará usuarios al grupo de roles de Administración de riesgos internos para asegurarse de que los usuarios designados pueden acceder y administrar las características de administración de riesgos internos.  Los permisos del grupo de roles pueden tardar hasta 30 minutos en aplicarse a los usuarios de la organización
 
-1. Abrir Microsoft Edge. En la barra de direcciones, escriba **admin.microsoft.com**.
+1. Abra la pestaña del explorador para la página principal de Microsoft Purview.  Si la había cerrado, abra otra y escriba **https://admin.microsoft.com** . Inicie sesión con las credenciales de administrador para el inquilino de Microsoft 365 proporcionadas por el host de laboratorio autorizado (ALH). En el panel de navegación izquierdo del Centro de administración de Microsoft 365, seleccione **Mostrar todo** y luego seleccione **Cumplimiento**.  Se abrirá una nueva página del explorador con la página principal del portal de cumplimiento de Microsoft Purview.  
 
-1. Inicie sesión con sus credenciales de administrador.
-    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es el id. de inquilino único proporcionado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
+1. En el panel de navegación izquierdo, expanda **Roles y ámbitos** y, a continuación, seleccione **Permisos**.
 
-    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
-    1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**. Esto le llevará a la página del Centro de administración de Microsoft 365.
+1. En Soluciones de Microsoft Purview, seleccione **Roles**.
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft 365, seleccione **Mostrar todo**.
-
-1. En Centros de administración, seleccione **Cumplimiento**.  Se abrirá una nueva página del explorador con la página principal del portal de cumplimiento de Microsoft Purview.  
-
-1. En el panel de navegación izquierdo del Portal de cumplimiento de Microsoft Purview, seleccione **Permisos**.
-
-1. En la página permisos y roles, en donde se indica, "Soluciones de Microsoft Purview" seleccione **Roles**.
-
-1. En el campo de búsqueda, escriba **Riesgo interno** y seleccione el icono de búsqueda (la lupa).  Observe los numerosos roles que aparecen.  Cada uno tiene un nivel de acceso diferente.  Seleccione **Administración de riesgos internos** y revise la descripción.  Desplácese hacia abajo hasta donde se muestran los miembros y observe que se muestran el administrador de MOD y Megan Bowen. En la parte inferior de la ventana, haga clic en **Cerrar**.
+1. En el campo de búsqueda, escriba **Riesgo interno** y presione Entrar en el teclado.  Observe los numerosos roles que aparecen.  Cada uno tiene un nivel de acceso diferente.  Seleccione **Administración de riesgos internos** y revise la descripción.  Desplácese hacia abajo hasta donde se muestran los miembros y observe que se muestran el administrador de MOD y Megan Bowen. Cierre la ventana con la **X** de la esquina superior derecha de la ventana.
 
 1. En el panel de navegación izquierdo, seleccione **Inicio** para volver a la página del Portal de cumplimiento de Microsoft Purview.
 
 1. Mantenga esta ventana del navegador abierta, ya que volverá a ella en una tarea posterior.
 
-### <a name="task-2-skip-if-you-did-the-setup-lab-task-to-enable-the-audit-log"></a>Tarea 2 (omítala si ha realizado la tarea Configurar el laboratorio para habilitar el registro de auditoría)
+### Tarea 2 (NOTA: omita la Tarea 2 si ha realizado la tarea de laboratorio de configuración para habilitar el registro de auditoría)
 
 Administración de riesgos internos usa los registros de auditoría de Microsoft 365 para la información y las actividades de los usuarios identificadas en las directivas y la información de los análisis. En esta tarea, habilitará la funcionalidad Búsqueda en el registro de auditoría. Nota:  Es posible que pasen varias horas después de activar la Búsqueda en el registro de auditoría antes de que pueda devolver resultados al buscar en el registro de auditoría.  Aunque pueden pasar varios horas hasta que pueda buscar en el registro de auditoría, eso no será un impedimento para completar el resto de tareas de este laboratorio
 
@@ -52,7 +42,7 @@ Administración de riesgos internos usa los registros de auditoría de Microsoft
 
 1. En el panel de navegación izquierdo, en Soluciones, seleccione **Auditoría**.
 
-1. Compruebe que la pestaña **Buscar** está seleccionada (subrayada).
+1. Compruebe que la pestaña **Nueva búsqueda** está seleccionada (subrayada).
 
 1. Cuando llegue a la página Auditoría, espere entre 2 y 3 minutos.  Si Auditoría NO está habilitada, verá una barra azul en la parte superior de la página donde pone "Comenzar a registrar la actividad del usuario y del administrador".  Seleccione **Iniciar el registro de la actividad de usuarios y administradores**.  Una vez que la auditoría esté habilitada, la barra azul desaparecerá.  Si la barra azul no aparece, eso significará que la opción Auditoría ya está habilitada, y no necesitará hacer nada más.
 
@@ -60,7 +50,7 @@ Administración de riesgos internos usa los registros de auditoría de Microsoft
 
 1. Deje esta pestaña del explorador abierta, porque la utilizará en la siguiente tarea.
 
-### <a name="task-3"></a>Tarea 3
+### Tarea 3
 
 En esta tarea explorará las opciones relativas a la solución Administración de riesgos internos.  La configuración de Administración de riesgos internos se aplica a todas las directivas de Administración de riesgos internos, independientemente de la plantilla que seleccione al crear una directiva.
 
@@ -79,7 +69,7 @@ En esta tarea explorará las opciones relativas a la solución Administración d
 
 1. Deje esta pestaña del explorador abierta, porque la utilizará en la siguiente tarea.
 
-### <a name="task-4"></a>Tarea 4
+### Tarea 4
 
 En esta tarea, se familiarizará con la configuración para crear una directiva.  El objetivo es simplemente hacerse una idea de las distintas opciones y flexibilidad asociadas a la creación de una directiva.
 
@@ -91,19 +81,21 @@ En esta tarea, se familiarizará con la configuración para crear una directiva.
     1. Nombre y descripción: escriba un nombre, **SC900-InsiderRiskPolicy** y, luego, seleccione **Siguiente**.
     1. Usuarios y grupos:  revise el cuadro de información.  Deje la configuración predeterminada, **Incluir todos los usuarios y grupos**.  Seleccione **Next** (Siguiente).
     1. Contenido para priorizar: según la descripción, se aumentan las puntuaciones de riesgo para cualquier actividad que contenga contenido de prioridad, lo que a su vez aumenta la posibilidad de generar una alerta de gravedad alta. Para simplificar, seleccione **No quiero priorizar el contenido en este momento** y, a continuación, seleccione **Siguiente**.
-    1. Decida si puntuar solo la actividad con contenido de prioridad: deje la configuración predeterminada **Obtener alertas para toda la actividad** y, a continuación, seleccione **Siguiente**.
     1. Desencadenadores: el evento desencadenador determina cuándo comenzará una directiva a asignar puntuaciones de riesgo a la actividad de un usuario.  Puede elegir entre una directiva DLP existente o si el usuario realiza una actividad de filtración. Seleccione **Usuario coincide con una directiva de prevención de pérdida de datos (DLP)** y, a continuación, en la lista desplegable, seleccione **Datos financieros de EE. UU.** Seleccione **Next** (Siguiente).
     1. Indicadores: tenga en cuenta que se seleccionan todos los indicadores de Office seleccionados en la tarea anterior (puede verlo si selecciona la tecla de flecha abajo junto a indicadores de Office) y, a continuación, seleccione **Siguiente**.
     1. En la página Opciones de detección, deje todas las opciones predeterminadas, pero lea la descripción asociada a las distintas opciones y mantenga el puntero sobre el icono de información para obtener información más detallada sobre una configuración específica.  Seleccione **Next** (Siguiente).
     1. En la página para Decidir si desea usar umbrales predeterminados o de indicador de cliente, deje el valor predeterminado **Umbrales predeterminados** y, a continuación, seleccione **Siguiente**.
-    1. Para terminar, revise la configuración, seleccione **Enviar** y, luego, **Listo**.
+    1. Para terminar, revise la configuración, seleccione **Enviar**.
+    1. Revise la descripción de lo que sucede a continuación y seleccione **Listo**.
 
 1. Ha vuelto a la pestaña Directivas de la página Administración de riesgos internos.  La directiva que ha creado aparecerá en la lista.  Si no la ve, seleccione el icono **Actualizar**.
 
 1. Como administrador, puede empezar inmediatamente a asignar puntuaciones de riesgo a los usuarios en función de la actividad detectada por las directivas seleccionadas. Esto omite el requisito de que se detecte primero un evento desencadenador (como una coincidencia de directiva DLP).  Un administrador puede hacerlo seleccionando el cuadrado vacío junto al nombre de la directiva para seleccionarla, y luego seleccione la opción **Empezar a puntuar la actividad de los usuarios** que aparece encima de la tabla de directivas.  Se abre una nueva ventana que requiere que el administrador rellene los campos disponibles. Deje los campos vacíos, ya que no configurará esta opción, pero para obtener más información sobre por qué un administrador desea hacerlo, seleccione **¿Por qué haría esto?**  Cierre la ventana con la **X** de la esquina superior derecha de la ventana.
 
-1. Cierre todas las pestañas abiertas del explorador.
+1. En el panel de navegación izquierdo, seleccione **Inicio** para volver a la página principal del Portal de cumplimiento de Microsoft Purview.
 
-### <a name="review"></a>Revisar
+1. Deje abierta la pestaña del explorador.
+
+### Revisar
 
 En este laboratorio, se ha familiarizado con el proceso de configurar una directiva de riesgos internos y con los requisitos básicos previos para configurar y usar directivas de administración de riesgos internos.
