@@ -1,66 +1,50 @@
-<a name="---"></a><!---
+<!---
 ---
 Laboratorio: Título: "Exploración del flujo de trabajo de eDiscovery (estándar)" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft; Módulo 5: Descripción de las funcionalidades de eDiscovery y de auditoría de Microsoft Purview; Unidad 2: Descripción de las soluciones de eDiscovery en Microsoft 365"
 ---
 --->
 
-# <a name="lab-explore-the-ediscovery-standard-workflow"></a>Laboratorio: Explore el flujo de trabajo de eDiscovery (Standard)
+# Laboratorio: Explore el flujo de trabajo de eDiscovery (Standard)
 
 Este laboratorio está orientado al siguiente contenido de Learn:
 
 - Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft
 - Módulo: Descripción de las funcionalidades de eDiscovery y de auditoría de Microsoft Purview
-- Unidad: Descripción de las soluciones de eDiscovery en Microsoft 365
+- Unidad: Describir las soluciones de eDiscovery en Microsoft Purview
 
-## <a name="lab-scenario"></a>Escenario del laboratorio
+## Escenario del laboratorio
 
 En este laboratorio, explorará los pasos necesarios para configurar eDiscovery, incluida la configuración de permisos de rol, la creación de un caso de eDiscovery, la creación de una suspensión de eDiscovery y la creación de una consulta de búsqueda.  Nota:  Para obtener una licencia de eDiscovery (Standard), es necesario disponer de la suscripción de organización y las licencias por usuario adecuadas. Si no sabe con seguridad cuáles son las licencias compatibles con eDiscovery (Standard), visite [Introducción a eDiscovery (Standard) en Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
 
 **Tiempo estimado**: 25-30 minutos
 
-### <a name="task-1"></a>Tarea 1
+### Tarea 1
 
 Para acceder a eDiscovery (Standard), o para que se le agregue como miembro de un caso de eDiscovery, el usuario debe tener asignados los permisos adecuados. En esta tarea, como administrador global, agregará usuarios específicos como miembros del grupo de roles de Supervisor de eDiscovery
 
- Abrir Microsoft Edge. En la barra de direcciones, escriba **admin.microsoft.com**.
+1. Abra la pestaña del explorador para la página principal de Microsoft Purview.  Si la había cerrado, abra otra y escriba **https://admin.microsoft.com** . Inicie sesión con las credenciales de administrador para el inquilino de Microsoft 365 proporcionadas por el host de laboratorio autorizado (ALH). En el panel de navegación izquierdo del Centro de administración de Microsoft 365, seleccione **Mostrar todo** y luego seleccione **Cumplimiento**.  Se abrirá una nueva página del explorador con la página principal del portal de cumplimiento de Microsoft Purview.  
 
-1. Inicie sesión con sus credenciales de administrador.
-    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es el id. de inquilino único proporcionado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
 
-    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
-    1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**. Esto le llevará a la página del Centro de administración de Microsoft 365.
+1. En el panel de navegación izquierdo, expanda (seleccione la flecha abajo) **Roles y ámbitos** y, a continuación, seleccione **Permisos**.
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft 365, seleccione **Mostrar todo**.
+1. En Soluciones de Microsoft Purview, seleccione **Roles**.
 
-1. En Centros de administración, seleccione **Cumplimiento**.  Se abrirá una nueva página del explorador con la página principal del portal de cumplimiento de Microsoft Purview.  
+1. En el campo de búsqueda, escriba **eDiscovery** y presione Entrar en el teclado.  Seleccione **Supervisor de eDiscovery**.
 
-1. En el panel de navegación izquierdo, seleccione **Permisos**.
-
-1. En la página Permisos y roles, en Soluciones de Microsoft Purview, seleccione **Roles**.
-
-1. En el campo de búsqueda, escriba **eDiscovery** y seleccione el icono de búsqueda (la lupa).  Seleccione **Supervisor de eDiscovery**.
-
-1. En la ventana que se abre, observe que hay dos subgrupos, Supervisor de eDiscovery y Administrador de eDiscovery.  Lea sus respectivas descripciones.  En este laboratorio, vamos a agregar miembros al subgrupo Administrador de eDiscovery. Seleccione **Editar** junto al Administrador de eDiscovery.  El procedimiento recomendado es asignar a los usuarios los privilegios mínimos necesarios para el rol.
-
-1. Para agregar miembros a este grupo de roles, asegúrese de que se encuentra en la pestaña **Elegir Administrador de eDiscovery** y luego seleccione **Elegir Administrador de eDiscovery**.
-
-1. Seleccione **+ Agregar** en la parte superior de la página.
-
-1. En la lista de nombres, seleccione **Administrador MOD** y **Megan Bowen**, luego seleccione **Agregar** y **Aceptar** en la parte inferior de la página.
-
-1. Compruebe que ha agregado los miembros correctos y luego seleccione **Guardar**.
-
-1. En la parte inferior de la ventana eDiscovery, seleccione **Cerrar**.
+1. Seleccione **Editar**.  Observe que hay dos subgrupos, Supervisor de eDiscovery y Administrador de eDiscovery.  
+    1. La página "Administrar administrador de eDiscovery" le permite agregar usuarios al rol de administrador de eDiscovery. En este laboratorio, vamos a agregar miembros al subgrupo Administrador de eDiscovery. Seleccione **Siguiente**.
+    1. En la página "Administrar administrador de eDiscovery", seleccione **Elegir usuarios**. Busque y seleccione **Administrador de MOD** y **Megan Bowen** y, a continuación, presione **Seleccionar** en la parte inferior de la página, seleccione **Siguiente** y, después, **Guardar**.
+    1. En la página "Ha actualizado correctamente el grupo de roles", seleccione **Listo**.
 
 1. Deje esta pestaña del explorador abierta, porque la utilizará en la siguiente tarea.
 
-### <a name="task-2"></a>Tarea 2
+### Tarea 2
 
 En esta tarea, como administrador de eDiscovery (un administrador MOD es un administrador de eDiscovery), creará un caso para empezar a utilizar eDiscovery (Standard).
 
 1. Debería seguir en la página Roles del portal de cumplimiento. Si ha cerrado la pestaña del explorador de la tarea anterior, abra una nueva y escriba **compliance.microsoft.com**
 
-1. En el panel de navegación izquierdo, debajo de Soluciones, seleccione **eDiscovery** y luego **Standard**.
+1. En el panel de navegación izquierdo, debajo de Soluciones, expanda **eDiscovery** y luego **Standard**.
 
 1. En la parte superior de la página eDiscovery (Standard), seleccione **+ Crear un caso**.
 
@@ -72,7 +56,7 @@ En esta tarea, como administrador de eDiscovery (un administrador MOD es un admi
 
 1. Deje esta pestaña del explorador abierta, porque la utilizará en la siguiente tarea.
 
-### <a name="task-3"></a>Tarea 3
+### Tarea 3
 
 Ahora que ha creado un caso de eDiscovery (Standard), puede empezar a trabajar con él.  En esta tarea, creará una suspensión de eDiscovery para el caso que ha creado.  En concreto, creará una suspensión para el Buzón de Exchange de Adele Vance.
 
@@ -96,7 +80,7 @@ Ahora que ha creado un caso de eDiscovery (Standard), puede empezar a trabajar 
 
 1. Deje esta pestaña del explorador abierta, porque la utilizará en la siguiente tarea.
 
-### <a name="task-4"></a>Tarea 4
+### Tarea 4
 
 Ahora que la suspensión está lista, creará una consulta de búsqueda.  Una vez completada la búsqueda, eDiscovery admite acciones, como exportar y descargar los resultados para una investigación futura.   Nota:  Las búsquedas asociadas con un caso de eDiscovery (Standard) no aparecen en la página Búsqueda de contenido del Portal de cumplimiento de Microsoft Purview. Estás búsquedas aparecen únicamente en la página Búsquedas del caso de eDiscovery (Standard) asociado.
 
@@ -118,8 +102,8 @@ Ahora que la suspensión está lista, creará una consulta de búsqueda.  Una ve
 
 1. En la parte inferior de la página, seleccione **Acciones**.  Tenga en cuenta las opciones disponibles que incluyen opciones de exportación (las opciones de exportación no se pueden seleccionar desde dentro de la plataforma de laboratorio proporcionada por el host de laboratorio autorizado, pero están disponibles en un entorno de producción y se consideran parte del flujo de trabajo estándar). Seleccione **Cerrar**.
 
-1. Cierre todas las pestañas abiertas del explorador.
+1. Cierre la sesión y cierre todas las ventanas abiertas del explorador.
 
-### <a name="review"></a>Revisar
+### Revisar
 
 En este laboratorio le hemos guiado a través de los pasos necesarios para empezar a trabajar con eDiscovery (Standard), incluida la configuración de los permisos de roles y la creación de un caso de eDiscovery.  Una vez creado el caso, ha realizado un recorrido por los elementos del flujo de trabajo de eDiscovery (Standard). Para ello, ha creado una suspensión de eDiscovery y una consulta de búsqueda.

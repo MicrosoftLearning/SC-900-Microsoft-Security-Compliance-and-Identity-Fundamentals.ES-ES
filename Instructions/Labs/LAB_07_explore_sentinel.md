@@ -1,32 +1,28 @@
-<a name="---"></a><!---
+<!---
 ---
-Laboratorio: Título: "Exploración de Microsoft Sentinel" Ruta de aprendizaje/Módulo/Título: "Ruta de aprendizaje: Descripción de las funcionalidades de las soluciones de seguridad de Microsoft; Módulo 3: Descripción de las funcionalidades de seguridad de Microsoft Sentinel; Unidad 3: Descripción de cómo Microsoft Sentinel proporciona administración contra amenazas integrada"
+Laboratorio: Título: "Explorar Microsoft Sentinel" Ruta de aprendizaje/Módulo/Título: "Ruta de aprendizaje: Descripción de las funcionalidades de las soluciones de seguridad de Microsoft; Módulo 3: Descripción de las funcionalidades de seguridad de Microsoft Sentinel; Unidad 3: Descripción de las funcionalidades de detección y mitigación de amenazas en Microsoft Sentinel"
 ---
 --->
 
-# <a name="lab-explore-microsoft-sentinel"></a>Laboratorio: Exploración de Microsoft Sentinel
+# Laboratorio: Exploración de Microsoft Sentinel
 
 Este laboratorio está orientado al siguiente contenido de Learn:
 
 - Ruta de aprendizaje: Descripción de las funcionalidades de las soluciones de seguridad de Microsoft
 - Módulo: Descripción de las funcionalidades de seguridad de Microsoft Sentinel
-- Unidad: Descripción de cómo Microsoft Sentinel proporciona administración contra amenazas integrada
+- Unidad: Descripción de las funcionalidades de detección y mitigación de amenazas en Microsoft Sentinel
 
-## <a name="lab-scenario"></a>Escenario del laboratorio
+## Escenario del laboratorio
 
-Realizará un recorrido por el proceso de creación de una instancia de Microsoft Sentinel.  Además, configurará los permisos para garantizar el acceso a los recursos que se implementarán para admitir Microsoft Sentinel.  Una vez finalizada esta configuración básica, recorrerá los pasos para conectar Microsoft Sentinel a los orígenes de datos, configurar un libro y realizar un breve tutorial de algunas de las funcionalidades clave disponibles en Microsoft Sentinel. 
+Realizará un recorrido por el proceso de creación de una instancia de Microsoft Sentinel.  Además, configurará los permisos para garantizar el acceso a los recursos que se implementarán para admitir Microsoft Sentinel.  Una vez finalizada esta configuración básica, recorrerá los pasos para conectar Microsoft Sentinel a los orígenes de datos, configurar un libro y realizar un breve tutorial de algunas de las funcionalidades clave disponibles en Microsoft Sentinel.
 
 **Tiempo estimado**: 45-60 minutos
 
-### <a name="task-1"></a>Tarea 1
+### Tarea 1
 
 Creación de una instancia de Microsoft Sentinel
 
-1. Abrir Microsoft Edge. En la barra de direcciones escriba **portal.azure.com**.
-1. Inicie sesión con sus credenciales de administrador.
-    1. En la ventana Inicio de sesión, escriba el nombre de usuario proporcionado por el proveedor de hospedaje de laboratorio y seleccione **Siguiente**.
-    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
-    1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
+1. Debe estar en la página principal de los servicios de Azure.  Si ha cerrado previamente el explorador, abra Microsoft Edge. En la barra de direcciones, escriba **portal.azure.com** e inicie sesión con sus credenciales de administrador.
 
 1. En el cuadro de búsqueda azul situado en la parte superior de la página, escriba **Microsoft Sentinel** y, a continuación, seleccione **Microsoft Sentinel** en los resultados de búsqueda.
 
@@ -36,7 +32,7 @@ Creación de una instancia de Microsoft Sentinel
 
 1. En la pestaña Aspectos básicos de Crear un área de trabajo de Log Analytics, escriba lo siguiente:
     1. Suscripción: deje el valor predeterminado; se trata de la suscripción de Azure proporcionada por el host de laboratorio autorizado (ALH).
-    1. Grupo de recursos: seleccione **Crear nuevo**, escriba el nombre **SC900-Sentinel-RG** y seleccione **Aceptar**.
+    1. Grupo de recursos: seleccione **SC900-Sentinel-RG**. Si este grupo de recursos no aparece en la lista, seleccione **Crear nuevo**, escriba **SC900-Sentinel-RG** y, a continuación, seleccione **Aceptar**.
     1. Nombre: **SC900-LogAnalytics-workspace**.
     1. Región: **Este de EE. UU.** (se puede seleccionar una región predeterminada diferente en función de la ubicación)
     1. Seleccione **Revisar y crear** (no se configurarán etiquetas).
@@ -47,7 +43,7 @@ Creación de una instancia de Microsoft Sentinel
 
 1. Deje esta página abierta, porque la utilizará en la siguiente tarea.
 
-### <a name="task-2"></a>Tarea 2
+### Tarea 2
 
 Una vez que se ha creado la instancia de Microsoft Sentinel, es importante que los usuarios que tendrán la responsabilidad de admitir Microsoft Sentinel tengan los permisos necesarios.  Para ello, se deben asignar al usuario designado los permisos de rol necesarios.  En esta tarea, verá los roles integrados de Microsoft Sentinel disponibles.
 
@@ -66,56 +62,57 @@ Una vez que se ha creado la instancia de Microsoft Sentinel, es importante que l
 
 1. En la página Control de acceso, seleccione la **X** de la esquina superior derecha de la ventana para cerrarla.
 
-### <a name="task-3"></a>Tarea 3
+1. En la esquina superior izquierda de la ventana, justo debajo de la barra azul donde dice Microsoft Azure, seleccione **Inicio** para volver a la página principal de Azure Portal.
 
-El propósito de esta tarea es guiarle por los pasos necesarios para configurar un conector de datos en la instancia de Microsoft Sentinel y seleccionar una plantilla de libro integrada para permitirle obtener rápidamente información sobre los datos en cuanto se conecte un origen de datos. NOTA: Las suscripciones de laboratorio de Azure pueden experimentar retrasos mayores que los normales en la conexión a un origen de datos o la visualización de datos.
+1. Mantenga abierta la pestaña de Azure en el explorador.
 
-1. En el cuadro de búsqueda, en la barra azul de la parte superior de la página junto a Microsoft Azure, escriba **Microsoft Sentinel** y seleccione **Microsoft Sentinel** en los resultados de búsqueda.
+### Tarea 3
 
-1. En la página Microsoft Sentinel, seleccione el área de trabajo que creó con la instancia de Microsoft Sentinel, **SC900-LogAnalytics-workspace**.
+El propósito de esta tarea es guiarle por los pasos necesarios para conectarse a un origen de datos. Muchos conectores de datos se implementan como parte de la solución Microsoft Sentinel, junto con contenido relacionado, como reglas de análisis, libros y cuadernos de estrategias. El centro de contenido de Microsoft Sentinel es la ubicación centralizada para detectar y administrar el contenido de serie (integrado). En este paso, usará el centro de contenido para implementar la solución Microsoft Defender for Cloud para Microsoft Sentinel.  Esta solución permite ingerir alertas de seguridad notificadas en Microsoft Defender for Cloud.
 
-1. El primer paso con Microsoft Sentinel es poder recopilar datos. En el panel de navegación izquierdo, seleccione **Conectores de datos**, que se muestran en Configuración.
+1. En la página principal de los servicios de Azure, seleccione Microsoft Sentinel y, a continuación, seleccione la instancia que creó, **SC900-LogAnalytics-workspace**.
 
-1. En la página Conectores de datos, desplácese hacia abajo en la ventana principal para ver la amplia lista de conectores disponibles. En el cuadro de búsqueda de la página de conectores de datos, escriba **Microsoft Defender for Cloud** y, a continuación, en la lista, seleccione **Microsoft Defender for Cloud**.
+1. En el panel de navegación izquierdo, seleccione **Centro de contenido**.
 
-1. Se abrirá la ventana del conector de Microsoft Defender for Cloud. Revise la descripción y, a continuación, seleccione **Abrir la página de conectores**.
+1. Tómese un momento para desplazarse hacia abajo y ver la larga lista de soluciones disponibles y las opciones para filtrar la lista.  Para esta tarea, está buscando **Microsoft Defender for Cloud**.  Selecciónelo en la lista.  En la ventana lateral que se abre, lea la descripción y seleccione **Instalar**.  Esta solución incluye un conector de datos y una regla de análisis. Puede tardar un minuto en instalarse.  Seleccione **Administrar**.
 
-1. En la página de conectores de Microsoft Defender for Cloud, revise la descripción en el lado izquierdo de la ventana.
+1. Seleccione el cuadro situado junto a donde dice Microsoft Defender for Cloud.  Se abrirá una ventana en la parte derecha de la página.  Seleccione **Open connector page** (Abrir página del conector).
 
-1. La pestaña de instrucciones de la ventana principal proporciona los requisitos previos.  Revise las instrucciones y la información de configuración.
-    1. En la sección de configuración, active la casilla vacía situada junto a la suscripción enumerada, **MOC Subscription--lodXXXXXXXX** para que aparezca una marca de verificación en un cuadro azul; a continuación, seleccione la opción **Conectar**, que se muestra encima del cuadro de búsqueda.  Aparecerá una ventana Conectar; seleccione **Aceptar**.  En la columna de estado, junto a la suscripción, debería ver esa actualización de estado en Conectado.  No se preocupe si no ve el estado conectado en la ventana del lado izquierdo de la página, NO actualice el explorador.
-    1. Desplácese hacia abajo en la página y seleccione **Habilitar** para crear incidentes automáticamente a partir de todas las alertas generadas en el servicio conectado.
-    1. Ahora, seleccione la pestaña **Pasos siguientes** en la parte superior de la página para ver los libros recomendados para este conector de datos.  Microsoft Sentinel incluye plantillas de libro integradas que le permiten obtener rápidamente conclusiones sobre los datos en cuanto usted conecta un origen de datos.
-    1. Seleccione **Cumplimiento y protección de ASC** (nota: ASC o Azure Security Center ahora se denomina Microsoft Defender for Cloud).  Se abrirá la página de libros.  En el lado derecho de la pantalla, revise la descripción y seleccione **Guardar** en la parte inferior de la pantalla; a continuación, seleccione **Aceptar** para guardar el libro en la ubicación predeterminada.  Ahora seleccione **Ver libro guardado**.
-    1. En el campo Área de trabajo, seleccione **SC900-LogAnalytics-workspace**.
-    1. En la parte superior de la página del libro, seleccione **Actualizar automáticamente: desactivado**, seleccione **5 minutos** y seleccione **Aplicar**.
-    1. En la parte superior de la página del libro, seleccione el **icono Guardar**.
-    1. Seleccione **Microsoft Sentinel** en la esquina superior izquierda de la página Libros, encima de la palabra Libros. Volverá a la página de información general. Ahora debería ver el número 1 en la parte superior, donde dice "Conectado", para indicar un conector activo (es posible que tenga que seleccionar Actualizar).
+1. Anote las instrucciones de configuración.  Seleccione la casilla situada junto al nombre de la suscripción y seleccione **Conectar**.  Puede aparecer una ventana emergente que indica que solo las suscripciones en las que tiene permisos de lector de seguridad comenzarán a transmitir alertas de Microsoft Defender for Cloud.  Seleccione **Aceptar**.  El estado se moverá a conectado.  El conector está ahora habilitado, aunque puede tardar algún tiempo en aparecer en la página de conectores de datos.  
+
+1. Ahora, vea información sobre la regla de análisis.  En la parte superior de la página (en la ruta de navegación), seleccione **Microsoft Defender for Cloud**. Seleccione el cuadro situado junto a Microsoft Defender for Cloud, ya que ya ha configurado el conector (puede tardar un poco en desaparecer el icono de advertencia). Seleccione la casilla situada junto a donde dice **Detectar actividad de eliminación de CoreBackUp a partir de alertas de seguridad relacionadas**. En la ventana que se abre, verá información sobre la regla y lo que hace.  
+    1. Aunque los detalles de la lógica de la regla están fuera del ámbito de los aspectos básicos, siga los pasos para configurar la regla para ver el tipo de información que se puede configurar como parte de la regla. Seleccione **Configuración**.
+    1. Seleccione la regla **Detectar actividad de eliminación de CoreBackUp en alertas de seguridad relacionadas**.
+    1. En la ventana que se abre en el lado derecho de la página, seleccione **Crear regla**.
+    1. Recorra cada una de las páginas de configuración. Después, seleccione **Revisar y crear**, seleccione **Guardar**.
+
+1. Vuelva a la página de Sentinel seleccionando **Microsoft Sentinel | Centro de contenido** en la barra de navegación en la parte superior de la página, encima de donde dice Reglas de análisis.
 
 1. Deje esta página abierta, porque la utilizará en la siguiente tarea.
 
-### <a name="task-4"></a>Tarea 4
+
+### Tarea 4
 
 En esta tarea, realizará un recorrido por algunas de las opciones disponibles en Sentinel.
 
-1. En el panel de navegación izquierdo, seleccione **Búsqueda**.  En la pestaña **Consultas**, que está seleccionada (subrayada), seleccione cualquier consulta de la lista.  Una vez seleccionada una consulta, anote la información proporcionada sobre esa consulta, incluido el código de la consulta, así como la opción para ejecutar la consulta y ver los resultados.  No seleccione nada.
+1. En el panel de navegación izquierdo, seleccione **Búsqueda**.  En la parte superior de la página, seleccione la pestaña **Consultas**. Lea la descripción de lo que es una consulta de búsqueda. Las consultas de búsqueda se pueden agregar a través del centro de contenido. Las consultas instaladas anteriormente se mostrarían aquí. Seleccione **Ir al centro de contenido**.  El centro de contenido muestra el contenido que incluye consultas como parte de una solución o como una consulta independiente.  Desplácese hacia abajo para ver las opciones disponibles. Cierre el centro de contenido seleccionando la **X** de la esquina superior derecha de la ventana.
 
-1. En el panel de navegación izquierdo, seleccione **MITRE ATT&CK**.  MITRE ATT&CK es una base de conocimiento accesible públicamente de tácticas y técnicas que suelen usar los atacantes. Con Microsoft Sentinel puede ver las detecciones que ya están activas en el área de trabajo, así como las que están disponibles para configurarlas, con el fin de que conozca la cobertura de seguridad de su organización, según las tácticas y técnicas del marco MITRE ATTCK®.  Seleccione cualquier celda de la matriz y anote la información disponible en el lado derecho de la pantalla.  
+1. En el panel de navegación izquierdo, seleccione **MITRE ATT&CK**.  MITRE ATT&CK es una base de conocimiento accesible públicamente de tácticas y técnicas que suelen usar los atacantes. Con Microsoft Sentinel puede ver las detecciones que ya están activas en el área de trabajo, así como las que están disponibles para configurarlas, con el fin de que conozca la cobertura de seguridad de su organización, según las tácticas y técnicas del marco MITRE ATTCK®.  Seleccione cualquier celda de la matriz y anote la información disponible en el lado derecho de la pantalla. **Nota**: es posible que tenga que seleccionar " **<<** " en el lado derecho de la ventana para ver el panel de información.
 
 1. En el panel de navegación izquierdo, seleccione **Comunidad**. Los analistas de seguridad de Microsoft crean y agregan constantemente nuevos libros, cuadernos de estrategias, consultas de búsqueda, etc., y los publican en la comunidad para que los pueda usar en el entorno. En el lado derecho de la pantalla, seleccione **Incorporar contenido de la comunidad**.  Se abre una nueva pestaña en el repositorio GitHub, donde puede descargar contenido para habilitar los escenarios. Desplácese hacia abajo hasta la sección README.md y revise la descripción. Vuelva a la pestaña Azure en el explorador.
 
-1. En el panel de navegación izquierdo, seleccione **Análisis**.  Seleccione el primer elemento de la lista **Detección avanzada de ataques de varias fases**.  Anote la información detallada.  Microsoft Sentinel usa Fusion, un motor de correlación basado en algoritmos de aprendizaje automático escalable, para detectar automáticamente ataques de varias fases (también conocidos como amenazas persistentes avanzadas) al identificar combinaciones de comportamientos anómalos y actividades sospechosas que se observan en diversas fases de la cadena de eliminación. A partir de estas detecciones, Microsoft Sentinel genera incidentes que, de otro modo, serían muy difíciles de detectar.
+1. En el panel de navegación izquierdo, seleccione **Análisis**.  Debería haber dos reglas activas, una que está disponible de manera predeterminada y la regla que creó en la tarea anterior. Seleccione la regla predeterminada **Detección avanzada de ataques de varias fases**.  Anote la información detallada.  Microsoft Sentinel usa Fusion, un motor de correlación basado en algoritmos de aprendizaje automático escalable, para detectar automáticamente ataques de varias fases (también conocidos como amenazas persistentes avanzadas) al identificar combinaciones de comportamientos anómalos y actividades sospechosas que se observan en diversas fases de la cadena de eliminación. A partir de estas detecciones, Microsoft Sentinel genera incidentes que, de otro modo, serían muy difíciles de detectar. **Nota**: es posible que tenga que seleccionar " **<<** " en el lado derecho de la ventana para ver el panel de información.
 
 1. En el panel de navegación izquierdo, seleccione **Automatización**.  Aquí puede crear reglas de automatización sencillas, integrarlas con cuadernos de estrategias existentes o crear nuevos cuadernos de estrategias.  Seleccione **+ Crear** y, luego, **Regla de automatización**.  Observe la ventana que se abre en el lado derecho de la pantalla y las opciones disponibles para crear condiciones y acciones.  Seleccione **Cancelar** en la parte inferior de la página.
 
-1. En el panel de navegación izquierdo, seleccione **Libros**. En la página Libros, seleccione la pestaña **Mis libros**, sobre el cuadro de búsqueda.  El libro que guardó anteriormente aparecerá en la lista y estará disponible para que pueda ver y supervisar sus datos.   NOTA: No hay ninguna actividad real que ocurra en la suscripción de Azure para reflejarse en el libro y las suscripciones de laboratorio de Azure pueden experimentar retrasos mayores que los normales en la recopilación de datos que se pueden visualizar en el libro.
+1. En el panel de navegación izquierdo, seleccione **Libros**. Lea la descripción de lo que es un libro de Microsoft Sentinel.  Los libros se pueden agregar a través del centro de contenido. Los libros instalados anteriormente se mostrarían aquí. Seleccione **Ir al centro de contenido**.  El centro de contenido muestra el contenido que incluye libros como parte de una solución o como un libro independiente. Desplácese hacia abajo para ver las opciones disponibles.
 
 1. Cierre la ventana seleccionando la **X** de la esquina superior derecha de la ventana.
 
 1. En la esquina superior izquierda de la ventana, justo debajo de la barra azul, seleccione **Inicio** para volver a la página principal del Azure Portal.
 
-1. Cierre todas las pestañas abiertas del explorador.
+1. Cierre sesión y cierre todas las pestañas abiertas del explorador.
 
-### <a name="review"></a>Revisar
+### Revisar
 
-En esta demostración, ha seguido los pasos para conectar Microsoft Sentinel a orígenes de datos, ha configurado un libro y ha recorrido varias opciones disponibles en Microsoft Sentinel.
+En este IV, ha seguido los pasos para conectar Microsoft Sentinel a orígenes de datos, ha configurado un libro y ha recorrido varias opciones disponibles en Microsoft Sentinel.

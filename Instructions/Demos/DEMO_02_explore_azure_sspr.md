@@ -1,24 +1,24 @@
-<a name="---"></a><!---
+<!---
 ---
-Demostración: Título: "Autoservicio de restablecimiento de contraseña (SSPR) de Azure AD" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de Azure Active Directory (Azure AD), parte de Microsoft Entra; Módulo 2: Descripción de las funcionalidades de autenticación de Azure AD; Unidad 4: Descripción del autoservicio de restablecimiento de contraseña en Azure AD"
+Demostración: Título: "Autoservicio de restablecimiento de contraseña (SSPR) de Microsoft Entra" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de Microsoft Entra; Módulo 2: Descripción de las funcionalidades de autenticación de Microsoft Entra ID; Unidad 4: Descripción del autoservicio de restablecimiento de contraseña"
 ---
 --->
 
-# <a name="demo-azure-ad-self-service-password-reset-sspr"></a>Demostración: Autoservicio de restablecimiento de contraseña (SSPR) de Azure AD
+# Demostración: Autoservicio de restablecimiento de contraseña (SSPR) de Microsoft Entra
 
 Esta demostración está orientada al siguiente contenido de Learn:
 
-- Ruta de aprendizaje: Descripción de las funcionalidades de Azure Active Directory (Azure AD), parte de Microsoft Entra
-- Módulo: Descripción de las funcionalidades de autenticación de Azure AD
-- Unidad: Descripción del autoservicio de restablecimiento de contraseña en Azure AD
+- Ruta de aprendizaje: Descripción de las funcionalidades de Microsoft Entra
+- Módulo: Descripción de las funcionalidades de autenticación de Microsoft Entra ID
+- Unidad: Descripción del autoservicio de restablecimiento de contraseña
 
-## <a name="demo-scenario"></a>Escenario de la demo
+## Escenario de la demo
 
 En esta demo, hará un recorrido por las diferentes configuraciones asociadas a la habilitación del autoservicio de restablecimiento de contraseña.
 
-1. Vaya a la pestaña de Microsoft Azure: Contoso que hay abierta en su explorador. Si anteriormente había cerrado la pestaña, abra una página del explorador y, en la barra de direcciones, escriba portal.azure.com y seleccione Azure Active Directory. Debería haber iniciado sesión como administrador en Azure Portal; si no es así, vuelva a iniciar sesión.
+1. Vuelva a la pestaña abierta del explorador titulada "Inicio-Centro de administración de Microsoft Entra".  Si ha cerrado previamente esa pestaña del explorador, abra Microsoft Edge e inicie sesión en **[entra.microsoft.com](https://entra.microsoft.com)** con sus credenciales de administrador de Microsoft 365.
 
-1. En el panel de navegación izquierdo, seleccione Restablecer contraseña.
+1. En el panel de navegación izquierdo, expanda **Protección** y, a continuación, seleccione **Restablecimiento de contraseña**.
 
 1. La pestaña Propiedades aparecerá resaltada.  En la ventana Propiedades, observe que el SSPR puede habilitarse para Ninguno, Seleccionar o Todos.
     1. Ponga el cursor sobre el icono de información junto a las palabras "Autoservicio de restablecimiento de contraseña habilitado" y haga hincapié en que puede elegir "Seleccionado" para restringir el restablecimiento de la contraseña a un grupo limitado de usuarios, o bien seleccionar Ninguno o Todos.
@@ -41,6 +41,6 @@ En esta demo, hará un recorrido por las diferentes configuraciones asociadas a 
 
 1. Mantenga la página del explorador abierta para la siguiente demo.
 
-### <a name="review"></a>Revisar
+### Revisar
 
 En esta demo, ha realizado un recorrido por la configuración asociada al autoservicio de restablecimiento de contraseña.

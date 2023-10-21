@@ -1,10 +1,10 @@
-<a name="---"></a><!---
+<!---
 ---
 Demostración: Título: "Exploración del portal de cumplimiento y el administrador de cumplimiento de Microsoft Purview" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft; Módulo 2: Descripción de las funcionalidades de administración de cumplimiento en Microsoft Purview; Unidad 2: Descripción del portal de cumplimiento de Microsoft Purview"
 ---
 --->
 
-# <a name="demo-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>Demostración: Explorar el Portal de cumplimiento de Microsoft Purview y el Administrador de cumplimiento
+# Demostración: Explorar el Portal de cumplimiento de Microsoft Purview y el Administrador de cumplimiento
 
 Esta demostración está orientada al siguiente contenido de Learn:
 
@@ -12,17 +12,15 @@ Esta demostración está orientada al siguiente contenido de Learn:
 - Módulo: Descripción de las funcionalidades de administración de cumplimiento en Microsoft Purview
 - Unidad: Descripción del portal de cumplimiento de Microsoft Purview
 
-## <a name="demo-scenario"></a>Escenario de la demo
+## Escenario de la demo
 
 En esta demostración, realizará un recorrido por la página principal del Portal de cumplimiento de Microsoft Purview y explorará las diferentes formas en las que las funcionalidades del Administrador de cumplimento pueden ayudar a las organizaciones a mejorar su posición de cumplimiento.
 
-### <a name="demo-part-1"></a>Demo, parte 1
+### Demo, parte 1
 
 Explorar la página principal del Portal de cumplimiento de Microsoft Purview y mostrar cómo personalizar la vista de tarjeta y el panel de navegación
 
-1. Abrir Microsoft Edge. En la barra de direcciones, escriba **admin.microsoft.com**. Con esto debería haber iniciado sesión como administrador.  Si no lo ha hecho, inicie sesión con sus credenciales de administrador.
-
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft 365, seleccione **Mostrar todo**.
+1. Abrir Microsoft Edge. En la barra de direcciones, escriba **https://admin.microsoft.com** . Ya debería haber iniciado sesión como administrador.  Si no es así, inicie sesión con las credenciales de administrador del inquilino de Microsoft 365 proporcionadas por el host autorizado del laboratorio (ALH). En el panel de navegación izquierdo del Centro de administración de Microsoft 365, seleccione **Mostrar todo**.
 
 1. En Centros de administración, seleccione **Cumplimiento**.  Se abrirá una nueva página del explorador con la página principal del portal de cumplimiento de Microsoft Purview.  
 
@@ -36,7 +34,7 @@ Explorar la página principal del Portal de cumplimiento de Microsoft Purview y
 
 1. Para agregar tarjetas, seleccione **+ Agregar tarjetas**.  Se abre la ventana Agregar tarjetas a la página principal.  Sitúe el cursor del ratón sobre la tarjeta del Catálogo de soluciones que aparece en esta ventana y arrástrela a la ubicación de su pantalla principal en la que desea situarla.
 
-1. En el panel de navegación izquierdo de la página principal del Portal de cumplimiento de Microsoft Purview, observe los elementos que aparecen debajo de Soluciones.  Si únicamente se muestra el Catálogo, seleccione **Mostrar todo** en el panel de navegación izquierdo.  Observe que todas las soluciones adicionales aparecen debajo de la sección Soluciones.  
+1. En el panel de navegación izquierdo de la página principal del Portal de cumplimiento de Microsoft Purview, observe los elementos que aparecen debajo de Soluciones. 
 
 1. Como administrador de cumplimiento, es posible que haya un conjunto de soluciones que administre para su organización y que quiera mostrar siempre en la lista del panel de navegación.  Para personalizar sus preferencias, seleccione **Personalizar la navegación**.  
 
@@ -44,7 +42,7 @@ Explorar la página principal del Portal de cumplimiento de Microsoft Purview y
 
 1. Deje abierta la pestaña del explorador.
 
-### <a name="demo-part-2"></a>Demo, parte 2
+### Demo, parte 2
 
 Obtenga información sobre la postura de cumplimiento de su organización mediante el Administrador de cumplimiento
 
@@ -54,7 +52,7 @@ Obtenga información sobre la postura de cumplimiento de su organización median
 
 1. En la parte superior de la página Información general, seleccione **Acciones de mejora**.  Son las acciones que pueden mejorar la puntuación de cumplimiento de la organización. Tenga en cuenta que, a medida que se llevan a cabo acciones de mejora, los puntos pueden tardar hasta 24 horas en actualizarse.  Observe los filtros disponibles.
 
-1. En la lista de acciones de mejora, seleccione **Habilitar el autoservicio de restablecimiento de contraseña**.  Revise la información disponible para la acción de mejora.  En el lado izquierdo de la ventana se proporciona información general breve sobre la implementación, el estado de prueba, etc. A la derecha de la información general, tiene una página de detalles desde la cual puede seleccionar su implementación, las pruebas, los estándares y los requisitos normativos relacionados, y documentos. Cada una de estas pestañas proporciona información más detallada para la acción de mejora.
+1. En la lista de acciones de mejora, seleccione **Habilitar el autoservicio de restablecimiento de contraseña**.  Revise la información disponible para la acción de mejora.  La parte izquierda de la ventana ofrece un breve resumen sobre el estado de implementación, el estado de las pruebas, etc. A la derecha de la información general, tiene una página de detalles desde la cual puede seleccionar su implementación, las pruebas, los estándares y los requisitos normativos relacionados, y documentos. Cada una de estas pestañas proporciona información más detallada para la acción de mejora.
 
 1. Para salir de esta acción de mejora, seleccione **Acciones de mejora** en la ruta de navegación de la parte superior izquierda de la página.  Ahora ha vuelto a la página Acciones de mejora.
 
@@ -64,13 +62,16 @@ Obtenga información sobre la postura de cumplimiento de su organización median
 
 1. Seleccione **Línea base de protección de datos**.  Observe la información disponible en la pestaña Progreso. También puede ver información sobre los controles, las acciones de mejora y las acciones de Microsoft.  
 
-1. Desde la parte superior izquierda de la página, encima del texto que dice Evaluaciones (la ruta de navegación), seleccione **Evaluación** para volver a la página Evaluaciones.  
+1. Desde la parte superior izquierda de la página, encima del texto que dice Evaluaciones (la ruta de navegación), seleccione **Evaluación** para volver a la página Evaluaciones.  Antes de salir de la pestaña de evaluaciones, tenga en cuenta que puede agregar sus propias evaluaciones.
 
-1. En la parte superior de la página, seleccione **Plantillas de evaluación**.  La página enumera las plantillas disponibles. Puede crear evaluaciones para su organización mediante una plantilla ya existente o crear una nueva plantilla.
-    1. En la lista de plantillas incluidas, seleccione cualquier plantilla. En la parte superior derecha de la página, seleccione **+ Crear evaluación**.  Aquí puede ver los pocos pasos y fragmentos de información necesarios para crear una evaluación a partir de una plantilla existente: identifique el producto para la evaluación, asígnele el nombre de la evaluación y asígnelo a un grupo.  Seleccione Cancelar en la parte inferior de la página.
+1. En la parte superior de la página, seleccione **Reglamentos**.  En esta página se enumeran los reglamentos disponibles para su organización. También puede crear evaluaciones a partir de las plantillas disponibles.  Seleccione una de las plantillas premium de la lista.  Verá información específica sobre ese reglamento, incluidos los controles, las acciones de mejora y la acción de Microsoft.  En la esquina superior derecha de la ventana, verá la opción de **+ Crear evaluación**, que le permite crear una evaluación basada en la plantilla.  Vuelva a la página de regulaciones seleccionando **Reglamentos** en la barra de navegación de la parte superior de la página.
 
-1. Cierre todas las pestañas abiertas del explorador.
+1. En la parte superior de la página, seleccione **Alertas**.   Aquí puede ver y administrar alertas de eventos que pueden afectar a la puntuación de cumplimiento de su organización.  Si aparece una alerta, selecciónela para ver la información sobre la directiva de alerta asociada.
 
-### <a name="review"></a>Revisar
+1. En el panel de navegación izquierdo, seleccione **Inicio** para volver a la página principal del Portal de cumplimiento de Microsoft Purview.
+
+1. Mantenga abierta la pestaña del explorador si tiene previsto mostrar la siguiente demostración.
+
+### Revisar
 
 En esta demostración ha realizado un recorrido por la página principal del Portal de cumplimiento de Microsoft Purview y ha explorado las diferentes formas en las que las funcionalidades del Administrador de cumplimento pueden ayudar a las organizaciones a mejorar su posición de cumplimiento.
