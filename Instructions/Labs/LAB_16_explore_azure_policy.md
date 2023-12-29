@@ -1,10 +1,10 @@
-<a name="---"></a><!---
+<!---
 ---
 Laboratorio: Título: "Exploración de Azure Policy" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft; Módulo 6: Descripción de las funcionalidades de gobernanza de recursos en Azure; Unidad 2: Descripción de Azure Policy"
 ---
 --->
 
-# <a name="lab-explore-azure-policy"></a>Laboratorio: Explorar Azure Policy
+# Laboratorio: Explorar Azure Policy
 
 Este laboratorio está orientado al siguiente contenido de Learn:
 
@@ -12,13 +12,13 @@ Este laboratorio está orientado al siguiente contenido de Learn:
 - Módulo: Descripción de las funcionalidades de gobernanza de recursos en Azure
 - Unidad: Descripción de Azure Policy
 
-## <a name="lab-scenario"></a>Escenario del laboratorio
+## Escenario del laboratorio
 
 Azure Policy ayuda a aplicar los estándares de la organización y a evaluar el cumplimiento a escala. Para evaluar los recursos de Azure, Azure Policy compara las propiedades de esos recursos con las reglas de negocio. En este laboratorio, creará una directiva y verá qué impacto tiene.  También explorará la información de cumplimiento y corrección disponible en la página de directivas.
 
 **Tiempo estimado**: 15-20 minutos
 
-### <a name="task-1"></a>Tarea 1
+### Tarea 1
 
 En esta tarea, creará una asignación de directiva básica para requerir una etiqueta en un grupo de recursos.
 1.  Abrir Microsoft Edge. En la barra de direcciones escriba **portal.azure.com**.
@@ -55,7 +55,7 @@ En esta tarea, creará una asignación de directiva básica para requerir una et
 
 1. Ahora se encuentra en la página principal de los servicios de Azure.  Mantenga esta página abierta, porque la necesitará para la siguiente tarea.
 
-### <a name="task-2"></a>Tarea 2
+### Tarea 2
 
 En esta tarea, verá el impacto de la asignación de directivas de Azure intentando crear un grupo de recursos en Azure que no tiene una etiqueta.
 
@@ -93,7 +93,7 @@ En esta tarea, verá el impacto de la asignación de directivas de Azure intenta
 
 1. Deje la pestaña del explorador abierta, porque la necesitará para la siguiente tarea.
 
-### <a name="task-3-optional"></a>Tarea 3 (opcional)
+### Tarea 3 (opcional)
 
 En esta tarea, realizará un recorrido por los pasos para corregir un grupo de recursos no compatible. NOTA: La suscripción de Azure usada para el laboratorio experimentará un retraso más largo que el normal para actualizar el estado de cumplimiento de un grupo de recursos corregido.
 
@@ -112,6 +112,7 @@ En esta tarea, realizará un recorrido por los pasos para corregir un grupo de r
 
 1. En el panel de navegación izquierdo, seleccione **Cumplimiento**.  Al igual que en el caso de la página Información general, aquí puede ver el estado de compatibilidad de las directivas o iniciativas que aparecen en la lista.  NOTA: Aunque ha agregado la etiqueta al grupo de recursos, el estado tardará algún tiempo en actualizarse.  Las suscripciones de Azure que se usan con fines de laboratorio pueden experimentar retrasos más largos que los normales. Si quiere esperar a que se actualice el estado de cumplimiento de este recurso, no finalice el laboratorio. En función del entorno de laboratorio, puede tardar una hora o más en actualizarse.  
 
-### <a name="review"></a>Revisar
+### Revisar
 
 En este laboratorio, ha realizado un recorrido por el proceso de creación de una asignación de directiva de Azure y ha podido ver el impacto de esa directiva.
+

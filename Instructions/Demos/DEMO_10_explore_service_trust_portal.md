@@ -4,7 +4,7 @@ Demostración: Título: "Portal de confianza del servicio" Ruta de aprendizaje/M
 ---
 --->
 
-# Demostración: Portal de confianza de servicios
+# Demo: Portal de confianza de servicios
 
 Esta demostración está orientada al siguiente contenido de Learn:
 
@@ -12,7 +12,7 @@ Esta demostración está orientada al siguiente contenido de Learn:
 - Módulo: Descripción del Portal de confianza de servicios y las funcionalidades de privacidad de Microsoft
 - Laboratorio: Exploración del Portal de confianza de servicios
 
-## Escenario de la demo
+## Supuesto de demostración
 
 En esta demostración, mostrará las características y el contenido disponible del Portal de confianza de servicios. También se incluye navegar por el Centro de confianza para ver información sobre la privacidad en Microsoft.
 
@@ -22,7 +22,7 @@ En esta parte, guiará al alumno a través de los diferentes tipos de contenido 
 
 1. Abrir Microsoft Edge.
 
-1. En la barra de direcciones, escriba **aka.ms/STP**. Esto le llevará a la página de aterrizaje del Portal de confianza de servicios. El Portal de confianza de servicios contiene detalles sobre la implementación de controles y procesos de Microsoft que protegen nuestros servicios en la nube y los datos de los clientes que contienen.
+1. En la barra de direcciones, escriba **aka.ms/STP**. Esto le llevará a la página de aterrizaje del Portal de confianza de servicios. El Portal de confianza de servicios contiene detalles sobre la implementación de controles y procesos de Microsoft que protegen nuestros servicios en la nube y los datos de los clientes que contienen.
 
 1. Para acceder a algunos de los recursos del Portal de confianza de servicios, debe iniciar sesión como usuario autenticado con su cuenta de Servicios en la nube de Microsoft y revisar y aceptar las condiciones del acuerdo de confidencialidad de Microsoft para materiales de cumplimiento. En la esquina superior derecha de la página de aterrizaje del Portal de confianza de servicios, verá la opción Iniciar sesión.  **Inicie sesión** con sus credenciales de administrador y, si se le solicita, seleccione **Aceptar** para aceptar las condiciones del acuerdo de confidencialidad de Microsoft para materiales de cumplimiento.
 
