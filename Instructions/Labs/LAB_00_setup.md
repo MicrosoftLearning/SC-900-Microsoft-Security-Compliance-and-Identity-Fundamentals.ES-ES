@@ -21,7 +21,7 @@ Este laboratorio de configuración consiste en habilitar el registro de auditor�
 
 ### Configuración: Habilitar el registro de auditoría de Microsoft 365
 
-En esta tarea de configuración, habilitará la funcionalidad Registro de auditoría de Microsoft 365.  Aunque la documentación indica que el registro de auditoría está habilitado de manera predeterminada, la mayoría de los inquilinos del laboratorio no tienen habilitada esta función y pueden pasar varias horas hasta que surta efecto.  Habilitar esta función resulta útil, ya que Microsoft 365 utiliza los registros de auditoría para conseguir información sobre los usuarios y las actividades identificadas en las directivas y los análisis.
+En esta tarea de configuración, habilitará la capacidad Registro de auditoría de Microsoft 365.  Aunque la documentación indica que el registro de auditoría está habilitado de manera predeterminada, la mayoría de los inquilinos del laboratorio no tienen habilitada esta función y pueden pasar varias horas hasta que surta efecto.  Habilitar esta característica resulta útil, ya que Microsoft 365 utiliza los registros de auditoría para conseguir información sobre los usuarios y las actividades identificadas en las directivas y los análisis.
 
 1. Abrir Microsoft Edge. En la barra de direcciones, escriba **admin.microsoft.com**.
 
@@ -34,11 +34,11 @@ En esta tarea de configuración, habilitará la funcionalidad Registro de audito
 
 1. En Centros de administración, seleccione **Cumplimiento**.  Se abrirá una nueva página del explorador con la página principal del portal de cumplimiento de Microsoft Purview.  
 
-1. En el panel de navegación izquierdo, en Soluciones, seleccione **Auditoría**.  Nota: También se puede acceder a la funcionalidad de auditoría a través de la página principal de Microsoft 365 Defender (anteriormente denominada Centro de seguridad de Microsoft 365).
+1. En el panel de navegación izquierdo, debajo de Soluciones, seleccione **Auditoría**.  Nota: También se puede acceder a la capacidad de auditoría a través de la página principal de Microsoft 365 Defender (anteriormente denominada Centro de seguridad de Microsoft 365).
 
 1. Compruebe que la pestaña **Nueva búsqueda** está seleccionada (subrayada).
 
-1. Cuando llegue a la página Auditoría, espere entre 2 y 3 minutos.  Si Auditoría NO está habilitada, verá una barra azul en la parte superior de la página donde pone "Comenzar a registrar la actividad del usuario y del administrador".  Seleccione **Iniciar el registro de la actividad de usuarios y administradores**.  Si se le pide que confirme que la configuración de la organización debe actualizarse, seleccione **Sí**. Una vez que la auditoría esté habilitada, la barra azul desaparecerá.  Si la barra azul no aparece, eso significará que la opción Auditoría ya está habilitada, y no necesitará hacer nada más.  Otra forma de comprobar si la auditoría está habilitada es a través de PowerShell, pero está fuera del ámbito de este curso.
+1. Una vez que llegue a la página Auditoría, espere de 2 a 3 minutos.  Si Auditoría NO está habilitada, verá una barra azul en la parte superior de la página donde pone "Comenzar a registrar la actividad del usuario y del administrador".  Seleccione **Comenzar a registrar la actividad del usuario y del administrador**.  Si se le pide que confirme que la configuración de la organización debe actualizarse, seleccione **Sí**. Una vez habilitada Auditoría, la barra azul desaparecerá.  Si la barra azul no aparece, eso significará que la opción Auditoría ya está habilitada, y no necesitará hacer nada más.  Otra manera de comprobar si Auditoría está habilitada es a través de PowerShell, pero eso está fuera del ámbito de este curso.
 
 1. Para volver a la página principal del Portal de cumplimiento de Microsoft Purview, seleccione **Inicio** en el panel de navegación izquierdo con el fin de cerrar sesión de Microsoft 365. Para cerrar sesión, seleccione el icono en la esquina superior derecha de la ventana de Microsoft 365 que se muestra como un círculo con las letras MA (junto al icono de signo de interrogación) y, a continuación, seleccione **Cerrar sesión**. Después, cierre el explorador.
 

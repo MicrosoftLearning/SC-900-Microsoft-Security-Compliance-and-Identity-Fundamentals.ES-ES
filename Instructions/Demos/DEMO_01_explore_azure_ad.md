@@ -12,7 +12,7 @@ Esta demostración está orientada al siguiente contenido de Learn:
 - Módulo: Descripción de los tipos de función e identidad de Microsoft Entra ID.
 - Unidad: Descripción de los tipos de identidades.
 
-## Escenario de la demo
+## Supuesto de demostración
 
 En esta demostración, accederá a Microsoft Entra ID y verá las distintas opciones de configuración para un usuario.
 
@@ -36,23 +36,23 @@ En esta demostración, accederá a Microsoft Entra ID y verá las distintas op
 
 1. Observe que en el panel de navegación izquierdo, **Información general** está resaltado en gris claro.  Muestre o explique el contenido de la página de información general.  Seleccione la pestaña **Supervisión** en la parte superior de la página que muestra los inicios de sesión del usuario (no se mostrará ningún inicio de sesión si no ha iniciado sesión antes como Adele Vance).  A continuación, seleccione **Propiedades** para ver todas las propiedades del objeto de usuario Adele Vance.
 
-1. En el panel de navegación izquierdo, seleccione **Roles asignados**.  Este usuario no tiene asignado ningún rol administrativo.  En la parte superior de la página, seleccione **+ Agregar asignaciones** y, en la página Agregar asignaciones, expanda el campo Buscar rol en Seleccionar rol para ver una lista de los tipos de roles administrativos disponibles.  No agregue nada, simplemente cierre la página con la **X** de la parte superior derecha de la página.
+1. En el panel de navegación izquierdo, seleccione **Roles asignados**.  Este usuario no tiene asignado ningún rol administrativo.  En la parte superior de la página, seleccione **+ Agregar asignaciones** y, en la página Agregar asignaciones, expanda el campo Buscar rol en Seleccionar rol para ver una lista de los tipos de roles administrativos disponibles.  No agregue nada, simplemente cierre la página, para ello, seleccione la **X** de la esquina superior derecha de la página.
 
-1. En el panel de navegación izquierdo, seleccione **Grupos**.  Informe de que este usuario es miembro de varios grupos.  Aquí puede hablar de los tipos de grupos.  Para agregar este usuario a otros grupos, basta con seleccionar **+ Agregar pertenencias**.  No agregue ningún grupo nuevo, solo hable de lo fácil que es agregar un usuario a los grupos existentes. Seleccione la **X** de la esquina superior derecha de la página para cerrar la ventana Seleccionar grupos.
+1. En el panel de navegación izquierdo, seleccione **Grupos**.  Hable del hecho de que este usuario sea miembro de varios grupos.  Aquí puede hablar con los tipos de grupos.  Para agregar este usuario a otros grupos, basta con seleccionar **+ Agregar pertenencias**.  No agregue ningún grupo nuevo, solo hable de lo fácil que es agregar un usuario a los grupos existentes. Seleccione la **X** de la esquina superior derecha de la página para cerrar la ventana Seleccionar grupos.
 
-1. En el panel de navegación izquierdo seleccione **Licencias**. Observe que a este usuario se le asignan licencias de Microsoft 365 E5 y EMS.  Para agregar una licencia, seleccione **+ Asignaciones** en la parte superior de la ventana principal.  Muestre las licencias de este usuario. NO cambie nada.  Cierre esta ventana con la **X** de la esquina superior derecha de la página.
+1. En el panel de navegación izquierdo, seleccione **Licencias**. Tenga en cuenta que este usuario tiene asignadas licencias de Microsoft 365 E5 y de emS.  Para agregar una licencia, seleccione **+ Asignaciones** de la parte superior de la ventana principal.  Mostrar las licencias de este usuario. NO cambie nada.  Seleccione la **X** de la esquina superior derecha de la página para cerrarla.
 
-1. En el panel de navegación izquierdo, seleccione **Dispositivos**.  No aparece nada, pero puede decir que si este usuario tuviera dispositivos asignados, aquí es donde aparecería.
+1. En el panel de navegación izquierdo, seleccione **Dispositivos**.  No aparece nada, pero puede decir que si este usuario tuviera dispositivos asignados, aquí es donde se mostrarían.
 
-1. En el panel de navegación izquierdo, seleccione **Asignaciones de roles de Azure**.  A destacar:
+1. En el panel de navegación izquierdo, seleccione **Asignación de roles de Azure**.  Llamada:
     1. Esto es diferente a la pestaña Roles asignados que se ha mostrado antes, ya que esa pestaña anterior es para el control de acceso basado en roles en Microsoft Entra.
-    1. Aunque aquí no aparece nada, esta es la pestaña donde podría ver las asignaciones de roles, asignados a Adele, para los recursos de Azure. Por ejemplo, si crea un grupo de recursos de Azure y asigna a Adele un rol específico, como la de propietaria o colaboradora del grupo de recursos, verá que ese rol aparece aquí. Esto es parte del control del acceso basado en rol de Azure (Azure RBAC). Esa asignación de roles se agrega y administra como parte de ese recurso específico.
+    1. Aunque aquí no aparece nada, esta es la pestaña donde podría ver las asignaciones de roles, asignados a Adele, para los recursos de Azure. Por ejemplo, si tuviera que crear un grupo de recursos de Azure y asignara a Adele un rol específico, como propietario o colaborador del grupo de recursos, vería que ese rol aparecería aquí. Esto forma parte del control de acceso basado en roles de Azure (Azure RBAC). Esa asignación de roles se agrega y administra como parte de ese recurso específico.
 
-1. En el panel de navegación izquierdo, seleccione **Métodos de autenticación**.  Llame la atención hacia la descripción que dice: "Aquí puede establecer los números de teléfono y las direcciones de correo electrónico que los usuarios utilizan para realizar la autenticación multifactor (MFA), el autoservicio de restablecimiento de contraseña (SSPR)y restablecer la contraseña de un usuario". Si un usuario está configurado para SSPR o está obligado a usar MFA, y usted, como administrador, rellena esto, entonces ya estará registrado y no tendrá que seguir los pasos de registro para SSPR o MFA.  Es frecuente que el usuario se autorregistre en lugar de que el administrador tenga que hacerlo.
+1. En el panel de navegación izquierdo, seleccione **Métodos de autenticación**.  Llame a la descripción que dice: "Aquí puede establecer los números de teléfono y las direcciones de correo electrónico que los usuarios usan para realizar la autenticación multifactor, el autoservicio de restablecimiento de contraseña y restablecer la contraseña de un usuario". Si un usuario está configurado para SSPR o está obligado a usar MFA, y usted, como administrador, rellena esto, entonces ya estará registrado y no tendrá que seguir los pasos de registro para SSPR o MFA.  Es frecuente que el usuario se autorregistre en lugar de que el administrador tenga que hacerlo.
 
-1. Seleccione la **X** en la esquina superior derecha de la página. Volverá a la lista de usuarios.
+1. Seleccione la **X** de la esquina superior derecha de la página. Esto le devuelve a la lista de usuarios.
 
-1. Seleccione la **X** en la esquina superior derecha de la página. Esto le devuelve a la página principal del Centro de administración de Microsoft Entra.
+1. Seleccione la **X** de la esquina superior derecha de la página. Esto le devuelve a la página principal del Centro de administración de Microsoft Entra.
 
 1. Deje esta pestaña del explorador abierta, porque la utilizará para la siguiente demostración.
 

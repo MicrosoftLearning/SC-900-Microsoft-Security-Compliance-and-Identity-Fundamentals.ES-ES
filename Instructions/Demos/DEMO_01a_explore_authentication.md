@@ -12,7 +12,7 @@ Esta demostración está orientada al siguiente contenido de Learn:
 - Módulo 2: Descripción de las funcionalidades de autenticación de Microsoft Entra ID.
 - Unidades: Descripción de los métodos de autenticación y Descripción de la autenticación multifactor.
 
-## Escenario de la demo
+## Supuesto de demostración
 
 En esta demostración, explorará las distintas opciones de configuración disponibles para la autenticación en Microsoft Entra.
 
@@ -32,7 +32,7 @@ En esta demostración, explorará las distintas opciones de configuración dispo
         1. No cambie ninguna configuración. Salga de la página, seleccionando la **X** en la esquina superior derecha de la página.
  
 1. Ahora echemos un vistazo a la protección con contraseña. Seleccione **Protección con contraseña**.  Observe los diferentes parámetros de configuración disponibles.  
-    1. Seleccione el icono de información situado junto a **Umbral de bloqueo** para ver el significado de este parámetro.  Actualmente está establecido en 10, lo que significa que puede haber hasta 10 inicios de sesión fallidos antes de que se bloquee la cuenta.  Parece un poco alto, así que puede establecer un valor diferente.
+    1. Seleccione el icono de información situado junto a **Umbral de bloqueo** para ver el significado de este parámetro.  Actualmente está establecido en 10, lo que significa que puede haber hasta 10 inicios de sesión fallidos antes de que se bloquee la cuenta. Parece un poco alto, así que puede establecer un valor diferente.
     1. Seleccione el icono de información de cada uno de los diferentes parámetros y coméntelo brevemente.  Sobre todo querrá mencionar la lista personalizada de contraseñas prohibidas.
 
 1. La intensidad de autenticación es un control de acceso condicional que permite a los administradores especificar qué combinación de métodos de autenticación se puede usar para acceder a un recurso. Verá esto en Acceso condicional.
