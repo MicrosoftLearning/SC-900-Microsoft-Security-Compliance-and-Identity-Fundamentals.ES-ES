@@ -54,7 +54,7 @@ En esta demo mostrará la configuración de una etiqueta de confidencialidad exi
 
 1. En la página Information protection, seleccione Etiquetado automático. Revise la descripción. Tenga en cuenta que crea directivas de etiquetado automático para aplicar automáticamente etiquetas de confidencialidad a mensajes de correo electrónico o archivos de OneDrive y SharePoint que contienen información confidencial. Si hay directivas de etiquetado automático configuradas, seleccione una y revise la información de la directiva en el panel de detalles.  Si no aparece ninguna directiva, puede realizar los pasos para crear una, si el tiempo lo permite.
 
-1. En el panel de navegación izquierdo, seleccione Inicio para volver al Portal de cumplimiento de Microsoft Purview.
+1. En el panel de navegación izquierdo, seleccione Inicio para volver al portal de cumplimiento de Microsoft Purview.
 
 1. Mantenga abierta esta pestaña del explorador.
 
