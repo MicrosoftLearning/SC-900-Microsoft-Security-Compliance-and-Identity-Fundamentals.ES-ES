@@ -35,25 +35,19 @@ En esta tarea, verá algunos de los parámetros asociados a la máquina virtual 
 
 1. Ahora se encuentra en la página de SC900-WinVM.  Anote parte de la información básica sobre la máquina virtual.
 
-1. Desde la parte superior de la página, seleccione **Conectar**.  Seleccione la opción **Comprobar acceso**, que aparece bajo la dirección IP.  Esta comprobación se realizará mediante el puerto 3389, que es el puerto para la conectividad RDP.  Debería ver el mensaje "No se puede comprobar".  En el cuadro RDP nativo, haga clic en **Seleccionar**.  En la ventana que se abre, bajo "1 Configurar requisitos previos para RDP nativo", debería ver "Azure necesita configurar algunas características para conectarse a la máquina virtual".  En la siguiente tarea, configurará un NSG para permitir explícitamente la conexión RDP.
+1. En el panel de navegación izquierdo, seleccione **Configuración de red**.  En las secciones esenciales de la ventana principal se muestra la interfaz de red de la máquina virtual.  Observe cómo no aparece nada junto al grupo de seguridad de red, ya que no hay un NSG asignado a la interfaz.
 
-
-1. En el panel de navegación izquierdo, seleccione **Redes**.  
-    1. La vista predeterminada es para las reglas de puerto de entrada.  Tenga en cuenta que la interfaz de red de esta máquina virtual no tiene ningún grupo de seguridad de red configurado.  Lo mismo sucede si selecciona Reglas de puerto de salida.
-    1. Seleccione **Reglas de seguridad vigentes** junto a donde dice Interfaz de red.  Observe que dice: "No hay ningún grupo de seguridad de red o grupo de seguridad de aplicaciones asociado a la interfaz de red".
-
-1. Deje esta pestaña del explorador abierta.
-
+1. Mantenga esta pestaña abierta.
 
 ### Tarea 2
 
 En esta tarea, creará un grupo de seguridad de red, asignará la interfaz de red de la máquina virtual a ese grupo de seguridad de red y creará una nueva regla de entrada para el tráfico RDP.
 
-1. En la pestaña Abrir NSG, *haga clic con el botón derecho* en el vínculo **Inicio** de la parte superior de la página y seleccione **Abrir vínculo en una pestaña nueva** para abrir otra página a los servicios de Azure.
+1. En la pestaña de Azure abierta, *haga clic con el botón derecho* en el vínculo **Inicio** de la parte superior de la página y seleccione **Abrir vínculo en una pestaña nueva** para abrir otra página a los servicios de Azure.
 
 1. En la barra de búsqueda azul de la parte superior de la página, escriba **Grupos de seguridad de red** y, desde los resultados, seleccione **Grupo de seguridad de red**. No seleccione *Grupos de seguridad de red (clásico)*.
 
-1. Desde la parte superior de la página Grupos de seguridad de red, seleccione **+ Crear**.
+1. En el centro de la página, seleccione el botón azul etiquetado **Crear grupo de seguridad de red**.  Como alternativa, puede seleccionar **+ Crear** en la parte superior de la página Grupos de seguridad de red.
 
 1. En la pestaña Datos básicos del página Crear grupo de seguridad de red, especifique la siguiente configuración:
     1. Suscripción: deje el valor predeterminado (esta es la suscripción de Azure proporcionada por el host de laboratorio autorizado).
@@ -64,15 +58,19 @@ En esta tarea, creará un grupo de seguridad de red, asignará la interfaz de re
 
 1. Una vez finalizada la implementación, seleccione **Ir al recurso**.
 
-1. En la parte superior de la página debajo de donde dice Essentials, verá información básica sobre el grupo de seguridad de red que creó.  Dos aspectos que se han de tener en cuenta son que no hay ninguna regla de seguridad personalizada y no hay subredes ni interfaces de red asociadas a este NSG.  Aunque no hay reglas de seguridad personalizadas, hay reglas de entrada y salida predeterminadas que se incluyen con cada NSG, como se muestra en la página.  Revise las reglas de entrada y salida. Las reglas de entrada predeterminadas deniegan todo el tráfico entrante que no procede de una red virtual o de un equilibrador de carga de Azure.  Las reglas de salida deniegan todo el tráfico saliente, excepto el tráfico entre redes virtuales y el tráfico saliente a Internet.
+1. Debe estar en la página de información general del grupo de seguridad de red recién creado.  Si no es así, en el panel de navegación izquierdo, seleccione **Información general**. En la parte superior de la página debajo de donde dice Essentials, verá información básica sobre el grupo de seguridad de red que creó.  Dos aspectos que se han de tener en cuenta son que no hay ninguna regla de seguridad personalizada y no hay subredes ni interfaces de red asociadas a este NSG.  Aunque no hay reglas de seguridad personalizadas, hay reglas de entrada y salida predeterminadas que se incluyen con cada NSG, como se muestra en la página.  Revise las reglas de entrada y salida. Las reglas de entrada predeterminadas deniegan todo el tráfico entrante que no procede de una red virtual o de un equilibrador de carga de Azure.  Las reglas de salida deniegan todo el tráfico saliente, excepto el tráfico entre redes virtuales y el tráfico saliente a Internet.
 
 1. En el panel de navegación izquierdo de la página NSG-SC900, debajo de Configuración, seleccione **Interfaces de red**.
     1. Seleccione **Asociar**.
-    2. En el campo para las asociaciones de interfaz de red, seleccione la **flecha desplegable**, seleccione **sc900-winvmXXX** y, a continuación, seleccione **Aceptar** en la parte inferior de la ventana. Una vez asociada la interfaz al NSG, aparecerá en la lista.
+    2. En el campo para las asociaciones de interfaz de red, seleccione la **flecha desplegable**, seleccione **sc900-winvmXXX** y, a continuación, seleccione **Aceptar** en la parte inferior de la ventana. Una vez asociada la interfaz al NSG, aparecerá en la lista.  El grupo de seguridad de red ahora está asignado a la interfaz de red de la máquina virtual.
 
-1. En el panel de navegación izquierdo, seleccione **Reglas de seguridad de entrada**.
+1. Vuelva a la pestaña **SC900-WinWM: Microsoft Azure** del explorador.  Actualice la página. Al lado de donde dice Grupo de seguridad de red, ahora debería ver el nombre del NSG que acaba de crear.  Si aún no lo ve, espere otro minuto y vuelva a actualizar la página.
 
-1. Las reglas de entrada predeterminadas deniegan todo el tráfico entrante no procedente de una red virtual o de un equilibrador de carga de Azure, por lo que debe configurar una regla para permitir el tráfico RDP entrante (tráfico en el puerto 3389). Recuerde que las reglas predeterminadas no se pueden quitar, pero puede reemplazarlas por reglas de prioridad más alta.
+1. En el panel de navegación izquierdo, seleccione **Conectar**. En la ventana principal, junto a donde se muestra el número de puerto 3389, seleccione **Comprobar acceso**. La función de comprobación de acceso envía señales (tráfico) al puerto RDP 3389 predeterminado de la máquina virtual para comprobar si es accesible. Puede tardar un minuto, pero verá No accesible.  Esto es lo esperado, porque la regla de NSG DenyAllInBound deniega todo el tráfico entrante a la máquina virtual.
+
+1. Vuelva a cambiar a la pestaña **NSG-SC900: Microsoft Azure** del navegador.
+
+1. En el panel de navegación izquierdo, seleccione **Reglas de seguridad de entrada**. Las reglas de entrada predeterminadas deniegan todo el tráfico entrante no procedente de una red virtual o de un equilibrador de carga de Azure, por lo que debe configurar una regla para permitir el tráfico RDP entrante (tráfico en el puerto 3389). Recuerde que las reglas predeterminadas no se pueden quitar, pero puede reemplazarlas por reglas de prioridad más alta.
 
 1. En la parte superior de la página, seleccione **Agregar**. En la ventana Agregar regla de seguridad de entrada, especifique la siguiente configuración:
     1. Origen: **Cualquiera**
@@ -93,7 +91,7 @@ En esta tarea, creará un grupo de seguridad de red, asignará la interfaz de re
 
 En esta tarea, probará la regla de NSG de entrada recién creada para confirmar que puede establecer una conexión de escritorio remoto (RDP) con la máquina virtual.  Una vez dentro de la máquina virtual, comprobará la conectividad saliente a Internet desde la máquina virtual.
 
-1. Abra la pestaña SC900-WinVM: Microsoft Azure en el explorador. Si ha cerrado previamente la pestaña del explorador, abra una nueva, escriba **https://portal.azure.com** y seleccione **Máquinas virtuales** y, a continuación, seleccione la máquina virtual **SC900-WinVM**.
+1. Abra la pestaña SC900-WinVM: Microsoft Azure en el explorador.
 
 1. Seleccione **Conectar** en el panel de navegación de la izquierda.
 
@@ -145,7 +143,6 @@ En la tarea anterior, ha confirmado que podía establecer una conexión RDP a la
 1. Vuelva a la máquina virtual (el icono RDP de la máquina virtual debe mostrarse en la barra de tareas de la parte inferior de la página).
 
 1. Abra el navegador Microsoft Edge en su máquina virtual y entre en **www.bing.com**. La página no debe mostrarse. Si puede conectarse a Internet y ha comprobado que todos los parámetros de la regla de salida están configurados correctamente, puede que sea porque la regla tarda unos minutos en surtir efecto.  Cierre el explorador, espere unos minutos e inténtelo de nuevo. Las suscripciones de Azure en el entorno de laboratorio pueden experimentar retrasos más largos de lo normal.
-
 
 1. Cierre la conexión de Escritorio remoto; para ello, seleccione la **X** del centro de la parte superior de la página donde se muestra la dirección IP.  Aparece una ventana emergente que indicará que su sesión remota va a desconectarse. Seleccione **Aceptar**.
 
