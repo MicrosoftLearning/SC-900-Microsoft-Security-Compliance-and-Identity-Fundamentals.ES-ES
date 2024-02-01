@@ -84,7 +84,7 @@ En esta tarea, se familiarizará con la configuración para crear una directiva.
     1. Desencadenadores: el evento desencadenador determina cuándo comenzará una directiva a asignar puntuaciones de riesgo a la actividad de un usuario.  Puede elegir entre una directiva DLP existente o si el usuario realiza una actividad de filtración. Seleccione **Usuario coincide con una directiva de prevención de pérdida de datos (DLP)** y, a continuación, en la lista desplegable, seleccione **Datos financieros de EE. UU.** Seleccione **Siguiente**.
     1. Indicadores: tenga en cuenta que se seleccionan todos los indicadores de Office seleccionados en la tarea anterior (puede verlo si selecciona la tecla de flecha abajo junto a indicadores de Office) y, a continuación, seleccione **Siguiente**.
     1. En la página Opciones de detección, deje todas las opciones predeterminadas, pero lea la descripción asociada a las distintas opciones y mantenga el puntero sobre el icono de información para obtener información más detallada sobre una configuración específica.  Seleccione **Siguiente**.
-    1. En la página para Decidir si desea usar umbrales predeterminados o de indicador de cliente, deje el valor predeterminado **Umbrales predeterminados** y, a continuación, seleccione **Siguiente**.
+    1. En la página para Decidir si desea usar umbrales predeterminados o de indicador de cliente, deje el valor predeterminado **Aplicar umbrales proporcionados por Microsoft** y, a continuación, seleccione **Siguiente**.
     1. Para terminar, revise la configuración, seleccione **Enviar**.
     1. Revise la descripción de lo que sucede a continuación y seleccione **Listo**.
 
