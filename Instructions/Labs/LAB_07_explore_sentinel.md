@@ -1,8 +1,8 @@
-<!---
 ---
-Laboratorio: Título: "Exploración de Microsoft Sentinel" Ruta de aprendizaje/Módulo/Título: "Ruta de aprendizaje: Describir las capacidades de las soluciones de seguridad de Microsoft; Módulo 3: Describir las capacidades de seguridad de Microsoft Sentinel; Unidad 3: Describir las capacidades de detección y mitigación de amenazas en Microsoft Sentinel"
+lab:
+  title: Explorar Microsoft Sentinel
+  module: Describe the security capabilities of Microsoft Sentinel
 ---
---->
 
 # Laboratorio: Explorar Microsoft Sentinel
 
@@ -14,7 +14,7 @@ Este laboratorio está orientado al siguiente contenido de Learn:
 
 ## Escenario del laboratorio
 
-Realizará un recorrido por el proceso de creación de una instancia de Microsoft Sentinel.  Además, configurará los permisos para garantizar el acceso a los recursos que se implementarán para admitir Microsoft Sentinel.  Una vez finalizada esta configuración básica, recorrerá los pasos para conectar Microsoft Sentinel a los orígenes de datos, configurar un libro y realizar un breve tutorial de algunas de las funcionalidades clave disponibles en Microsoft Sentinel.
+En este laboratorio, realizará un recorrido por el proceso de creación de una instancia de Microsoft Sentinel.  Además, configurará los permisos para garantizar el acceso a los recursos que se implementarán para admitir Microsoft Sentinel.  Una vez finalizada esta configuración básica, recorrerá los pasos para conectar Microsoft Sentinel a los orígenes de datos, configurar un libro y realizar un breve tutorial de algunas de las funcionalidades clave disponibles en Microsoft Sentinel.
 
 **Tiempo estimado**: 45-60 minutos
 
@@ -78,7 +78,7 @@ El propósito de esta tarea es guiarle por los pasos necesarios para conectarse 
 
 1. Una vez más, seleccione **Microsoft Defender for Cloud** en la lista. En la ventana de la derecha, seleccione **Administrar**.
 
-1. En el lado derecho de la página de Microsoft Defender for Cloud se muestra la descripción y las notas asociadas a la solución del Centro de contenido y lo que se incluye como parte de esta solución.  En la ventana principal se encuentran los componentes de la solución.  En este caso, hay dos conectores de datos y una regla de datos. El triángulo naranja indica que se necesita alguna configuración. Seleccione el cuadro situado junto a donde dice **Microsoft Defender for Cloud (heredado) basado en suscripciones**.  Se abre una ventana en el lado derecho de la página.  Seleccione **Open connector page** (Abrir página del conector).
+1. En el lado derecho de la página de Microsoft Defender for Cloud se muestra la descripción y las notas asociadas a la solución del Centro de contenido y lo que se incluye como parte de esta solución.  En la ventana principal se encuentran los componentes de la solución.  En este caso, hay dos conectores de datos y una regla de datos. El triángulo naranja indica que se necesita alguna configuración. Seleccione el cuadro situado junto a donde dice **Microsoft Defender for Cloud (heredado) basado en suscripciones**.  Se abre una ventana en el lado derecho de la página.  Seleccione **Open connector page** (Abrir página del conector).
 
 1. Fíjese en las instrucciones de configuración.  Seleccione el cuadro situado junto al nombre de la suscripción y, a continuación, seleccione **Conectar**.  Puede aparecer una ventana emergente que indique que solo las suscripciones en las que tiene permisos de Lector de seguridad comenzarán a transmitir alertas de Microsoft Defender for Cloud.  Seleccione **Aceptar**.  El estado cambiará a Conectado.  El conector ahora está habilitado, aunque puede tardar algún tiempo en aparecer en la página conectores de datos.  
 
@@ -99,7 +99,7 @@ En esta tarea, realizará un recorrido por algunas de las opciones disponibles e
 
 1. En el panel de navegación izquierdo, seleccione **MITRE ATT&CK**.  MITRE ATT&CK es una base de conocimiento accesible públicamente de tácticas y técnicas que suelen usar los atacantes. Con Microsoft Sentinel puede ver las detecciones que ya están activas en el área de trabajo, así como las que están disponibles para configurarlas, con el fin de que conozca la cobertura de seguridad de su organización, según las tácticas y técnicas del marco MITRE ATTCK®.  Seleccione cualquier celda de la matriz y anote la información disponible en el lado derecho de la pantalla. **Nota**: Es posible que tenga que seleccionar "**<<**" en el lado derecho de la ventana para ver el panel de información.
 
-1. En el panel de navegación izquierdo, seleccione **Comunidad**. La página de la comunidad incluye información y actualizaciones de ciberseguridad de Microsoft Research, un vínculo a una lista de blogs de Microsoft Sentinel, un vínculo a foros de Microsoft Sentinel, vínculos a las últimas ediciones al Centro de Microsoft Sentinel, etc. Explore esto como desee.
+1. En el panel de navegación izquierdo, seleccione **Comunidad**. La página de la comunidad incluye información y actualizaciones de ciberseguridad de Microsoft Research, un vínculo a una lista de blogs de Microsoft Sentinel, un vínculo a foros de Microsoft Sentinel, vínculos a las últimas ediciones al Centro de Microsoft Sentinel, etc. Explore esto como desee.
 
 1. En el panel de navegación izquierdo, seleccione **Análisis**.  Debe haber dos reglas activas, una que esté disponible de forma predeterminada y la regla que creó en la tarea anterior. Seleccione la regla predeterminada **Detección avanzada de ataques multistage**.  Anote la información detallada.  Microsoft Sentinel usa Fusion, un motor de correlación basado en algoritmos de aprendizaje automático escalable, para detectar automáticamente ataques de varias fases (también conocidos como amenazas persistentes avanzadas) al identificar combinaciones de comportamientos anómalos y actividades sospechosas que se observan en diversas fases de la cadena de eliminación. A partir de estas detecciones, Microsoft Sentinel genera incidentes que, de otro modo, serían muy difíciles de detectar. **Nota**: Es posible que tenga que seleccionar "**<<**" en el lado derecho de la ventana para ver el panel de información.
 
