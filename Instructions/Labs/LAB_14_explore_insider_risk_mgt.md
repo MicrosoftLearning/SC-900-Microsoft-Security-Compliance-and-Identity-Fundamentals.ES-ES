@@ -1,8 +1,8 @@
-<!---
 ---
-Laboratorio: Título: "Exploración de la administración de riesgos internos en Microsoft Purview" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft; Módulo 4: Descripción de las funcionalidades de riesgo interno en Microsoft Purview; Unidad 2: Descripción de la administración de riesgos internos"
+lab:
+  title: "Explorar la administración de riesgos internos en Microsoft\_Purview"
+  module: Describe the insider risk capabilities in Microsoft Purview
 ---
---->
 
 # Laboratorio: Explorar la administración de riesgos internos en Microsoft Purview
 

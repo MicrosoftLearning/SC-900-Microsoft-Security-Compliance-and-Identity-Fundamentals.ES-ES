@@ -1,3 +1,9 @@
+---
+lab:
+  title: "Autoservicio de restablecimiento de contraseña de Microsoft\_Entra"
+  module: Describe the authentication capabilities of Microsoft Entra ID
+---
+
 <!---
 ---
 Laboratorio: Título: "Explorar la Autenticación de Azure AD con el autoservicio de restablecimiento de contraseña" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Describir las capacidades de Azure Active Directory (Azure AD), parte de Microsoft Entra; Módulo 2: Describir las capacidades de autenticación de Azure AD; Unidad 4: Describir el autoservicio de restablecimiento de contraseña"

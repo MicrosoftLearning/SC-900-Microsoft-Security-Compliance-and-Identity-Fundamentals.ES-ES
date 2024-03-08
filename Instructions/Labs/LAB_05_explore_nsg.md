@@ -1,8 +1,8 @@
-<!---
 ---
-Laboratorio: Título: "Exploración de los grupos de seguridad de red (NSG) de Azure" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de las soluciones de seguridad de Microsoft; Módulo 1: Descripción de las funcionalidades de seguridad básicas en Azure; Unidad 6: Descripción de los grupos de seguridad de red de Azure"
+lab:
+  title: Exploración de los grupos de seguridad de red de Azure (NSG)
+  module: Describe the basic security capabilities in Azure
 ---
---->
 
 # Laboratorio: Explorar grupos de seguridad de red (NSG) de Azure
 
