@@ -1,8 +1,8 @@
-<!---
 ---
-Laboratorio: Título: "Exploración del flujo de trabajo de eDiscovery (estándar)" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft; Módulo 5: Descripción de las funcionalidades de eDiscovery y de auditoría de Microsoft Purview; Unidad 2: Descripción de las soluciones de eDiscovery en Microsoft 365"
+lab:
+  title: Exploración del flujo de trabajo de eDiscovery (Estándar)
+  module: Describe the eDiscovery and audit capabilities of Microsoft Purview
 ---
---->
 
 # Laboratorio: Explorar el flujo de trabajo de eDiscovery (Estándar)
 
