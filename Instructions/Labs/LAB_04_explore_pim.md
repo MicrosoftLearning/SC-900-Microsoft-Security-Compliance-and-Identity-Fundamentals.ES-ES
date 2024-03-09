@@ -1,8 +1,8 @@
-<!---
 ---
-Laboratorio: Título: "Explorar Privileged Identity Management". Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Describir las capacidades de de Microsoft Entra; Módulo 4: Describir las capacidades de gobernanza y protección de identidades de Microsoft Entra; Unidad 4: Describir las capacidades de Privileged Identity Management"
+lab:
+  title: Exploración de la administración de identidades con privilegios
+  module: Describe the identity protection and governance capabilities of Microsoft Entra
 ---
---->
 
 # Laboratorio: Explorar Privileged Identity Management
 

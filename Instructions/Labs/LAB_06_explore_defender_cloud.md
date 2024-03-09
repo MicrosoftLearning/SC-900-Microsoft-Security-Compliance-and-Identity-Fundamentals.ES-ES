@@ -1,8 +1,8 @@
-<!---
 ---
-Laboratorio: Título: "Explorar Microsoft Defender for Cloud" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de las soluciones de seguridad de Microsoft; Módulo 2: Descripción de las funcionalidades de administración de seguridad de Azure; Unidad 3: Descripción de Microsoft Defender for Cloud"
+lab:
+  title: "Exploración de Microsoft\_Defender for Cloud"
+  module: Describe the security management capabilities of Azure
 ---
---->
 
 # Laboratorio: Explorar Microsoft Defender for Cloud
 

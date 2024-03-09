@@ -1,8 +1,8 @@
-<!---
 ---
-Laboratorio: Ruta de aprendizaje: "Describir las capacidades de Microsoft Entra" Módulo: "Describir las capacidades de administración de acceso de Microsoft Entra ID" Unidad: "Descripción del acceso condicional"
+lab:
+  title: "Acceso condicional de Microsoft\_Entra"
+  module: Describe the access management capabilities of Microsoft Entra ID
 ---
---->
 
 # Laboratorio: Acceso condicional de Microsoft Entra
 

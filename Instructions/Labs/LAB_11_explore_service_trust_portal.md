@@ -1,8 +1,8 @@
-<!---
 ---
-Laboratorio: Título: "Exploración del portal de confianza del servicio" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft; Módulo 1: Descripción de las funcionalidades de administración de cumplimiento en Microsoft; Unidad 2: Exploración del portal de confianza del servicio"
+lab:
+  title: Exploración del Portal de confianza de servicios
+  module: Describe the compliance management capabilities at Microsoft
 ---
---->
 
 # Laboratorio: Explorar el Portal de confianza de servicios
 
