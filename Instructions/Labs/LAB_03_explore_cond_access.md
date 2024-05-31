@@ -43,7 +43,7 @@ En esta tarea, como administrador, restablecerá la contraseña del usuario Debr
 
 ### Tarea 2
 
-En esta tarea, aprenderá el proceso de creación de una directiva de acceso condicional en Azure AD.
+En esta tarea, recorrerá el proceso de creación de una directiva de acceso condicional en Microsoft Entra ID.
 
 1. Abra una nueva pestaña del explorador con la página principal del Centro de administración de Microsoft Entra.   Si ya había cerrado esta pestaña del explorador, abra Microsoft Edge, escriba **https://entra.microsoft.com** en la barra de direcciones y, luego, inicie sesión con las credenciales de administrador de Microsoft 365.
 
