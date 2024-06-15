@@ -43,7 +43,7 @@ En esta tarea, como administrador, restablecerá la contraseña del usuario Dieg
 
 ### Tarea 2
 
-En esta tarea, como administrador, asignará a Diego un rol de Azure AD en Privileged Identity Management.
+En esta tarea, como administrador, asignará a Diego un rol de Microsoft Entra ID en Privileged Identity Management.
 
 1. Abra una pestaña del explorador con la página principal del Centro de administración de Microsoft Entra.
 
@@ -108,9 +108,9 @@ En esta tarea, iniciará sesión en Centro de administración Microsoft Entra co
 1. Se le preguntará si quiere mantener la sesión iniciada.  Seleccione **Sí**.
 1. Aparecerá la ventana Activar administrador de usuarios.  Se le solicitará que escriba el motivo de la activación.  En el cuadro que aparece, escriba cualquier motivo que desee (máximo de 500 caracteres) y seleccione **Activar**.
 1. Verá el estado (tres etapas del progreso), mientras se procesa la activación.
-1. Una vez completada la activación, volverá a abrirse la página Mis roles | Roles de Azure AD, donde verá una notificación que indica que ha activado un rol.  Seleccione **Haga clic aquí** para ver los roles activos.  Si observa que la hora de finalización es diferente de la configurada originalmente, seleccione Actualizar en la parte superior de la página (puede tardar unos minutos en actualizarse).
+1. Una vez completada la activación, volverá a abrirse la página Mis roles | Roles de Microsoft Entra ID, donde verá una notificación que indica que ha activado un rol.  Seleccione **Haga clic aquí** para ver los roles activos.  Si observa que la hora de finalización es diferente de la configurada originalmente, seleccione Actualizar en la parte superior de la página (puede tardar unos minutos en actualizarse).
 1. Para volver a la página principal del Centro de administración de Microsoft Entra, seleccione **Inicio** en el panel de navegación izquierdo. 
-1. Como administrador de usuarios de Azure AD, puede crear usuarios y grupos, administrar licencias, etc. En el panel de navegación izquierdo, expanda **Identidad**, seleccione **Usuarios** y luego seleccione **Todos los usuarios**.
+1. Como administrador de usuarios de Microsoft Entra ID puede crear usuarios y grupos, administrar licencias y mucho más. En el panel de navegación izquierdo, expanda **Identidad**, seleccione **Usuarios** y luego seleccione **Todos los usuarios**.
 1. En la lista de usuarios, seleccione **Bianca Pisani**.
 1. En el panel de navegación izquierdo, seleccione **Licencias**.
 1. Fíjese en que Bianca no tiene ninguna licencia asignada.  En la parte superior de la página, seleccione **Asignaciones**.
@@ -122,4 +122,4 @@ En esta tarea, iniciará sesión en Centro de administración Microsoft Entra co
 
 ### Revisar
 
-En este laboratorio exploró la PIM.  Como administrador, configuró al usuario Diego con privilegios de administrador de usuarios durante un período de tiempo especificado.  A continuación, como Diego, recorrió el proceso de activación de los privilegios de administrador de usuarios y la configuración de las opciones de usuario.  Recuerde que PIM requiere licencias de Azure AD Premium P2.
+En este laboratorio exploró la PIM.  Como administrador, configuró al usuario Diego con privilegios de administrador de usuarios durante un período de tiempo especificado.  A continuación, como Diego, recorrió el proceso de activación de los privilegios de administrador de usuarios y la configuración de las opciones de usuario.  Recuerde que la PIM requiere una licencia de Microsoft Entra ID Premium P2.
