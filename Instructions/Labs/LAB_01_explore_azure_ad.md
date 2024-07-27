@@ -79,7 +79,7 @@ Como suscriptor de Microsoft 365, ya usa Microsoft Entra ID (anteriormente denom
 
     1. Para agregar una licencia seleccione **+ Asignaciones** de la parte superior de la ventana principal.
 
-    1. En Seleccionar licencias, seleccione **Office 365 E3** y **Windows 10/11 Enterprise E3** y luego seleccione el botón **Guardar** en la parte inferior de la pantalla. Una notificación en la esquina superior derecha de la pantalla debería mostrar que las asignaciones de licencias se realizaron correctamente.
+    1. En Seleccionar licencias, selecciona **Microsoft Power Apps para desarrolladores** y **Microsoft Power Automate gratis** y después selecciona el botón **Guardar** en la parte inferior de la pantalla. Una notificación en la esquina superior derecha de la pantalla debería mostrar que las asignaciones de licencias se realizaron correctamente.
 
     1. Seleccione la **X** de la parte superior derecha de la pantalla para cerrar la ventana Asignaciones de licencias.
 
@@ -106,7 +106,7 @@ En esta tarea, iniciará sesión como Sara Pérez por primera vez.
 
 6. En el campo Nueva contraseña, escriba una nueva contraseña, confírmela y seleccione **Iniciar sesión**.  Anote la contraseña nueva, ya que la necesitará para el ejercicio de laboratorio posterior en SSPR.
 
-7. Ahora debería haber iniciado sesión correctamente en Microsoft 365.
+7. Ahora deberías haber iniciado sesión en la cuenta Microsoft de Sara.  Ten en cuenta que las licencias de Sara que has asignado en la tarea anterior solo se limitaban a Power Automate gratis y Power Apps para desarrolladores y no incluían las licencias de E5.
 
 8. Cierre la sesión seleccionando el icono en la esquina superior derecha de la ventana de Microsoft 365 que se muestra como un círculo con las letras SP (junto al icono de signo de interrogación) y, a continuación, seleccione **Cerrar sesión** y, después, cierre el explorador.
 

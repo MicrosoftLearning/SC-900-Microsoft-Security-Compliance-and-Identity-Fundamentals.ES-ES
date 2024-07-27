@@ -114,7 +114,7 @@ En esta tarea, iniciará sesión en Centro de administración Microsoft Entra co
 1. En la lista de usuarios, seleccione **Bianca Pisani**.
 1. En el panel de navegación izquierdo, seleccione **Licencias**.
 1. Fíjese en que Bianca no tiene ninguna licencia asignada.  En la parte superior de la página, seleccione **Asignaciones**.
-1. En la lista Seleccionar licencias, seleccione **Office 365 E3** y **Windows 10 Enterprise E3**.
+1. En la lista Seleccionar licencias, selecciona **Microsoft Power Apps para desarrolladores** y **Microsoft Power Automate gratis**.
 1. En la parte inferior de la página, seleccione **Guardar**.  Verá una breve notificación en la parte superior derecha de la página que indica que las licencias se asignaron correctamente.
 1. Salga de la página de asignaciones de licencias actualizada, para ello, seleccione la **X** de la esquina superior derecha de la página.
 1. Para cerrar la sesión seleccione el icono de usuario junto a la dirección de correo electrónico en la esquina superior derecha de la pantalla y seleccione **Cerrar sesión**. A continuación, cierre todas las ventanas del navegador.

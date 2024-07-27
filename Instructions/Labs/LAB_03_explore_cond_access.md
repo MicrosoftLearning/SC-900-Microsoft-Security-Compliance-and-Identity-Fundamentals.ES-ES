@@ -67,7 +67,7 @@ En esta tarea, recorrerá el proceso de creación de una directiva de acceso con
 
 1. En el campo debajo de donde dice**Seleccionar lo que se aplica a esta directiva**, seleccione la flecha hacia abajo y anote las opciones disponibles.  Mantenga la configuración predeterminada, **Aplicaciones en la nube**.  Asegúrese de que la pestaña **Incluir** está subrayada.  Seleccione **Seleccionar aplicaciones** y, después, debajo de donde dice **Seleccionar**, seleccione **Ninguna**.  Se abre la ventana para seleccionar aplicaciones en la nube.
 
-1. En la barra de búsqueda, escriba **Azure**.  Desde los resultados de la búsqueda que aparecen en el cuadro de búsqueda, seleccione **Microsoft Admin Portals** y presione **Seleccionar** en la parte inferior de la página.  Observe la advertencia.  
+1. Selecciona **Portales de administración de Microsoft** y después haz clic en **Seleccionar** en la parte inferior de la página.  Observe la advertencia.  
 
 1. En Condiciones, seleccione **0 condiciones seleccionadas**.  Observe las distintas opciones que puede configurar.  A través de la directiva, puede controlar el acceso de los usuarios en función de las señales de las condiciones, incluidas: riesgo de usuario, riesgo de inicio de sesión, plataforma de dispositivo, ubicación, aplicaciones cliente o filtro para dispositivos.  Explore estas opciones configurables, pero no establezca ninguna condición.
 
