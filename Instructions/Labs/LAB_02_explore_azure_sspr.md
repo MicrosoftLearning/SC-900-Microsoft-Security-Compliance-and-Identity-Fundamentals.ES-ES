@@ -41,15 +41,15 @@ En esta tarea, como administrador, verá algunas de las opciones de configuraci�
 
 1. En Número de métodos requeridos para el restablecimiento, seleccione **1**. Observe el cuadro de información de la pantalla.
 
-1. Fíjese en los distintos métodos disponibles para los usuarios.  **Correo electrónico** y **Teléfono móvil (solo SMS)** ya deberían estar marcados; si no es así, selecciónelos.
+1. Fíjese en los distintos métodos disponibles para los usuarios.  Las opciones **Correo electrónico** y **Teléfono móvil** ya deberían estar marcadas; si no es así, selecciónalas.
 
 1. En el panel de navegación izquierdo de Restablecimiento de contraseña, seleccione **Registro**.  
 
-1. Asegúrese de que la configuración Exigir a los usuarios que se registren al iniciar sesión sea **Sí**.  Deje el Número de días antes de que se solicite a los usuarios que vuelvan a confirmar su información de autenticación, en el valor predeterminado 180.   Fíjese en el cuadro de información de la página.
+1. Asegúrese de que la configuración Exigir a los usuarios que se registren al iniciar sesión sea **Sí**.  Deja el Número de días antes de que se solicite a los usuarios que vuelvan a confirmar su información de autenticación, en el valor predeterminado **180**.   Fíjese en el cuadro de información de la página.
 
 1. En el panel de navegación izquierdo de Restablecimiento de contraseña, seleccione **Notificaciones**.  
 
-1. Asegúrese de que la configuración Notificar a los usuarios sobre los restablecimientos de contraseña sea **Sí**.  Deje la configuración de Notificar a todos los administradores cuando otros administradores restablezcan su contraseña en No.
+1. Asegúrese de que la configuración Notificar a los usuarios sobre los restablecimientos de contraseña sea **Sí**.  Deja la configuración de Notificar a todos los administradores cuando otros administradores restablezcan su contraseña en **No**.
 
 1. Observe cómo el panel de navegación Restablecimiento de contraseña también incluye opciones para ver los registros de auditoría y Usage & insights (Uso e información).
 
@@ -85,10 +85,10 @@ En esta tarea, como usuario Sara Perez, realizará el registro para el autoservi
 
 1. Aparecerá un elemento emergente que indica que se requiere más información.  Esto se debe a que, como miembro del grupo SSPRSecurityGroupUsers, la configuración requiere que sus miembros se registren cuando inician sesión.  Haga clic en el botón **Siguiente**.  Nota: Una alternativa a hacer que los usuarios realicen el registro es que los administradores configuren directamente los métodos de autenticación cuando agregan un usuario. Esto requiere que los administradores conozcan y establezcan los números de teléfono y las direcciones de correo electrónico que utilizan los usuarios para realizar el autoservicio de restablecimiento de contraseña, y para restablecer la contraseña de un usuario.
 
-1. Se abre la página "Mantenga su cuenta segura".  La ventana que aparece es para el método de Microsoft Authenticator que requiere la aplicación del autenticador.  En este laboratorio, usaremos un método diferente para evitar el paso de tener que descargar la aplicación.  Selecciona **Quiero usar otro método**.
-    1. En la ventana emergente que aparece, selecciona la flecha desplegable y elige **Teléfono**, después selecciona **Confirmar**.
+1. Se abre la página "Mantenga su cuenta segura".  La ventana que aparece es para el método de Teléfono.
     1. Se le solicita que escriba un número de teléfono. Asegúrate de que la opción **Recibir un código** esté habilitada.   Introduce el número de teléfono donde puedes recibir el código y selecciona **Siguiente**.  
-    1. Se abrirá una nueva ventana que indica que se ha enviado un código al teléfono que escribió.  Escriba el código que reciba y seleccione **Siguiente**. Se abre una ventana que indica que se ha vierificado el código. Selecciona **Siguiente** y después **Listo**.  
+    1. Se abrirá una nueva ventana que indica que se ha enviado un código al teléfono que escribió.  Escriba el código que reciba y seleccione **Siguiente**. Se abre una ventana que indica que se ha registrado el teléfono. Selecciona **Siguiente** y después **Listo**.  
+    1. Si, en su lugar, deseas usar el correo electrónico, selecciona **Quiero configurar un método diferente** y sigue los pasos. 
 
 1. Ahora puede completar el inicio de sesión. Si el tiempo de inicio de sesión expira, simplemente vuelva a escribir la contraseña.
 
