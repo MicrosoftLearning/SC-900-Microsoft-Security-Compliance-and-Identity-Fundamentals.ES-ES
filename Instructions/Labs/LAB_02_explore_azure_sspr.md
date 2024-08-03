@@ -41,15 +41,15 @@ En esta tarea, como administrador, verá algunas de las opciones de configuraci�
 
 1. En Número de métodos requeridos para el restablecimiento, seleccione **1**. Observe el cuadro de información de la pantalla.
 
-1. Fíjese en los distintos métodos disponibles para los usuarios.  **Correo electrónico** y **Teléfono móvil (solo SMS)** ya deberían estar marcados; si no es así, selecciónelos.
+1. Fíjese en los distintos métodos disponibles para los usuarios.  Las opciones **Correo electrónico** y **Teléfono móvil** ya deberían estar marcadas; si no es así, selecciónalas.
 
 1. En el panel de navegación izquierdo de Restablecimiento de contraseña, seleccione **Registro**.  
 
-1. Asegúrese de que la configuración Exigir a los usuarios que se registren al iniciar sesión sea **Sí**.  Deje el Número de días antes de que se solicite a los usuarios que vuelvan a confirmar su información de autenticación, en el valor predeterminado 180.   Fíjese en el cuadro de información de la página.
+1. Asegúrese de que la configuración Exigir a los usuarios que se registren al iniciar sesión sea **Sí**.  Deja el Número de días antes de que se solicite a los usuarios que vuelvan a confirmar su información de autenticación, en el valor predeterminado **180**.   Fíjese en el cuadro de información de la página.
 
 1. En el panel de navegación izquierdo de Restablecimiento de contraseña, seleccione **Notificaciones**.  
 
-1. Asegúrese de que la configuración Notificar a los usuarios sobre los restablecimientos de contraseña sea **Sí**.  Deje la configuración de Notificar a todos los administradores cuando otros administradores restablezcan su contraseña en No.
+1. Asegúrese de que la configuración Notificar a los usuarios sobre los restablecimientos de contraseña sea **Sí**.  Deja la configuración de Notificar a todos los administradores cuando otros administradores restablezcan su contraseña en **No**.
 
 1. Observe cómo el panel de navegación Restablecimiento de contraseña también incluye opciones para ver los registros de auditoría y Usage & insights (Uso e información).
 
@@ -77,7 +77,7 @@ En esta tarea, como administrador, agregará el usuario que creó en el ejercici
 
 ### Tarea 3
 
-En esta tarea, como usuario Sara Perez, realizará el registro para el autoservicio de restablecimiento de contraseña.  Esta tarea requiere que tenga acceso a un dispositivo móvil donde pueda recibir mensajes de texto o una cuenta de correo electrónico personal a la que pueda acceder
+En esta tarea, como usuario Sara Perez, realizará el registro para el autoservicio de restablecimiento de contraseña.  Esta tarea requiere que tengas acceso a un dispositivo móvil en el que puedas recibir mensajes de texto.
 
 1. Abra Microsoft Edge y, en la barra de direcciones, escriba **https://login.microsoft.com**.
 
@@ -85,8 +85,10 @@ En esta tarea, como usuario Sara Perez, realizará el registro para el autoservi
 
 1. Aparecerá un elemento emergente que indica que se requiere más información.  Esto se debe a que, como miembro del grupo SSPRSecurityGroupUsers, la configuración requiere que sus miembros se registren cuando inician sesión.  Haga clic en el botón **Siguiente**.  Nota: Una alternativa a hacer que los usuarios realicen el registro es que los administradores configuren directamente los métodos de autenticación cuando agregan un usuario. Esto requiere que los administradores conozcan y establezcan los números de teléfono y las direcciones de correo electrónico que utilizan los usuarios para realizar el autoservicio de restablecimiento de contraseña, y para restablecer la contraseña de un usuario.
 
-1. Se abre la página "Mantenga su cuenta segura".  La ventana que aparece es para el método de autenticación Teléfono, si no tiene un dispositivo móvil cerca que pueda recibir mensajes de texto, vaya al paso siguiente.  Se le solicita que escriba un número de teléfono. Asegúrese de que la opción **Enviar código mediante mensaje de texto** esté habilitada.   Escriba el número de teléfono donde puede recibir el código y seleccione el **botón Siguiente**.  Se abrirá una nueva ventana que indica que se ha enviado un código al teléfono que escribió.  Escriba el código que reciba y seleccione **Siguiente**. Se abrirá una ventana que indica Correcto y le mostrará el método de inicio de sesión predeterminado.  Seleccione **Listo**.  
-    1. También puede configurar un método diferente como se muestra en la parte inferior izquierda de la ventana.  Si elige configurar un método diferente, seleccione **Quiero configurar otro método**, aparecerá una ventana emergente que le pregunta ¿Qué método quiere usar?  En el menú desplegable, seleccione su método preferido, **Correo electrónico**, y luego seleccione el botón **Confirmar**.  Escriba el correo electrónico que desea usar y seleccione **Siguiente**.  Se abrirá una nueva ventana que indica que se ha enviado un código al correo electrónico que escribió.  Acceda al correo electrónico que escribió para obtener el código.  Escriba el código que reciba y seleccione **Siguiente**. Se abrirá una ventana que indica Correcto y le mostrará el método de inicio de sesión predeterminado.  Seleccione **Listo**.
+1. Se abre la página "Mantenga su cuenta segura".  La ventana que aparece es para el método de Teléfono.
+    1. Se le solicita que escriba un número de teléfono. Asegúrate de que la opción **Recibir un código** esté habilitada.   Introduce el número de teléfono donde puedes recibir el código y selecciona **Siguiente**.  
+    1. Se abrirá una nueva ventana que indica que se ha enviado un código al teléfono que escribió.  Escriba el código que reciba y seleccione **Siguiente**. Se abre una ventana que indica que se ha registrado el teléfono. Selecciona **Siguiente** y después **Listo**.  
+    1. Si, en su lugar, deseas usar el correo electrónico, selecciona **Quiero configurar un método diferente** y sigue los pasos. 
 
 1. Ahora puede completar el inicio de sesión. Si el tiempo de inicio de sesión expira, simplemente vuelva a escribir la contraseña.
 
@@ -108,7 +110,7 @@ En esta tarea, como usuario Sara Perez, realizará el proceso de restablecer la 
 
 1. En el cuadro vacío, escriba los caracteres que se muestran en la imagen o las palabras del audio. Cuando los haya escrito, seleccione **Siguiente**.
 
-1. En la pantalla se muestra Volver a la cuenta y también Paso 1 de la verificación > elija una nueva contraseña. Deje la configuración predeterminada **Enviar mensaje de texto a mi teléfono móvil**.  Se le solicitará que escriba su número de teléfono.  Cuando lo haya escrito, seleccione el **botón Texto**.  Si durante el registro seleccionó el correo electrónico, la ventana Volver a su cuenta indicará que recibirá un correo electrónico con un código de verificación en su dirección de correo electrónico alternativa.  Seleccione **Correo electrónico**.
+1. En la pantalla se muestra Volver a la cuenta y también Paso 1 de la verificación > elija una nueva contraseña. Deje la configuración predeterminada **Enviar mensaje de texto a mi teléfono móvil**.  Se le solicitará que escriba su número de teléfono.  Cuando lo haya escrito, seleccione el **botón Texto**. 
 
 1. Escriba el código de verificación y pulse **Siguiente**.
 
@@ -118,7 +120,7 @@ En esta tarea, como usuario Sara Perez, realizará el proceso de restablecer la 
 
 1. En el cuadro de información sobre la cuenta, seleccione **sara@WWLxZZZZZZ.onmicrosoft.com**, escriba su contraseña nueva y, luego, seleccione el botón **Iniciar sesión**.  Si se le pregunta si desea mantener la sesión iniciada, seleccione **No**.
 
-1. Ahora debería estar en el Portal de Office.
+1. Ahora deberías iniciar sesión en la cuenta Microsoft de Sara.
 
 1. Para cerrar la sesión seleccione el icono de usuario junto a la dirección de correo electrónico en la esquina superior derecha de la pantalla y seleccione **Cerrar sesión**. A continuación, cierre todas las ventanas del navegador.
 
