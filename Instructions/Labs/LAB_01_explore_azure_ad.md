@@ -14,102 +14,107 @@ Este laboratorio está orientado al siguiente contenido de Learn:
 
 ## Escenario del laboratorio
 
-En este laboratorio, accederá a Microsoft Entra ID (anteriormente denominado Azure Active Directory).  Además, creará un usuario y establecerá la configuración, que incluye agregar licencias.  
+En este laboratorio, accederás a Microsoft Entra ID (anteriormente denominado Azure Active Directory).  Además, crearás un usuario y establecerás la configuración, que incluye agregar licencias.  
 
 **Tiempo estimado**: 10-15 minutos
 
 ### Tarea 1
 
-Como suscriptor de Microsoft 365, ya usa Microsoft Entra ID (anteriormente denominado Azure AD).  En esta tarea, aprenderá a crear un nuevo usuario en Microsoft Entra ID y a explorar algunos de los servicios que se pueden administrar a nivel de usuario.
+Como suscriptor de Microsoft 365, ya usas Microsoft Entra ID (anteriormente denominado Azure AD).  En esta tarea, aprenderás a crear un nuevo usuario en Microsoft Entra ID y a explorar algunos de los servicios que se pueden administrar a nivel de usuario.
 
-1. Abra el explorador Microsoft Edge. En la barra de direcciones, escriba **[admin.microsoft.com](https://admin.microsoft.com)** e inicie sesión con las credenciales de Microsoft 365 proporcionadas por el host de laboratorio autorizado (ALH).
-    1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es su Id. de inquilino único proporcionado por el ALH) y seleccione **Siguiente**.
-    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
-    1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
+1. Abre el explorador Microsoft Edge. En la barra de direcciones, escribe **[admin.microsoft.com](https://admin.microsoft.com)** e inicia sesión con las credenciales de Microsoft 365 proporcionadas por el host de laboratorio autorizado (ALH).
+    1. En la ventana de inicio de sesión, escribe **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es tu id. de inquilino único proporcionado por el ALH) y selecciona **Siguiente**.
+    1. Escribe la contraseña de administrador que debería haberte proporcionado tu proveedor de servicios de hospedaje de laboratorios. Selecciona **Iniciar sesión**.
+    1. Cuando aparezca un mensaje para preguntarte si quieres mantener la sesión iniciada, selecciona **Sí**.
 
-1. En Centros de administración, seleccione **Identidad** (puede que se tenga que seleccionar **Mostrar todo** y desplazarse hacia abajo).  Se abre una nueva página del explorador con la página de información general del Centro de administración de Microsoft Entra. Aquí se muestra información básica sobre el inquilino Contoso. Si se desplaza hacia abajo en la ventana principal, también verá información sobre las alertas, mi fuente, aspectos destacados de las características, etc.
+1. En Centros de administración, selecciona **Identidad** (puede que tengas que seleccionar **Mostrar todo** y desplazarte hacia abajo).  Se abre una nueva página del explorador con la página de información general del Centro de administración Microsoft Entra.
 
-1. En el panel de navegación izquierdo, expanda **Usuarios** y seleccione **Todos los usuarios**. Tenga en cuenta que su inquilino ya está configurado con usuarios.
+1. En el panel de navegación izquierdo, expande **Usuarios** y selecciona **Todos los usuarios**. Ten en cuenta que tu inquilino ya está configurado con usuarios.
 
-1. En la parte superior de la página, seleccione **+ Nuevo usuario** y, después, en el cuadro desplegable, seleccione **Crear nuevo usuario**.
+1. En la parte superior de la página, selecciona **+ Nuevo usuario** y, después, en el cuadro desplegable, selecciona **Crear nuevo usuario**.
 
-1. Ahora está en la pestaña **Datos básicos** de la página Crear nuevo usuario. Rellenelos campos como se indica a continuación:
+1. Ahora estás en la pestaña **Datos básicos** de la página Crear nuevo usuario. Rellena los campos como se indica a continuación:
     1. Nombre principal de usuario: **sara**.
 
-    1. Alias de correo: deje el valor predeterminado, que se establece para derivar del nombre principal de usuario.
+    1. Alias de correo: deja el valor predeterminado, que se establece para derivar del nombre principal de usuario.
 
     1. Nombre para mostrar: **Sara Perez**.
 
-    1. Contraseña: desactive la casilla que dice "Generar automáticamente la contraseña", escriba una contraseña temporal que cumpla los requisitos y tome nota de ella, ya que la necesitará para completar la tarea posterior.
+    1. Contraseña: desactiva la casilla que dice "Generar automáticamente la contraseña", escribe una contraseña temporal que cumpla los requisitos y toma nota de ella, ya que la necesitarás para completar la tarea posterior.
 
-    1. Cuenta habilitada: deje la marca de verificación para asegurarse de que la cuenta está habilitada.
+    1. Cuenta habilitada: deja la marca de verificación para asegurarte de que la cuenta está habilitada.
 
-    1. En la parte inferior de la página, seleccione **Siguiente: Propiedades**.
+    1. En la parte inferior de la página, selecciona **Siguiente: Propiedades**.
 
-1. Aquí configurará algunos de los campos de la pestaña **Propiedades**.
+1. Aquí configurarás algunos de los campos de la pestaña **Propiedades**.
 
     1. Nombre: Sara
 
     1. Apellidos: Perez
 
-    1. Tipos de usuario: deje el valor predeterminado **Miembro**, pero tenga en cuenta que en la lista desplegable tiene la opción de seleccionar Invitado.
+    1. Tipos de usuario: deja el valor predeterminado **Miembro**, pero ten en cuenta que en la lista desplegable tienes la opción de seleccionar Invitado.
 
-    1. Ubicación de uso: elija el país o la región donde se encuentra.  Tenga en cuenta que para llegar al campo de ubicación de uso, deberá desplazarse hacia abajo en la página, ya que es el último campo de la página.  **NOTA**: si no lo hace, no podrá asignar una licencia en un paso posterior.
+    1. Ubicación de uso: elige el país o la región donde se encuentra.  Ten en cuenta que para llegar al campo de ubicación de uso, deberás desplazarte hacia abajo en la página, ya que es el último campo de la página.  **NOTA**: si no lo haces, no podrás asignar una licencia en un paso posterior.
 
-    1. Seleccione **Siguiente: Asignaciones**.
+    1. Selecciona **Siguiente: Asignaciones**.
 
-1. Ahora está en la pestaña **Asignaciones** donde agrega una asignación de grupo y ve las opciones disponibles para agregar un rol.
+1. Ahora estás en la pestaña **Asignaciones** donde agregas una asignación de grupo y mira las opciones disponibles para agregar un rol.
 
-    1. Seleccione **Agregar grupo**.
+    1. Selecciona **Agregar grupo**.
 
     1. La ventana que se abre muestra todos los grupos disponibles.  
 
-    1. Observe la lista de todos los grupos disponibles.  Seleccione **Operaciones** de la lista.  En la parte inferior de la página, seleccione el botón **Seleccionar**.  Puede tardar unos segundos, pero debería ver la presentación del grupo de operaciones en la página de asignaciones.
+    1. Observa la lista de todos los grupos disponibles.  Selecciona **Operaciones** de la lista.  En la parte inferior de la página, selecciona el botón **Seleccionar**.  Puedes tardar unos segundos, pero deberías ver la presentación del grupo de operaciones en la página de asignaciones.
 
-    1. En la parte superior de la página, seleccione **Agregar rol**.  Se abre una ventana que muestra todos los roles de directorio disponibles.  Vea las opciones disponibles, pero no agregue ningún rol nuevo.  Cierre esta página, para hacerlo, seleccione la **X** de la esquina superior derecha de la página.
-    1. En la parte inferior de la página, seleccione **Revisar y crear**. Se mostrará un resumen de la configuración.  En la parte inferior de la página, seleccione **Crear**.
+    1. En la parte superior de la página, selecciona **+ Agregar rol**.  Se abre una ventana que muestra todos los roles de directorio disponibles.  Mira las opciones disponibles, pero no agregues ningún rol nuevo.  Cierra esta página, para hacerlo, selecciona la **X** de la esquina superior derecha de la página.
+    1. En la parte inferior de la página, selecciona **Revisar y crear**. Se mostrará un resumen de la configuración.  En la parte inferior de la página, selecciona **Crear**.
 
-1. Volverá a la página Usuarios.  Después de unos segundos, Sara Perez estará en la lista.  Es posible que tenga que seleccionar el icono **Actualizar** de la parte superior de la página.
+1. Volverás a la página Usuarios.  Después de unos segundos, Sara Perez estará en la lista.  Es posible que tengas que seleccionar el icono **Actualizar** de la parte superior de la página.
 
-1. En la lista de usuarios seleccione el usuario que acaba de crear, **Sara Perez**.  Se abre la página **Información general**.
+1. En la lista de usuarios selecciona el usuario que acabas de crear, **Sara Perez**.  Se abre la página **Información general**.
 
-1. En el panel de navegación izquierdo se muestran las distintas opciones que se pueden configurar para el usuario. Vea la opciones disponibles.
+1. En el panel de navegación izquierdo se muestran las distintas opciones que se pueden configurar para el usuario. Mira la opciones disponibles.
 
-1. En el panel de navegación izquierdo, seleccione **Licencias**.  Observe que no se encuentran asignaciones de licencias para este usuario.  NOTA: Las licencias solo se pueden asignar si se configuró una ubicación de uso. Si no estableció la ubicación de uso, vuelva a ese paso de la tarea anterior.
-
-    1. Para agregar una licencia seleccione **+ Asignaciones** de la parte superior de la ventana principal.
-
-    1. En Seleccionar licencias, selecciona **Microsoft Power Apps para desarrolladores** y **Microsoft Power Automate gratis** y después selecciona el botón **Guardar** en la parte inferior de la pantalla. Una notificación en la esquina superior derecha de la pantalla debería mostrar que las asignaciones de licencias se realizaron correctamente.
-
-    1. Seleccione la **X** de la parte superior derecha de la pantalla para cerrar la ventana Asignaciones de licencias.
-
-    1. Seleccione el **icono Actualizar** en la parte superior de la página para confirmar las asignaciones de licencias.
-
-1. Vuelva al Centro de administración de Microsoft Entra, para hacerlo, seleccione **Inicio** en el panel de navegación izquierdo o en la parte superior izquierda de la pantalla (la ruta de navegación), encima de donde dice Sara Perez | Licencias.
-
-1. Creó y configurado correctamente un usuario en Microsoft Entra ID.
-
-1. Cierre la sesión de todas las pestañas abiertas del explorador. Para cerrar la sesión, seleccione el icono de usuario junto a la dirección de correo electrónico en la esquina superior derecha de la pantalla y seleccione **Cerrar sesión**. Cierre todas las ventanas del navegador.
+1. En el panel de navegación izquierdo, selecciona **Licencias**.  Ten en cuenta que no se encuentran asignaciones de licencias para este usuario, observa también el icono de advertencia que indica que "Agregar, quitar y volver a procesar asignaciones de licencias solo está disponible en el Centro de administración de M365".  Lo harás en la tarea siguiente.  NOTA: las licencias solo se pueden asignar si se configuró una ubicación de uso. Si no estableciste la ubicación de uso, vuelve a ese paso ahora.
 
 ### Tarea 2
 
-En esta tarea, iniciará sesión como Sara Pérez por primera vez.
+En esta tarea, asignarás una licencia al usuario que acabas de crear mediante el Centro de administración de Microsoft 365.
 
-1. Abrir Microsoft Edge.
+1. Abre la pestaña del explorador **Inicio - Centro de administración de Microsoft 365**.
 
-2. En la barra de direcciones, escriba **https://login.microsoft.com**.
+1. En el panel de navegación izquierdo, en usuarios, selecciona **Usuarios activos**.  En la lista de usuarios, selecciona **Sara Perez**.  Se abre una ventana que muestra información sobre el usuario.  
 
-3. Inicie sesión como **sara@WWLxZZZZZ.onmicrosoft.com**, (donde ZZZZZZ es el Id. de inquilino único proporcionado por el ALH)
-4. Escriba la contraseña temporal que configuró en la tarea anterior.
+    1. Selecciona la pestaña **Licencias y aplicaciones**.
+    1. Para cada una de las licencias enumeradas, verás el número de licencias disponibles.  Puesto que no hay licencias disponibles de Microsoft 365 E5 (ya se han asignado a otros usuarios), asigna las licencias de **Microsoft Power Apps Developer** y **Microsoft Power Automate Free** activando la casilla situada junto a ellas.
+    1. Selecciona **Guardar cambios**. Una notificación en la esquina superior derecha de la pantalla debería mostrar que las asignaciones de licencias se realizaron correctamente.
+    1. Cierra la página seleccionando la **X** en la esquina superior derecha de la página.
 
-5. Se le pedirá que actualice su contraseña. En el campo Contraseña actual, escriba la contraseña temporal de la tarea anterior.
+1. Vuelve al Centro de administración Microsoft Entra, para hacerlo, selecciona **Inicio** en el panel de navegación izquierdo o en la parte superior izquierda de la pantalla (la ruta de navegación), encima de donde dice Sara Perez | Licencias.
 
-6. En el campo Nueva contraseña, escriba una nueva contraseña, confírmela y seleccione **Iniciar sesión**.  Anote la contraseña nueva, ya que la necesitará para el ejercicio de laboratorio posterior en SSPR.
+1. Has asignado correctamente las licencias al usuario.
+
+1. Cierra la sesión de todas las pestañas abiertas del explorador. Para cerrar la sesión, selecciona el icono de usuario junto a la dirección de correo electrónico en la esquina superior derecha de la pantalla y selecciona **Cerrar sesión**. Cierra todas las ventanas del explorador.
+
+### Tarea 3
+
+En esta tarea, iniciarás sesión como Sara Pérez por primera vez.
+
+1. Abre Microsoft Edge.
+
+2. En la barra de direcciones, escribe **https://login.microsoft.com**.
+
+3. Inicia sesión como **sara@WWLxZZZZZ.onmicrosoft.com**, (donde ZZZZZZ es el Id. de inquilino único proporcionado por el ALH)
+4. Escribe la contraseña temporal que configuraste en la tarea anterior.
+
+5. Se te pedirá que actualices tu contraseña. En el campo Contraseña actual, escribe la contraseña temporal de la tarea anterior.
+
+6. En el campo Nueva contraseña, escribe una nueva contraseña, confírmala y selecciona **Iniciar sesión**.  Anota la contraseña nueva, ya que la necesitarás para el ejercicio de laboratorio posterior en SSPR.
 
 7. Ahora deberías haber iniciado sesión en la cuenta Microsoft de Sara.  Ten en cuenta que las licencias de Sara que has asignado en la tarea anterior solo se limitaban a Power Automate gratis y Power Apps para desarrolladores y no incluían las licencias de E5.
 
-8. Cierre la sesión seleccionando el icono en la esquina superior derecha de la ventana de Microsoft 365 que se muestra como un círculo con las letras SP (junto al icono de signo de interrogación) y, a continuación, seleccione **Cerrar sesión** y, después, cierre el explorador.
+8. Cierra la sesión seleccionando el icono en la esquina superior derecha de la ventana de Microsoft 365 que se muestra como un círculo con las letras SP (junto al icono de signo de interrogación) y, a continuación, selecciona **Cerrar sesión** y, después, cierra el explorador.
 
 ### Revisar
 
-En este laboratorio, ha empezado su exploración inicial de Microsoft Entra ID. Como los suscriptores de Microsoft 365 utilizan automáticamente Microsoft Entra ID, ha comprobado que puede acceder a las características y servicios de Microsoft Entra ID desde el portal de administración de Microsoft 365 o Azure Portal.  Sea cual sea el enfoque que prefiera para llegar al mismo lugar.  También aprendió el proceso de creación de un nuevo usuario y las configuraciones diferentes que se pueden establecer, incluidos los grupos a los que se puede asignar el usuario, la disponibilidad de roles y la asignación de licencias de usuario.
+En este laboratorio, has empezado la exploración inicial de Microsoft Entra ID. Como los suscriptores de Microsoft 365 utilizan automáticamente Microsoft Entra ID, has comprobado que puedes acceder a las características y servicios de Microsoft Entra ID desde el portal de administración de Microsoft 365 o Azure Portal.  Sea cual sea el enfoque que prefieras para llegar al mismo lugar.  También aprendiste el proceso de creación de un nuevo usuario y las configuraciones diferentes que se pueden establecer, incluidos los grupos a los que se puede asignar el usuario, la disponibilidad de roles y la asignación de licencias de usuario.
