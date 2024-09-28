@@ -1,6 +1,6 @@
 <!---
 ---
-Demo: Título: "Explorar el flujo de trabajo de eDiscovery (estándar)" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las capacidades de cumplimiento de Microsoft; Módulo 5: Descripción de las capacidades de eDiscovery y de auditoría de Microsoft Purview; Unidad 2: Descripción de las soluciones de eDiscovery en Microsoft 365"
+Demo: Título: "Exploración del flujo de trabajo de eDiscovery" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de Microsoft Priva y Microsoft Purview; Módulo 3: Descripción de las soluciones de cumplimiento de datos de Microsoft Purview; Unidad 2: Descripción de eDiscovery"
 ---
 --->
 
@@ -8,38 +8,34 @@ Demo: Título: "Explorar el flujo de trabajo de eDiscovery (estándar)" Ruta de 
 
 Esta demostración está orientada al siguiente contenido de Learn:
 
-- Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft
-- Módulo: Descripción de las funcionalidades de eDiscovery y de auditoría de Microsoft Purview
-- Unidad: Describir las soluciones de eDiscovery de Microsoft Purview
+- Ruta de aprendizaje: Descripción de las funcionalidades de Microsoft Priva y Microsoft Purview
+- Módulo: Descripción de las soluciones de cumplimiento de datos de Microsoft Purview
+- Unidad: Descripción de eDiscovery
 
 ## Supuesto de demostración
 
-En esta demo, explorará los pasos necesarios para configurar eDiscovery, incluida la configuración de permisos de rol, la creación de un caso de eDiscovery, la creación de una suspensión de eDiscovery y la creación de una consulta de búsqueda.  nota: Las licencias para eDiscovery (Estándar) requieren la suscripción de organización y las licencias por usuario adecuadas. Si no sabe con seguridad cuáles son las licencias compatibles con eDiscovery (Standard), visite [Introducción a eDiscovery (Standard) en Microsoft Purview](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide).
+En esta demo, explorará los pasos necesarios para configurar eDiscovery, incluida la configuración de permisos de rol, la creación de un caso de eDiscovery, la creación de una suspensión de eDiscovery y la creación de una consulta de búsqueda.  NOTA: En el portal de Microsoft Purview, las actualizaciones de la interfaz de usuario se están implementando gradualmente. Es posible que algunos inquilinos de laboratorio o demo aún no muestren la interfaz de usuario más reciente, por lo que todos los pasos del laboratorio se muestran con la interfaz de usuario clásica de eDiscovery.
 
 ### Demo, parte 1
 
 Para acceder a eDiscovery (Standard), o para que se le agregue como miembro de un caso de eDiscovery, el usuario debe tener asignados los permisos adecuados. En esta parte de la demostración, como administrador global, recorrerá el proceso de agregar usuarios específicos como miembros del grupo de roles de Supervisor de eDiscovery.
 
-1. Abra la pestaña del explorador para la página principal de Microsoft Purview.  Si la había cerrado, abra otra y escriba **https://admin.microsoft.com** . Inicie sesión con las credenciales de administrador para el inquilino de Microsoft 365 proporcionadas por el host de laboratorio autorizado (ALH). En el panel de navegación izquierdo del Centro de administración de Microsoft 365, seleccione **Mostrar todo** y luego seleccione **Cumplimiento**.  Se abrirá una nueva página del explorador con la página principal del portal de cumplimiento de Microsoft Purview.  
-
-1. En el panel de navegación izquierdo, expanda (seleccione la flecha hacia abajo) **Roles y ámbitos** y, a continuación, seleccione **Permisos**.
-
-1. En Soluciones de Microsoft Purview, seleccione **Roles**.
-
-1. En el campo de búsqueda, escriba **eDiscovery** y seleccione el icono de búsqueda (la lupa).  Seleccione **Supervisor de eDiscovery**.  Fíjese en los roles del grupo de roles.
-
-1. Seleccione **Editar**.  Observe que hay dos subgrupos, Supervisor de eDiscovery y Administrador de eDiscovery.  
-    1. La página "Administrar Supervisor de eDiscovery" permite agregar usuarios al rol de administrador de eDiscovery. En esta demo, agregaremos miembros al subgrupo Administrador de eDiscovery, así que, seleccione **Siguiente**.
-    1. En la página "Administrar Administrador de eDiscovery", seleccione **Elegir usuarios** . Busque y seleccione **Administrador de MOD** y **Megan Bowen**, a continuación, pulse **Seleccionar** en la parte inferior de la página y,luego, seleccione **Siguiente** y **Guardar**.
-    1. En la página "Ha actualizado correctamente el grupo de roles", seleccione **Listo**.
+1. Abre la pestaña del explorador para **Microsoft Purview**. Si la cerraste, abre una pestaña del explorador y, en la barra de direcciones, escribe **https://purview.microsoft.com**. Para acceder al nuevo portal de Microsoft Purview, selecciona el cuadro situado junto a donde dice, **Acepto las condiciones de divulgación del flujo de datos y las Declaraciones de privacidad** y luego selecciona **Comenzar**.  
+1. En el panel de navegación de la izquierda, selecciona **Configuración**.
+1. En el panel de navegación que se abre, selecciona **Roles y ámbito** para expandir la opción y luego selecciona **Grupos de roles**.
+1. En el cuadro de búsqueda del lado derecho de la pantalla, busca el término **eDiscovery**.  Seleccione **Supervisor de eDiscovery**.
+    1. Seleccione **Editar**.
+    1. Selecciona **Elegir usuarios**.
+    1. Para buscar el administrador MOD, selecciona el cuadro situado junto a **Administrador MOD** y luego selecciona el botón **Seleccionar** situado en la parte inferior de la página.
+    1. Selecciona **Siguiente**, luego **Guardar** y, por último, **Listo**.
 
 1. Mantenga abierta esta pestaña del explorador.
 
 ### Demo, parte 2
 
-En esta parte, como administrador de eDiscovery (un administrador MOD es un administrador de eDiscovery), creará un caso para empezar a utilizar eDiscovery (Estándar).
+En esta parte crearás un caso para empezar a usar eDiscovery (Estándar).
 
-1. Debería seguir en la página Roles del portal de cumplimiento. En el panel de navegación izquierdo, debajo de Soluciones, seleccione **eDiscovery** y luego **Standard**.
+1. En el panel de navegación izquierdo, selecciona **Soluciones**, **eDiscovery** y luego **Casos estándar**.
 
 1. En la parte superior de la página eDiscovery (Standard), seleccione **+ Crear un caso**.
 
@@ -83,7 +79,7 @@ Ahora que la suspensión está lista, creará una consulta de búsqueda.  Una ve
 
 1. En el campo Nombre, escriba **Test Hold – Sales Search (Suspensión de prueba: Búsqueda de ventas)** y, a continuación, seleccione **Siguiente** en la parte inferior de la página.
 
-1. En la página Elegir ubicaciones, seleccione las **ubicaciones en espera** y anule la selección de **Agregar contenido de la aplicación para usuarios locales**, ya que el entorno de laboratorio no tiene usuarios locales. A continuación, seleccione **Siguiente**.
+1. En la página Elegir ubicaciones, selecciona las **ubicaciones en espera** y anula la selección de **Agregar contenido de la aplicación para usuarios locales**, ya que el entorno de laboratorio no tiene usuarios locales. Después, selecciona **Siguiente**.
 
 1. La página Condiciones de la consulta le permite crear una búsqueda basada en palabras clave específicas o en el cumplimiento de condiciones específicas. En el campo Teclado escriba **Sales (Ventas)** y seleccione **Siguiente**.
 
