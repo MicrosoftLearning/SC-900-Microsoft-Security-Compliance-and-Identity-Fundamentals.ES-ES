@@ -50,10 +50,10 @@ En esta tarea, creará un grupo de seguridad de red, asignará la interfaz de re
 1. En el centro de la página, seleccione el botón azul etiquetado **Crear grupo de seguridad de red**.  Como alternativa, puede seleccionar **+ Crear** en la parte superior de la página Grupos de seguridad de red.
 
 1. En la pestaña Datos básicos del página Crear grupo de seguridad de red, especifique la siguiente configuración:
-    1. Suscripción: deje el valor predeterminado (esta es la suscripción de Azure proporcionada por el host de laboratorio autorizado).
+    1. Suscripción: deja el valor predeterminado (esta es la suscripción de Azure proporcionada por el host de laboratorio autorizado).
     1. Grupo de recursos: **LabsSC900**
     1. Nombre: **NSG-SC900**
-    1. Región: deje el valor predeterminado.
+    1. Región: deja el valor predeterminado.
     1. Seleccione **Revisar y crear** y, luego, **Crear**.
 
 1. Una vez finalizada la implementación, seleccione **Ir al recurso**.
@@ -64,7 +64,7 @@ En esta tarea, creará un grupo de seguridad de red, asignará la interfaz de re
     1. Seleccione **Asociar**.
     2. En el campo para las asociaciones de interfaz de red, seleccione la **flecha desplegable**, seleccione **sc900-winvmXXX** y, a continuación, seleccione **Aceptar** en la parte inferior de la ventana. Una vez asociada la interfaz al NSG, aparecerá en la lista.  El grupo de seguridad de red ahora está asignado a la interfaz de red de la máquina virtual.
 
-1. Vuelva a la pestaña **SC900-WinWM: Microsoft Azure** del explorador.  Actualice la página. Al lado de donde dice Grupo de seguridad de red, ahora debería ver el nombre del NSG que acaba de crear.  Si aún no lo ve, espere otro minuto y vuelva a actualizar la página.
+1. Vuelve a la pestaña **SC900-WinWM: Microsoft Azure** del explorador.  Actualice la página. Al lado de donde dice Grupo de seguridad de red, ahora debería ver el nombre del NSG que acaba de crear.  Si aún no lo ve, espere otro minuto y vuelva a actualizar la página.
 
 1. En el panel de navegación izquierdo, seleccione **Conectar**. En la ventana principal, junto a donde se muestra el número de puerto 3389, seleccione **Comprobar acceso**. La función de comprobación de acceso envía señales (tráfico) al puerto RDP 3389 predeterminado de la máquina virtual para comprobar si es accesible. Puede tardar un minuto, pero verá No accesible.  Esto es lo esperado, porque la regla de NSG DenyAllInBound deniega todo el tráfico entrante a la máquina virtual.
 
