@@ -16,7 +16,7 @@ Este laboratorio está orientado al siguiente contenido de Learn:
 
 En este laboratorio, explorará la función de los grupos de seguridad de red en Azure.  Para ello, creará un grupo de seguridad de red (NSG) y asignará el NSG a la interfaz de una máquina virtual (VM) existente previamente.  Una vez completada la configuración, observará las reglas de entrada y salida predeterminadas, creará nuevas reglas y las probará.  En este laboratorio, la máquina virtual que usará con el grupo de seguridad de red se crea automáticamente, por lo que primero verá parte de la información asociada a esa máquina virtual.
   
-**Tiempo estimado**: 30-45 minutos
+**Tiempo estimado**: 45 minutos
 
 ### Tarea 1
 

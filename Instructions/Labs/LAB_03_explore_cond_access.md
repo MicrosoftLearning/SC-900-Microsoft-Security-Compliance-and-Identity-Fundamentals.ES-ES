@@ -24,7 +24,7 @@ En esta tarea, como administrador, restablecerá la contraseña del usuario Debr
 
 1. Abrir Microsoft Edge.  En la barra de direcciones, escriba **https://entra.microsoft.com** e inicie sesión con sus credenciales de administrador.
     1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es el id. de inquilino único proporcionado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
-    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
+    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Selecciona **Iniciar sesión**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
 
 1. En el panel de navegación izquierdo, expanda **Identidad** y **Users**, luego seleccione **Todos los usuarios**.
@@ -69,6 +69,8 @@ En esta tarea, recorrerá el proceso de creación de una directiva de acceso con
 
 1. Selecciona **Portales de administración de Microsoft** y después haz clic en **Seleccionar** en la parte inferior de la página.  Observe la advertencia.  
 
+1. En Red, selecciona **Cualquier red o ubicación**.  Revisa las opciones, pero no selecciones ninguna opción.
+
 1. En Condiciones, seleccione **0 condiciones seleccionadas**.  Observe las distintas opciones que puede configurar.  A través de la directiva, puede controlar el acceso de los usuarios en función de las señales de las condiciones, incluidas: riesgo de usuario, riesgo de inicio de sesión, plataforma de dispositivo, ubicación, aplicaciones cliente o filtro para dispositivos.  Explore estas opciones configurables, pero no establezca ninguna condición.
 
 1. Ahora se establecerán los controles de acceso.  En Conceder, seleccione **0 controles seleccionados**.
@@ -97,11 +99,18 @@ En esta tarea verá el impacto de la directiva de acceso condicional, desde la p
 
 1. En la ventana Mantener la cuenta segura, tiene la opción de seleccionar el método que se va a usar para la MFA.  Microsoft Authenticator es una opción. Para este laboratorio, elegirá un método diferente.  Seleccione **Quiero configurar otro método**  En la ventana emergente Elegir un método diferente, seleccione la **flecha desplegable** y seleccione **Teléfono**, a continuación, seleccione **Confirmar**.
 
-1. Se abrirá una nueva ventana, asegúrese de que su país o región está seleccionado, luego escriba el número de teléfono móvil que desea utilizar.  Asegúrese de que **Enviarme un código por mensaje de texto** esté seleccionado y luego presione **Siguiente**.  Recibirá un mensaje de texto en el teléfono con un código que deberá escribir donde dice escribir código.  Escriba el código que recibió y pulse **Siguiente**.  Una vez confirmado, la pantalla mostrará: "SMS verificado. El teléfono se ha registrado correctamente".  Seleccione **Siguiente**. Después, seleccione **Listo**.  esto completa el proceso de registro único.
+1. La ventana que aparece y los pasos que siguen son para el método de la aplicación Microsoft Authenticator. .
+    1. Si ya has instalado la aplicación Microsoft Authenticator en tu dispositivo móvil, selecciona **Siguiente**. De lo contrario, selecciona **Descargar ahora** y sigue los pasos.
+    1. Comenzarás a configurar tu cuenta.  Seleccione **Siguiente**.
+    1. Con la aplicación Microsoft Authenticator en el dispositivo móvil, selecciona **+** para agregar una cuenta y selecciona **Cuenta profesional o educativa**.
+    1. Selecciona la opción para **Escanear el código QR** y, a continuación, usa tu dispositivo móvil para escanear el código QR en la pantalla del equipo.
+    1. Con la aplicación Microsoft Authenticator de tu dispositivo móvil, escanea el código QR.
+    1. Sigue los pasos que aparecen en tu PC y dispositivo móvil y, después, selecciona **Siguiente**.
+    1. Una vez que hayas configurado la información de seguridad, verás una ventana de operación correcta.  Seleccione **Listo**.
 
 1. Ahora debería saber acceder a Azure Portal.  Azure Portal es un portal de administración de Microsoft, por lo tanto, requiere la autenticación multifactor según la directiva de acceso condicional que se creó.  
     1. Si recibe un mensaje que indique que su inicio de sesión finalizó, escriba la contraseña y seleccione **Iniciar sesión**.
-    1. Verá una ventana que requiere que verifique su identidad.  Seleccione donde dice Text =X XXXXXXX para recibir un código en el teléfono móvil, escriba el código y seleccione **Verificar**.
+    1. Verás una ventana que requiere que apruebes la solicitud de inicio de sesión.  Anota el número en tu PC y sigue las instrucciones de la aplicación Microsoft Authenticator.
     1. Si se le pregunta si desea mantener la sesión iniciada, seleccione **No**.
 
 1. Para cerrar la sesión seleccione el icono de usuario junto a la dirección de correo electrónico en la esquina superior derecha de la pantalla y seleccione Cerrar sesión. A continuación, cierre todas las ventanas del navegador.

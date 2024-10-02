@@ -22,7 +22,7 @@ Este laboratorio está orientado al siguiente contenido de Learn:
 
 En este laboratorio, como administrador, verá el proceso de agregar un usuario al grupo de seguridad SSPR, que ya está configurado en el inquilino de Microsoft 365. Cuando el SSPR esté habilitado, asumirá el rol de un usuario y pasará por el proceso de registrarse en el SSPR y también de restablecer su contraseña.  Por último, como administrador, podrá ver los registros de auditoría y los datos de uso e información de uso para SSPR.
 
-**Tiempo estimado**: 15-20 minutos
+**Tiempo estimado**: 30 minutos
 
 ### Tarea 1
 
@@ -30,7 +30,7 @@ En esta tarea, como administrador, verá algunas de las opciones de configuraci�
 
 1. Abra el explorador Microsoft Edge. En la barra de direcciones, escriba **https://entra.microsoft.com** e inicie sesión con las credenciales de administrador de Microsoft 365 proporcionadas por el host de laboratorio autorizado (ALH).
     1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es su Id. de inquilino único proporcionado por el ALH) y seleccione **Siguiente**.
-    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
+    1. Escribe la contraseña de administrador que debería haberte proporcionado tu proveedor de servicios de hospedaje de laboratorios. Selecciona **Iniciar sesión**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
 
 1. En el panel de navegación izquierdo, expanda la opción **Protección** y seleccione **Restablecimiento de contraseña**.  
@@ -77,7 +77,7 @@ En esta tarea, como administrador, agregará el usuario que creó en el ejercici
 
 ### Tarea 3
 
-En esta tarea, como usuario Sara Perez, realizará el registro para el autoservicio de restablecimiento de contraseña.  Esta tarea requiere que tengas acceso a un dispositivo móvil en el que puedas recibir mensajes de texto.
+En esta tarea, como usuario Sara Perez, realizará el registro para el autoservicio de restablecimiento de contraseña.
 
 1. Abra Microsoft Edge y, en la barra de direcciones, escriba **https://login.microsoft.com**.
 
@@ -85,10 +85,13 @@ En esta tarea, como usuario Sara Perez, realizará el registro para el autoservi
 
 1. Aparecerá un elemento emergente que indica que se requiere más información.  Esto se debe a que, como miembro del grupo SSPRSecurityGroupUsers, la configuración requiere que sus miembros se registren cuando inician sesión.  Haga clic en el botón **Siguiente**.  Nota: Una alternativa a hacer que los usuarios realicen el registro es que los administradores configuren directamente los métodos de autenticación cuando agregan un usuario. Esto requiere que los administradores conozcan y establezcan los números de teléfono y las direcciones de correo electrónico que utilizan los usuarios para realizar el autoservicio de restablecimiento de contraseña, y para restablecer la contraseña de un usuario.
 
-1. Se abre la página "Mantenga su cuenta segura".  La ventana que aparece es para el método de Teléfono.
-    1. Se le solicita que escriba un número de teléfono. Asegúrate de que la opción **Recibir un código** esté habilitada.   Introduce el número de teléfono donde puedes recibir el código y selecciona **Siguiente**.  
-    1. Se abrirá una nueva ventana que indica que se ha enviado un código al teléfono que escribió.  Escriba el código que reciba y seleccione **Siguiente**. Se abre una ventana que indica que se ha registrado el teléfono. Selecciona **Siguiente** y después **Listo**.  
-    1. Si, en su lugar, deseas usar el correo electrónico, selecciona **Quiero configurar un método diferente** y sigue los pasos. 
+1. Se abre la página "Mantenga su cuenta segura".  La ventana que aparece y los pasos que siguen son para el método de la aplicación Microsoft Authenticator. Si, en su lugar, deseas usar el correo electrónico, selecciona **Quiero configurar un método diferente** y sigue los pasos.
+    1. Si ya has instalado la aplicación Microsoft Authenticator en tu dispositivo móvil, selecciona **Siguiente**. De lo contrario, selecciona **Descargar ahora** y sigue los pasos.
+    1. Comenzarás a configurar tu cuenta.  Seleccione **Siguiente**.
+    1. Con la aplicación Microsoft Authenticator en el dispositivo móvil, selecciona **+** para agregar una cuenta y selecciona **Cuenta profesional o educativa**.
+    1. Selecciona la opción para **Escanear el código QR** y, a continuación, usa tu dispositivo móvil para escanear el código QR en la pantalla del equipo.
+    1. Sigue los pasos que aparecen en tu PC y dispositivo móvil y, después, selecciona **Siguiente**.
+    1. Una vez que hayas configurado la información de seguridad, verás una ventana de operación correcta.  Seleccione **Listo**.
 
 1. Ahora puede completar el inicio de sesión. Si el tiempo de inicio de sesión expira, simplemente vuelva a escribir la contraseña.
 
@@ -100,7 +103,7 @@ En esta tarea, como usuario Sara Perez, realizará el proceso de restablecer la 
 
 1. Abrir Microsoft Edge.
 
-1. En la barra de direcciones, escriba **https://login.microsoftonline.com**.
+1. En la barra de direcciones, escriba **https://login.microsoft.com**.
 
 1. Inicie sesión como Sara Perez, para hacerlo, escriba su correo electrónico **sara@WWLxZZZZ.onmicrosoft.com** (donde ZZZZZZ es su identificador de inquilino único que proporciona su proveedor de hospedaje de laboratorio) y seleccione el botón **Siguiente**. Como alternativa, quizá vea la ventana Elegir una cuenta abierta, si es así, seleccione la cuenta de Sara Perez.
 
@@ -110,9 +113,9 @@ En esta tarea, como usuario Sara Perez, realizará el proceso de restablecer la 
 
 1. En el cuadro vacío, escriba los caracteres que se muestran en la imagen o las palabras del audio. Cuando los haya escrito, seleccione **Siguiente**.
 
-1. En la pantalla se muestra Volver a la cuenta y también Paso 1 de la verificación > elija una nueva contraseña. Deje la configuración predeterminada **Enviar mensaje de texto a mi teléfono móvil**.  Se le solicitará que escriba su número de teléfono.  Cuando lo haya escrito, seleccione el **botón Texto**. 
+1. En la pantalla se muestra Volver a la cuenta y también Paso 1 de la verificación > elija una nueva contraseña. Selecciona la opción **Aprobar una notificación en la aplicación de autenticador** y, después, selecciona **Enviar notificación**.
 
-1. Escriba el código de verificación y pulse **Siguiente**.
+1. Anota el número en el PC y sigue las instrucciones para aprobar el inicio de sesión con la aplicación Microsoft Authenticator en el dispositivo móvil.
 
 1. En la siguiente pantalla se le solicitará que escriba y confirme su contraseña nueva.  Escríbala y seleccione el botón **Finalizar**.
 
