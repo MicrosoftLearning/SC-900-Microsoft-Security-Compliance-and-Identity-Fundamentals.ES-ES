@@ -27,6 +27,7 @@ En esta tarea, verá algunos de los parámetros asociados a la máquina virtual 
 1. Inicie sesión con sus credenciales de administrador.
     1. En la ventana Inicio de sesión, escriba el nombre de usuario proporcionado por el proveedor de hospedaje de laboratorio y seleccione **Siguiente**.
     1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
+    1. Si has iniciado sesión anteriormente, es posible que se te pida que completes una autenticación secundaria, como parte de MFA. Si no has iniciado sesión anteriormente, es posible que se te pida que completes el proceso de registro de MFA. Sigue las indicaciones en la pantalla para configurar MFA.
     1. Si aparece un mensaje para preguntarle si quiere mantener iniciada la sesión, seleccione **Sí**.
 
 1. En la parte superior de la página, debajo de donde pone Servicios de Azure, seleccione **Máquina virtuales**.  Si no aparece, en el cuadro de búsqueda, en la barra azul de la parte superior de la página que hay junto a las palabras Microsoft Azure, escriba **Máquinas virtuales** y luego seleccione **Máquinas virtuales** en los resultados de la búsqueda.
@@ -35,7 +36,7 @@ En esta tarea, verá algunos de los parámetros asociados a la máquina virtual 
 
 1. Ahora se encuentra en la página de SC900-WinVM.  Anote parte de la información básica sobre la máquina virtual.
 
-1. En el panel de navegación izquierdo, seleccione **Configuración de red**.  En las secciones esenciales de la ventana principal se muestra la interfaz de red de la máquina virtual.  Observe cómo no aparece nada junto al grupo de seguridad de red, ya que no hay un NSG asignado a la interfaz.
+1. En el panel de navegación izquierdo, selecciona **Redes** y, después, selecciona **Configuración de red**.  En las secciones esenciales de la ventana principal se muestra la interfaz de red de la máquina virtual.  Observe cómo no aparece nada junto al grupo de seguridad de red, ya que no hay un NSG asignado a la interfaz.
 
 1. Mantenga esta pestaña abierta.
 
@@ -60,7 +61,7 @@ En esta tarea, creará un grupo de seguridad de red, asignará la interfaz de re
 
 1. Debe estar en la página de información general del grupo de seguridad de red recién creado.  Si no es así, en el panel de navegación izquierdo, seleccione **Información general**. En la parte superior de la página debajo de donde dice Essentials, verá información básica sobre el grupo de seguridad de red que creó.  Dos aspectos que se han de tener en cuenta son que no hay ninguna regla de seguridad personalizada y no hay subredes ni interfaces de red asociadas a este NSG.  Aunque no hay reglas de seguridad personalizadas, hay reglas de entrada y salida predeterminadas que se incluyen con cada NSG, como se muestra en la página.  Revise las reglas de entrada y salida. Las reglas de entrada predeterminadas deniegan todo el tráfico entrante que no procede de una red virtual o de un equilibrador de carga de Azure.  Las reglas de salida deniegan todo el tráfico saliente, excepto el tráfico entre redes virtuales y el tráfico saliente a Internet.
 
-1. En el panel de navegación izquierdo de la página NSG-SC900, debajo de Configuración, seleccione **Interfaces de red**.
+1. En el panel de navegación izquierdo de la página NSG-SC900, debajo de Configuración, expande **Configuración** y, después, selecciona **Interfaces de red**.
     1. Seleccione **Asociar**.
     2. En el campo para las asociaciones de interfaz de red, seleccione la **flecha desplegable**, seleccione **sc900-winvmXXX** y, a continuación, seleccione **Aceptar** en la parte inferior de la ventana. Una vez asociada la interfaz al NSG, aparecerá en la lista.  El grupo de seguridad de red ahora está asignado a la interfaz de red de la máquina virtual.
 
@@ -95,7 +96,7 @@ En esta tarea, probará la regla de NSG de entrada recién creada para confirmar
 
 1. Seleccione **Conectar** en el panel de navegación de la izquierda.
 
-1. Seleccione **Comprobar acceso** (compruebe que el puerto está establecido en 3389).  El estado ahora debería ser “Accesible”.
+1. Seleccione **Comprobar acceso** (compruebe que el puerto está establecido en 3389).  El estado ahora debería ser “Accesible”.  Si sigues viendo "No accesible", actualiza la página e inténtalo de nuevo, la opción de comprobar acceso puede tardar unos minutos en ver la nueva regla de entrada.
 
 1. Ahora conéctese directamente a la máquina virtual, para hacerlo haga clic en **Seleccionar** en el cuadro que dice "RDP nativo".
    
@@ -108,7 +109,10 @@ En esta tarea, probará la regla de NSG de entrada recién creada para confirmar
 1. Ahora está conectado a la máquina virtual. En este caso pudo conectarse a la máquina virtual porque la regla de tráfico de salida que creó permite el tráfico de entrada a la máquina virtual mediante RDP.  Al cabo de unos segundos, en la pantalla de bienvenida verá una ventana para elegir la configuración de privacidad del dispositivo, seleccione **Aceptar**.  Si aparece la ventana Redes, seleccione **No**.
 
 1. Una vez que la máquina virtual esté en funcionamiento en la sesión RDP, pruebe la conectividad saliente a Internet desde la máquina virtual.
-    1. Desde la máquina virtual, seleccione **Microsoft Edge** para abrir el explorador.  Puesto que esta es la primera vez que abre Microsoft Edge, puede que aparezca una ventana emergente, seleccione **Iniciar sin los datos** y, a continuación, **Continuar sin estos datos** y, luego, seleccione **Confirmar y empezar a navegar**.
+    1. Desde la máquina virtual, seleccione **Microsoft Edge** para abrir el explorador. Dado que esta es la primera vez que abres la máquina virtual y el explorador, es posible que se te pida una configuración básica.  
+    1. Es posible que se te pida que elijas la configuración de privacidad del dispositivo. Deja el valor predeterminado y selecciona **Aceptar**.  
+    1. Se puede mostrar un panel lateral para Redes.  así que seleccione **No**.
+    1. Puede aparecer una ventana que dice "Examinar la web con el explorador con el mejor rendimiento en Windows"; selecciona **Continuar**, selecciona **Iniciar sin los datos**, selecciona **Confirmar y continuar**, selecciona **Continuar sin estos datos** y, finalmente, selecciona **Confirmar y empezar a navegar**.
     1. Escriba **www.bing.com** en la barra de direcciones del navegador y confirme que puede conectarse al motor de búsqueda.
     1. Una vez que haya confirmado que puede acceder a www.bing.com, cierre la ventana del explorador en la máquina virtual, pero deje la máquina virtual funcionando.
 

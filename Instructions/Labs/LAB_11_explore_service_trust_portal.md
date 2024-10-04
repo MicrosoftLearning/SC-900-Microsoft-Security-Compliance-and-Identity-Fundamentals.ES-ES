@@ -1,15 +1,15 @@
 ---
 lab:
   title: Exploración del Portal de confianza de servicios
-  module: Describe the compliance management capabilities at Microsoft
+  module: Describe Microsoft’s Service Trust portal and privacy capabilities
 ---
 
 # Laboratorio: Explorar el Portal de confianza de servicios
 
 Este laboratorio está orientado al siguiente contenido de Learn:
 
-- Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft
-- Módulo: Descripción de las funcionalidades de administración de cumplimiento en Microsoft
+- Ruta de aprendizaje: Descripción de las funcionalidades de Microsoft Priva y Microsoft Purview
+- Módulo: Descripción del Portal de confianza de servicios y las funcionalidades de privacidad de Microsoft
 - Laboratorio: Exploración del Portal de confianza de servicios
 
 ## Escenario del laboratorio

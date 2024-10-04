@@ -26,7 +26,8 @@ Explorar Cloud Discovery.
 
 1. Inicie sesión con sus credenciales de administrador para el inquilino de Microsoft 365.
     1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es el id. de inquilino único proporcionado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
-    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Selecciona **Iniciar sesión**.
+    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
+    1. Si has iniciado sesión anteriormente como administrador, se te pedirá que completes una autenticación secundaria, como parte de MFA. Si no has iniciado sesión anteriormente como administrador, se te pedirá que completes el proceso de registro de MFA. Sigue las indicaciones en la pantalla para configurar MFA.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**. Esto le llevará a la página del Centro de administración de Microsoft 365.
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft 365, seleccione **Mostrar todo**.

@@ -1,16 +1,16 @@
 ---
 lab:
   title: "Explorar la administración de riesgos internos en Microsoft\_Purview"
-  module: Describe the insider risk capabilities in Microsoft Purview
+  module: Describe the data security solutions of Microsoft Purview
 ---
 
 # Laboratorio: Explorar la administración de riesgos internos en Microsoft Purview
 
 Este laboratorio está orientado al siguiente contenido de Learn:
 
-- Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft
-- Módulo: Descripción de las funcionalidades de riesgo interno en Microsoft Purview
-- Unidad: Descripción de la administración de riesgos internos
+- Ruta de aprendizaje: Descripción de las funcionalidades de Microsoft Priva y Microsoft Purview
+- Módulo: Descripción de las soluciones de seguridad de datos de Microsoft Purview
+- Unidad: Descripción de la administración de riesgos internos en Microsoft Purview
 
 ## Escenario del laboratorio
 
@@ -22,7 +22,9 @@ En este laboratorio, se familiarizará con el proceso de configurar una directiv
 
 En esta tarea, como administrador global, habilitará los permisos para la administración de riesgos internos.  En concreto, agregará usuarios al grupo de roles de Administración de riesgos internos para asegurarse de que los usuarios designados pueden acceder y administrar las características de administración de riesgos internos.  Los permisos del grupo de roles pueden tardar hasta 30 minutos en aplicarse a los usuarios de toda la organización.
 
-1. Abra la pestaña del explorador para la página principal de Microsoft Purview.  Si la había cerrado, abra otra y escriba **https://admin.microsoft.com** . Inicie sesión con las credenciales de administrador para el inquilino de Microsoft 365 proporcionadas por el host de laboratorio autorizado (ALH). En el panel de navegación izquierdo del Centro de administración de Microsoft 365, seleccione **Mostrar todo** y luego seleccione **Cumplimiento**.  Se abrirá una nueva página del explorador con la página principal del portal de Microsoft Purview.  
+1. Abra la pestaña del explorador para la página principal de Microsoft Purview.  Si la había cerrado, abra otra y escriba **https://admin.microsoft.com** . Inicie sesión con las credenciales de administrador para el inquilino de Microsoft 365 proporcionadas por el host de laboratorio autorizado (ALH). Si has iniciado sesión anteriormente como administrador, se te pedirá que completes una autenticación secundaria, como parte de MFA. Si no has iniciado sesión anteriormente como administrador, se te pedirá que completes el proceso de registro de MFA. Sigue las indicaciones en la pantalla para configurar MFA.
+
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft 365, seleccione **Mostrar todo** y luego seleccione **Cumplimiento**.  Se abrirá una nueva página del explorador con la página principal del portal de Microsoft Purview.  
 
 1. En el panel de navegación izquierdo, selecciona **Configuración**, expande **Roles y ámbitos** y, después, selecciona **Grupos de roles**.
 
@@ -38,8 +40,8 @@ En esta tarea explorará las opciones relativas a la solución Administración d
 
 1. Deberías encontrarte en la página principal del portal de Microsoft Purview. Si no es así, seleccione la pestaña del explorador **Inicio: Cumplimiento de Microsoft 365**.
 
-1. Antes de empezar a configurar una directiva, hay algunas opciones con las que un administrador debería estar familiarizado y configurar según sea necesario para la organización. En el panel de navegación izquierdo, selecciona **Configuración** y, después, selecciona **Administración de riesgos internos**.  Aquí explorarás algunas de las opciones de configuración disponibles.
-    1. Selecciona **Privacidad**: para los usuarios que realizan actividades correspondientes a sus directivas de riesgos internos, esta configuración determinará si se deben mostrar sus nombres reales o usar versiones anónimas para ocultar sus identidades.  Para este tutorial, puede dejar la configuración predeterminada.
+1. Antes de empezar a configurar una directiva, hay algunas opciones con las que un administrador debe estar familiarizado y configurarlas según sea necesario para la organización. En el panel de navegación izquierdo, selecciona **Configuración** y, después, selecciona **Administración de riesgos internos**.  Aquí explorarás algunas de las opciones de configuración disponibles.
+    1. Selecciona **Privacidad**: para los usuarios que realizan actividades que coinciden con sus directivas de riesgos internos, esta configuración determinará si se deben mostrar los nombres reales o usar versiones anónimas para ocultar su identidad.  Para este tutorial, puede dejar la configuración predeterminada.
     1. Selecciona **Indicadores de directiva**. Cuando se produzca un evento de desencadenamiento de directiva, las actividades que se asignan a los indicadores seleccionados se usan para determinar la puntuación de riesgo para el usuario. Los indicadores de directiva seleccionados aquí se incluyen las plantillas de directiva de riesgo interno.  Desplácese para ver todos los indicadores disponibles y cualquier información asociada. 
     1. Selecciona **Períodos de tiempo de directiva**. Los períodos de tiempo que elijas aquí entrarán en vigor para un usuario cuando desencadenen una coincidencia para una directiva de riesgo interno.   La ventana Activación determina durante cuánto tiempo detectarán activamente la actividad de los usuarios y se desencadena cuando un usuario realiza la primera actividad que coincide con una directiva. La detección de actividad pasada determina cuánto debe remontarse hacia atrás una directiva para detectar la actividad del usuario y se desencadena cuando un usuario realiza la primera actividad que coincide con una directiva.  Deje los valores predeterminados.
     1. Selecciona **Detecciones inteligentes**. Revisa las opciones aquí.  Tenga en cuenta la configuración de dominios y cómo se relacionan con los indicadores.
@@ -53,7 +55,7 @@ En esta tarea explorará las opciones relativas a la solución Administración d
 
 En esta tarea, se familiarizará con la configuración para crear una directiva.  El objetivo es simplemente hacerse una idea de las distintas opciones y flexibilidad asociadas a la creación de una directiva.
 
-1. Debes estar en la página de información general de administración de riesgos internos.  Si aún no estás en ella, selecciona **Soluciones** en el panel de navegación izquierdo y, después, selecciona **Administración de riesgos internos**.
+1. Debes estar en la página de información general de administración de riesgos internos.  Si no estás ahí, selecciona **Soluciones** en el panel de navegación izquierdo y, después, selecciona **Administración de riesgos internos**.
 
 1. En la página de información general de Administración de riesgos internos, seleccione la pestaña **Directivas** y, luego, seleccione **+ Crear directiva**.  Configure cada una de las siguientes pestañas de directiva.
 

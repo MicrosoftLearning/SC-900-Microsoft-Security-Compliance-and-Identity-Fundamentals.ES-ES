@@ -22,7 +22,7 @@ En este laboratorio, realizará un recorrido por el proceso de creación de una 
 
 Creación de una instancia de Microsoft Sentinel
 
-1. Debería estar en la página principal de los servicios de Azure.  Si ha cerrado previamente el explorador, abra Microsoft Edge. En la barra de direcciones, escriba **portal.azure.com** e inicie sesión con sus credenciales de administrador.
+1. Debería estar en la página principal de los servicios de Azure.  Si ha cerrado previamente el explorador, abra Microsoft Edge. En la barra de direcciones, escriba **portal.azure.com** e inicie sesión con sus credenciales de administrador. Si has iniciado sesión anteriormente, es posible que se te pida un formulario de autenticación secundario, como parte de MFA.  Si no has iniciado sesión anteriormente, es posible que se te pida que configures MFA.  Sigue las indicaciones en la pantalla para configurar MFA.
 
 1. En el cuadro de búsqueda azul situado en la parte superior de la página, escriba **Microsoft Sentinel** y, a continuación, seleccione **Microsoft Sentinel** en los resultados de búsqueda.
 

@@ -30,7 +30,8 @@ En esta tarea, como administrador, verá algunas de las opciones de configuraci�
 
 1. Abra el explorador Microsoft Edge. En la barra de direcciones, escriba **https://entra.microsoft.com** e inicie sesión con las credenciales de administrador de Microsoft 365 proporcionadas por el host de laboratorio autorizado (ALH).
     1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es su Id. de inquilino único proporcionado por el ALH) y seleccione **Siguiente**.
-    1. Escribe la contraseña de administrador que debería haberte proporcionado tu proveedor de servicios de hospedaje de laboratorios. Selecciona **Iniciar sesión**.
+    1. Escribe la contraseña de administrador que debería haberte proporcionado tu proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
+    1. Si has iniciado sesión anteriormente como administrador, se te pedirá que completes una autenticación secundaria, como parte de MFA. Si no has iniciado sesión anteriormente como administrador, se te pedirá que completes el proceso de registro de MFA. Sigue las indicaciones en la pantalla para configurar MFA.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
 
 1. En el panel de navegación izquierdo, expanda la opción **Protección** y seleccione **Restablecimiento de contraseña**.  
@@ -81,16 +82,16 @@ En esta tarea, como usuario Sara Perez, realizará el registro para el autoservi
 
 1. Abra Microsoft Edge y, en la barra de direcciones, escriba **https://login.microsoft.com**.
 
-1. Inicie sesión como Sara Perez.
+1. Inicie sesión como Sara Perez. El proceso de inicio de sesión puede requerir MFA.
 
 1. Aparecerá un elemento emergente que indica que se requiere más información.  Esto se debe a que, como miembro del grupo SSPRSecurityGroupUsers, la configuración requiere que sus miembros se registren cuando inician sesión.  Haga clic en el botón **Siguiente**.  Nota: Una alternativa a hacer que los usuarios realicen el registro es que los administradores configuren directamente los métodos de autenticación cuando agregan un usuario. Esto requiere que los administradores conozcan y establezcan los números de teléfono y las direcciones de correo electrónico que utilizan los usuarios para realizar el autoservicio de restablecimiento de contraseña, y para restablecer la contraseña de un usuario.
 
-1. Se abre la página "Mantenga su cuenta segura".  La ventana que aparece y los pasos que siguen son para el método de la aplicación Microsoft Authenticator. Si, en su lugar, deseas usar el correo electrónico, selecciona **Quiero configurar un método diferente** y sigue los pasos.
+1. Se abre la página "Mantenga su cuenta segura".  La ventana que aparece y los pasos que siguen son para el método de aplicación Microsoft Authenticator. Si, en su lugar, deseas usar el correo electrónico, selecciona **Quiero configurar un método diferente** y sigue los pasos.
     1. Si ya has instalado la aplicación Microsoft Authenticator en tu dispositivo móvil, selecciona **Siguiente**. De lo contrario, selecciona **Descargar ahora** y sigue los pasos.
     1. Comenzarás a configurar tu cuenta.  Seleccione **Siguiente**.
-    1. Con la aplicación Microsoft Authenticator en el dispositivo móvil, selecciona **+** para agregar una cuenta y selecciona **Cuenta profesional o educativa**.
-    1. Selecciona la opción para **Escanear el código QR** y, a continuación, usa tu dispositivo móvil para escanear el código QR en la pantalla del equipo.
-    1. Sigue los pasos que aparecen en tu PC y dispositivo móvil y, después, selecciona **Siguiente**.
+    1. Con la aplicación Microsoft Authenticator en el dispositivo móvil, selecciona **+** para agregar una cuenta y, después, **Cuenta profesional o educativa**.
+    1. Selecciona la opción para **Escanear el código QR** y luego usa tu dispositivo móvil para escanear el código QR en la pantalla del equipo.
+    1. Sigue los pasos del PC y dispositivo móvil y, después, selecciona **Siguiente**.
     1. Una vez que hayas configurado la información de seguridad, verás una ventana de operación correcta.  Seleccione **Listo**.
 
 1. Ahora puede completar el inicio de sesión. Si el tiempo de inicio de sesión expira, simplemente vuelva a escribir la contraseña.

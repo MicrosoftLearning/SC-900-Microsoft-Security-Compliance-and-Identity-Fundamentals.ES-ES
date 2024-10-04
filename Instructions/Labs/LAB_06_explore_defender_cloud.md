@@ -22,7 +22,7 @@ En este laboratorio, explorará Microsoft Defender for Cloud.  NOTA: La suscripc
 
 En esta tarea, realizará un tutorial de alto nivel de algunas de las funcionalidades de Microsoft Defender for Cloud.
 
-1. Debe ser la página principal de los servicios de Azure.  Si ha cerrado previamente el explorador, abra Microsoft Edge. En la barra de direcciones, escriba **portal.azure.com** e inicie sesión con sus credenciales de administrador.
+1. Debe ser la página principal de los servicios de Azure.  Si ha cerrado previamente el explorador, abra Microsoft Edge. En la barra de direcciones, escriba **portal.azure.com** e inicie sesión con sus credenciales de administrador. Si has iniciado sesión anteriormente, es posible que se te pida un formulario de autenticación secundario, como parte de MFA.  Si no has iniciado sesión anteriormente, es posible que se te pida que configures MFA.  Sigue las indicaciones en la pantalla para configurar MFA.
 
 1. En la barra de búsqueda azul escriba **Microsoft Defender for Cloud** y, luego, en la lista de resultados, seleccione **Microsoft Defender for Cloud**.
 

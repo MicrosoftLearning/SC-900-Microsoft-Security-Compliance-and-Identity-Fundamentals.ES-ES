@@ -1,16 +1,16 @@
 ---
 lab:
-  title: Exploración del flujo de trabajo de eDiscovery (Estándar)
-  module: Describe the eDiscovery and audit capabilities of Microsoft Purview
+  title: Exploración de eDiscovery
+  module: Describe the data compliance solutions of Microsoft Purview
 ---
 
-# Laboratorio: Explorar el flujo de trabajo de eDiscovery (Estándar)
+# Laboratorio: Exploración de eDiscovery
 
 Este laboratorio está orientado al siguiente contenido de Learn:
 
-- Ruta de aprendizaje: Descripción de las funcionalidades de cumplimiento de Microsoft
-- Módulo: Descripción de las funcionalidades de eDiscovery y de auditoría de Microsoft Purview
-- Unidad: Describir las soluciones de eDiscovery de Microsoft Purview
+- Ruta de aprendizaje: Descripción de las funcionalidades de Microsoft Priva y Microsoft Purview
+- Módulo: Descripción de las soluciones de cumplimiento de datos de Microsoft Purview
+- Unidad: Descripción de eDiscovery
 
 ## Escenario del laboratorio
 
@@ -22,16 +22,18 @@ En este laboratorio, explorará los pasos necesarios para configurar eDiscovery,
 
 Para acceder a eDiscovery (Standard), o para que se le agregue como miembro de un caso de eDiscovery, el usuario debe tener asignados los permisos adecuados. En esta tarea, como administrador global, agregará usuarios específicos como miembros del grupo de roles de Supervisor de eDiscovery.
 
-1. Abra la pestaña del explorador para la página principal de Microsoft Purview.  Si la había cerrado, abra otra y escriba **https://admin.microsoft.com** . Inicie sesión con las credenciales de administrador para el inquilino de Microsoft 365 proporcionadas por el host de laboratorio autorizado (ALH). En el panel de navegación izquierdo del Centro de administración de Microsoft 365, seleccione **Mostrar todo** y luego seleccione **Cumplimiento**.  Se abrirá una nueva página del explorador con la página principal del portal de Microsoft Purview.  
+1. Abra la pestaña del explorador para la página principal de Microsoft Purview.  Si la había cerrado, abra otra y escriba **https://admin.microsoft.com** . Inicie sesión con las credenciales de administrador para el inquilino de Microsoft 365 proporcionadas por el host de laboratorio autorizado (ALH). Si has iniciado sesión anteriormente como administrador, se te pedirá que completes una autenticación secundaria, como parte de MFA. Si no has iniciado sesión anteriormente como administrador, se te pedirá que completes el proceso de registro de MFA. Sigue las indicaciones en la pantalla para configurar MFA.
+
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft 365, seleccione **Mostrar todo** y luego seleccione **Cumplimiento**.  Se abrirá una nueva página del explorador con la página principal del portal de Microsoft Purview.  
 
 1. En el panel de navegación izquierdo, selecciona **Configuración**, expande **Roles y ámbitos** y, después, selecciona **Grupos de roles**.
 
-1. En el cuadro de búsqueda, escribe **eDiscovery** y presiona Entrar en el teclado.  Selecciona **Supervisor de eDiscovery**.
+1. En el cuadro de búsqueda, en la parte superior derecha de la página, escribe **eDiscovery** y presiona Entrar en el teclado.  Selecciona **Supervisor de eDiscovery**.
 
-1. Seleccione **Editar**. Para este laboratorio, te establecerás como administrador MOD como Supervisor de eDiscovery y administrador.  En la práctica, designarías usuarios específicos para roles específicos.
+1. Seleccione **Editar**. Para este laboratorio, te establecerás como administrador MOD como Supervisor y administrador de eDiscovery.  En la práctica, designarías usuarios específicos para roles específicos.
     1. La página "Administrar Supervisor de eDiscovery" permite agregar usuarios al rol de administrador de eDiscovery.
-    1. Selecciona **Elegir usuarios**. Busca y selecciona **Administrador MOD**, a continuación, pulsa **Seleccionar** en la parte inferior de la página y, luego, selecciona **Siguiente**.
-    1. En la página "Administrar Administrador de eDiscovery", seleccione **Elegir usuarios** . Busca y selecciona **Administrador MOD**, a continuación, pulsa **Seleccionar** en la parte inferior de la página y, luego, selecciona **Siguiente** y **Guardar**.
+    1. Selecciona **Elegir usuarios**. Busca y selecciona **Administrador MOD** y presiona **Seleccionar** en la parte inferior de la página y, después, selecciona **Siguiente**.
+    1. En la página "Administrar Administrador de eDiscovery", seleccione **Elegir usuarios** . Busca y selecciona **Administrador MOD** y presiona **Seleccionar** en la parte inferior de la página y, después, selecciona **Siguiente** y **Guardar**.
     1. En la página "Ha actualizado correctamente el grupo de roles", seleccione **Listo**.
 
 1. Deje esta pestaña del explorador abierta, porque la utilizará en la siguiente tarea.
@@ -40,7 +42,7 @@ Para acceder a eDiscovery (Standard), o para que se le agregue como miembro de u
 
 En esta tarea, como administrador de eDiscovery (un administrador MOD es un administrador de eDiscovery), creará un caso para empezar a utilizar eDiscovery (Standard).
 
-1. Debería seguir en la página Roles del portal de cumplimiento. Si has cerrado la pestaña del explorador de la tarea anterior, abre una nueva y escribe **compliance.microsoft.com** para acceder al portal de Microsoft Purview.
+1. Debería seguir en la página Roles del portal de cumplimiento. Si has cerrado la pestaña del explorador de la tarea anterior, abre una nueva pestaña del explorador y escribe **compliance.microsoft.com** para ir al Portal de Microsoft Purview.
 
 1. En el panel de navegación izquierdo, en Soluciones, expande **eDiscovery** y, luego, selecciona **Casos estándar**.
 
