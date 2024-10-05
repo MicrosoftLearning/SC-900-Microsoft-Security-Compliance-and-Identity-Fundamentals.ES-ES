@@ -1,7 +1,7 @@
 ---
 lab:
   title: "Acceso condicional de Microsoft\_Entra"
-  module: Describe the access management capabilities of Microsoft Entra ID
+  module: Describe the access management capabilities of Microsoft Entra
 ---
 
 # Laboratorio: Acceso condicional de Microsoft Entra
@@ -9,7 +9,7 @@ lab:
 Este laboratorio está orientado al siguiente contenido de Learn:
 
 - Ruta de aprendizaje: Descripción de la funcionalidad de Microsoft Entra
-- Módulo: Descripción de las capacidades de administración de acceso de Microsoft Entra ID
+- Módulo: Descripción de las funcionalidades de administración de acceso de Microsoft Entra
 - Unidad: Descripción del acceso condicional
 
 ## Escenario del laboratorio
@@ -25,6 +25,7 @@ En esta tarea, como administrador, restablecerá la contraseña del usuario Debr
 1. Abrir Microsoft Edge.  En la barra de direcciones, escriba **https://entra.microsoft.com** e inicie sesión con sus credenciales de administrador.
     1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es el id. de inquilino único proporcionado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
     1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
+    1. Si has iniciado sesión anteriormente como administrador, es posible que se te pida que completes una autenticación secundaria, como parte de MFA. Si no has iniciado sesión anteriormente como administrador, es posible que se te pida que completes el proceso de registro de MFA. Sigue las indicaciones en la pantalla para configurar MFA.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
 
 1. En el panel de navegación izquierdo, expanda **Identidad** y **Users**, luego seleccione **Todos los usuarios**.
@@ -53,7 +54,7 @@ En esta tarea, recorrerá el proceso de creación de una directiva de acceso con
 
 1. En el panel de navegación izquierdo, seleccione **Directivas**. Aquí se enumeran las directivas de acceso condicional existentes. Seleccione **+ Nueva directiva**.
 
-1. En el campo Nombre, escriba **Directiva de prueba MFA**.
+1. En el campo Nombre, escribe **Bloquear portales de administración**.
 
 1. En Usuarios, seleccione **0 usuarios y grupos seleccionados**.
 
@@ -69,11 +70,13 @@ En esta tarea, recorrerá el proceso de creación de una directiva de acceso con
 
 1. Selecciona **Portales de administración de Microsoft** y después haz clic en **Seleccionar** en la parte inferior de la página.  Observe la advertencia.  
 
+1. En Red, selecciona **Cualquier red o ubicación**.  Revisa las opciones, pero no selecciones ninguna opción.
+
 1. En Condiciones, seleccione **0 condiciones seleccionadas**.  Observe las distintas opciones que puede configurar.  A través de la directiva, puede controlar el acceso de los usuarios en función de las señales de las condiciones, incluidas: riesgo de usuario, riesgo de inicio de sesión, plataforma de dispositivo, ubicación, aplicaciones cliente o filtro para dispositivos.  Explore estas opciones configurables, pero no establezca ninguna condición.
 
 1. Ahora se establecerán los controles de acceso.  En Conceder, seleccione **0 controles seleccionados**.
 
-1. Se abre la ventana Conceder.  Asegúrese de que **Conceder acceso** esté seleccionado y luego seleccione **Requerir autenticación multifactor**. Desplácese hacia abajo un poco en la ventana derecha y, en la sección para varios controles, deje el valor predeterminado **Requerir todos los controles seleccionados**.  Pulse **Seleccionar** al final de la página.
+1. Se abre la ventana Conceder.  Seleccione **Block access** (Bloquear acceso). Pulse **Seleccionar** al final de la página.
 
 1. En la parte inferior de la página, en Habilitar directiva, seleccione **Activado** y luego seleccione **Crear**.
 
@@ -83,29 +86,19 @@ En esta tarea, recorrerá el proceso de creación de una directiva de acceso con
 
 ### Tarea 3
 
-En esta tarea verá el impacto de la directiva de acceso condicional, desde la perspectiva del usuario, Debra Berger. En primer lugar, iniciará sesión en una aplicación que no esté incluida en la directiva de acceso condicional (el portal de Microsoft 365 en https://login.microsoftonline.com)).  Luego repetirá el proceso en una aplicación que esté incluida en la directiva de acceso condicional (Azure Portal en https://portal.azure.com)).  Recuerde que la directiva requiere que el usuario pase por la MFA al acceder a cualquiera de los portales de administración de Microsoft, incluido Azure Portal.  Para usar la MFA, el usuario debe registrar primero el método de autenticación que se usará para la MFA, por ejemplo, un código enviado a un dispositivo móvil o a una aplicación autenticadora.
+En esta tarea verá el impacto de la directiva de acceso condicional, desde la perspectiva del usuario, Debra Berger. En primer lugar, iniciará sesión en una aplicación que no esté incluida en la directiva de acceso condicional (el portal de Microsoft 365 en https://login.microsoftonline.com)).  Luego repetirá el proceso en una aplicación que esté incluida en la directiva de acceso condicional (Azure Portal en https://portal.azure.com)).  Recuerda que la directiva bloquea el accesso a cualquiera de los portales de administración de Microsoft, incluido Azure Portal.  NOTA: por motivos de seguridad, todas las cuentas de usuario que acceden a cualquier portal deben usar MFA.  El requisito de MFA es independiente de este ejercicio de laboratorio.
 
-1. Abrir Microsoft Edge.  En la barra de direcciones, escriba **https://login.microsoftonline.com**.
+1. Abre Microsoft Edge.  En la barra de direcciones, escriba **https://login.microsoftonline.com**.
     1. Inicie sesión como **DebraB@WWLxZZZZZZ.onmicrosoft.com**, (donde ZZZZZZ es el identificador de inquilino único proporcionado por el proveedor de hospedaje del laboratorio) y después seleccione **Siguiente**.
     1. Escriba la contraseña que anotó en la tarea anterior. Seleccione **Iniciar sesión**.
-    1. Dado que, como administrador, restableció la contraseña, esta es temporal y, por tanto, deberá actualizarla (esto no es parte de la directiva de MFA). Escriba la contraseña actual y, a continuación, escriba una nueva contraseña y confírmela.  Tome nota de la nueva contraseña, ya que la necesitará para completar la tarea.
-    1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.  Debería haber iniciado sesión correctamente en su cuenta de Microsoft 365. No se requería MFA para esta aplicación, ya que no forma parte de la directiva.
+    1. Dado que, como administrador, restableciste la contraseña, esta es temporal y, por tanto, deberás actualizarla. Escriba la contraseña actual y, a continuación, escriba una nueva contraseña y confírmela.  Tome nota de la nueva contraseña, ya que la necesitará para completar la tarea.
+    1. Dado que esta es la primera vez que inicias sesión como Debra Berger, es posible que se te pida configurar MFA. Sigue las indicaciones en la pantalla para configurar MFA.
+    1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.  Debería haber iniciado sesión correctamente en su cuenta de Microsoft 365.
 
-1. Ahora intentará iniciar sesión en una aplicación que cumpla con los criterios de la MFA. Abra una nueva pestaña del navegador y escriba **https://portal.azure.com**.
-
-1. Verá una ventana que indica, Se necesita más información.  Seleccione **Siguiente**.  Tenga en cuenta que esto iniciará el proceso de registro de la MFA, ya que es la primera vez que accede a la aplicación en la nube que se identificó en la directiva de acceso condicional.  Este proceso de registro solo es necesario una vez.   Una alternativa para hacer que el usuario pase por el proceso de registro es hacer que el administrador configure el método de autenticación que se va a usar.
-
-1. En la ventana Mantener la cuenta segura, tiene la opción de seleccionar el método que se va a usar para la MFA.  Microsoft Authenticator es una opción. Para este laboratorio, elegirá un método diferente.  Seleccione **Quiero configurar otro método**  En la ventana emergente Elegir un método diferente, seleccione la **flecha desplegable** y seleccione **Teléfono**, a continuación, seleccione **Confirmar**.
-
-1. Se abrirá una nueva ventana, asegúrese de que su país o región está seleccionado, luego escriba el número de teléfono móvil que desea utilizar.  Asegúrese de que **Enviarme un código por mensaje de texto** esté seleccionado y luego presione **Siguiente**.  Recibirá un mensaje de texto en el teléfono con un código que deberá escribir donde dice escribir código.  Escriba el código que recibió y pulse **Siguiente**.  Una vez confirmado, la pantalla mostrará: "SMS verificado. El teléfono se ha registrado correctamente".  Seleccione **Siguiente**. Después, seleccione **Listo**.  esto completa el proceso de registro único.
-
-1. Ahora debería saber acceder a Azure Portal.  Azure Portal es un portal de administración de Microsoft, por lo tanto, requiere la autenticación multifactor según la directiva de acceso condicional que se creó.  
-    1. Si recibe un mensaje que indique que su inicio de sesión finalizó, escriba la contraseña y seleccione **Iniciar sesión**.
-    1. Verá una ventana que requiere que verifique su identidad.  Seleccione donde dice Text =X XXXXXXX para recibir un código en el teléfono móvil, escriba el código y seleccione **Verificar**.
-    1. Si se le pregunta si desea mantener la sesión iniciada, seleccione **No**.
+1. Ahora intentarás iniciar sesión en una aplicación que cumpla con los criterios de la directiva de acceso condicional. Abre una nueva pestaña del explorador y escribe **https://portal.azure.com**, que es el portal de administración de Azure.  Aparece una ventana emergente que indica "No tienes acceso a esto".  Este es el resultado de la directiva de acceso condicional que te bloquea el acceso a todos los portales de administración de Microsoft.
 
 1. Para cerrar la sesión seleccione el icono de usuario junto a la dirección de correo electrónico en la esquina superior derecha de la pantalla y seleccione Cerrar sesión. A continuación, cierre todas las ventanas del navegador.
 
 ### Revisar
 
-En este laboratorio, aprendió el proceso de configuración de una directiva de acceso condicional que requiere que los usuarios pasen por la MFA cuando acceden a la aplicación a cualquier portal de administración de Microsoft.  A continuación, como usuario, pasó por el proceso de registro de la MFA y vio el impacto de la directiva de acceso condicional que le requería usar la MFA al acceder a Azure Portal.
+En este laboratorio, aprendiste el proceso de configuración de una directiva de acceso condicional que bloquea el acceso a los portales de administración de Microsoft a todos los usuarios incluidos en la directiva.  A continuación, experimentaste como usuario el impacto de la directiva de acceso condicional al acceder a Azure Portal.

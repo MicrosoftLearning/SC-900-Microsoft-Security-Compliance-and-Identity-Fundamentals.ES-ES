@@ -16,19 +16,19 @@ Este laboratorio está orientado al siguiente contenido de Learn:
 
 En este laboratorio, realizará un recorrido por el proceso de creación de una instancia de Microsoft Sentinel.  Además, configurará los permisos para garantizar el acceso a los recursos que se implementarán para admitir Microsoft Sentinel.  Una vez finalizada esta configuración básica, recorrerá los pasos para conectar Microsoft Sentinel a los orígenes de datos, configurar un libro y realizar un breve tutorial de algunas de las funcionalidades clave disponibles en Microsoft Sentinel.
 
-**Tiempo estimado**: 45-60 minutos
+**Tiempo estimado**: 60 minutos
 
 ### Tarea 1
 
 Creación de una instancia de Microsoft Sentinel
 
-1. Debería estar en la página principal de los servicios de Azure.  Si ha cerrado previamente el explorador, abra Microsoft Edge. En la barra de direcciones, escriba **portal.azure.com** e inicie sesión con sus credenciales de administrador.
+1. Debería estar en la página principal de los servicios de Azure.  Si ha cerrado previamente el explorador, abra Microsoft Edge. En la barra de direcciones, escriba **portal.azure.com** e inicie sesión con sus credenciales de administrador. Si has iniciado sesión anteriormente, es posible que se te pida un formulario de autenticación secundario, como parte de MFA.  Si no has iniciado sesión anteriormente, es posible que se te pida que configures MFA.  Sigue las indicaciones en la pantalla para configurar MFA.
 
 1. En el cuadro de búsqueda azul situado en la parte superior de la página, escriba **Microsoft Sentinel** y, a continuación, seleccione **Microsoft Sentinel** en los resultados de búsqueda.
 
 1. En la página Microsoft Sentinel, seleccione **Crear Microsoft Sentinel**.
 
-1. En la pantalla Agregar Microsoft Sentinel a una página de área de trabajo, seleccione **Crear un área de trabajo nueva**.
+1. En la pantalla Agregar Microsoft Sentinel a una página de área de trabajo, selecciona **Crear un área de trabajo nueva**.
 
 1. En la pestaña Datos básicos del área de trabajo Crear Log Analytics, escriba lo siguiente:
     1. Suscripción: deje el valor predeterminado; se trata de la suscripción de Azure proporcionada por el host de laboratorio autorizado (ALH).
@@ -36,8 +36,8 @@ Creación de una instancia de Microsoft Sentinel
     1. Nombre: **SC900-LogAnalytics-workspace**.
     1. Región: **Este de EE. UU.**. (Se puede seleccionar una región predeterminada diferente en función de la ubicación).
     1. Seleccione **Revisar y crear** (no se configurarán etiquetas).
-    1. Compruebe que escribió la información correcta y seleccione **Crear**.
-    1. El área de trabajo puede tardar un minuto o dos en aparecer, si todavía no la ve, seleccione **Actualizar** y, a continuación, seleccione **Agregar**.
+    1. Comprueba que escribiste la información correcta y selecciona **Crear**.
+    1. El área de trabajo puede tardar un minuto o dos en aparecer, si todavía no la ves, selecciona **Actualizar** y, a continuación, selecciona **Agregar**.
 
 1. Una vez que se haya agregado la nueva área de trabajo, se mostrará la página Microsoft Sentinel | Noticias y guías, lo que indica que se ha activado la evaluación gratuita de Microsoft Sentinel.  Seleccione **Aceptar**.  Tenga en cuenta los tres pasos que aparecen en la página Introducción.
 

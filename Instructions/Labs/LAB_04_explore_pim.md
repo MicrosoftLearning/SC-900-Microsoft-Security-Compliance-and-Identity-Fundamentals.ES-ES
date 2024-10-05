@@ -16,7 +16,7 @@ Este laboratorio está orientado al siguiente contenido de Learn:
 
 En este laboratorio, explorará algunas de las funcionalidades básicas de Privileged Identity Management (PIM). PIM requiere licencias de Microsoft Entra ID P2.  En este laboratorio, como administrador, configurará uno de los usuarios, Diego Siciliani, con un rol de administrador de usuarios de Microsoft Entra, a través de privileged ID management (PIM).   Con privilegios de administración de usuarios, Diego podrá crear usuarios y grupos, administrar licencias, etc.  Tanto el administrador como el usuario, Diego, deben configurarse para licencias de Microsoft Entra ID P2.
 
-**Tiempo estimado**: 45-60 minutos
+**Tiempo estimado**: 60 minutos
 
 ### Tarea 1
 
@@ -26,7 +26,8 @@ En esta tarea, como administrador, restablecerá la contraseña del usuario Dieg
 
 1. Inicie sesión con las credenciales de administrador de Microsoft 365 proporcionadas por su ALH.
     1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es su Id. de inquilino único proporcionado por el ALH) y seleccione **Siguiente**.
-    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
+    1. Escribe la contraseña de administrador que debería haberte proporcionado tu proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
+    1. Si has iniciado sesión anteriormente como administrador, es posible que se te pida que completes una autenticación secundaria, como parte de MFA. Si no has iniciado sesión anteriormente como administrador, es posible que se te pida que completes el proceso de registro de MFA. Sigue las indicaciones en la pantalla para configurar MFA.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
 
 1. En el panel de navegación izquierdo, expanda **Identidad**, **Usuarios** y luego seleccione **Todos los usuarios**.
@@ -49,7 +50,7 @@ En esta tarea, como administrador, asignará a Diego un rol de Microsoft Entra I
 
 1. En el panel de navegación izquierdo, en "Identidad", expanda **Gobernanza de identidad** y, a continuación, seleccione **Privileged Identity Management**.
 
-1. Ahora está en la página de inicio rápido de Privileged Identity Management. Revise la información de la página de introducción. Seleccione **Administrar**.
+1. Ahora está en la página de inicio rápido de Privileged Identity Management. Revise la información de la página de introducción. En la ventana principal, donde dice Administrar acceso, selecciona **Administrar**.
 
 1. Ahora está en la página Roles de Contoso.  En la barra de búsqueda de la parte superior de la página, escriba **usuario**.  En los resultados de la búsqueda, seleccione **Administrador de usuarios**.
 
@@ -83,7 +84,7 @@ En esta tarea, como administrador, asignará a Diego un rol de Microsoft Entra I
 
 ### Tarea 3
 
-En esta tarea, iniciará sesión en Centro de administración Microsoft Entra como Diego Siciliani, para acceder a la capacidad Privileged Identity Management de Microsoft Entra para activar su tarea como Administrador de usuarios.  Una vez activada, realizará algunos cambios de configuración en un usuario existente. Nota: Para esta tarea necesitará tener acceso a un dispositivo móvil al que tenga acceso inmediato y donde pueda recibir mensajes de texto.
+En esta tarea, iniciará sesión en Centro de administración Microsoft Entra como Diego Siciliani, para acceder a la capacidad Privileged Identity Management de Microsoft Entra para activar su tarea como Administrador de usuarios.  Una vez activada, realizará algunos cambios de configuración en un usuario existente. Nota: para esta tarea, necesitarás acceso a un dispositivo móvil para usarlo con la aplicación Microsoft Authenticator.
 
 1. Abrir Microsoft Edge.  En la barra de direcciones del explorador, escriba **Entra.microsoft.com**.
 
@@ -91,6 +92,7 @@ En esta tarea, iniciará sesión en Centro de administración Microsoft Entra co
     1. En la ventana de inicio de sesión, escriba **DiegoS@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es el id. de inquilino único proporcionado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
     1. Escriba la contraseña temporal que anotó en la tarea anterior y seleccione **Iniciar sesión**.  Seleccione **Iniciar sesión**.
     1. Como la contraseña que escribió era temporal, deberá actualizarla ahora. Escriba la contraseña actual, escriba una nueva contraseña y confírmela.  Anote la nueva contraseña, ya que la necesitará para completar la tarea.
+    1. Dado que esta es la primera vez que inicias sesión como Diego, es posible que se te pida configurar MFA. Sigue las indicaciones en la pantalla para configurar MFA.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
 
 1. Debería haber iniciado sesión correctamente en el Centro de administración Microsoft Entra.
@@ -98,28 +100,30 @@ En esta tarea, iniciará sesión en Centro de administración Microsoft Entra co
 1. En el panel de navegación izquierdo, seleccione **Mis roles**.  Ahora está viendo información para las tareas elegibles.  Verá que a usted, Diego, se le asignó el rol de Administrador de usuarios.  
 1. En la última columna de la tabla, Acción etiquetada, seleccione **Activar**.
 1. Verá un icono de advertencia que indica que se necesita verificación adicional.  Seleccione **Haga clic para continuar**.  Recuerde que la configuración del PIM para el Rol de administrador de usuarios requiere una autenticación multifactor.  Además, como la información de contacto de Diego para su uso con MFA (métodos de autenticación) no se configuró anteriormente, debe registrar su información para poder usar la MFA.  Aunque tendrá que realizar la MFA cada vez que inicie sesión como administrador de usuarios, dentro del período de la tarea, el proceso de registro de la MFA solo se requiere una vez.
-1. Se le notificará que se necesita más información, seleccione **Siguiente**.
-1. Escriba su contraseña.
-1. En la parte inferior izquierda de la ventana Microsoft Authenticator, seleccione **Quiero configurar un método diferente**.
-1. Se le solicitará que seleccione otro método.  Junto a donde dice Aplicación Authenticator, seleccione la flecha hacia abajo.   Seleccione **Teléfono** y luego **Confirmar**.
-1. Se le solicitará que escriba un número de teléfono que le gustaría utilizar. Asegúrese de que el país y el código de país del número de teléfono se correspondan.  Escriba el número de teléfono, asegúrese de que **Enviarme un código por mensaje de texto** esté seleccionado y, a continuación, seleccione **Siguiente**.
-1. Escriba el código de 6 dígitos que reciba en su teléfono y seleccione **Siguiente**.
-1. Verá una notificación que dice que el teléfono se ha registrado correctamente. Seleccione **Siguiente** y después **Listo**.
-1. Se le preguntará si quiere mantener la sesión iniciada.  Seleccione **Sí**.
+1. La ventana que aparece y los pasos que siguen son para el método de aplicación Microsoft Authenticator. .
+    1. Si ya has instalado la aplicación Microsoft Authenticator en tu dispositivo móvil, selecciona **Siguiente**. De lo contrario, selecciona **Descargar ahora** y sigue los pasos.
+    1. Comenzarás a configurar tu cuenta.  Seleccione **Siguiente**.
+    1. Con la aplicación Microsoft Authenticator en el dispositivo móvil, selecciona **+** para agregar una cuenta y, después, **Cuenta profesional o educativa**.
+    1. Selecciona la opción para **Escanear el código QR** y luego usa tu dispositivo móvil para escanear el código QR en la pantalla del equipo.
+    1. Con la aplicación Microsoft Authenticator de tu dispositivo móvil, escanea el código QR.
+    1. Sigue los pasos del PC y dispositivo móvil y, después, selecciona **Siguiente**.
+    1. Una vez que hayas configurado la información de seguridad, verás una ventana de operación correcta.  Seleccione **Listo**.
+
+1. Una vez completado el proceso de registro de MFA, se te devolverá a la página Administrador de usuarios activos de PIM.
 1. Aparecerá la ventana Activar administrador de usuarios.  Se le solicitará que escriba el motivo de la activación.  En el cuadro que aparece, escriba cualquier motivo que desee (máximo de 500 caracteres) y seleccione **Activar**.
 1. Verá el estado (tres etapas del progreso), mientras se procesa la activación.
 1. Una vez completada la activación, volverá a abrirse la página Mis roles | Roles de Microsoft Entra ID, donde verá una notificación que indica que ha activado un rol.  Seleccione **Haga clic aquí** para ver los roles activos.  Si observa que la hora de finalización es diferente de la configurada originalmente, seleccione Actualizar en la parte superior de la página (puede tardar unos minutos en actualizarse).
 1. Para volver a la página principal del Centro de administración de Microsoft Entra, seleccione **Inicio** en el panel de navegación izquierdo. 
-1. Como administrador de usuarios de Microsoft Entra ID puede crear usuarios y grupos, administrar licencias y mucho más. En el panel de navegación izquierdo, expanda **Identidad**, seleccione **Usuarios** y luego seleccione **Todos los usuarios**.
+1. Como administrador de usuarios de Microsoft Entra ID puede crear usuarios y grupos, administrar licencias y mucho más. En el panel de navegación izquierdo, expande **Identidad** y selecciona **Usuarios**.
 1. En la lista de usuarios, seleccione **Bianca Pisani**.
-1. En el panel de navegación izquierdo, seleccione **Licencias**.
-1. Fíjese en que Bianca no tiene ninguna licencia asignada.  En la parte superior de la página, seleccione **Asignaciones**.
-1. En la lista Seleccionar licencias, selecciona **Microsoft Power Apps para desarrolladores** y **Microsoft Power Automate gratis**.
-1. En la parte inferior de la página, seleccione **Guardar**.  Verá una breve notificación en la parte superior derecha de la página que indica que las licencias se asignaron correctamente.
-1. Salga de la página de asignaciones de licencias actualizada, para ello, seleccione la **X** de la esquina superior derecha de la página.
+1. En el panel de navegación izquierdo, seleccione **Grupos**.
+1. Observa los grupos a los que ya está asignado Bianca. En la parte superior de la página, selecciona **+ Pertenencias**.
+1. En la lista de grupos, selecciona **Mark 8 Project Team**.
+1. En la parte inferior de la página, selecciona **Seleccionar**.
+1. En la página Grupos, observa que el grupo Mark 8 Project Team se ha agregado a la lista (si no lo ves inmediatamente, selecciona el botón **Actualizar**).
 1. Para cerrar la sesión seleccione el icono de usuario junto a la dirección de correo electrónico en la esquina superior derecha de la pantalla y seleccione **Cerrar sesión**. A continuación, cierre todas las ventanas del navegador.
 1. La duración del rol de administrador de usuarios se limita al tiempo configurado.
 
 ### Revisar
 
-En este laboratorio exploró la PIM.  Como administrador, configuró al usuario Diego con privilegios de administrador de usuarios durante un período de tiempo especificado.  A continuación, como Diego, recorrió el proceso de activación de los privilegios de administrador de usuarios y la configuración de las opciones de usuario.  Recuerde que la PIM requiere una licencia de Microsoft Entra ID Premium P2.
+En este laboratorio exploró la PIM.  Como administrador, configuró al usuario Diego con privilegios de administrador de usuarios durante un período de tiempo especificado.  A continuación, como Diego, recorriste el proceso de activación de los privilegios de administrador de usuarios y un usuario a un grupo.  Recuerde que la PIM requiere una licencia de Microsoft Entra ID Premium P2.

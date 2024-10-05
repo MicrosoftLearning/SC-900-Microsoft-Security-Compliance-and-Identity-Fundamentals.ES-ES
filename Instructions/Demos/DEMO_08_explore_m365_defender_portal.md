@@ -1,15 +1,15 @@
 <!---
 ---
-Demo: Título: "Portal de Microsoft Defender" Módulo: "Ruta de aprendizaje: Descripción de las funcionalidades de las soluciones de seguridad de Microsoft; Módulo 4: Descripción de las funcionalidades de protección contra amenazas de Microsoft 365; Unidad 7: Descripción del portal de Microsoft Defender"
+Demo: Título: "Portal de Microsoft Defender" Módulo: "Ruta de aprendizaje: Descripción de las funcionalidades de las soluciones de seguridad de Microsoft; Módulo 4: Descripción de las funcionalidades de protección contra amenazas de Microsoft Defender XDR; Unidad 7: Descripción del Portal de Microsoft Defender"
 ---
 --->
 
 # Demo: El portal de Microsoft Defender
 
-Esta demostración está orientada al siguiente contenido de Learn:
+Esta demo está orientada al siguiente contenido de Learn:
 
 - Ruta de aprendizaje: Descripción de las funcionalidades de las soluciones de seguridad de Microsoft
-- Módulo: Descripción de las funcionalidades de protección contra amenazas de Microsoft 365
+- Módulo: Descripción de las funcionalidades de protección contra amenazas de Microsoft Defender XDR
 - Unidad: Descripción del portal de Microsoft Defender
 
 ## Supuesto de demostración
@@ -20,11 +20,11 @@ En esta demo mostrarás el portal de Microsoft Defender. Para ello, realizarás
 
 Explora la página de aterrizaje de Microsoft Defender.
 
-1. Abre la pestaña del explorador para la página principal de seguridad de Microsoft 365.  Si has cerrado previamente el explorador, abre Microsoft Edge. En la barra de direcciones, escribe **https://admin.microsoft.com** e inicia sesión con las credenciales de administrador para el inquilino de Microsoft 365 proporcionado por el proveedor de servicios de hosting de laboratorio autorizado (ALH) para acceder al Centro de administración de Microsoft 365. En el panel de navegación izquierdo del Centro de administración de Microsoft 365, selecciona **Mostrar todo** y luego selecciona **Seguridad**.  Se abrirá una nueva página del explorador con la página de bienvenida del portal de Microsoft Defender.  
+1. Abre la pestaña del explorador para la página principal de Microsoft Defender.  Si has cerrado previamente el explorador, abre Microsoft Edge. En la barra de direcciones, escribe **https://admin.microsoft.com** e inicia sesión con las credenciales de administrador para el inquilino de Microsoft 365 proporcionado por el proveedor de servicios de hosting de laboratorio autorizado (ALH) para acceder al Centro de administración de Microsoft 365. En el panel de navegación izquierdo del Centro de administración de Microsoft 365, selecciona **Mostrar todo** y luego selecciona **Seguridad**.  Se abrirá una nueva página del explorador con la página de bienvenida del portal de Microsoft Defender.  
 
-1. En la página principal del portal de Microsoft Defender se muestran muchas de las tarjetas comunes que necesitan los equipos de seguridad. La composición de tarjetas y datos depende del rol del usuario. Desplázate por la página para ver el conjunto predeterminado de tarjetas para el rol como administrador global.
+1. En la página principal del Portal de Microsoft Defender se muestran muchas de las tarjetas comunes que necesitan los equipos de seguridad. La composición de tarjetas y datos depende del rol del usuario. Desplázate por la página para ver el conjunto predeterminado de tarjetas para el rol como administrador global.
 
-1. Las tarjetas que se muestran se pueden personalizar según sus preferencias.  Selecciona **+ Agregar tarjetas**. Se abre una ventana que muestra las tarjetas disponibles para agregar a su página de inicio.  Puede que ya tengas todas las tarjetas desplegadas, en cuyo caso verás la nota: "Ya tienes todas las tarjetas en tu página de inicio". Cierra la ventana, para ello, selecciona la **X** de la esquina superior derecha de la ventana.
+1. Las tarjetas que se muestran se pueden personalizar según tus preferencias.  Selecciona **+ Agregar tarjetas**. Se abre una ventana que muestra las tarjetas disponibles para agregar a su página de inicio.  Puede que ya tengas todas las tarjetas desplegadas, en cuyo caso verás la nota: "Ya tienes todas las tarjetas en tu página de inicio". Cierra la ventana, para ello, selecciona la **X** de la esquina superior derecha de la ventana.
 
 1. Al seleccionar los puntos suspensivos de la parte superior derecha de cualquier tarjeta, se proporcionará la opción de quitar la tarjeta de la página de aterrizaje.  
 
@@ -50,7 +50,7 @@ En esta parte de la demo, explorarás algunas de las opciones disponibles en el 
     1. **Búsqueda**: desde aquí puedes crear reglas de detección personalizadas y buscar amenazas específicas en el entorno.
     1. **Acciones y entregas**: en el centro de acciones unificado se reúnen acciones de corrección en Microsoft Defender para punto de conexión y Microsoft Defender para Office 365. Enumera las acciones de corrección pendientes y completadas para sus dispositivos, contenido de correo electrónico y colaboración, e identidades en una ubicación. En organizaciones de Microsoft 365 con buzones de Exchange Online, los administradores pueden usar la página Entregas en el portal de Microsoft Defender para enviar mensajes, direcciones URL y datos adjuntos a Microsoft para su análisis.
     1. **Catálogo de partners**: en el catálogo de partners se enumeran los socios tecnológicos admitidos y los servicios profesionales que pueden ayudar a tu organización a mejorar las funcionalidades de detección, investigación e inteligencia sobre amenazas de la plataforma.
-1. **Inteligencia sobre amenazas**: en la pestaña Inteligencia sobre amenazas, los usuarios acceden a Inteligencia contra amenazas de Microsoft Defender y a la compatibilidad con las funcionalidades, incluidos el análisis de amenazas, los perfiles, el Explorador y los proyectos de inteligencia.
+1. **Inteligencia sobre amenazas**: en la pestaña Inteligencia sobre amenazas, los usuarios acceden a Inteligencia sobre amenazas de Microsoft Defender y a las funcionalidades de admite la solución, incluidos el análisis de amenazas, los perfiles, el Explorer y los proyectos de inteligencia.
 1. **Recursos**: la pestaña Recursos te permite ver y administrar el inventario de recursos protegidos y detectados de tu organización (dispositivos e identidades).
 1. **Microsoft Sentinel**: muchas otras funcionalidades de Microsoft Sentinel están disponibles en la sección Microsoft Sentinel del portal de Defender.  Esto requiere configurar la integración a través de la página Configuración.
 1. **Identidades**: el nodo Identidades se asigna a la funcionalidad asociada a Microsoft Defender for Identity. El Panel proporciona información crítica y datos en tiempo real sobre la detección y respuesta ante amenazas de identidad (ITDR). En la página Problemas de mantenimiento se enumeran los problemas de mantenimiento actuales de la implementación y los sensores de Defender for Identity, que te avisan de los problemas de la implementación de Defender for Identity. En la página herramientas se muestra información adicional para ayudar a administrar el entorno de Microsoft Defender for Identity.
@@ -68,17 +68,15 @@ En esta parte de la demo, explorarás algunas de las opciones disponibles en el 
     1. Configuración: aquí se configuran las opciones del portal de Defender, Defender XDR, las soluciones que forman parte de Microsoft Defender XDR y Microsoft Sentinel.  Explora esto como desees.
 1. **Personalización de navegación** : aquí puedes seleccionar mostrar u ocultar elementos en el panel de navegación. Otros administradores no verán los cambios.
 
-1. El panel de navegación de la izquierda proporciona vínculos o acceso a información integrada en la detección y respuesta ampliadas de Microsoft (solución XDR) que incluye incidentes y alertas, búsqueda, centro de acciones, análisis de amenazas, puntuación de segurar y mucho más.  También incluye un acceso rápido a Microsoft Defender para punto de conexión (los vínculos que aparecen debajo de Punto de conexión), Microsoft Defender para Office 365 (los vínculos que se encuentran debajo de Correo electrónico y Colaboración) y Microsoft Defender for Cloud Apps (los vínculos debajo de aplicaciones en la nube), entre otros.  Explora estas opciones al seleccionar algunos de los vínculos.   Para volver a la página principal del portal de Microsoft Defender, selecciona **Inicio** en el panel de navegación izquierdo.
-
 ### Demo, parte 3
 
 En esta parte de la demo, harás una demostración de cómo la Puntuación de seguridad de Microsoft puede ayudar a una organización a mejorar su posición de seguridad.
 
-1. En el panel de navegación izquierdo, selecciona **Puntuación de seguridad de Microsoft**.
+1. En el panel de navegación izquierdo, expande **Administración de exposición** y, después, selecciona **Puntuación de seguridad**.
 
 1. La página de Puntuación de seguridad de Microsoft se abre en la pestaña Información general. Puntuación de seguridad de Microsoft es una medición de la posición de seguridad de una organización. La Puntuación de seguridad de tu organización se muestra en forma de porcentaje y desglosada por categoría junto al número de puntos que ha alcanzado del número total de puntos posibles. Selecciona **Incluir**, que se encuentra junto a Tu puntuación de seguridad. Puedes elegir la vista de la puntuación para incluir la puntuación factible, la puntuación planeada y la puntuación de licencia actual.
 
-1. La página de información general también incluye las principales acciones recomendadas, una comparación de puntuaciones, el historial y recursos adicionales.
+1. La página de información general también incluye las principales acciones recomendadas, una comparación de puntuaciones, el historial y recursos.
 
 1. Selecciona **Acciones recomendadas** en la parte superior de la página.  Observa la información disponible para cada elemento en la tabla.  
 
@@ -94,4 +92,4 @@ En esta parte de la demo, harás una demostración de cómo la Puntuación de 
 
 ### Revisar
 
-En esta demo, has explorado el portal de Microsoft Defender. Para ello, has realizado un recorrido por el contenido mostrado en la página de aterrizaje, has explorado las opciones del panel de navegación que ofrece un acceso rápido a una funcionalidad integrada en la solución de detección y respuesta ampliadas (XDR) de Microsoft, Microsoft Defender para punto de conexión y Microsoft Defender para Office 365 (correo electrónico y colaboración).  Por último, has mostrado cómo Puntuación de seguridad de Microsoft puede ayudar a una organización a mejorar su posición de seguridad.
+En esta demo, has explorado el Portal de Microsoft Defender. Para ello, has realizado un recorrido por el contenido mostrado en la página de aterrizaje, has explorado las opciones del panel de navegación que ofrece un acceso rápido a una funcionalidad integrada en Microsoft Defender XDR.  Por último, has mostrado cómo Puntuación de seguridad de Microsoft puede ayudar a una organización a mejorar su posición de seguridad.
