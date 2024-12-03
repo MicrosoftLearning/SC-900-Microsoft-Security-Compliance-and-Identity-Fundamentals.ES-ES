@@ -27,14 +27,14 @@ Debe haberse creado una instancia de Microsoft Sentinel como parte de la configu
 1. En la página Microsoft Sentinel, debería ver la instancia de Sentinel en la lista y seleccionarla.  Si no aparece, créela ahora.
     1. En la página Microsoft Sentinel, seleccione **Crear Microsoft Sentinel**.
 
-    1. En la pantalla Agregar Microsoft Sentinel a una página de área de trabajo, seleccione **Crear un área de trabajo nueva**. En la pestaña Datos básicos del área de trabajo Crear Log Analytics, escriba lo siguiente:
-        1. Suscripción: deje el valor predeterminado.
-        1. Grupo de recursos: seleccione **Crear nuevo**, luego escriba **SC900-Sentinel-RG** y seleccione **Aceptar**.
+    1. En la pantalla Agregar Microsoft Sentinel a una página de área de trabajo, selecciona **Crear un área de trabajo nueva**. En la pestaña Datos básicos del área de trabajo Crear Log Analytics, escribe lo siguiente:
+        1. Suscripción: deja el valor predeterminado.
+        1. Grupo de recursos: selecciona **Crear nuevo**, luego escribe **SC900-Sentinel-RG** y selecciona **Aceptar**.
         1. Nombre: **SC900-LogAnalytics-workspace**.
         1. Región: **Este de EE. UU.**. (Se puede seleccionar una región predeterminada diferente en función de la ubicación).
         1. Seleccione **Revisar y crear** (no se configurarán etiquetas).
-        1. Compruebe que escribió la información correcta y seleccione **Crear**.
-        1. El área de trabajo puede tardar un minuto o dos en aparecer, si todavía no la ve, seleccione **Actualizar** y, a continuación, seleccione **Agregar**.
+        1. Comprueba que escribiste la información correcta y selecciona **Crear**.
+        1. El área de trabajo puede tardar un minuto o dos en aparecer, si todavía no la ves, selecciona **Actualizar** y, a continuación, selecciona **Agregar**.
         1. Una vez que se haya agregado la nueva área de trabajo, se mostrará la página Microsoft Sentinel | Noticias y guías, lo que indica que se ha activado la evaluación gratuita de Microsoft Sentinel.  Seleccione **Aceptar**.
 
 1. Deje esta página abierta, la utilizará en la siguiente tarea.

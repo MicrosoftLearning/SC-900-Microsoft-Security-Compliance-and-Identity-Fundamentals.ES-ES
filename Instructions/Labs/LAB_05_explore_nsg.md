@@ -27,8 +27,7 @@ En esta tarea, verá algunos de los parámetros asociados a la máquina virtual 
 1. Inicie sesión con sus credenciales de administrador.
     1. En la ventana Inicio de sesión, escriba el nombre de usuario proporcionado por el proveedor de hospedaje de laboratorio y seleccione **Siguiente**.
     1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
-    1. Si has iniciado sesión anteriormente, es posible que se te pida que completes una autenticación secundaria, como parte de MFA. Si no has iniciado sesión anteriormente, es posible que se te pida que completes el proceso de registro de MFA. Sigue las indicaciones en la pantalla para configurar MFA.
-    1. Si aparece un mensaje para preguntarle si quiere mantener iniciada la sesión, seleccione **Sí**.
+    1. Según el proveedor de servicios de hosting del laboratorio y, si es la primera vez que inicias sesión en el inquilino, te pedirán que completes el proceso de registro de MFA. Sigue las indicaciones en la pantalla para configurar MFA.
 
 1. En la parte superior de la página, debajo de donde pone Servicios de Azure, seleccione **Máquina virtuales**.  Si no aparece, en el cuadro de búsqueda, en la barra azul de la parte superior de la página que hay junto a las palabras Microsoft Azure, escriba **Máquinas virtuales** y luego seleccione **Máquinas virtuales** en los resultados de la búsqueda.
 
@@ -126,7 +125,7 @@ En la tarea anterior, ha confirmado que podía establecer una conexión RDP a la
 
 1. Debería estar en la página de conexión de SC900-WinVM \|. En el panel de navegación izquierdo, seleccione **Redes**. Si ha cerrado previamente la pestaña del explorador, seleccione la barra de búsqueda azul en la parte superior de la página, seleccione Máquinas virtuales, luego seleccione la máquina virtual **SC900-WinVM** y, por último, seleccione **Redes**.
 
-1. Seleccione la pestaña **Reglas de puerto de salida**. Verá las reglas de salida predeterminadas.  Tenga en cuenta la regla predeterminada "AllowInternetOutBound". Esta regla permite todo el tráfico saliente de Internet. La regla predeterminada no se puede quitar, pero puede reemplazarla al crear una regla de prioridad más alta. En la parte derecha de la página, seleccione **Agregar regla de puerto de salida**.
+1. Seleccione la pestaña **Reglas de puerto de salida**. Verá las reglas de salida predeterminadas.  Tenga en cuenta la regla predeterminada "AllowInternetOutBound". Esta regla permite todo el tráfico saliente de Internet. La regla predeterminada no se puede quitar, pero puede reemplazarla al crear una regla de prioridad más alta. En el lado derecho de la página, selecciona **+Crear regla de puerto** y, después, en la lista desplegable, selecciona **Regla de puerto de salida**.
 
 1. En la página Agregar regla de seguridad de salida, especifique la siguiente configuración:
     1. Origen: **Cualquiera**

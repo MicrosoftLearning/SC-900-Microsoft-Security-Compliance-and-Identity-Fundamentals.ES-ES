@@ -20,13 +20,13 @@ En este laboratorio, accederás a Microsoft Entra ID (anteriormente denominado A
 
 ### Tarea 1
 
-Como suscriptor de Microsoft 365, ya usas Microsoft Entra ID (anteriormente denominado Azure AD).  En esta tarea, aprenderás a crear un nuevo usuario en Microsoft Entra ID y a explorar algunos de los servicios que se pueden administrar a nivel de usuario.
+Como suscriptor de Microsoft 365, ya estás usando Microsoft Entra ID.  En esta tarea, aprenderás a crear un nuevo usuario en Microsoft Entra ID y a explorar algunos de los servicios que se pueden administrar a nivel de usuario.
 
-1. Abre el explorador Microsoft Edge. En la barra de direcciones, escribe **[admin.microsoft.com](https://admin.microsoft.com)** e inicia sesión con las credenciales de Microsoft 365 proporcionadas por el host de laboratorio autorizado (ALH).
+1. Abre el explorador Microsoft Edge. En la barra de direcciones, escribe **`https://admin.microsoft.com`** e inicia sesión con las credenciales de Microsoft 365 proporcionadas por el proveedor de servicios de hosting del laboratorio autorizado (ALH).
     1. En la ventana de inicio de sesión, escribe **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es tu id. de inquilino único proporcionado por el ALH) y selecciona **Siguiente**.
     1. Escribe la contraseña de administrador que debería haberte proporcionado tu proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
-    1. Dado que esta es la primera vez que inicias sesión, es posible que se te pida configurar MFA. Sigue las indicaciones en la pantalla para configurar MFA.
-    1. Si aparece un mensaje para preguntarle si quiere mantener iniciada la sesión, seleccione **Sí**.
+    1. Según el proveedor de servicios de hosting del laboratorio y, si es la primera vez que inicias sesión en el inquilino, te pedirán que completes el proceso de registro de MFA. Sigue las indicaciones en la pantalla para configurar MFA.
+    1. Cuando hayas iniciado sesión, te llevarán a la página Centro de administración de Microsoft 365.
 
 1. En Centros de administración, selecciona **Identidad** (puede que tengas que seleccionar **Mostrar todo** y desplazarte hacia abajo).  Se abre una nueva página del explorador con la página de información general del Centro de administración Microsoft Entra.
 

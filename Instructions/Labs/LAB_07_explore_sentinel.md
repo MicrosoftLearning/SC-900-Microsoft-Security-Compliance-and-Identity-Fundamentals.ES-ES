@@ -22,7 +22,7 @@ En este laboratorio, realizará un recorrido por el proceso de creación de una 
 
 Creación de una instancia de Microsoft Sentinel
 
-1. Debería estar en la página principal de los servicios de Azure.  Si ha cerrado previamente el explorador, abra Microsoft Edge. En la barra de direcciones, escriba **portal.azure.com** e inicie sesión con sus credenciales de administrador. Si has iniciado sesión anteriormente, es posible que se te pida un formulario de autenticación secundario, como parte de MFA.  Si no has iniciado sesión anteriormente, es posible que se te pida que configures MFA.  Sigue las indicaciones en la pantalla para configurar MFA.
+1. Debería estar en la página principal de los servicios de Azure.  Si ha cerrado previamente el explorador, abra Microsoft Edge. En la barra de direcciones, escriba **portal.azure.com** e inicie sesión con sus credenciales de administrador.
 
 1. En el cuadro de búsqueda azul situado en la parte superior de la página, escriba **Microsoft Sentinel** y, a continuación, seleccione **Microsoft Sentinel** en los resultados de búsqueda.
 
@@ -39,7 +39,7 @@ Creación de una instancia de Microsoft Sentinel
     1. Comprueba que escribiste la información correcta y selecciona **Crear**.
     1. El área de trabajo puede tardar un minuto o dos en aparecer, si todavía no la ves, selecciona **Actualizar** y, a continuación, selecciona **Agregar**.
 
-1. Una vez que se haya agregado la nueva área de trabajo, se mostrará la página Microsoft Sentinel | Noticias y guías, lo que indica que se ha activado la evaluación gratuita de Microsoft Sentinel.  Seleccione **Aceptar**.  Tenga en cuenta los tres pasos que aparecen en la página Introducción.
+1. Una vez que se haya agregado la nueva área de trabajo, se mostrará la página Microsoft Sentinel | Noticias y guías, lo que indica que se ha activado la evaluación gratuita de Microsoft Sentinel.  Seleccione **Aceptar**.
 
 1. Deje esta página abierta, porque la utilizará en la siguiente tarea.
 
@@ -72,7 +72,7 @@ El propósito de esta tarea es guiarle por los pasos necesarios para conectarse 
 
 1. En la página principal de los servicios de Azure, seleccione Microsoft Sentinel y, a continuación, seleccione la instancia que creó, **SC900-LogAnalytics-workspace**.
 
-1. En el panel de navegación de la izquierda, seleccione **Centro de conectividad del contenido**.
+1. En el panel de navegación izquierdo, expande **Gestión de contenidos** y, luego, selecciona **Centro de contenidos**.
 
 1. Dedique un momento a desplazarse hacia abajo para ver la larga lista de soluciones disponibles y las opciones para filtrarla.  Para esta tarea, debe buscar **Microsoft Defender for Cloud**.  Selecciónelo en la lista.  En la ventana lateral que se abre, lea la descripción y seleccione **Instalar**.  Una vez completada la instalación, la columna de estado de la ventana principal se mostrará como instalada.
 
@@ -95,21 +95,23 @@ El propósito de esta tarea es guiarle por los pasos necesarios para conectarse 
 
 En esta tarea, realizará un recorrido por algunas de las opciones disponibles en Sentinel.
 
-1. En el panel de navegación izquierdo, seleccione **Búsqueda**.  En la parte superior de la página, seleccione la pestaña **Consultas**. Lea la descripción de lo que es una consulta de búsqueda. Las consultas de búsqueda se pueden agregar a través del centro de contenido. Las consultas instaladas anteriormente aparecerán aquí. Seleccione **Ir al centro de contenido**.  El centro de contenido muestra el contenido que incluye consultas como parte de una solución o como una consulta independiente.  Desplácese hacia abajo para ver las opciones disponibles. Cierre el centro de contenido, para hacerlo, seleccione la **X** de la esquina superior derecha de la ventana.
+1. En el panel de navegación izquierdo, expande **Administración de amenazas**y explora las opciones enumeradas en Administración de amenazas.
+    1. Seleccione **Incidentes**.  Aunque no se encuentran incidentes, revisa la sección **¿De qué se trata?**
+    1. Selecciona **Búsqueda** y, luego, revisa la información proporcionada en la pestaña **Búsquedas (versión preliminar).**
+    1. Selecciona **Notebooks** y revisa la sección **¿De qué se trata?**
+    1. Selecciona **Inteligencia sobre amenazas** y revisa la información de la página.
+    1. Selecciona **MITRE ATT&CK**.  MITRE ATT&CK es una base de conocimiento accesible públicamente de tácticas y técnicas que suelen usar los atacantes. Con Microsoft Sentinel puede ver las detecciones que ya están activas en el área de trabajo, así como las que están disponibles para configurarlas, con el fin de que conozca la cobertura de seguridad de su organización, según las tácticas y técnicas del marco MITRE ATTCK®.  Seleccione cualquier celda de la matriz y anote la información disponible en el lado derecho de la pantalla. **Nota**: Es posible que tenga que seleccionar "**<<**" en el lado derecho de la ventana para ver el panel de información.
 
-1. En el panel de navegación izquierdo, seleccione **MITRE ATT&CK**.  MITRE ATT&CK es una base de conocimiento accesible públicamente de tácticas y técnicas que suelen usar los atacantes. Con Microsoft Sentinel puede ver las detecciones que ya están activas en el área de trabajo, así como las que están disponibles para configurarlas, con el fin de que conozca la cobertura de seguridad de su organización, según las tácticas y técnicas del marco MITRE ATTCK®.  Seleccione cualquier celda de la matriz y anote la información disponible en el lado derecho de la pantalla. **Nota**: Es posible que tenga que seleccionar "**<<**" en el lado derecho de la ventana para ver el panel de información.
+1. En el panel de navegación izquierdo, expande **Gestión de contenidos** y, luego, selecciona **Comunidad**. La página de la comunidad incluye información y actualizaciones de ciberseguridad de Microsoft Research, un vínculo a una lista de blogs de Microsoft Sentinel, un vínculo a foros de Microsoft Sentinel, vínculos a las últimas ediciones al Centro de Microsoft Sentinel, etc. Explore esto como desee.
 
-1. En el panel de navegación izquierdo, seleccione **Comunidad**. La página de la comunidad incluye información y actualizaciones de ciberseguridad de Microsoft Research, un vínculo a una lista de blogs de Microsoft Sentinel, un vínculo a foros de Microsoft Sentinel, vínculos a las últimas ediciones al Centro de Microsoft Sentinel, etc. Explore esto como desee.
 
-1. En el panel de navegación izquierdo, seleccione **Análisis**.  Debe haber dos reglas activas, una que esté disponible de forma predeterminada y la regla que creó en la tarea anterior. Seleccione la regla predeterminada **Detección avanzada de ataques multistage**.  Anote la información detallada.  Microsoft Sentinel usa Fusion, un motor de correlación basado en algoritmos de aprendizaje automático escalable, para detectar automáticamente ataques de varias fases (también conocidos como amenazas persistentes avanzadas) al identificar combinaciones de comportamientos anómalos y actividades sospechosas que se observan en diversas fases de la cadena de eliminación. A partir de estas detecciones, Microsoft Sentinel genera incidentes que, de otro modo, serían muy difíciles de detectar. **Nota**: Es posible que tenga que seleccionar "**<<**" en el lado derecho de la ventana para ver el panel de información.
-
-1. En el panel de navegación izquierdo, seleccione **Automatización**.  Aquí puede crear reglas de automatización sencillas, integrarlas con cuadernos de estrategias existentes o crear nuevos cuadernos de estrategias.  Seleccione **+ Crear** y, luego, **Regla de automatización**.  Observe la ventana que se abre en el lado derecho de la pantalla y las opciones disponibles para crear condiciones y acciones.  Seleccione **Cancelar** en la parte inferior de la página.
-
-1. En el panel de navegación izquierdo, seleccione **Libros**. Lea la descripción del libro de Microsoft Sentinel.  Los libros se pueden agregar a través del centro de contenido. Cualquier libro instalado anteriormente aparecerá aquí. Seleccione **Ir al centro de contenido**.  El centro de contenido muestra el contenido que incluye libros como parte de una solución o como un libro independiente. Desplácese hacia abajo para ver las opciones disponibles.
+1. En el panel de navegación izquierdo, expande **Configuración** y explora las opciones enumeradas:
+    1. Selecciona **Análisis**.  Debe haber dos reglas activas, una que esté disponible de forma predeterminada y la regla que creó en la tarea anterior. Seleccione la regla predeterminada **Detección avanzada de ataques multistage**.  Revisa la información detallada. **Nota**: Es posible que tenga que seleccionar "**<<**" en el lado derecho de la ventana para ver el panel de información.
+    1. En el panel de navegación izquierdo, seleccione **Automatización**.  Aquí puede crear reglas de automatización sencillas, integrarlas con cuadernos de estrategias existentes o crear nuevos cuadernos de estrategias.  Seleccione **+ Crear** y, luego, **Regla de automatización**.  Observe la ventana que se abre en el lado derecho de la pantalla y las opciones disponibles para crear condiciones y acciones.  Seleccione **Cancelar** en la parte inferior de la página.
 
 1. Cierre la ventana seleccionando la **X** de la esquina superior derecha de la ventana.
 
-1. En la esquina superior izquierda de la ventana, justo debajo de la barra azul, seleccione **Inicio** para volver a la página principal del Azure Portal.
+1. En la esquina superior izquierda de la ventana, en el banner azul, selecciona **Microsoft Azure** para volver a la página principal de Azure Portal.
 
 1. Cierre la sesión y cierre todas las pestañas abiertas del explorador.
 
