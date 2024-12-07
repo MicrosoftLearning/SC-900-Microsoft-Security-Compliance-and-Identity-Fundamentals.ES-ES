@@ -22,25 +22,25 @@ En este laboratorio explorará las funcionalidades de las aplicaciones de Micros
 
 Explorar Cloud Discovery.
 
-1. Abrir Microsoft Edge. En la barra de direcciones, escriba **admin.microsoft.com**.
+1. Abre Microsoft Edge. En la barra de direcciones, escribe **`https://admin.microsoft.com`**.
 
 1. Inicie sesión con sus credenciales de administrador para el inquilino de Microsoft 365.
     1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es el id. de inquilino único proporcionado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
-    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
-    1. Si has iniciado sesión anteriormente como administrador, se te pedirá que completes una autenticación secundaria, como parte de MFA. Si no has iniciado sesión anteriormente como administrador, se te pedirá que completes el proceso de registro de MFA. Sigue las indicaciones en la pantalla para configurar MFA.
-    1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**. Esto le llevará a la página del Centro de administración de Microsoft 365.
+    1. Escribe la contraseña de administrador que debería haberte proporcionado tu proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
+    1. Según el proveedor de servicios de hosting del laboratorio y, si es la primera vez que inicias sesión en el inquilino, te pedirán que completes el proceso de registro de MFA. Sigue las indicaciones en la pantalla para configurar MFA.
+    1. Cuando hayas iniciado sesión, te llevarán a la página Centro de administración de Microsoft 365.
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft 365, seleccione **Mostrar todo**.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft 365, selecciona **Mostrar todo**.
 
 1. En Centros de administración, seleccione **Seguridad**.  Se abrirá una nueva página del explorador con la página de bienvenida del portal de Microsoft 365 Defender.  
 
-1. Si es la primera vez que visita el portal de Microsoft 365 Defender, puede que aparezca una ventana emergente para realizar un recorrido rápido.  Cierre esto.
+1. Si es la primera vez que visita el portal de Microsoft 365 Defender, puede que aparezca una ventana emergente para realizar un recorrido rápido.  Puedes optar por realizar el breve recorrido o cerrar la ventana.
 
-1. En el panel de navegación izquierdo, seleccione **Aplicaciones** en la nube para expandir la lista y, a continuación, seleccione **Cloud Discovery**. Esto le lleva a la vista de Panel.  Observe la información disponible en el panel. En la vista del panel, puede seleccionar diferentes pestañas en la parte superior de la página.  
+1. En el panel de navegación izquierdo, selecciona **Aplicaciones** en la nube para expandir la lista y, a continuación, selecciona **Cloud Discovery**. Esto le lleva a la vista de Panel.  Observe la información disponible en el panel. En la vista del panel, puede seleccionar diferentes pestañas en la parte superior de la página.  
 
 1. Seleccione **Aplicaciones detectadas**. La ventana aplicaciones descubiertas proporciona una vista más detallada de las aplicaciones descubiertas, incluida la puntuación de riesgo, el tráfico, el número de usuarios y mucho más.
     1. En uno de los elementos de la lista, seleccione los **puntos suspensivos** (...) de la columna de acciones de la tabla.  Tenga en cuenta las distintas opciones disponibles, incluida la capacidad de etiquetar una aplicación como autorizada o no autorizada.  Seleccione el **puntos suspensivos** (...), de nuevo, para cerrar el cuadro de acciones.
-    1. Al seleccionar un elemento de línea específico, se abre una página de detalles para la aplicación específica.  Seleccione un elemento de la lista y revise la información disponible en la página de información general.  Para el elemento seleccionado, seleccione la pestaña **Uso de aplicaciones en la nube** para ver información más detallada, como **Uso**, **Usuarios, IP**, **Direcciones** y **Alertas**. Cuando hayas terminado de explorar la página de detalles, vuelve a la página de aplicaciones detectadas; para ello, selecciona **Cloud Discovery** en la ruta de navegación de la parte superior de la página.  Si seleccionas Cloud Discovery en el panel de navegación izquierdo, volverás a la vista del panel.
+    1. Al seleccionar un elemento de línea específico, se abre una página de detalles para la aplicación específica.  Seleccione un elemento de la lista y revise la información disponible en la página de información general.  Para el elemento seleccionado, selecciona la pestaña **Uso de aplicaciones en la nube** para ver información más detallada, como **Uso**, **Usuarios, IP**, **Direcciones** e **Incidentes**. Cuando hayas terminado de explorar la página de detalles, vuelve a la página de aplicaciones detectadas; para ello, selecciona **Cloud Discovery** en la ruta de navegación de la parte superior de la página.  Si seleccionas Cloud Discovery en el panel de navegación izquierdo, volverás a la vista del panel.
     1. En la parte superior de la página, selecciona la pestaña **Direcciones IP**. Aquí encontrarás datos, como el número de transacciones, la cantidad de tráfico y las cantidades de carga, por dirección IP.  Tenga en cuenta que también puede filtrar por dirección IP específica o exportar los datos para su posterior análisis.
     1. En la parte superior de la página, seleccione **Usuarios**.  Es el mismo tipo de información que obtiene al seleccionar Direcciones IP, solo que aquí aparece ordenada por usuarios individuales.  De nuevo, filtrará por usuario específico y exportará los datos para su posterior análisis.
 

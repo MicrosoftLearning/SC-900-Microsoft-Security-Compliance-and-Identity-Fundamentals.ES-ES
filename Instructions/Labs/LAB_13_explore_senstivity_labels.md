@@ -14,7 +14,7 @@ Este laboratorio está orientado al siguiente contenido de Learn:
 
 ## Escenario del laboratorio
 
-En este laboratorio explorará las funcionalidades de las etiquetas de confidencialidad.  Realizará un recorrido por la configuración de las etiquetas de confidencialidad existentes creadas previamente y por la directiva correspondiente para publicar la etiqueta.   Después aprenderá a aplicar una etiqueta y comprobará el impacto que tiene esta desde la perspectiva de un usuario.
+En este laboratorio explorarás las funcionalidades de las etiquetas de confidencialidad.  Realizarás un recorrido por la configuración de las etiquetas de confidencialidad existentes creadas previamente y por la directiva correspondiente para publicar la etiqueta.   Después aprenderás a aplicar una etiqueta y comprobarás el impacto que tiene esta desde la perspectiva de un usuario.
 
 **Tiempo estimado**: 45 minutos
 
@@ -22,13 +22,14 @@ En este laboratorio explorará las funcionalidades de las etiquetas de confidenc
 
 En esta tarea obtendrás información de lo que pueden hacer las etiquetas de confidencialidad. Para ello, realizarás un recorrido por el proceso de crear una etiqueta nueva y una directiva para publicarla.
 
-1. Abra la pestaña del explorador para la página principal de Microsoft Purview.  Si la había cerrado, abra otra y escriba **https://admin.microsoft.com** . Inicie sesión con las credenciales de administrador para el inquilino de Microsoft 365 proporcionadas por el host de laboratorio autorizado (ALH). Si has iniciado sesión anteriormente como administrador, se te pedirá que completes una autenticación secundaria, como parte de MFA. Si no has iniciado sesión anteriormente como administrador, se te pedirá que completes el proceso de registro de MFA. Sigue las indicaciones en la pantalla para configurar MFA.
+1. Abre la pestaña del explorador para la página principal de Microsoft Purview.  Si la habías cerrado, abre otra y escribe **`https://admin.microsoft.com`** . Inicia sesión con las credenciales de administrador para el inquilino de Microsoft 365 proporcionadas por el host de laboratorio autorizado (ALH).
 
-1. En el panel de navegación izquierdo del Centro de administración de Microsoft 365, seleccione **Mostrar todo** y luego seleccione **Cumplimiento**.  Se abrirá una nueva página del explorador con la página principal del portal de Microsoft Purview.
+1. En el panel de navegación izquierdo del Centro de administración de Microsoft 365, selecciona **Mostrar todo** y luego selecciona **Cumplimiento**.  Se abrirá una nueva página del explorador con la página principal del Portal de Microsoft Purview.
 
 1. En el panel de navegación izquierdo, selecciona **Soluciones** e **Information Protection**.  Estás en la página de información general. Desplázate hacia abajo para ver la información disponible.
 
 1. En el panel de navegación izquierdo, selecciona **Etiquetas de confidencialidad**.
+1. Verás un banner amarillo que indica que tu organización no ha activado la posibilidad de procesar el contenido de los archivos en línea de Office a los que se les ha aplicado etiquetas de confidencialidad cifradas y que se han almacenado en OneDrive y SharePoint.  Seleccione **Activar ahora**.
 
 1. Algunas etiquetas se han preconfigurado en el inquilino de laboratorio de Microsoft 365, para su comodidad. Selecciona la etiqueta denominada **Confidential-Finance**.  Se abrirá una ventana que proporciona información sobre esta etiqueta.  Fíjate en la configuración de esta etiqueta.  Selecciona **Editar etiqueta**. Si no ves esta opción, selecciona los puntos suspensivos.
     1. La configuración comienza por proporcionar detalles básicos para la etiqueta.  No hagas ningún cambio.  Selecciona **Siguiente** en la parte inferior de la página.
@@ -53,10 +54,10 @@ En esta tarea obtendrás información de lo que pueden hacer las etiquetas de co
     1. La última opción de la configuración te permite dar un nombre a su directiva.  Puesto que estás editando la directiva, el campo de nombre está atenuado. Selecciona **Siguiente** en la parte inferior de la página.
     1. Revisa la configuración de la directiva. Selecciona **Cancelar** para descartar los cambios y volver a la página Directivas de etiqueta.
 
-1. En el panel de navegación izquierdo, en Information Protection, selecciona Etiquetado automático. Revisa la descripción. Tenga en cuenta que crea directivas de etiquetado automático para aplicar automáticamente etiquetas de confidencialidad a mensajes de correo electrónico o archivos de OneDrive y SharePoint que contienen información confidencial. No se han preconfigurado directivas de etiqueta automática en nuestro inquilino. Para crear una nueva directiva, seleccione **Crear directiva de etiquetado automático**.  Aquí verá los pasos para crear una nueva directiva.
-    1. Para empezar, elija la información a la que desea aplicar esta etiqueta.  Fíjese en las opciones disponibles.  Seleccione **Medicina y salud** y, a continuación, seleccione una de las plantillas disponibles.  Seleccione **Siguiente**.
-    1. Puede asignar un nombre a la directiva de etiqueta automática o usar el nombre predeterminado.  Seleccione **Siguiente**.
-    1. Puede asignar las unidades de administración a las que se aplica esta directiva.  Deje la configuración predeterminada como directorio completo y seleccione **Siguiente**.
+1. En el panel de navegación izquierdo, en Information Protection, selecciona Etiquetado automático. Revisa la descripción. Ten en cuenta que creas directivas de etiquetado automático para aplicar automáticamente etiquetas de confidencialidad a mensajes de correo electrónico o archivos de OneDrive y SharePoint que contienen información confidencial. No se han preconfigurado directivas de etiqueta automática en nuestro inquilino. Para crear una nueva directiva, selecciona **Crear directiva de etiquetado automático**.  Aquí verás los pasos para crear una nueva directiva.
+    1. Para empezar, elige la información a la que deseas aplicar esta etiqueta.  Fíjate en las opciones disponibles.  Selecciona **Medicina y salud** y, a continuación, selecciona una de las plantillas disponibles.  Selecciona **Siguiente**.
+    1. Puedes asignar un nombre a la directiva de etiqueta automática o usar el nombre predeterminado.  Selecciona **Siguiente**.
+    1. Puedes asignar las unidades de administración a las que se aplica esta directiva.  Deje la configuración predeterminada como directorio completo y seleccione **Siguiente**.
     1. Fíjese en las ubicaciones disponibles en las que desea aplicar la etiqueta.  Deje los valores predeterminados y seleccione **Siguiente**.
     1. Puede configurar reglas comunes o avanzadas que definen a qué contenido se aplica la etiqueta.  Deje la configuración predeterminada como reglas comunes y seleccione **Siguiente**.
     1. Puede definir reglas para el contenido en todas las ubicaciones.  La etiqueta se aplicará al contenido que coincida con las reglas definidas en esta página.  Para la plantilla seleccionada, debería ver un elemento de línea. Expándalo para ver las condiciones que se aplican.  Deje la configuración predeterminada y seleccione **Siguiente**.
@@ -65,7 +66,7 @@ En esta tarea obtendrás información de lo que pueden hacer las etiquetas de co
     1. Puede decidir probar la directiva ahora o más tarde.  Seleccione **Dejar la directiva desactivada** y, a continuación, seleccione **Siguiente**.
     1. Revise la configuración y seleccione **Crear directiva**, luego seleccione **Listo**.
 
-1. En el panel de navegación izquierdo, seleccione **Inicio** para volver al portal de cumplimiento de Microsoft Purview.
+1. En el panel de navegación izquierdo, selecciona **Inicio** para volver al portal de Microsoft Purview.
 
 1. Deje esta página abierta. La utilizará en la siguiente tarea.
 
@@ -73,9 +74,10 @@ En esta tarea obtendrás información de lo que pueden hacer las etiquetas de co
 
 En esta tarea, verá el proceso de aplicar una etiqueta de confidencialidad a un documento de Microsoft Word y, a continuación, verá el marcado de contenido (marca de agua) que genera la etiqueta. NOTA: Cuando use Microsoft Word online, puede experimentar algo de retraso antes de que aparezca la opción para seleccionar Etiquetas de confidencialidad en la cinta de opciones de la parte superior.  Le recomendamos que complete todos los laboratorios restantes y que vuelva más tarde a esta tarea.
 
-1. En la página principal del Portal de cumplimiento de Microsoft Purview, seleccione el **icono del iniciador de aplicaciones**, junto a Contoso Electronics. Seleccione el **icono de Word**.  
+1. Deberías encontrarte en la página principal del portal de Microsoft Purview. 
+1. En el portal de Microsoft Purview selecciona el **icono del iniciador de aplicaciones**, junto a donde dice Microsoft Purview. Seleccione el **icono de Word**.  
 
-1. En Crear nuevo, seleccione **Documento en blanco** y escriba algún texto en la página.  En la parte superior de la página, seleccione la flecha hacia abajo que hay junto a las palabras DocumentoXX: Guardado y, en el cuadro Nombre de archivo, escriba **Etiqueta:Prueba** y pulse **Entrar** en el teclado.
+1. En Crear nuevo, seleccione **Documento en blanco** y escriba algún texto en la página.  En la parte superior de la página, junto al icono de Word, selecciona donde dice **Documento**, cambia el nombre del archivo por **Test-label** y luego pulsa **Entrar** en el teclado.
 
 1. En el extremo derecho de la barra de menú superior (también denominada cinta) hay una flecha hacia abajo, selecciónela y después seleccione **Cinta clásica**.  Esto facilitará la identificación del icono de confidencialidad. Seleccione **Confidencialidad**, situado junto al icono de micrófono. En el menú desplegable, seleccione **Confidential-Finance**.  
 

@@ -22,7 +22,7 @@ En esta demostración, accederá a Microsoft Entra ID y verá las distintas op
 
 1. Inicie sesión con sus credenciales de administrador.
     1. En la ventana de inicio de sesión, escriba **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es el id. de inquilino único proporcionado por el proveedor de servicios de hospedaje de laboratorios) y seleccione **Siguiente**.
-    1. Escriba la contraseña de administrador que debería haberle proporcionado su proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
+    1. Escribe la contraseña de administrador que debería haberte proporcionado tu proveedor de servicios de hospedaje de laboratorios. Selecciona **Iniciar sesión**.
     1. Cuando aparezca un mensaje para preguntarle si quiere mantener la sesión iniciada, seleccione **Sí**.
 
 1. En el panel de navegación izquierdo del Centro de administración de Microsoft 365, seleccione **Mostrar todo**.
@@ -47,8 +47,6 @@ En esta demostración, accederá a Microsoft Entra ID y verá las distintas op
 1. En el panel de navegación izquierdo, seleccione **Asignación de roles de Azure**.  Llamada:
     1. Esto es diferente a la pestaña Roles asignados que se ha mostrado antes, ya que esa pestaña anterior es para el control de acceso basado en roles en Microsoft Entra.
     1. Aunque aquí no aparece nada, esta es la pestaña donde podría ver las asignaciones de roles, asignados a Adele, para los recursos de Azure. Por ejemplo, si tuviera que crear un grupo de recursos de Azure y asignara a Adele un rol específico, como propietario o colaborador del grupo de recursos, vería que ese rol aparecería aquí. Esto forma parte del control de acceso basado en roles de Azure (Azure RBAC). Esa asignación de roles se agrega y administra como parte de ese recurso específico.
-
-1. En el panel de navegación izquierdo, seleccione **Métodos de autenticación**.  Llame a la descripción que dice: "Aquí puede establecer los números de teléfono y las direcciones de correo electrónico que los usuarios usan para realizar la autenticación multifactor, el autoservicio de restablecimiento de contraseña y restablecer la contraseña de un usuario". Si un usuario está configurado para SSPR o está obligado a usar MFA, y usted, como administrador, rellena esto, entonces ya estará registrado y no tendrá que seguir los pasos de registro para SSPR o MFA.  Es frecuente que el usuario se autorregistre en lugar de que el administrador tenga que hacerlo.
 
 1. Seleccione la **X** de la esquina superior derecha de la página. Esto le devuelve a la lista de usuarios.
 

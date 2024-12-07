@@ -26,7 +26,7 @@ En esta tarea de configuración, habilitarás las funcionalidades de registro de
 
 1. En Centros de administración, selecciona **Seguridad**.  Se abrirá una nueva página del explorador con la página de bienvenida de Microsoft Defender.  
 
-1. En el panel de navegación izquierdo del Portal de cumplimiento de Microsoft Purview, seleccione **Mostrar todo**.
+1. En el panel de navegación izquierdo del portal de cumplimiento de Microsoft Purview, selecciona **Mostrar todo**.
 
 1. En el panel de navegación izquierdo, desplázate hacia abajo y expande **Sistema**.  Selecciona **Auditoría** en la lista expandida.  Nota: la funcionalidad de auditoría también es accesible a través del portal de Microsoft Defender.
 
@@ -47,8 +47,8 @@ En esta tarea de configuración, te agregarás, como administrador MOD, al grupo
 1. En el panel de navegación que se abre, selecciona **Roles y ámbito** para expandir la opción y, después, selecciona **Grupos de roles**.
 1. En el cuadro de búsqueda del lado derecho de la pantalla, busque el término **Cumplimiento**.  Selecciona **Administrador de cumplimiento**.
     1. Selecciona **Editar**.
-    1. Selecciona **Seleccionar usuarios**.
-    1. Busca Administrador MOD, selecciona el cuadro situado junto a **Administrador de MOD**. Luego, selecciona el botón **Seleccionar** situado en la parte inferior de la página.
+    1. Selecciona **Elegir usuarios**.
+    1. Para buscar el administrador MOD, selecciona el cuadro situado junto a **Administrador MOD** y luego selecciona el botón **Seleccionar** situado en la parte inferior de la página.
     1. Selecciona **Siguiente**, **,Guardar** y, finalmente, **Listo**.
 1. Esto concluye la configuración del inquilino de Microsoft 365, puedes cerrar las pestañas del explorador.
 

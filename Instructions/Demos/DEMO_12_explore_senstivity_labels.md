@@ -6,7 +6,7 @@ Demo: Título: "Etiquetas de confidencialidad en Microsoft Purview" Ruta de apre
 
 # Demo: Etiquetas de confidencialidad en Microsoft Purview
 
-Esta demostración está orientada al siguiente contenido de Learn:
+Esta demo está orientada al siguiente contenido de Learn:
 
 - Ruta de aprendizaje: Descripción de las funcionalidades de Microsoft Priva y Microsoft Purview
 - Módulo: Descripción de las soluciones de seguridad de datos de Microsoft Purview

@@ -20,7 +20,7 @@ En esta demostración, explorará la función de los grupos de seguridad de red 
 
 En esta parte, verá algunos de los parámetros asociados a la máquina virtual que se creó como parte de la demostración de instalación (DEMO_00_pre_demo_setup.md).
 
-1. Abrir Microsoft Edge.  En la barra de direcciones, escriba **https://portal.azure.com** e inicie sesión con las credenciales de Azure proporcionadas por el host de laboratorio autorizado (ALH).  Esto le llevará a la página principal de servicios de Azure.
+1. Abrir Microsoft Edge.  En la barra de direcciones, escribe **https://portal.azure.com** e inicia sesión con las credenciales de Azure proporcionadas por el host de laboratorio autorizado (ALH).  Esto te llevará a la página principal de servicios de Azure.
 
 1. En el cuadro de búsqueda azul en la parte superior de la página, escriba **Virtual Machines** y seleccione **Virtual Machines** en los resultados de la búsqueda.
 
@@ -47,8 +47,8 @@ En esta parte, asignará una interfaz al NSG y hablará con las reglas de entrad
     1. Suscripción: deje el valor predeterminado (esta es la suscripción de Azure proporcionada por el host de laboratorio autorizado).
     1. Grupo de recursos: **LabsSC900** (el mismo grupo de recursos que usa la máquina virtual).
     1. Nombre: **NSG-SC900**
-    1. Región: deje el valor predeterminado.
-    1. Seleccione **Revisar y crear** y, luego, **Crear**.
+    1. Región: deja el valor predeterminado.
+    1. Selecciona **Revisar y crear** y, luego, **Crear**.
     1. Una vez completada la implementación (esto sucede muy rápidamente), seleccione **Ir al recurso**.
 
 1. En la parte superior de la página debajo de donde dice Essentials, verá información básica sobre el grupo de seguridad de red que creó.  Dos aspectos que se han de tener en cuenta son que no hay ninguna regla de seguridad PERSONALIZADA y no hay subredes ni interfaces de red asociadas a este NSG.  Aunque no hay reglas de seguridad personalizadas, hay reglas de entrada y salida predeterminadas que se incluyen con cada NSG, como se muestra en la página.  Revise las reglas de entrada y salida. Las reglas de entrada predeterminadas deniegan todo el tráfico entrante que no procede de una red virtual o de un equilibrador de carga de Azure.  Las reglas de salida deniegan todo el tráfico saliente, excepto el tráfico entre redes virtuales y el tráfico saliente a Internet.
