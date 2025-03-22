@@ -49,7 +49,7 @@ Al igual que con todos los recursos de Azure, debe asegurarse de que los usuario
 
 1. En la página SC900-Sentinel-RG, seleccione **Control de acceso (IAM)** del panel de navegación izquierdo.
 
-1. En la página Control de acceso, seleccione **Ver mi acceso**.  Si usa la suscripción a Skillable Cloud Slice, la asignación de roles se establece en Propietario de LOD, que es una asignación de roles personalizada configurada para esta suscripción a Cloud Slice y que le concederá los permisos necesarios. Sin embargo, para fines de demostración, está bien mostrar los roles específicos de Sentinel.  Cierre la ventana de asignaciones seleccionando la **X** de la esquina superior derecha de la ventana.
+1. En la página Control de acceso, seleccione **Ver mi acceso**.  Lo más probable es que veas una asignación de roles personalizada ya configurada para esta suscripción y te concederá los permisos necesarios.  Este rol personalizado habría sido configurado por el host de laboratorio autorizado (ALH) que proporciona el entorno de laboratorio. Sin embargo, para fines de demostración, está bien mostrar los roles específicos de Sentinel.  Cierre la ventana de asignaciones seleccionando la **X** de la esquina superior derecha de la ventana.
 
     1. Seleccione **+Agregar** y, luego, **Agregar asignación de roles** en la página Control de acceso.
 
