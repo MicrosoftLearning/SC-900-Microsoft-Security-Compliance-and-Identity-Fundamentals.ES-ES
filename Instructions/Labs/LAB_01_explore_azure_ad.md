@@ -16,21 +16,23 @@ Este laboratorio está orientado al siguiente contenido de Learn:
 
 En este laboratorio, accederás a Microsoft Entra ID (anteriormente denominado Azure Active Directory).  Además, crearás un usuario y establecerás la configuración, que incluye agregar licencias.  
 
-**Tiempo estimado**: 30 minutos
+**Tiempo estimado**: 45 minutos
 
 ### Tarea 1
 
 Como suscriptor de Microsoft 365, ya estás usando Microsoft Entra ID.  En esta tarea, aprenderás a crear un nuevo usuario en Microsoft Entra ID y a explorar algunos de los servicios que se pueden administrar a nivel de usuario.
 
-1. Abre el explorador Microsoft Edge. En la barra de direcciones, escribe **`https://admin.microsoft.com`** e inicia sesión con las credenciales de Microsoft 365 proporcionadas por el proveedor de servicios de hosting del laboratorio autorizado (ALH).
+1. Si tiene abierta la pestaña "Centro de administración de Microsoft 365", debido al ejercicio anterior, en "Centros de administración", seleccione **Identidad**.
+1. Si el Centro de administración de Microsoft 365 ya está abierto en el explorador, debido al ejercicio anterior, vaya al paso siguiente; de lo contrario, acceda al Centro de administración de Microsoft como se indica a continuación:
+    1. En la barra de direcciones, escribe **`https://admin.microsoft.com`** e inicia sesión con las credenciales de Microsoft 365 proporcionadas por el proveedor de servicios de hosting del laboratorio autorizado (ALH).
     1. En la ventana de inicio de sesión, escribe **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es tu id. de inquilino único proporcionado por el ALH) y selecciona **Siguiente**.
-    1. Escribe la contraseña de administrador que debería haberte proporcionado tu proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
+    1. Escribe la contraseña de administrador que debería haberte proporcionado tu proveedor de servicios de hospedaje de laboratorios. Selecciona **Iniciar sesión**.
     1. Según el proveedor de servicios de hosting del laboratorio y, si es la primera vez que inicias sesión en el inquilino, te pedirán que completes el proceso de registro de MFA. Sigue las indicaciones en la pantalla para configurar MFA.
     1. Cuando hayas iniciado sesión, te llevarán a la página Centro de administración de Microsoft 365.
 
-1. En Centros de administración, selecciona **Identidad** (puede que tengas que seleccionar **Mostrar todo** y desplazarte hacia abajo).  Se abre una nueva página del explorador con la página de información general del Centro de administración Microsoft Entra.
+1. En Centros de administración, selecciona **Identidad** (puede que tengas que seleccionar **Mostrar todo** y desplazarte hacia abajo).  Se abre una nueva página del explorador con la página de información general del Centro de administración Microsoft Entra.  Si se le pide que configure MFA, siga los pasos de la pantalla.
 
-1. En el panel de navegación izquierdo, expande **Usuarios** y selecciona **Todos los usuarios**. Ten en cuenta que tu inquilino ya está configurado con usuarios.
+1. En el panel de navegación izquierdo, seleccione **Usuarios**.  Esto le lleva a la página de usuarios. Ya debe estar seleccionada la opción **Todos los usuarios**. Ten en cuenta que tu inquilino ya está configurado con usuarios.
 
 1. En la parte superior de la página, selecciona **+ Nuevo usuario** y, después, en el cuadro desplegable, selecciona **Crear nuevo usuario**.
 
@@ -87,13 +89,11 @@ En esta tarea, asignarás una licencia al usuario que acabas de crear mediante e
 1. En el panel de navegación izquierdo, en usuarios, selecciona **Usuarios activos**.  En la lista de usuarios, selecciona **Sara Perez**.  Se abre una ventana que muestra información sobre el usuario.  
 
     1. Selecciona la pestaña **Licencias y aplicaciones**.
-    1. Para cada una de las licencias enumeradas, verás el número de licencias disponibles.  Puesto que no hay licencias disponibles de Microsoft 365 E5 (ya se han asignado a otros usuarios), asigna las licencias de **Microsoft Power Apps Developer** y **Microsoft Power Automate Free** activando la casilla situada junto a ellas.
+    1. Para cada una de las licencias enumeradas, verás el número de licencias disponibles.  Puesto que no hay licencias disponibles de Microsoft 365 E5 (ya se han asignado a otros usuarios), asigne la licencia de **Microsoft Power Apps Developer** activando la casilla situada junto a ellas.
     1. Selecciona **Guardar cambios**. Una notificación en la esquina superior derecha de la pantalla debería mostrar que las asignaciones de licencias se realizaron correctamente.
     1. Cierra la página seleccionando la **X** en la esquina superior derecha de la página.
 
-1. Vuelve al Centro de administración Microsoft Entra, para hacerlo, selecciona **Inicio** en el panel de navegación izquierdo o en la parte superior izquierda de la pantalla (la ruta de navegación), encima de donde dice Sara Perez | Licencias.
-
-1. Has asignado correctamente las licencias al usuario.
+1. Ha asignado correctamente una licencia al usuario.
 
 1. Cierra la sesión de todas las pestañas abiertas del explorador. Para cerrar la sesión, selecciona el icono de usuario junto a la dirección de correo electrónico en la esquina superior derecha de la pantalla y selecciona **Cerrar sesión**. Cierra todas las ventanas del explorador.
 
@@ -103,7 +103,7 @@ En esta tarea, iniciarás sesión como Sara Pérez por primera vez.
 
 1. Abre Microsoft Edge.
 
-1. En la barra de direcciones, escribe **https://login.microsoft.com**.
+1. En la barra de direcciones, escribe **`https://login.microsoft.com`**.
 
 1. Inicia sesión como **sara@WWLxZZZZZ.onmicrosoft.com**, (donde ZZZZZZ es el Id. de inquilino único proporcionado por el ALH)
 1. Escribe la contraseña temporal que configuraste en la tarea anterior.
@@ -114,9 +114,9 @@ En esta tarea, iniciarás sesión como Sara Pérez por primera vez.
 
 1. Dado que esta es la primera vez que inicias sesión como Sara Perez, es posible que se te pida configurar MFA. Sigue las indicaciones en la pantalla para configurar MFA.
 
-1. Ahora deberías haber iniciado sesión en la cuenta Microsoft de Sara.  Ten en cuenta que las licencias de Sara que has asignado en la tarea anterior solo se limitaban a Power Automate gratis y Power Apps para desarrolladores y no incluían las licencias de E5.
+1. Ahora deberías haber iniciado sesión en la cuenta Microsoft de Sara.  Tenga en cuenta que las licencias de Sara que ha asignado en la tarea anterior solo se limitaban a Power Apps para desarrolladores y no incluían las licencias de E5.
 
-1. Cierra la sesión seleccionando el icono en la esquina superior derecha de la ventana de Microsoft 365 que se muestra como un círculo con las letras SP (junto al icono de signo de interrogación) y, a continuación, selecciona **Cerrar sesión** y, después, cierra el explorador.
+1. Para cerrar la sesión, seleccione el correo electrónico de Sara en la parte inferior del panel de navegación izquierdo, seleccione **Cerrar sesión** y, a continuación, cierre el explorador.
 
 ### Revisar
 
