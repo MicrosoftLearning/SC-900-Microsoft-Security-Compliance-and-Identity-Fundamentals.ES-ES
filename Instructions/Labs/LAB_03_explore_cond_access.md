@@ -16,7 +16,7 @@ Este laboratorio está orientado al siguiente contenido de Learn:
 
 En este laboratorio explorarás el acceso condicional MFA, desde la perspectiva de un administrador y un usuario.  Como administrador, crearás una directiva que requerirá que un usuario pase por la autenticación multifactor cuando acceda a cualquier portal de administración de Microsoft.  Desde la perspectiva del usuario, verás el impacto de la directiva de acceso condicional, incluido el proceso para registrarse en MFA.
 
-**Tiempo estimado**: 30 minutos
+**Tiempo estimado**: 45 minutos
 
 ### Tarea 1
 
@@ -24,7 +24,7 @@ En esta tarea, como administrador, restablecerás la contraseña del usuario Deb
 
 1. Abre Microsoft Edge.  En la barra de direcciones, escribe **https://entra.microsoft.com** e inicia sesión con tus credenciales de administrador.
     1. En la ventana de inicio de sesión, escribe **admin@WWLxZZZZZZ.onmicrosoft.com** (donde ZZZZZZ es el id. de inquilino único proporcionado por el proveedor de servicios de hospedaje de laboratorios) y selecciona **Siguiente**.
-    1. Escribe la contraseña de administrador que debería haberte proporcionado tu proveedor de servicios de hospedaje de laboratorios. Seleccione **Iniciar sesión**.
+    1. Escribe la contraseña de administrador que debería haberte proporcionado tu proveedor de servicios de hospedaje de laboratorios. Selecciona **Iniciar sesión**.
     1. Según el proveedor de servicios de hosting del laboratorio y, si es la primera vez que inicias sesión en el inquilino, te pedirán que completes el proceso de registro de MFA. Sigue las indicaciones en la pantalla para configurar MFA.
     1. Cuando hayas iniciado sesión, te llevarán a la página Centro de administración de Microsoft 365.
 
@@ -48,11 +48,11 @@ En esta tarea, recorrerás el proceso de creación de una directiva de acceso co
 
 1. Abre una nueva pestaña del explorador con la página principal del Centro de administración Microsoft Entra.   Si ya habías cerrado esta pestaña del explorador, abre Microsoft Edge, escribe **`https://entra.microsoft.com`** en la barra de direcciones y luego inicia sesión con las credenciales de administrador de Microsoft 365 proporcionadas por el ALH.
 
-1. En el panel de navegación izquierdo, expande **Protección** y, a continuación, selecciona **Acceso condicional**.
+1. En el panel de navegación izquierdo, asegúrese de que **Entra ID** está expandido, desplácese hacia abajo y seleccione **Acceso condicional**.
 
-1. Se muestra la página de información general sobre el acceso condicional. Cuando llegues a la página de información general, la pestaña **Introducción** aparecerá seleccionada (subrayada). Selecciona la pestaña **Información general**. Aquí verás mosaicos que muestran el resumen de la directiva y las alertas generales.  En el panel de navegación izquierdo, selecciona **Directivas**.
+1. Se muestra la página de información general sobre el acceso condicional. Cuando llegues a la página de información general, la pestaña **Introducción** aparecerá seleccionada (subrayada). Selecciona la pestaña **Información general**. Aquí verás mosaicos que muestran el resumen de la directiva y las alertas generales.
 
-1. En el panel de navegación izquierdo, selecciona **Directivas**. Aquí se enumeran las directivas de acceso condicional existentes. Selecciona **+ Nueva directiva**.
+1. En el panel de navegación izquierdo, seleccione **Directivas** y, a continuación, seleccione **+Nueva directiva**.
 
 1. En el campo Nombre, escribe **Bloquear portales de administración**.
 
@@ -62,11 +62,11 @@ En esta tarea, recorrerás el proceso de creación de una directiva de acceso co
 
 1. Selecciona la opción **Seleccionar usuarios y grupos** y selecciona **Usuarios y grupos**.  Se abre la ventana para seleccionar usuarios o grupos.  
 
-1. En la barra de búsqueda, escribe **Debra**.  Selecciona **Debra Berger** debajo de la barra de búsqueda y presiona el botón **Seleccionar** en la parte inferior de la página.  Ten en cuenta que una práctica habitual es asignar la directiva a los usuarios de un grupo.  Para este laboratorio, asignaremos la directiva a un usuario específico.
+1. En la barra de búsqueda, escribe **Debra**.  Selecciona **Debra Berger** debajo de la barra de búsqueda y presiona el botón **Seleccionar** en la parte inferior de la página.  Ten en cuenta que una práctica habitual es asignar la directiva a los usuarios de un grupo.  Para agilizar este laboratorio, asignaremos la directiva a un usuario específico.
 
 1. En Recursos de destino, selecciona **No se ha seleccionado ningún recurso de destino**.
 
-1. En el campo debajo de donde dice**Seleccionar lo que se aplica a esta directiva**, selecciona la flecha hacia abajo y anota las opciones disponibles.  Mantén la configuración predeterminada, **Aplicaciones en la nube**.  Asegúrate de que la pestaña **Incluir** está subrayada.  Selecciona **Seleccionar aplicaciones** y, después, debajo de donde dice **Seleccionar**, selecciona **Ninguna**.  Se abre la ventana para seleccionar aplicaciones en la nube.
+1. En el campo debajo de donde dice**Seleccionar lo que se aplica a esta directiva**, selecciona la flecha hacia abajo y anota las opciones disponibles.  Mantenga la configuración predeterminada, **Recursos (anteriormente Aplicaciones de nube)**.  Asegúrate de que la pestaña **Incluir** está subrayada.  Elija **Seleccionar recursos** y, a continuación, debajo, donde dice **Seleccionar**, seleccione **Ninguno**.  Se abre la ventana para seleccionar aplicaciones en la nube.
 
 1. Selecciona **Portales de administración de Microsoft** y después haz clic en **Seleccionar** en la parte inferior de la página.  Observa la advertencia.  
 
@@ -76,7 +76,7 @@ En esta tarea, recorrerás el proceso de creación de una directiva de acceso co
 
 1. Ahora se establecerán los controles de acceso.  En Conceder, selecciona **0 controles seleccionados**.
 
-1. Se abre la ventana Conceder.  Seleccione **Block access** (Bloquear acceso). Pulsa **Seleccionar** al final de la página.
+1. Se abre la ventana Conceder.  Seleccione **Bloquear acceso**. Pulsa **Seleccionar** al final de la página.
 
 1. En la parte inferior de la página, en Habilitar directiva, selecciona **Activado** y luego selecciona **Crear**.
 
@@ -90,7 +90,7 @@ En esta tarea verás el impacto de la directiva de acceso condicional, desde la 
 
 1. Abre Microsoft Edge.  En la barra de direcciones, escribe **https://login.microsoftonline.com**.
     1. Inicia sesión como **DebraB@WWLxZZZZZZ.onmicrosoft.com**, (donde ZZZZZZ es el identificador de inquilino único proporcionado por el proveedor de hospedaje del laboratorio) y después selecciona **Siguiente**.
-    1. Escribe la contraseña que anotaste en la tarea anterior. Seleccione **Iniciar sesión**.
+    1. Escribe la contraseña que anotaste en la tarea anterior. Selecciona **Iniciar sesión**.
     1. Dado que, como administrador, restableciste la contraseña, esta es temporal y, por tanto, deberás actualizarla. Escribe la contraseña actual y, a continuación, escribe una nueva contraseña y confírmala.  Toma nota de la nueva contraseña, ya que la necesitarás para completar la tarea.
     1. Dado que esta es la primera vez que inicias sesión como Debra Berger, es posible que se te pida configurar MFA. Sigue las indicaciones en la pantalla para configurar MFA.
     1. Cuando aparezca un mensaje para preguntarte si quieres mantener la sesión iniciada, selecciona **Sí**.  Deberías haber iniciado sesión correctamente en tu cuenta de Microsoft 365.
