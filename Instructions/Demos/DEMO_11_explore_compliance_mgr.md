@@ -1,10 +1,10 @@
 <!---
 ---
-Demo: Título: "Exploración del Portal y el Administrador de cumplimiento de Microsoft Purview" Ruta de aprendizaje/Módulo/Unidad: "Ruta de aprendizaje: Descripción de las funcionalidades de Microsoft Priva y Microsoft Purview; Módulo 2: Descripción de las soluciones de cumplimiento de datos de Microsoft Purview; Unidad 4: Descripción del administrador de cumplimiento"
+Demostración: Título: Ruta de aprendizaje/Módulo/Unidad "Explorar el Administrador de cumplimiento de Microsoft Purview": "Describir las funcionalidades de Microsoft Priva y Microsoft Purview; Módulo 2: "Describir las soluciones de cumplimiento de datos de Microsoft Purview"; Unidad 4: "Describir el Administrador de cumplimiento"
 ---
 --->
 
-# Demo: Exploración del Portal y el Administrador de cumplimiento de Microsoft Purview
+# Demostración: Exploración del Administrador de cumplimiento de Microsoft Purview
 
 Esta demo está orientada al siguiente contenido de Learn:
 
@@ -22,7 +22,7 @@ Muestra la página principal del Portal de Microsoft Purview.
 
 1. Abre Microsoft Edge. En la barra de direcciones, escribe **https://purview.microsoft.com**. Ya deberías estar conectado como administrador. Si no es así, inicia sesión con las credenciales de administrador para el inquilino de Microsoft 365 proporcionadas por el host de laboratorio autorizado (ALH).
 
-Se abrirá una nueva página del explorador con la página principal del Portal de Microsoft Purview.  Para acceder al nuevo Portal de Microsoft Purview, selecciona el cuadro situado junto a donde dice, **Acepto las condiciones de divulgación del flujo de datos y las Declaraciones de privacidad** y luego selecciona **Comenzar**.  
+En la página del explorador que se abre en la página de bienvenida del portal de Microsoft Purview, seleccione **Comenzar**.  
 
 1. Antes de pasar al Administrador de cumplimiento, dedica unos minutos a explorar el nuevo portal.
 
