@@ -48,7 +48,7 @@ En esta tarea, como administrador, asignará a Diego un rol de Microsoft Entra I
 
 1. Abra una pestaña del explorador con la página principal del Centro de administración de Microsoft Entra.
 
-1. En el panel de navegación izquierdo, expanda **Gobierno de IF** y, a continuación, seleccione **Privileged Identity Management**.
+1. En el panel de navegación izquierdo, expanda **Gobierno de ID** y, a continuación, seleccione **Privileged Identity Management**.
 
 1. Ahora está en la página de inicio rápido de Privileged Identity Management. Revise la información de la página de introducción. En la ventana principal, donde dice Administrar acceso, selecciona **Administrar**.
 

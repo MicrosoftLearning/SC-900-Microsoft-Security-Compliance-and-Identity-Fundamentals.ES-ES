@@ -22,7 +22,7 @@ En este laboratorio, explorarás los pasos necesarios para configurar eDiscovery
 
 Para acceder a eDiscovery, o para que se le agregue como miembro de un caso de eDiscovery, el usuario debe tener asignados los permisos adecuados. En esta tarea, como administrador global, agregarás usuarios específicos como miembros del grupo de roles de Supervisor de eDiscovery.
 
-1. Debería estar en la página principal de Microsoft Purview portal.  Si la habías cerrado, abre otra y escribe **https://purivew.microsoft.com** .
+1. Debería estar en la página principal de Microsoft Purview portal.  Si la habías cerrado, abre otra y escribe **https://purview.microsoft.com** .
 
 1. En el panel de navegación izquierdo, selecciona **Configuración**, expande **Roles y ámbitos** y, después, selecciona **Grupos de roles**.
 
@@ -46,19 +46,15 @@ En esta tarea, como administrador de eDiscovery (un administrador MOD es un admi
 
 1. En el panel de navegación izquierdo, debajo de Soluciones, expanda **eDiscovery** y, a continuación, seleccione **Casos**.
 
-1. En la página "Casos", seleccione **Crear caso**.
-
-1. En la ventana "Nuevo caso", escriba un nombre de caso, **Caso de prueba SC900** y, a continuación, seleccione **Crear**.
-
-1. El caso debería aparecer ahora en la lista.
-
-1. Como creador del caso y como tienes privilegios de Administrador de eDiscovery, puede empezar a trabajar con él.  
-
-1. Deja esta pestaña del explorador abierta, porque la utilizarás en la siguiente tarea.
+1. En la página Casos, seleccione el texto de la parte izquierda del cuadro azul que dice **Crear caso**.  Si selecciona la flecha abajo, abrirá la ventana para crear una búsqueda y, en el proceso de creación de una búsqueda, creará un caso.
+    1. En la ventana "Nuevo caso", escriba un nombre de caso, **Caso de prueba SC900** y, a continuación, seleccione **Crear**.
+    1. El caso debería aparecer ahora en la lista.
+    1. Como creador del caso y como tienes privilegios de Administrador de eDiscovery, puede empezar a trabajar con él.  
+    1. Deja esta pestaña del explorador abierta, porque la utilizarás en la siguiente tarea.
 
 ### Tarea 3
 
-Con un caso creado, puede empezar a trabajar con el caso.  Esto incluye la creación de una consulta de búsqueda para buscar datos y contenido relevante para su caso, aplicar una directiva de retención, crear un conjunto de revisión y exportar datos. En esta tarea explorará algunas de estas opciones.
+Con un caso creado, puede empezar a trabajar con el caso. Esto incluye la creación de una consulta de búsqueda para buscar datos y contenido relevante para su caso, aplicar una directiva de retención, crear un conjunto de revisión y exportar datos. En esta tarea explorará algunas de estas opciones.
 
 1. Abra la pestaña Caso de prueba SC900 en su explorador.
 
@@ -66,16 +62,16 @@ Con un caso creado, puede empezar a trabajar con el caso.  Esto incluye la creac
 
 1. En el campo de nombre, escriba **Búsqueda de caso SC900** y seleccione **Crear**.
 
-1. Seleccione **Agregar orígenes**. Tenga en cuenta las opciones de filtro y la configuración predeterminada. En el cuadro de búsqueda, escriba **Pradeep** y, a continuación, presione la tecla Entrar del teclado. En los resultados de la búsqueda, seleccione **Pradeep Gupta** y, a continuación, seleccione **Guardar y cerrar**. El generador de condiciones permite crear una consulta de búsqueda basada en palabras clave o condiciones específicas que se cumplen. En el cuadro de palabra clave, escriba **Ventas**. Desde aquí puede seleccionar **Ejecutar la consulta**.  Este proceso podría tardar varios minutos.
+1. Seleccione **Agregar orígenes**. Tenga en cuenta las opciones de filtro y la configuración predeterminada. En el cuadro de búsqueda, escriba **`Pradeep`** y, a continuación, seleccione **Buscar**. En los resultados de la búsqueda, seleccione **Pradeep Gupta** y, a continuación, seleccione **Guardar y cerrar**. El generador de condiciones permite crear una consulta de búsqueda basada en palabras clave o condiciones específicas que se cumplen. En el cuadro de palabra clave, escriba **Ventas**. Desde aquí puede seleccionar **Ejecutar la consulta** en la ventana "Elegir los resultados de la búsqueda". Para el inquilino del laboratorio, solo está disponible la vista de estadísticas de los resultados de búsqueda. Observe las opciones para organizar por indicadores principales. Seleccione **Ejecutar consulta**.  Este proceso podría tardar varios minutos.
 
-1. Con los resultados de la consulta devueltos en forma de estadísticas, puede exportar los resultados.  Seleccione **Exportar** para ver las opciones disponibles y, a continuación, seleccione **Cancelar** (las opciones de exportación no se pueden seleccionar desde dentro de la plataforma de laboratorio proporcionada por el anfitrión del laboratorio autorizado, pero están disponibles en un entorno de producción y se consideran parte del flujo de trabajo estándar).
+1. Con los resultados de la consulta devueltos en forma de estadísticas, puede exportar los resultados.  Seleccione **Exportar** para ver las opciones disponibles y, a continuación, seleccione **Cancelar**.
 
-1. Puede agregarlos a un conjunto de revisión para su posterior procesamiento.  Seleccione **Agregar al conjunto de revisión**. Escriba un nombre para el nuevo conjunto de revisión, **`SC900-review-set`**, deje la configuración predeterminada y seleccione **Agregar al conjunto de revisión**.  Esto puede tardar varios minutos en completarse.  Ahora puede revisar y emprender acciones desde el conjunto de revisión, como etiquetar elementos, realizar consultas al conjunto de revisión, ejecutar análisis y mucho más.  Explore las distintas opciones.
+1. Puede agregarlos a un conjunto de revisión para su posterior procesamiento.  Seleccione **Agregar al conjunto de revisión**. Escriba un nombre para el nuevo conjunto de revisión, **`SC900-review-set`**, deje la configuración predeterminada y seleccione **Agregar al conjunto de revisión**. Esto puede tardar varios minutos en completarse. Una vez presentados los resultados del conjunto de revisión, puede explorar las distintas opciones, entre las que se incluyen Análisis, Consulta, Acciones, Etiquetar archivos y Administrar.
 
-1. También puede crear directivas de retención para conservar el contenido relevante para su caso. Seleccione **Directivas de retención** y, a continuación, **Nueva directiva**.  Escriba un nombre de directiva, **`SC900-hold`** y seleccione **Crear**.  Como en la búsqueda, debe agregar orígenes de datos para la retención y puede agregar palabras clave y condiciones para usarlas en la directiva de retención y, a continuación, puede seleccionar **Aplicar retención**.  Las acciones que puede realizar en una directiva de retención incluyen reintento, desactivar una directiva y eliminar una directiva de retención.
+1. También puede crear directivas de retención para conservar el contenido relevante para su caso. En la ventana "Conjunto de revisión", seleccione la pestaña **Retener**.  Esta acción le lleva a la ventana "Directivas de retención". Seleccione **Nueva directiva**.  Escriba un nombre para la directiva, **`SC900-hold`** y seleccione **Crear**.  Como en la búsqueda, debe agregar orígenes de datos para la retención y puede agregar palabras clave y condiciones para usarlas en la directiva de retención y, a continuación, puede seleccionar **Aplicar retención**.  Las acciones que puede realizar en una directiva de retención incluyen reintento, desactivar una directiva y eliminar una directiva de retención.
 
 1. Cierre la sesión y cierre todas las ventanas del explorador abiertas.
 
 ### Revisar
 
-En este laboratorio le hemos guiado a través de los pasos necesarios para empezar a trabajar con eDiscovery, incluida la configuración de los permisos de roles para eDiscovery y la creación de un caso de eDiscovery.  Con el caso, creó las opciones disponibles como parte del flujo de trabajo de eDiscovery, como una búsqueda de eDiscovery, una directiva de retención, agregar resultados de búsqueda a un conjunto de revisión y exportar los resultados.
+En este laboratorio le hemos guiado a través de los pasos necesarios para empezar a trabajar con eDiscovery, incluida la configuración de los permisos de roles para eDiscovery y la creación de un caso de eDiscovery.  Con el caso, ha explorado la configuración para crear una búsqueda y exportar los resultados, agregarlos a un conjunto de revisión y crear una retención.

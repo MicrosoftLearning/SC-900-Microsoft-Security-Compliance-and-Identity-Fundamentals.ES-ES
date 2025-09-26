@@ -61,11 +61,11 @@ Obtén información sobre la posición de cumplimiento de tu organización media
 
 1. Seleccione **Línea de base de protección de datos para Microsoft 365**.  Observa la información disponible en la pestaña Progreso. También puedes ver información sobre los controles, las acciones de mejora y las acciones de Microsoft.  
 
-1. Selecciona **Normativas** en el panel de navegación de la izquierda.  En esta página se enumeran los reglamentos disponibles para su organización. Verás información específica sobre ese reglamento, incluidos los controles, las acciones de mejora y la acción de Microsoft. En esta página, en la esquina superior derecha de la página, tienes la opción de crear una evaluación basada en la plantilla.
+1. Selecciona **Normativas** en el panel de navegación de la izquierda.  En esta página se enumeran los reglamentos disponibles para su organización. Seleccione cualquier regulación que aparezca. Verás información específica sobre ese reglamento, incluidos los controles, las acciones de mejora y la acción de Microsoft.
 
 1. 1. En el panel de navegación izquierdo, selecciona **Directivas**. Aquí es donde verás la lista de directivas que te ayudarán a supervisar y recibir notificaciones sobre eventos en el Administrador de cumplimiento que son importantes para ti. Puedes crear o modificar directivas, cambiar su estado de activación y controlar la frecuencia y la gravedad de las alertas. Selecciona la **Directiva de alerta predeterminada del Administrador de cumplimiento** para ver detalles sobre la directiva.  Selecciona **Acciones** para ver las opciones disponibles (explora a voluntad).
 
-1. Selecciona **Alertas** en el panel de navegación de la izquierda.   Aquí puedes ver y administrar alertas de eventos que pueden afectar a la puntuación de cumplimiento de tu organización.
+1. Selecciona **Alertas** en el panel de navegación de la izquierda.   Aquí puedes ver y administrar alertas de eventos que pueden afectar a la puntuación de cumplimiento de tu organización. Dado que se trata de un inquilino de laboratorio recién creado, no debería ver ninguna alerta.
 
 1. En el panel de navegación izquierdo, selecciona **Inicio** para volver a la página de aterrizaje del portal de Microsoft Purview.
 
