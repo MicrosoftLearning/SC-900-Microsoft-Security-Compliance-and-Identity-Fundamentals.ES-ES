@@ -20,32 +20,30 @@ En este laboratorio, realizará un recorrido por el proceso de creación de una 
 
 ### Tarea 1
 
-Creación de una instancia de Microsoft Sentinel
+Para crear una instancia de Microsoft Sentinel, primero debe crear un área de trabajo de Log Analytics, que se usa para almacenar datos de Microsoft Sentinel.  Una vez que tenga un área de trabajo de Log Analytics, puede crear una instancia de Microsoft Sentinel y agregarle el área de trabajo de Log Analytics.  En esta tarea, realizará cada uno de estos pasos.
 
-1. Debería estar en la página principal de los servicios de Azure.  Si ha cerrado previamente el explorador, abra Microsoft Edge. En la barra de direcciones, escriba **portal.azure.com** e inicie sesión con sus credenciales de administrador.
+1. Debería estar en la página principal de los servicios de Azure.  Si no es así, abra Microsoft Edge y, en la barra de direcciones, escriba **portal.azure.com** e inicie sesión con sus credenciales de administrador de Azure Portal.
 
-1. En el cuadro de búsqueda azul situado en la parte superior de la página, escriba **Microsoft Sentinel** y, a continuación, seleccione **Microsoft Sentinel** en los resultados de búsqueda.
-
-1. En la página Microsoft Sentinel, seleccione **Crear Microsoft Sentinel**.
-
-1. En la pantalla Agregar Microsoft Sentinel a una página de área de trabajo, selecciona **Crear un área de trabajo nueva**.
-
+1. En el cuadro de búsqueda azul de la parte superior de la página, escriba **Log Analytics** y selecciónelo en los resultados de la búsqueda.
+1. Selecciona **+ Crear**.
 1. En la pestaña Datos básicos del área de trabajo Crear Log Analytics, escriba lo siguiente:
     1. Suscripción: deje el valor predeterminado; se trata de la suscripción de Azure proporcionada por el host de laboratorio autorizado (ALH).
     1. Grupo de recursos: seleccione **SC900-Sentinel-RG**. Si este grupo de recursos no aparece en la lista al seleccionar **Crear nuevo**, escriba **SC900-Sentinel-RG** y seleccione **Aceptar**.
-    1. Nombre: **SC900-LogAnalytics-workspace**.
+    1. Nombre: **SC900-Sentinel-workspace**.
     1. Región: **Este de EE. UU.**. (Se puede seleccionar una región predeterminada diferente en función de la ubicación).
     1. Seleccione **Revisar y crear** (no se configurarán etiquetas).
     1. Comprueba que escribiste la información correcta y selecciona **Crear**.
-    1. El área de trabajo puede tardar un minuto o dos en aparecer, si todavía no la ves, selecciona **Actualizar** y, a continuación, selecciona **Agregar**.
-
-1. Una vez que se haya agregado la nueva área de trabajo, se mostrará la página Microsoft Sentinel | Noticias y guías, lo que indica que se ha activado la evaluación gratuita de Microsoft Sentinel.  Seleccione **Aceptar**.
-
+    1. El nuevo área de trabajo puede tardar un minuto o dos en crearse.
+    1. Una vez que se ha creado, seleccione **Ir al recurso** para ver información sobre el área de trabajo.
+1. En este momento, aún no se ha creado la instancia de Microsoft Sentinel. Para crear una instancia de Sentinel, debe ir a la página de Microsoft Sentinel. Use la barra de búsqueda azul de la parte superior de la página para buscar **Microsoft Sentinel** y selecciónelo en el resultado de la búsqueda.
+1. Para agregar el área de trabajo a Microsoft Sentinel, debe ir a la página de Microsoft Sentinel. Use la barra de búsqueda azul de la parte superior de la página para buscar **Microsoft Sentinel.**.
+    1. En la página de Microsoft Sentinel, seleccione **+ Crear**.
+    1. Ahora puede agregar el área de trabajo que acaba de crear. Seleccione **SC900-Sentinel-workspace** y, a continuación, elija **Agregar**.  Esta operación puede tardar unos minutos, ya que la evaluación gratuita de Microsoft Sentinel se activa.  Una vez activada, seleccione **Aceptar**.
 1. Deje esta página abierta, porque la utilizará en la siguiente tarea.
 
 ### Tarea 2
 
-Una vez que se ha creado la instancia de Microsoft Sentinel, es importante que los usuarios que tendrán la responsabilidad de admitir Microsoft Sentinel tengan los permisos necesarios.  Para ello, se deben asignar al usuario designado los permisos de rol necesarios.  En esta tarea, verá los roles integrados de Microsoft Sentinel disponibles.
+Con la instancia de Microsoft Sentinel creada y el área de trabajo de Log Analytics asignada a ella, es importante que los usuarios que tengan la responsabilidad de administrar Microsoft Sentinel cuenten con los permisos necesarios.  Para ello, se deben asignar al usuario designado los permisos de rol necesarios.  En esta tarea, verá los roles integrados de Microsoft Sentinel disponibles.
 
 1. En el cuadro de búsqueda azul, escriba **grupos de recursos** y, a continuación, seleccione **Grupos de recursos**. 
 
@@ -70,7 +68,7 @@ Una vez que se ha creado la instancia de Microsoft Sentinel, es importante que l
 
 El propósito de esta tarea es guiarle por los pasos necesarios para conectarse a un origen de datos. Muchos conectores de datos se implementan como parte de la solución Microsoft Sentinel, junto con contenido relacionado, como reglas de análisis, libros y cuadernos de estrategias. El centro de contenidos de Microsoft Sentinel es la ubicación centralizada para detectar y administrar el contenido de serie (integrado). En este paso, usará el centro de conectividad para implementar Microsoft Defender for Cloud para Microsoft Sentinel.  Esta solución le permite ingerir alertas de seguridad notificadas en Microsoft Defender for Cloud.
 
-1. En la página principal de los servicios de Azure, seleccione Microsoft Sentinel y, a continuación, seleccione la instancia que creó, **SC900-LogAnalytics-workspace**.
+1. En la página principal de los servicios de Azure, seleccione Microsoft Sentinel y, a continuación, seleccione la instancia que creó, **SC900-Sentinel-workspace**.
 
 1. En el panel de navegación izquierdo, expande **Gestión de contenidos** y, luego, selecciona **Centro de contenidos**.
 
@@ -117,4 +115,4 @@ En esta tarea, realizará un recorrido por algunas de las opciones disponibles e
 
 ### Revisar
 
-En esta demostración, siguió los pasos para conectar Microsoft Sentinel a orígenes de datos, configuró un libro y recorrió varias opciones disponibles en Microsoft Sentinel.
+En este laboratorio ha seguido los pasos para conectar Microsoft Sentinel a orígenes de datos, configurar un libro y recorrer varias opciones disponibles en Microsoft Sentinel.
